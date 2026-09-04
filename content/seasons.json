@@ -1,0 +1,34 @@
+{
+  "_comment": "OPTIONAL season data for SERIES and ANIME title pages (movies ignore this file). Only add entries with well-established public facts (release years and episode counts). The build validates structure; a Seasons section renders only when data exists. Add more slugs over time; empty/unknown values can be omitted.",
+  "prison-break": [
+    { "seasonNumber": 1, "title": "Season 1", "year": 2005, "episodeCount": 22 },
+    { "seasonNumber": 2, "title": "Season 2", "year": 2006, "episodeCount": 22 },
+    { "seasonNumber": 3, "title": "Season 3", "year": 2007, "episodeCount": 13 },
+    { "seasonNumber": 4, "title": "Season 4", "year": 2008, "episodeCount": 22 },
+    { "seasonNumber": 5, "title": "Season 5 (Revival)", "year": 2017, "episodeCount": 9 }
+  ],
+  "squid-game": [
+    { "seasonNumber": 1, "title": "Season 1", "year": 2021, "episodeCount": 9 },
+    { "seasonNumber": 2, "title": "Season 2", "year": 2024, "episodeCount": 7 },
+    { "seasonNumber": 3, "title": "Season 3 (Final)", "year": 2025, "episodeCount": 6 }
+  ],
+  "alice-in-borderland": [
+    { "seasonNumber": 1, "title": "Season 1", "year": 2020, "episodeCount": 8 },
+    { "seasonNumber": 2, "title": "Season 2", "year": 2022, "episodeCount": 8 },
+    { "seasonNumber": 3, "title": "Season 3", "year": 2025 }
+  ],
+  "stranger-things": [
+    { "seasonNumber": 1, "title": "Season 1", "year": 2016, "episodeCount": 8 },
+    { "seasonNumber": 2, "title": "Season 2", "year": 2017, "episodeCount": 9 },
+    { "seasonNumber": 3, "title": "Season 3", "year": 2019, "episodeCount": 8 },
+    { "seasonNumber": 4, "title": "Season 4", "year": 2022, "episodeCount": 9 },
+    { "seasonNumber": 5, "title": "Season 5 (Final)", "year": 2025, "episodeCount": 8 }
+  ],
+  "breaking-bad": [
+    { "seasonNumber": 1, "title": "Season 1", "year": 2008, "episodeCount": 7 },
+    { "seasonNumber": 2, "title": "Season 2", "year": 2009, "episodeCount": 13 },
+    { "seasonNumber": 3, "title": "Season 3", "year": 2010, "episodeCount": 13 },
+    { "seasonNumber": 4, "title": "Season 4", "year": 2011, "episodeCount": 13 },
+    { "seasonNumber": 5, "title": "Season 5", "year": 2012, "episodeCount": 16 }
+  ]
+}

@@ -1,0 +1,28 @@
+/* Simple Make Money — same idea as Sports. */
+.mm-nat { margin: 0 0 18px; }
+.mm-nat input {
+  width: 100%; max-width: 100%; box-sizing: border-box;
+  padding: 12px 14px; border-radius: 12px; border: 1px solid #222a36;
+  background: #10141b; color: inherit; font: inherit;
+}
+.mm-suggest { margin: 8px 0 0; }
+.mm-suggest button {
+  display: block; width: 100%; text-align: left; cursor: pointer;
+  padding: 10px 14px; margin-bottom: 6px; border-radius: 10px;
+  border: 1px solid #222a36; background: #10141b; color: inherit; font: inherit; font-weight: 700;
+}
+.mm-suggest button:hover { border-color: #3ddc84; }
+.mm-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 0; }
+.mm-chips button {
+  padding: 8px 12px; border-radius: 10px; border: 1px solid #222a36;
+  background: #10141b; color: inherit; font: inherit; font-weight: 700; font-size: 13px; cursor: pointer;
+}
+.mm-chips button.on, .mm-chips button:hover { border-color: #3ddc84; color: #3ddc84; }
+.mm-row {
+  display: block; padding: 13px 14px; margin-bottom: 8px;
+  border: 1px solid #222a36; border-radius: 12px; background: #10141b;
+  color: inherit; text-decoration: none;
+}
+.mm-row b { display: block; font-size: 15px; }
+.mm-row span { display: block; font-size: 13px; color: #8d95a3; margin-top: 3px; }
+.mm-row em { display: block; font-style: normal; font-size: 12px; color: #3ddc84; margin-top: 4px; font-weight: 700; }

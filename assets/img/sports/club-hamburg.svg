@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Abstract club crest illustration">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#005CA9"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient></defs>
+  <path d="M100 8 L186 30 V128 C186 190 148 220 100 236 C52 220 14 190 14 128 V30 Z" fill="url(#g)" stroke="#111111" stroke-width="5"/>
+  <path d="M100 24 L170 43 V125 C170 178 139 204 100 217 C61 204 30 178 30 125 V43 Z" fill="none" stroke="#111111" stroke-width="2.5" opacity=".55"/>
+  <path d="M100 60 L160 130 L100 200 L40 130 Z" fill="#111111" opacity=".18"/>
+  <circle cx="100" cy="132" r="34" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+  <path d="M100 112 L116 122 L111 140 L89 140 L84 122 Z" fill="#005CA9"/>
+  <path d="M100 112 L84 122 L70 116 M100 112 L116 122 L130 116 M84 122 L89 140 L76 150 M111 140 L116 122 L130 116 M89 140 L100 154 L111 140 M76 150 L100 154 L124 150" fill="none" stroke="#111111" stroke-width="2" opacity=".7"/>
+  <path d="M76 150 L70 116 M124 150 L130 116" stroke="#111111" stroke-width="2" opacity=".4" fill="none"/>
+</svg>

@@ -1,0 +1,2390 @@
+{
+  "_readme": "Match results for BRYME Sports. Keyed by league slug, then by match slug (home id + '-vs-' + away id, matching the fixture). A result MUST carry a source with a url - the build refuses to publish an unsourced result. Add results with: node scripts/add-result.js. Validate with: node scripts/validate-results.js",
+  "_schema": {
+    "homeScore": "integer, required",
+    "awayScore": "integer, required",
+    "status": "FT | AET | FT (pens) - optional, defaults to FT",
+    "penalties": "optional string, e.g. '4-3' - only for FT (pens)",
+    "playedOn": "YYYY-MM-DD, optional",
+    "scorers": "optional array of {team:'home'|'away', player, minute}",
+    "attendance": "optional integer",
+    "source": "REQUIRED object {name, url} - where the result was confirmed",
+    "verifiedOn": "YYYY-MM-DD, optional - when you checked it"
+  },
+  "premier-league": {
+    "arsenal-vs-coventry": {
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "FT",
+      "playedOn": "2026-08-21",
+      "source": {
+        "name": "BBC Sport — Arsenal v Coventry City",
+        "url": "https://www.bbc.com/sport/football/live/c9drv440vlget"
+      },
+      "verifiedOn": "2026-08-21",
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Kai Havertz",
+          "minute": "15'"
+        },
+        {
+          "team": "home",
+          "player": "Bukayo Saka",
+          "minute": "23'"
+        },
+        {
+          "team": "home",
+          "player": "Martin Ødegaard",
+          "minute": "49'"
+        }
+      ]
+    },
+    "hull-vs-man-united": {
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "playedOn": "2026-08-22",
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Ajayi",
+          "minute": "17"
+        },
+        {
+          "team": "home",
+          "player": "Mendy",
+          "minute": "38"
+        }
+      ],
+      "source": {
+        "name": "BBC Sport — Hull City v Manchester United",
+        "url": "https://www.bbc.com/sport/football/live/cv629k5zr2jxt"
+      },
+      "verifiedOn": "2026-08-22"
+    },
+    "everton-vs-crystal-palace": {
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "playedOn": "2026-08-22",
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Dewsbury-Hall",
+          "minute": "42"
+        },
+        {
+          "team": "home",
+          "player": "Barry",
+          "minute": "53"
+        }
+      ],
+      "source": {
+        "name": "BBC Sport — Everton v Crystal Palace",
+        "url": "https://www.bbc.com/sport/football/live/cjn5nd1qr5qpt"
+      },
+      "verifiedOn": "2026-08-22"
+    },
+    "ipswich-vs-sunderland": {
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "FT",
+      "playedOn": "2026-08-22",
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Emersonn",
+          "minute": "24"
+        },
+        {
+          "team": "away",
+          "player": "Angulo",
+          "minute": "39"
+        },
+        {
+          "team": "home",
+          "player": "Clarke",
+          "minute": "90"
+        }
+      ],
+      "source": {
+        "name": "BBC Sport — Ipswich Town v Sunderland",
+        "url": "https://www.bbc.com/sport/football/live/ckeqe8025qygt"
+      },
+      "verifiedOn": "2026-08-22"
+    },
+    "nottingham-forest-vs-leeds": {
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "playedOn": "2026-08-22",
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Stach",
+          "minute": "88"
+        }
+      ],
+      "source": {
+        "name": "BBC Sport — Nottingham Forest v Leeds United",
+        "url": "https://www.bbc.com/sport/football/live/cm4gkdpw5qq7t"
+      },
+      "verifiedOn": "2026-08-22"
+    },
+    "brentford-vs-tottenham": {
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "FT",
+      "playedOn": "2026-08-22",
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Lewis-Potter",
+          "minute": "12"
+        },
+        {
+          "team": "home",
+          "player": "Janelt",
+          "minute": "33"
+        },
+        {
+          "team": "home",
+          "player": "Kayode",
+          "minute": "48"
+        }
+      ],
+      "source": {
+        "name": "BBC Sport — Brentford v Tottenham Hotspur",
+        "url": "https://www.bbc.com/sport/football/live/cj75g01qn51dt"
+      },
+      "verifiedOn": "2026-08-22"
+    },
+    "brighton-vs-aston-villa": {
+      "homeScore": 4,
+      "awayScore": 0,
+      "status": "FT",
+      "playedOn": "2026-08-23",
+      "source": {
+        "name": "BBC Sport — Brighton & Hove Albion v Aston Villa",
+        "url": "https://www.bbc.com/sport/football/premier-league/scores-fixtures"
+      },
+      "verifiedOn": "2026-08-23",
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Victor Lindelöf",
+          "minute": "8'"
+        },
+        {
+          "team": "home",
+          "player": "Maxim De Cuyper",
+          "minute": "18'"
+        },
+        {
+          "team": "home",
+          "player": "Jack Hinshelwood",
+          "minute": "30'"
+        },
+        {
+          "team": "home",
+          "player": "Jack Hinshelwood",
+          "minute": "31'"
+        }
+      ]
+    },
+    "man-city-vs-bournemouth": {
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "FT",
+      "playedOn": "2026-08-23",
+      "source": {
+        "name": "BBC Sport — Manchester City v AFC Bournemouth",
+        "url": "https://www.bbc.com/sport/football/premier-league/scores-fixtures"
+      },
+      "verifiedOn": "2026-08-23",
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Marcus Tavernier",
+          "minute": "26'"
+        },
+        {
+          "team": "home",
+          "player": "Marc Guéhi",
+          "minute": "84'"
+        },
+        {
+          "team": "home",
+          "player": "Josko Gvardiol",
+          "minute": "90'+1'"
+        }
+      ]
+    },
+    "newcastle-vs-liverpool": {
+      "homeScore": 2,
+      "awayScore": 2,
+      "status": "FT",
+      "playedOn": "2026-08-23",
+      "source": {
+        "name": "BBC Sport — Newcastle United v Liverpool",
+        "url": "https://www.bbc.com/sport/football/premier-league/scores-fixtures"
+      },
+      "verifiedOn": "2026-08-23",
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Anthony Elanga",
+          "minute": "5'"
+        },
+        {
+          "team": "away",
+          "player": "Cody Gakpo",
+          "minute": "55'"
+        },
+        {
+          "team": "home",
+          "player": "Joe Willock",
+          "minute": "57'"
+        },
+        {
+          "team": "away",
+          "player": "Dominik Szoboszlai",
+          "minute": "90'+9'"
+        }
+      ]
+    },
+    "fulham-vs-chelsea": {
+      "homeScore": 2,
+      "awayScore": 3,
+      "status": "FT",
+      "playedOn": "2026-08-24",
+      "scorers": [
+        {
+          "team": "home",
+          "player": "King",
+          "minute": "23"
+        },
+        {
+          "team": "away",
+          "player": "João Pedro",
+          "minute": "1"
+        },
+        {
+          "team": "away",
+          "player": "Rogers",
+          "minute": "41"
+        },
+        {
+          "team": "away",
+          "player": "Palmer",
+          "minute": "49"
+        },
+        {
+          "team": "home",
+          "player": "García",
+          "minute": "54"
+        }
+      ],
+      "source": {
+        "name": "ESPN — Fulham v Chelsea",
+        "url": "https://www.espn.com/soccer/report/_/gameId/401879318"
+      },
+      "verifiedOn": "2026-08-25"
+    },
+    "liverpool-vs-nottingham-forest": {
+      "homeScore": 2,
+      "awayScore": 2,
+      "status": "FT",
+      "playedOn": "2026-08-29",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401879314/nottingham-forest-liverpool"
+      },
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Dan Ndoye",
+          "minute": "24'"
+        },
+        {
+          "team": "home",
+          "player": "Alexander Isak",
+          "minute": "60'"
+        },
+        {
+          "team": "away",
+          "player": "Morgan Gibbs-White",
+          "minute": "70'"
+        },
+        {
+          "team": "home",
+          "player": "Víctor Muñoz",
+          "minute": "82'"
+        }
+      ]
+    },
+    "bournemouth-vs-everton": {
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "playedOn": "2026-08-29",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401879296/everton-afc-bournemouth"
+      },
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Alex Scott",
+          "minute": "41'"
+        },
+        {
+          "team": "away",
+          "player": "James Tarkowski",
+          "minute": "90'+1'"
+        }
+      ]
+    },
+    "coventry-vs-hull": {
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "playedOn": "2026-08-29",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401879316/hull-city-coventry-city"
+      },
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Liam Millar",
+          "minute": "82'"
+        }
+      ]
+    },
+    "tottenham-vs-newcastle": {
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "FT",
+      "playedOn": "2026-08-29",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401879312/newcastle-united-tottenham-hotspur"
+      },
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Anthony Elanga",
+          "minute": "62'"
+        },
+        {
+          "team": "away",
+          "player": "Yoane Wissa",
+          "minute": "72'"
+        }
+      ]
+    },
+    "chelsea-vs-brighton": {
+      "homeScore": 4,
+      "awayScore": 3,
+      "status": "FT",
+      "playedOn": "2026-08-30",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401879317/brighton-hove-albion-chelsea"
+      },
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Romeo Lavia",
+          "minute": "4'"
+        },
+        {
+          "team": "home",
+          "player": "Pedro Neto",
+          "minute": "14'"
+        },
+        {
+          "team": "home",
+          "player": "João Pedro",
+          "minute": "32'"
+        },
+        {
+          "team": "away",
+          "player": "Malick Yalcouyé",
+          "minute": "35'"
+        },
+        {
+          "team": "away",
+          "player": "João Pedro",
+          "minute": "63'"
+        },
+        {
+          "team": "home",
+          "player": "Cole Palmer",
+          "minute": "74'"
+        },
+        {
+          "team": "away",
+          "player": "Pascal Gross",
+          "minute": "90'+6'"
+        }
+      ]
+    },
+    "leeds-vs-brentford": {
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "playedOn": "2026-08-30",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401879315/brentford-leeds-united"
+      },
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Kevin Schade",
+          "minute": "41'"
+        },
+        {
+          "team": "home",
+          "player": "Dominic Calvert-Lewin",
+          "minute": "79'"
+        }
+      ]
+    },
+    "sunderland-vs-fulham": {
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "playedOn": "2026-08-30",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401879313/fulham-sunderland"
+      },
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Wilson Isidor",
+          "minute": "75'"
+        }
+      ]
+    },
+    "man-united-vs-ipswich": {
+      "homeScore": 5,
+      "awayScore": 2,
+      "status": "FT",
+      "playedOn": "2026-08-30",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401879293/ipswich-town-manchester-united"
+      },
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Leif Davis",
+          "minute": "29'"
+        },
+        {
+          "team": "home",
+          "player": "Bruno Fernandes",
+          "minute": "40'"
+        },
+        {
+          "team": "home",
+          "player": "Jacob Greaves",
+          "minute": "56'"
+        },
+        {
+          "team": "home",
+          "player": "Bruno Fernandes",
+          "minute": "61'"
+        },
+        {
+          "team": "home",
+          "player": "Bruno Fernandes",
+          "minute": "68'"
+        },
+        {
+          "team": "home",
+          "player": "Bryan Mbeumo",
+          "minute": "82'"
+        },
+        {
+          "team": "away",
+          "player": "Chuba Akpom",
+          "minute": "90'+1'"
+        }
+      ]
+    },
+    "aston-villa-vs-arsenal": {
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "playedOn": "2026-08-31",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401879295/arsenal-aston-villa"
+      },
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Bukayo Saka",
+          "minute": "59'"
+        }
+      ]
+    }
+  },
+  "la-liga": {
+    "alaves-vs-getafe": {
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "FT",
+      "playedOn": "2026-08-15",
+      "source": {
+        "name": "BBC Sport — Alavés v Getafe match summary",
+        "url": "https://www.bbc.com/sport/football/live/cmx2kvp0kn1et"
+      },
+      "verifiedOn": "2026-08-17",
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Nahuel Tenaglia",
+          "minute": "73'"
+        },
+        {
+          "team": "home",
+          "player": "Mariano Díaz",
+          "minute": "90'+1'"
+        },
+        {
+          "team": "home",
+          "player": "Mikel Rodriguez",
+          "minute": "90'+4'"
+        }
+      ]
+    },
+    "sevilla-vs-rayo-vallecano": {
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "FT",
+      "playedOn": "2026-08-15",
+      "source": {
+        "name": "worldfootball.net — Primera División 2026/27 matchday 1",
+        "url": "https://www.worldfootball.net/competition/co97/spain-primera-division/results-and-standings/"
+      },
+      "verifiedOn": "2026-08-17",
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Álvaro García",
+          "minute": "4'"
+        },
+        {
+          "team": "home",
+          "player": "Jon Guridi",
+          "minute": "52'"
+        },
+        {
+          "team": "home",
+          "player": "Peque",
+          "minute": "90'+7'"
+        }
+      ]
+    },
+    "racing-vs-villarreal": {
+      "homeScore": 2,
+      "awayScore": 2,
+      "status": "FT",
+      "playedOn": "2026-08-16",
+      "source": {
+        "name": "worldfootball.net — Primera División 2026/27 matchday 1",
+        "url": "https://www.worldfootball.net/competition/co97/spain-primera-division/results-and-standings/"
+      },
+      "verifiedOn": "2026-08-17",
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Andrés Martín",
+          "minute": "21'"
+        },
+        {
+          "team": "home",
+          "player": "Sergio Martínez",
+          "minute": "34'"
+        },
+        {
+          "team": "away",
+          "player": "Pape Gueye",
+          "minute": "45'"
+        },
+        {
+          "team": "away",
+          "player": "Nicolas Pépé",
+          "minute": "45'+1'"
+        }
+      ]
+    },
+    "espanyol-vs-levante": {
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "FT",
+      "playedOn": "2026-08-16",
+      "source": {
+        "name": "worldfootball.net — Primera División 2026/27 matchday 1",
+        "url": "https://www.worldfootball.net/competition/co97/spain-primera-division/results-and-standings/"
+      },
+      "verifiedOn": "2026-08-17",
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Roberto Fernández",
+          "minute": "5'"
+        },
+        {
+          "team": "home",
+          "player": "Roberto Fernández",
+          "minute": "40'"
+        },
+        {
+          "team": "home",
+          "player": "Tyrhys Dolan",
+          "minute": "80'"
+        }
+      ]
+    },
+    "atletico-madrid-vs-malaga": {
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "playedOn": "2026-08-19",
+      "source": {
+        "name": "BBC Sport — Atlético Madrid v Málaga",
+        "url": "https://www.bbc.com/sport/football/live/c9drv440vlget"
+      },
+      "verifiedOn": "2026-08-21",
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Lee Kang-In",
+          "minute": "70'"
+        },
+        {
+          "team": "home",
+          "player": "Álex Baena",
+          "minute": "85'"
+        }
+      ]
+    },
+    "rayo-vallecano-vs-alaves": {
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "playedOn": "2026-08-20",
+      "source": {
+        "name": "BBC Sport — Rayo Vallecano v Alavés",
+        "url": "https://www.bbc.co.uk/sport/football/live/c9gk44d8egpgt"
+      },
+      "verifiedOn": "2026-08-21",
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Sergio Camello",
+          "minute": "48'"
+        },
+        {
+          "team": "away",
+          "player": "Mariano Díaz",
+          "minute": "84'"
+        }
+      ]
+    },
+    "real-betis-vs-real-sociedad": {
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "playedOn": "2026-08-21",
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Riquelme",
+          "minute": "63"
+        }
+      ],
+      "source": {
+        "name": "BBC Sport — Real Betis v Real Sociedad",
+        "url": "https://www.bbc.com/sport/football/live/cmz644qxd96yt"
+      },
+      "verifiedOn": "2026-08-22"
+    },
+    "athletic-bilbao-vs-sevilla": {
+      "homeScore": 1,
+      "awayScore": 3,
+      "status": "FT",
+      "playedOn": "2026-08-22",
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Oso",
+          "minute": "15"
+        },
+        {
+          "team": "away",
+          "player": "Ejuke",
+          "minute": "50"
+        },
+        {
+          "team": "away",
+          "player": "Isaac Romero",
+          "minute": "57"
+        },
+        {
+          "team": "home",
+          "player": "Paredes",
+          "minute": "70"
+        }
+      ],
+      "source": {
+        "name": "BBC Sport — Athletic Club v Sevilla",
+        "url": "https://www.bbc.com/sport/football/live/crd9w4ky88let"
+      },
+      "verifiedOn": "2026-08-22"
+    },
+    "valencia-vs-celta-vigo": {
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "playedOn": "2026-08-22",
+      "source": {
+        "name": "BBC Sport — Valencia v Celta Vigo",
+        "url": "https://www.bbc.com/sport/football/live/cwm2gqe844yrt"
+      },
+      "verifiedOn": "2026-08-22"
+    },
+    "espanyol-vs-real-madrid": {
+      "homeScore": 1,
+      "awayScore": 2,
+      "status": "FT",
+      "playedOn": "2026-08-22",
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Bellingham",
+          "minute": "9"
+        },
+        {
+          "team": "home",
+          "player": "Cala",
+          "minute": "30"
+        },
+        {
+          "team": "away",
+          "player": "Carlos Espí",
+          "minute": "90"
+        }
+      ],
+      "source": {
+        "name": "BBC Sport — Espanyol v Real Madrid",
+        "url": "https://www.bbc.com/sport/football/live/cmwyjzndv4xnt"
+      },
+      "verifiedOn": "2026-08-22"
+    },
+    "atletico-madrid-vs-villarreal": {
+      "homeScore": 2,
+      "awayScore": 2,
+      "status": "FT",
+      "playedOn": "2026-08-23",
+      "source": {
+        "name": "BBC Sport — Atlético Madrid v Villarreal",
+        "url": "https://www.bbc.com/sport/football/spanish-la-liga/scores-fixtures"
+      },
+      "verifiedOn": "2026-08-23",
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Marc Pubill",
+          "minute": "59'"
+        },
+        {
+          "team": "away",
+          "player": "Gerard Moreno",
+          "minute": "66'"
+        },
+        {
+          "team": "away",
+          "player": "Georges Mikautadze",
+          "minute": "78'"
+        },
+        {
+          "team": "home",
+          "player": "Giuliano Simeone",
+          "minute": "85'"
+        }
+      ]
+    },
+    "getafe-vs-racing": {
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "playedOn": "2026-08-23",
+      "source": {
+        "name": "BBC Sport — Getafe v Racing de Santander",
+        "url": "https://www.bbc.com/sport/football/spanish-la-liga/scores-fixtures"
+      },
+      "verifiedOn": "2026-08-23",
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Enes Ünal",
+          "minute": "81'"
+        }
+      ]
+    },
+    "elche-vs-barcelona": {
+      "homeScore": 0,
+      "awayScore": 5,
+      "status": "FT",
+      "playedOn": "2026-08-23",
+      "source": {
+        "name": "BBC Sport — Elche v Barcelona",
+        "url": "https://www.bbc.com/sport/football/spanish-la-liga/scores-fixtures"
+      },
+      "verifiedOn": "2026-08-23",
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Raphinha",
+          "minute": "14'"
+        },
+        {
+          "team": "away",
+          "player": "Karim Adeyemi",
+          "minute": "45'+3'"
+        },
+        {
+          "team": "away",
+          "player": "Raphinha",
+          "minute": "67'"
+        },
+        {
+          "team": "away",
+          "player": "Fermín López",
+          "minute": "71'"
+        },
+        {
+          "team": "away",
+          "player": "Fermín López",
+          "minute": "79'"
+        }
+      ]
+    },
+    "osasuna-vs-levante": {
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "playedOn": "2026-08-24",
+      "source": {
+        "name": "BBC Sport — Osasuna v Levante",
+        "url": "https://www.bbc.com/sport/football/live/c9j3647xzkkxt"
+      },
+      "verifiedOn": "2026-08-25"
+    },
+    "malaga-vs-deportivo": {
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "playedOn": "2026-08-24",
+      "source": {
+        "name": "BBC Sport — Málaga v Deportivo",
+        "url": "https://www.bbc.com/sport/football/live/c9j3647xzkkxt"
+      },
+      "verifiedOn": "2026-08-25",
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Pierre-Emerick Aubameyang",
+          "minute": "21'"
+        },
+        {
+          "team": "home",
+          "player": "Chupete",
+          "minute": "34'"
+        }
+      ]
+    },
+    "deportivo-vs-elche": {
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "playedOn": "2026-08-17",
+      "source": {
+        "name": "BBC Sport — La Liga scores & fixtures",
+        "url": "https://www.bbc.com/sport/football/spanish-la-liga/scores-fixtures"
+      },
+      "verifiedOn": "2026-08-25",
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Pierre-Emerick Aubameyang",
+          "minute": "21'"
+        },
+        {
+          "team": "away",
+          "player": "Marc Aguado",
+          "minute": "76'"
+        }
+      ]
+    },
+    "valencia-vs-real-betis": {
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "playedOn": "2026-08-25",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401882917/real-betis-valencia"
+      },
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Pablo García",
+          "minute": "83'"
+        }
+      ]
+    },
+    "levante-vs-real-betis": {
+      "homeScore": 5,
+      "awayScore": 2,
+      "status": "FT",
+      "playedOn": "2026-08-29",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401882902/real-betis-levante"
+      },
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Adrián de la Fuente",
+          "minute": "24'"
+        },
+        {
+          "team": "away",
+          "player": "Marc Bartra",
+          "minute": "34'"
+        },
+        {
+          "team": "home",
+          "player": "Enzo Bardeli",
+          "minute": "45'+1'"
+        },
+        {
+          "team": "away",
+          "player": "Rodrigo Riquelme",
+          "minute": "45'+4'"
+        },
+        {
+          "team": "home",
+          "player": "Roger Brugué",
+          "minute": "56'"
+        },
+        {
+          "team": "home",
+          "player": "Roger Brugué",
+          "minute": "70'"
+        },
+        {
+          "team": "home",
+          "player": "Jon Ander Olasagasti",
+          "minute": "90'+5'"
+        }
+      ]
+    },
+    "real-sociedad-vs-espanyol": {
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "FT",
+      "playedOn": "2026-08-29",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401882898/espanyol-real-sociedad"
+      },
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Ander Barrenetxea",
+          "minute": "4'"
+        },
+        {
+          "team": "away",
+          "player": "Roberto Fernández",
+          "minute": "45'"
+        },
+        {
+          "team": "home",
+          "player": "Orri Óskarsson",
+          "minute": "61'"
+        }
+      ]
+    },
+    "sevilla-vs-atletico-madrid": {
+      "homeScore": 1,
+      "awayScore": 3,
+      "status": "FT",
+      "playedOn": "2026-08-29",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401882897/atletico-madrid-sevilla"
+      },
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Álex Baena",
+          "minute": "4'"
+        },
+        {
+          "team": "away",
+          "player": "Ademola Lookman",
+          "minute": "26'"
+        },
+        {
+          "team": "away",
+          "player": "Álex Baena",
+          "minute": "33'"
+        },
+        {
+          "team": "home",
+          "player": "Miguel Sierra",
+          "minute": "66'"
+        }
+      ]
+    },
+    "real-madrid-vs-malaga": {
+      "homeScore": 4,
+      "awayScore": 0,
+      "status": "FT",
+      "playedOn": "2026-08-30",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401882899/malaga-real-madrid"
+      },
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Jude Bellingham",
+          "minute": "19'"
+        },
+        {
+          "team": "home",
+          "player": "Alfonso Herrero",
+          "minute": "26'"
+        },
+        {
+          "team": "home",
+          "player": "Kylian Mbappé",
+          "minute": "30'"
+        },
+        {
+          "team": "home",
+          "player": "Arda Güler",
+          "minute": "90'+1'"
+        }
+      ]
+    },
+    "deportivo-vs-valencia": {
+      "homeScore": 3,
+      "awayScore": 1,
+      "status": "FT",
+      "playedOn": "2026-08-30",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401882904/valencia-deportivo"
+      },
+      "scorers": [
+        {
+          "team": "home",
+          "player": "César Tárrega",
+          "minute": "13'"
+        },
+        {
+          "team": "home",
+          "player": "Pierre-Emerick Aubameyang",
+          "minute": "17'"
+        },
+        {
+          "team": "away",
+          "player": "Umar Sadiq",
+          "minute": "26'"
+        },
+        {
+          "team": "home",
+          "player": "Mouctar Diakhaby",
+          "minute": "59'"
+        }
+      ]
+    },
+    "celta-vigo-vs-athletic-bilbao": {
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "FT",
+      "playedOn": "2026-08-30",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401882905/athletic-club-celta-vigo"
+      },
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Álex Berenguer",
+          "minute": "20'"
+        },
+        {
+          "team": "away",
+          "player": "Robert Navarro",
+          "minute": "22'"
+        }
+      ]
+    },
+    "osasuna-vs-getafe": {
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "playedOn": "2026-08-31",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401882901/getafe-osasuna"
+      },
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Ante Budimir",
+          "minute": "45'+2'"
+        }
+      ]
+    },
+    "barcelona-vs-rayo-vallecano": {
+      "homeScore": 5,
+      "awayScore": 2,
+      "status": "FT",
+      "playedOn": "2026-08-31",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401882903/rayo-vallecano-barcelona"
+      },
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Sergio Camello",
+          "minute": "12'"
+        },
+        {
+          "team": "home",
+          "player": "Raphinha",
+          "minute": "19'"
+        },
+        {
+          "team": "home",
+          "player": "Lamine Yamal",
+          "minute": "21'"
+        },
+        {
+          "team": "home",
+          "player": "Florian Lejeune",
+          "minute": "51'"
+        },
+        {
+          "team": "away",
+          "player": "Sergio Camello",
+          "minute": "59'"
+        },
+        {
+          "team": "home",
+          "player": "Raphinha",
+          "minute": "71'"
+        },
+        {
+          "team": "home",
+          "player": "Lamine Yamal",
+          "minute": "90'"
+        }
+      ]
+    }
+  },
+  "serie-a": {
+    "inter-vs-monza": {
+      "homeScore": 4,
+      "awayScore": 1,
+      "status": "FT",
+      "playedOn": "2026-08-22",
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Çalhanoğlu",
+          "minute": "6"
+        },
+        {
+          "team": "away",
+          "player": "Gustavo Varela",
+          "minute": "29"
+        },
+        {
+          "team": "home",
+          "player": "Zieliński",
+          "minute": "48"
+        },
+        {
+          "team": "home",
+          "player": "Esposito",
+          "minute": "55"
+        },
+        {
+          "team": "home",
+          "player": "Bisseck",
+          "minute": "63"
+        }
+      ],
+      "source": {
+        "name": "BBC Sport — Inter Milan v Monza",
+        "url": "https://www.bbc.com/sport/football/live/ckgjeqd1vx73t"
+      },
+      "verifiedOn": "2026-08-22"
+    },
+    "udinese-vs-como": {
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "playedOn": "2026-08-22",
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Kamara",
+          "minute": "29"
+        },
+        {
+          "team": "away",
+          "player": "Douvikas",
+          "minute": "54"
+        }
+      ],
+      "source": {
+        "name": "BBC Sport — Udinese v Como",
+        "url": "https://www.bbc.co.uk/sport/football/live/c5kg90kz24rwt"
+      },
+      "verifiedOn": "2026-08-22"
+    },
+    "genoa-vs-napoli": {
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "FT",
+      "playedOn": "2026-08-22",
+      "scorers": [
+        {
+          "team": "away",
+          "player": "De Bruyne",
+          "minute": "82"
+        },
+        {
+          "team": "away",
+          "player": "Vergara",
+          "minute": "87"
+        }
+      ],
+      "source": {
+        "name": "BBC Sport — Genoa v Napoli",
+        "url": "https://www.bbc.co.uk/sport/football/live/ckpd7029l3nqt"
+      },
+      "verifiedOn": "2026-08-22"
+    },
+    "parma-vs-cagliari": {
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "playedOn": "2026-08-22",
+      "source": {
+        "name": "BBC Sport — Parma v Cagliari",
+        "url": "https://www.bbc.com/sport/football/live/cm2k7wpnjygnt"
+      },
+      "verifiedOn": "2026-08-22",
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Alessandro Romano",
+          "minute": "79'"
+        }
+      ]
+    },
+    "frosinone-vs-juventus": {
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "playedOn": "2026-08-23",
+      "source": {
+        "name": "BBC Sport — Frosinone v Juventus",
+        "url": "https://www.bbc.com/sport/football/italian-serie-a/scores-fixtures"
+      },
+      "verifiedOn": "2026-08-23",
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Bremer",
+          "minute": "22'"
+        }
+      ]
+    },
+    "venezia-vs-lecce": {
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "FT",
+      "playedOn": "2026-08-23",
+      "source": {
+        "name": "BBC Sport — Venezia v Lecce",
+        "url": "https://www.bbc.com/sport/football/italian-serie-a/scores-fixtures"
+      },
+      "verifiedOn": "2026-08-23",
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Olaf Gorter",
+          "minute": "46'"
+        },
+        {
+          "team": "away",
+          "player": "Tiago Gabriel",
+          "minute": "80'"
+        }
+      ]
+    },
+    "atalanta-vs-sassuolo": {
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "FT",
+      "playedOn": "2026-08-23",
+      "source": {
+        "name": "BBC Sport — Atalanta v Sassuolo",
+        "url": "https://www.bbc.com/sport/football/italian-serie-a/scores-fixtures"
+      },
+      "verifiedOn": "2026-08-23",
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Giacomo Raspadori",
+          "minute": "6'"
+        },
+        {
+          "team": "away",
+          "player": "Cas Odenthal",
+          "minute": "55'"
+        },
+        {
+          "team": "home",
+          "player": "Nikola Krstovic",
+          "minute": "65'"
+        }
+      ]
+    },
+    "torino-vs-milan": {
+      "homeScore": 1,
+      "awayScore": 2,
+      "status": "FT",
+      "playedOn": "2026-08-23",
+      "source": {
+        "name": "BBC Sport — Torino v AC Milan",
+        "url": "https://www.bbc.com/sport/football/italian-serie-a/scores-fixtures"
+      },
+      "verifiedOn": "2026-08-23",
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Alphadjo Cissè",
+          "minute": "64'"
+        },
+        {
+          "team": "away",
+          "player": "Adrien Rabiot",
+          "minute": "66'"
+        },
+        {
+          "team": "home",
+          "player": "Ché Adams",
+          "minute": "90'+3'"
+        }
+      ]
+    },
+    "bologna-vs-lazio": {
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "playedOn": "2026-08-24",
+      "source": {
+        "name": "BBC Sport — Bologna v Lazio",
+        "url": "https://www.bbc.com/sport/football/live/cwddj8qerg68t"
+      },
+      "verifiedOn": "2026-08-25",
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Davide Frattesi",
+          "minute": "59'"
+        }
+      ]
+    },
+    "roma-vs-fiorentina": {
+      "homeScore": 4,
+      "awayScore": 0,
+      "status": "FT",
+      "playedOn": "2026-08-24",
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Malen",
+          "minute": "27"
+        },
+        {
+          "team": "home",
+          "player": "Malen",
+          "minute": "52"
+        },
+        {
+          "team": "home",
+          "player": "Malen",
+          "minute": "60"
+        },
+        {
+          "team": "home",
+          "player": "Pisilli",
+          "minute": "86"
+        }
+      ],
+      "source": {
+        "name": "BBC Sport — Roma v Fiorentina",
+        "url": "https://www.bbc.com/sport/football/live/cwddj8qerg68t"
+      },
+      "verifiedOn": "2026-08-25"
+    },
+    "fiorentina-vs-frosinone": {
+      "homeScore": 0,
+      "awayScore": 3,
+      "status": "FT",
+      "playedOn": "2026-08-29",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401874942/frosinone-fiorentina"
+      },
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Antonio Raimondo",
+          "minute": "26'"
+        },
+        {
+          "team": "away",
+          "player": "Gabriele Bracaglia",
+          "minute": "38'"
+        },
+        {
+          "team": "away",
+          "player": "Antonio Raimondo",
+          "minute": "68'"
+        }
+      ]
+    },
+    "monza-vs-udinese": {
+      "homeScore": 2,
+      "awayScore": 3,
+      "status": "FT",
+      "playedOn": "2026-08-29",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401874749/udinese-monza"
+      },
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Jakub Piotrowski",
+          "minute": "32'"
+        },
+        {
+          "team": "home",
+          "player": "Andrea Colpani",
+          "minute": "37'"
+        },
+        {
+          "team": "away",
+          "player": "Hassane Kamara",
+          "minute": "45'"
+        },
+        {
+          "team": "away",
+          "player": "Jurgen Ekkelenkamp",
+          "minute": "45'+3'"
+        },
+        {
+          "team": "home",
+          "player": "Gustavo Varela",
+          "minute": "63'"
+        }
+      ]
+    },
+    "sassuolo-vs-torino": {
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "FT",
+      "playedOn": "2026-08-29",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401874743/torino-sassuolo"
+      },
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Cristian Volpato",
+          "minute": "32'"
+        },
+        {
+          "team": "away",
+          "player": "Pietro Comuzzo",
+          "minute": "45'+2'"
+        },
+        {
+          "team": "home",
+          "player": "Domenico Berardi",
+          "minute": "78'"
+        }
+      ]
+    },
+    "juventus-vs-parma": {
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "playedOn": "2026-08-29",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401874746/parma-juventus"
+      },
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Nico González",
+          "minute": "62'"
+        },
+        {
+          "team": "home",
+          "player": "Teun Koopmeiners",
+          "minute": "88'"
+        }
+      ]
+    },
+    "napoli-vs-como": {
+      "homeScore": 1,
+      "awayScore": 2,
+      "status": "FT",
+      "playedOn": "2026-08-30",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401874755/como-napoli"
+      },
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Martin Baturina",
+          "minute": "17'"
+        },
+        {
+          "team": "home",
+          "player": "Rasmus Højlund",
+          "minute": "30'"
+        },
+        {
+          "team": "away",
+          "player": "Anastasios Douvikas",
+          "minute": "34'"
+        }
+      ]
+    },
+    "cagliari-vs-inter": {
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "playedOn": "2026-08-30",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401874938/internazionale-cagliari"
+      },
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Hakan Çalhanoglu",
+          "minute": "9'"
+        }
+      ]
+    },
+    "lazio-vs-genoa": {
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "playedOn": "2026-08-30",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401874742/genoa-lazio"
+      },
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Davide Frattesi",
+          "minute": "25'"
+        }
+      ]
+    },
+    "lecce-vs-roma": {
+      "homeScore": 0,
+      "awayScore": 4,
+      "status": "FT",
+      "playedOn": "2026-08-31",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401874945/as-roma-lecce"
+      },
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Donyell Malen",
+          "minute": "4'"
+        },
+        {
+          "team": "away",
+          "player": "Donyell Malen",
+          "minute": "23'"
+        },
+        {
+          "team": "away",
+          "player": "Matìas Soulè",
+          "minute": "25'"
+        },
+        {
+          "team": "away",
+          "player": "Rodrigo Mora",
+          "minute": "65'"
+        }
+      ]
+    },
+    "atalanta-vs-bologna": {
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "playedOn": "2026-08-31",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401874970/bologna-atalanta"
+      },
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Lazar Samardzic",
+          "minute": "90'+6'"
+        }
+      ]
+    }
+  },
+  "bundesliga": {
+    "leipzig-vs-gladbach": {
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "FT",
+      "playedOn": "2026-08-29",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401884815/borussia-monchengladbach-rb-leipzig"
+      },
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Ridle Baku",
+          "minute": "25'"
+        },
+        {
+          "team": "home",
+          "player": "Antonio Nusa",
+          "minute": "49'"
+        },
+        {
+          "team": "home",
+          "player": "Rocco Reitz",
+          "minute": "66'"
+        }
+      ]
+    },
+    "elversberg-vs-leverkusen": {
+      "homeScore": 3,
+      "awayScore": 2,
+      "status": "FT",
+      "playedOn": "2026-08-29",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401884809/bayer-leverkusen-sv-elversberg"
+      },
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Lukas Petkov",
+          "minute": "8'"
+        },
+        {
+          "team": "home",
+          "player": "Cole Campbell",
+          "minute": "9'"
+        },
+        {
+          "team": "home",
+          "player": "David Mokwa",
+          "minute": "46'"
+        },
+        {
+          "team": "away",
+          "player": "Patrik Schick",
+          "minute": "77'"
+        },
+        {
+          "team": "away",
+          "player": "Christian Kofane",
+          "minute": "90'+1'"
+        }
+      ]
+    },
+    "freiburg-vs-werder": {
+      "homeScore": 4,
+      "awayScore": 1,
+      "status": "FT",
+      "playedOn": "2026-08-30",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401884814/werder-bremen-sc-freiburg"
+      },
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Yuito Suzuki",
+          "minute": "29'"
+        },
+        {
+          "team": "home",
+          "player": "Igor Matanovic",
+          "minute": "45'"
+        },
+        {
+          "team": "home",
+          "player": "Yuito Suzuki",
+          "minute": "48'"
+        },
+        {
+          "team": "home",
+          "player": "Yuito Suzuki",
+          "minute": "55'"
+        },
+        {
+          "team": "away",
+          "player": "Dariusz Stalmach",
+          "minute": "76'"
+        }
+      ]
+    },
+    "augsburg-vs-schalke": {
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "FT",
+      "playedOn": "2026-08-30",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401884813/schalke-04-fc-augsburg"
+      },
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Michael Gregoritsch",
+          "minute": "18'"
+        },
+        {
+          "team": "home",
+          "player": "Anton Kade",
+          "minute": "79'"
+        },
+        {
+          "team": "home",
+          "player": "Rodrigo Ribeiro",
+          "minute": "90'+2'"
+        }
+      ]
+    },
+    "union-berlin-vs-frankfurt": {
+      "homeScore": 3,
+      "awayScore": 3,
+      "status": "FT",
+      "playedOn": "2026-08-29",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401884811/eintracht-frankfurt-1-fc-union-berlin"
+      },
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Emmanuel Latte Lath",
+          "minute": "3'"
+        },
+        {
+          "team": "away",
+          "player": "Younes Ebnoutalib",
+          "minute": "10'"
+        },
+        {
+          "team": "away",
+          "player": "Younes Ebnoutalib",
+          "minute": "11'"
+        },
+        {
+          "team": "away",
+          "player": "Younes Ebnoutalib",
+          "minute": "67'"
+        },
+        {
+          "team": "home",
+          "player": "Leopold Querfeld",
+          "minute": "79'"
+        },
+        {
+          "team": "home",
+          "player": "Tim Skarke",
+          "minute": "90'+2'"
+        }
+      ]
+    },
+    "koln-vs-hoffenheim": {
+      "homeScore": 3,
+      "awayScore": 2,
+      "status": "FT",
+      "playedOn": "2026-08-29",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401884810/tsg-hoffenheim-fc-cologne"
+      },
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Adam Daghim",
+          "minute": "27'"
+        },
+        {
+          "team": "home",
+          "player": "Said El Mala",
+          "minute": "51'"
+        },
+        {
+          "team": "away",
+          "player": "Ozan Kabak",
+          "minute": "67'"
+        },
+        {
+          "team": "home",
+          "player": "Thijs Dallinga",
+          "minute": "72'"
+        },
+        {
+          "team": "home",
+          "player": "Thijs Dallinga",
+          "minute": "82'"
+        }
+      ]
+    },
+    "dortmund-vs-hamburg": {
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "playedOn": "2026-08-29",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401884816/hamburg-sv-borussia-dortmund"
+      },
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Serhou Guirassy",
+          "minute": "9'"
+        },
+        {
+          "team": "home",
+          "player": "Sebastiaan Bornauw",
+          "minute": "45'+1'"
+        }
+      ]
+    },
+    "mainz-vs-paderborn": {
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "playedOn": "2026-08-29",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401884812/sc-paderborn-07-mainz"
+      }
+    }
+  },
+  "ligue-1": {
+    "marseille-vs-strasbourg": {
+      "homeScore": 4,
+      "awayScore": 0,
+      "status": "FT",
+      "playedOn": "2026-08-21",
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Gouiri",
+          "minute": "46"
+        },
+        {
+          "team": "home",
+          "player": "Gouiri",
+          "minute": "68"
+        },
+        {
+          "team": "home",
+          "player": "Abdallah",
+          "minute": "89"
+        },
+        {
+          "team": "home",
+          "player": "Højbjerg",
+          "minute": "90+6"
+        }
+      ],
+      "source": {
+        "name": "BBC Sport — Marseille v Strasbourg",
+        "url": "https://www.bbc.com/sport/football/live/c85yvv136pr0t"
+      },
+      "verifiedOn": "2026-08-22"
+    },
+    "lens-vs-auxerre": {
+      "homeScore": 5,
+      "awayScore": 2,
+      "status": "FT",
+      "playedOn": "2026-08-22",
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Thauvin",
+          "minute": "12"
+        },
+        {
+          "team": "home",
+          "player": "Ivanović",
+          "minute": "49"
+        },
+        {
+          "team": "home",
+          "player": "Abdulhamid",
+          "minute": "54"
+        },
+        {
+          "team": "away",
+          "player": "Namaso",
+          "minute": "61"
+        },
+        {
+          "team": "home",
+          "player": "Ganiou",
+          "minute": "66"
+        },
+        {
+          "team": "away",
+          "player": "Sy",
+          "minute": "69"
+        },
+        {
+          "team": "home",
+          "player": "Thauvin",
+          "minute": "88"
+        }
+      ],
+      "source": {
+        "name": "BBC Sport — Lens v Auxerre",
+        "url": "https://www.bbc.co.uk/sport/football/live/cqvgxykv4y0zt"
+      },
+      "verifiedOn": "2026-08-22"
+    },
+    "le-mans-vs-brest": {
+      "homeScore": 2,
+      "awayScore": 2,
+      "status": "FT",
+      "playedOn": "2026-08-22",
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Del Castillo",
+          "minute": "31"
+        },
+        {
+          "team": "home",
+          "player": "Gueye",
+          "minute": "45+2"
+        },
+        {
+          "team": "home",
+          "player": "Mafouta",
+          "minute": "55"
+        },
+        {
+          "team": "away",
+          "player": "Doumbia",
+          "minute": "62"
+        }
+      ],
+      "source": {
+        "name": "L'Équipe — Le Mans v Brest",
+        "url": "https://www.lequipe.fr/Football/match-direct/ligue-1/2026-2027/le-mans-brest-live/690261"
+      },
+      "verifiedOn": "2026-08-22"
+    },
+    "nice-vs-lorient": {
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "playedOn": "2026-08-22",
+      "source": {
+        "name": "BBC Sport — Nice v Lorient",
+        "url": "https://www.bbc.co.uk/sport/football/live/cmn8nex37wj1t"
+      },
+      "verifiedOn": "2026-08-22"
+    },
+    "toulouse-vs-lyon": {
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "FT",
+      "playedOn": "2026-08-22",
+      "source": {
+        "name": "BBC Sport — Saturday Ligue 1 scores",
+        "url": "https://www.bbc.com/sport/football/live/cmd9w4kyd3x1t"
+      },
+      "verifiedOn": "2026-08-22",
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Noah Nartey",
+          "minute": "68'"
+        },
+        {
+          "team": "away",
+          "player": "Malick Fofana",
+          "minute": "85'"
+        }
+      ]
+    },
+    "troyes-vs-paris-fc": {
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "playedOn": "2026-08-22",
+      "source": {
+        "name": "BBC Sport — Troyes v Paris FC",
+        "url": "https://www.bbc.com/sport/football/live/cmd9w4kyd3x1t"
+      },
+      "verifiedOn": "2026-08-22"
+    },
+    "psg-vs-rennes": {
+      "homeScore": 2,
+      "awayScore": 2,
+      "status": "FT",
+      "playedOn": "2026-08-23",
+      "source": {
+        "name": "BBC Sport — PSG v Rennes",
+        "url": "https://www.bbc.com/sport/football/french-ligue-one/scores-fixtures"
+      },
+      "verifiedOn": "2026-08-23",
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Sebastian Szymanski",
+          "minute": "9'"
+        },
+        {
+          "team": "away",
+          "player": "Esteban Lepaul",
+          "minute": "38'"
+        },
+        {
+          "team": "home",
+          "player": "Ferran Torres",
+          "minute": "71'"
+        },
+        {
+          "team": "home",
+          "player": "Ferran Torres",
+          "minute": "82'"
+        }
+      ]
+    },
+    "angers-vs-lille": {
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "FT",
+      "playedOn": "2026-08-23",
+      "source": {
+        "name": "BBC Sport — Angers v Lille",
+        "url": "https://www.bbc.com/sport/football/french-ligue-one/scores-fixtures"
+      },
+      "verifiedOn": "2026-08-23",
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Olivier Giroud",
+          "minute": "11'"
+        },
+        {
+          "team": "away",
+          "player": "Tiago Santos",
+          "minute": "31'"
+        }
+      ]
+    },
+    "le-havre-vs-monaco": {
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "playedOn": "2026-08-23",
+      "source": {
+        "name": "BBC Sport — Le Havre v Monaco",
+        "url": "https://www.bbc.com/sport/football/french-ligue-one/scores-fixtures"
+      },
+      "verifiedOn": "2026-08-23",
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Eric Dier",
+          "minute": "14'"
+        }
+      ]
+    },
+    "strasbourg-vs-lens": {
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "FT",
+      "playedOn": "2026-08-29",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401876477/lens-strasbourg"
+      },
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Florian Thauvin",
+          "minute": "38'"
+        },
+        {
+          "team": "home",
+          "player": "Gessime Yassine",
+          "minute": "48'"
+        },
+        {
+          "team": "home",
+          "player": "Gessime Yassine",
+          "minute": "85'"
+        }
+      ]
+    },
+    "auxerre-vs-angers": {
+      "homeScore": 1,
+      "awayScore": 3,
+      "status": "FT",
+      "playedOn": "2026-08-29",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401876484/angers-aj-auxerre"
+      },
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Branco van den Boomen",
+          "minute": "5'"
+        },
+        {
+          "team": "home",
+          "player": "Remy Labeau Lascary",
+          "minute": "35'"
+        },
+        {
+          "team": "away",
+          "player": "Harouna Djibirin",
+          "minute": "70'"
+        },
+        {
+          "team": "away",
+          "player": "Amine El Ouazzani",
+          "minute": "78'"
+        }
+      ]
+    },
+    "brest-vs-toulouse": {
+      "homeScore": 2,
+      "awayScore": 2,
+      "status": "FT",
+      "playedOn": "2026-08-29",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401876483/toulouse-brest"
+      },
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Jacen Russell-Rowe",
+          "minute": "9'"
+        },
+        {
+          "team": "home",
+          "player": "Kamory Doumbia",
+          "minute": "18'"
+        },
+        {
+          "team": "away",
+          "player": "Christ Tapé",
+          "minute": "62'"
+        },
+        {
+          "team": "home",
+          "player": "Ludovic Ajorque",
+          "minute": "90'+5'"
+        }
+      ]
+    },
+    "lorient-vs-troyes": {
+      "homeScore": 1,
+      "awayScore": 2,
+      "status": "FT",
+      "playedOn": "2026-08-29",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401876482/troyes-lorient"
+      },
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Renaud Ripart",
+          "minute": "29'"
+        },
+        {
+          "team": "away",
+          "player": "Lucas Maronnier",
+          "minute": "38'"
+        },
+        {
+          "team": "home",
+          "player": "Jean-Victor Makengo",
+          "minute": "51'"
+        }
+      ]
+    },
+    "lyon-vs-le-havre": {
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "playedOn": "2026-08-29",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401876481/le-havre-ac-lyon"
+      },
+      "scorers": [
+        {
+          "team": "away",
+          "player": "Mbwana Samatta",
+          "minute": "74'"
+        },
+        {
+          "team": "home",
+          "player": "Loïs Openda",
+          "minute": "87'"
+        }
+      ]
+    },
+    "paris-fc-vs-nice": {
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "FT",
+      "playedOn": "2026-08-30",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401876479/nice-paris-fc"
+      },
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Lassine Sinayoko",
+          "minute": "21'"
+        },
+        {
+          "team": "home",
+          "player": "Samir Chergui",
+          "minute": "51'"
+        },
+        {
+          "team": "home",
+          "player": "Vincent Marchetti",
+          "minute": "89'"
+        }
+      ]
+    },
+    "rennes-vs-le-mans": {
+      "homeScore": 3,
+      "awayScore": 2,
+      "status": "FT",
+      "playedOn": "2026-08-30",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401876478/le-mans-stade-rennais"
+      },
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Esteban Lepaul",
+          "minute": "5'"
+        },
+        {
+          "team": "home",
+          "player": "Valentin Rongier",
+          "minute": "26'"
+        },
+        {
+          "team": "away",
+          "player": "Louis Mafouta",
+          "minute": "30'"
+        },
+        {
+          "team": "away",
+          "player": "Louis Mafouta",
+          "minute": "54'"
+        },
+        {
+          "team": "home",
+          "player": "Esteban Lepaul",
+          "minute": "90'+6'"
+        }
+      ]
+    },
+    "monaco-vs-marseille": {
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "playedOn": "2026-08-30",
+      "source": {
+        "name": "ESPN",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401876480/marseille-as-monaco"
+      },
+      "scorers": [
+        {
+          "team": "home",
+          "player": "Paris Brunner",
+          "minute": "13'"
+        },
+        {
+          "team": "home",
+          "player": "Paris Brunner",
+          "minute": "53'"
+        }
+      ]
+    }
+  }
+}

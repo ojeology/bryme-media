@@ -1,0 +1,19 @@
+# Mirror of ../render.yaml for manual Render setup from the server directory.
+# Keep deployment on the Node Web Service, not a generic static-site service.
+services:
+  - type: web
+    name: bryme-website
+    runtime: node
+    rootDir: server
+    plan: free
+    buildCommand: npm install --omit=dev
+    startCommand: node server.js
+    healthCheckPath: /healthz
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: TELEGRAM_ENABLED
+        value: "0"
+      - key: WATCHDOG
+        value: "off"

@@ -1,0 +1,109 @@
+/* Simple sports — same idea as the old BRYME sports screen. */
+.sp-easy { max-width: 720px; margin: 0 auto; padding: 8px 0 48px; }
+.sp-easy h1 { font-size: 28px; font-weight: 800; letter-spacing: -0.03em; margin: 4px 0 6px; }
+.sp-easy .sp-easy-sub { color: var(--muted, #8d95a3); font-size: 15px; margin: 0 0 18px; }
+.sp-easy-back {
+  display: inline-block; margin: 0 0 10px; color: #8d95a3; font-size: 14px; font-weight: 700;
+  background: none; border: 0; cursor: pointer; padding: 0;
+}
+.sp-easy-back:hover { color: #3ddc84; }
+
+.sp-lg {
+  display: block; padding: 14px 16px; margin-bottom: 10px;
+  border: 1px solid #222a36; border-radius: 12px; background: #10141b; color: inherit; text-decoration: none;
+}
+.sp-lg:hover { border-color: #3ddc84; }
+.sp-lg-top { display: flex; align-items: center; gap: 8px; font-size: 16px; font-weight: 800; }
+.sp-lg-top span { margin-left: auto; font-size: 13px; font-weight: 700; color: #3ddc84; }
+.sp-lg-next { margin: 6px 0 0; font-size: 13px; color: #8d95a3; }
+.sp-lg-strip { display: flex; align-items: center; gap: 8px; margin-top: 8px; }
+.sp-lg-strip img { width: 22px; height: 22px; object-fit: contain; }
+.sp-lg-strip b { font-size: 15px; color: #e7bb5c; }
+
+.sp-seg { display: flex; gap: 6px; overflow-x: auto; padding: 4px 0 14px; }
+.sp-seg button {
+  flex: none; min-height: 40px; padding: 8px 14px; border-radius: 10px;
+  border: 1px solid #2e3947; background: #10141b; color: #8d95a3; font-weight: 700; font-size: 13px; cursor: pointer;
+}
+.sp-seg button.on { background: #3ddc84; border-color: #3ddc84; color: #06220f; }
+
+.sp-tbl { border: 1px solid #222a36; border-radius: 12px; overflow: hidden; background: #10141b; }
+.sp-tbl-r {
+  display: grid; grid-template-columns: 28px 1fr 28px 52px 36px 36px;
+  align-items: center; gap: 6px; padding: 8px 10px; font-size: 13px; border-top: 1px solid #222a36;
+}
+.sp-tbl-r:first-child { border-top: 0; background: #151b24; color: #8d95a3; font-size: 11px; text-transform: uppercase; letter-spacing: .06em; }
+.sp-tbl-r span { display: flex; align-items: center; gap: 8px; font-weight: 700; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sp-tbl-r span img { width: 18px; height: 18px; object-fit: contain; flex: none; }
+.sp-tbl-r b { font-weight: 500; color: #8d95a3; text-align: center; }
+.sp-tbl-r em { font-style: normal; font-weight: 800; text-align: right; color: #e7bb5c; }
+.sp-tbl-r.ucl { box-shadow: inset 3px 0 0 #3ddc84; }
+
+.sp-score {
+  display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 8px;
+  padding: 12px; margin-bottom: 8px; border: 1px solid #222a36; border-radius: 12px; background: #10141b;
+}
+.sp-score .tm { display: flex; align-items: center; gap: 8px; font-weight: 700; min-width: 0; }
+.sp-score .tm.away { justify-content: flex-end; text-align: right; }
+.sp-score img { width: 22px; height: 22px; object-fit: contain; flex: none; }
+.sp-score .num { font-size: 18px; font-weight: 800; color: #e7bb5c; white-space: nowrap; }
+.sp-score .when { grid-column: 1 / -1; text-align: center; font-size: 12px; color: #626b78; }
+
+.sp-fixt {
+  display: grid; gap: 4px; padding: 12px; margin-bottom: 8px;
+  border: 1px solid #222a36; border-radius: 12px; background: #10141b;
+}
+.sp-fixt .when { font-size: 12px; color: #3ddc84; font-weight: 700; }
+.sp-fixt .teams { display: flex; align-items: center; gap: 8px; font-weight: 700; flex-wrap: wrap; }
+.sp-fixt img { width: 20px; height: 20px; object-fit: contain; }
+.sp-fixt i { font-style: normal; color: #626b78; font-size: 12px; }
+
+.sp-empty { padding: 18px; border: 1px dashed #2e3947; border-radius: 12px; color: #8d95a3; text-align: center; }
+.sp-kick { font-size: 11px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: #3ddc84; margin: 22px 0 10px; }
+.sp-story {
+  display: block; padding: 13px 14px; margin-bottom: 8px;
+  border: 1px solid #222a36; border-radius: 12px; background: #10141b; color: inherit; text-decoration: none;
+}
+.sp-story b { display: block; font-size: 15px; }
+.sp-story span { font-size: 12px; color: #8d95a3; }
+.sp-more { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 16px; }
+#sp-tools { margin: 4px 0 16px; }
+#sp-home-head[hidden] { display: none; }
+.sp-more a {
+  padding: 10px 14px; border: 1px solid #222a36; border-radius: 10px; background: #10141b;
+  color: inherit; text-decoration: none; font-weight: 700; font-size: 14px;
+}
+.sp-more a:hover { border-color: #3ddc84; }
+#sp-pane { min-height: 80px; }
+#sp-leagues[hidden], #sp-comp[hidden] { display: none; }
+
+/* Leftover old sports chrome — never show it */
+.spx-back-btn,
+nav.sp-tabs,
+.bsd-chrome,
+.bsd-sec,
+.bsd-panel,
+.bsd-leaguenav,
+.mc-hero,
+[data-comic] { display: none !important; }
+
+.sp-tbl-r.fpl-r {
+  grid-template-columns: 28px 1fr 36px 36px 40px;
+}
+.fpl-why {
+  display: block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  color: #8d95a3;
+}
+
+.sp-easy .prose p { margin: 0 0 14px; color: #d9dde1; }
+.sp-easy .prose h2 { font-size: 18px; margin: 22px 0 8px; }
+.sp-easy .prose ul { margin: 0 0 16px; padding: 0 0 0 18px; color: #d9dde1; }
+.sp-easy .prose li { margin: 0 0 8px; }
+.sp-pick {
+  display: inline-block; margin-top: 8px; padding: 4px 10px; border-radius: 999px;
+  background: #14351f; color: #3ddc84; font-size: 12px; font-weight: 800;
+}
+.sp-fixt .why { margin: 6px 0 0; font-size: 13px; font-weight: 500; color: #8d95a3; }

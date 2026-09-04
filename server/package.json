@@ -1,0 +1,15 @@
+{
+  "name": "bryme-backend",
+  "version": "1.0.0",
+  "description": "BRYME website server — static pages + content API. Telegram is optional and off by default.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node ../tests/telegram-flow.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}

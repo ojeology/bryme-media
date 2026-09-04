@@ -1,0 +1,253 @@
+{
+ "_comment": "ADMIN TRAILER OVERRIDES — edit this file (or use scripts/trailer_admin.py) to control trailers without touching frontend code or the legacy app. Each entry replaces the display candidates for that title. 'candidates' are shown in order after priority sorting; 'excludeTrailers: true' hides all trailers for the title. Fields: videoId (11-char YouTube ID), type (official-trailer | official-teaser | official-clip | fan-made), title (display label), source, channel, verified (bool), lastChecked.",
+ "spirited-away": {
+  "note": "Legacy anime record; legacy/index.html cannot be edited, so the trailer is managed here. Verified 2026-08-12 via oEmbed.",
+  "candidates": [
+   {
+    "videoId": "ByXuk9QqQkk",
+    "type": "official-trailer",
+    "title": "Official Trailer",
+    "source": "YouTube",
+    "channel": "Crunchyroll Store Australia",
+    "verified": true,
+    "lastChecked": "2026-08-12"
+   }
+  ]
+ },
+ "deadpool-2": {
+  "candidates": [
+   {
+    "videoId": "20bpjtCbCz0",
+    "type": "official-trailer",
+    "title": "Official Trailer",
+    "source": "YouTube",
+    "channel": "20th Century Studios",
+    "verified": true,
+    "lastChecked": "2026-08-12"
+   }
+  ]
+ },
+ "the-notebook": {
+  "candidates": [
+   {
+    "videoId": "BjJcYdEOI0k",
+    "type": "official-trailer",
+    "title": "Official Trailer",
+    "source": "YouTube",
+    "channel": "Rotten Tomatoes Classic Trailers",
+    "verified": true,
+    "lastChecked": "2026-08-12"
+   }
+  ]
+ },
+ "omo-ghetto-the-saga": {
+  "note": "Nollywood hit, verified via YouTube 2026-08-17.",
+  "candidates": [
+   {
+    "videoId": "yhuSzTn0ijE",
+    "type": "official-trailer",
+    "title": "Official Trailer",
+    "source": "YouTube",
+    "channel": "FilmOneNG",
+    "verified": true,
+    "lastChecked": "2026-08-17"
+   }
+  ]
+ },
+ "king-of-boys-2": {
+  "note": "Netflix Nollywood sequel, verified via YouTube 2026-08-17.",
+  "candidates": [
+   {
+    "videoId": "i4OeHI3EJuY",
+    "type": "official-trailer",
+    "title": "Official Trailer",
+    "source": "YouTube",
+    "channel": "Netflix",
+    "verified": true,
+    "lastChecked": "2026-08-17"
+   }
+  ]
+ },
+ "rattle-snake-the-ahanna-story": {
+  "note": "Nollywood heist remake, verified via YouTube 2026-08-17.",
+  "candidates": [
+   {
+    "videoId": "fGkINQho588",
+    "type": "official-trailer",
+    "title": "Official Trailer",
+    "source": "YouTube",
+    "channel": "FilmOneNG",
+    "verified": true,
+    "lastChecked": "2026-08-17"
+   }
+  ]
+ },
+ "the-set-up": {
+  "note": "Nollywood thriller, verified via YouTube 2026-08-17.",
+  "candidates": [
+   {
+    "videoId": "4jNBbzK0RX4",
+    "type": "official-trailer",
+    "title": "Official Trailer",
+    "source": "YouTube",
+    "channel": "FilmOneNG",
+    "verified": true,
+    "lastChecked": "2026-08-17"
+   }
+  ]
+ },
+ "ijogbon": {
+  "note": "Kunle Afolayan Nollywood film, verified via YouTube 2026-08-17.",
+  "candidates": [
+   {
+    "videoId": "boEnyPJ6BX4",
+    "type": "official-trailer",
+    "title": "Official Trailer",
+    "source": "YouTube",
+    "channel": "Netflix",
+    "verified": true,
+    "lastChecked": "2026-08-17"
+   }
+  ]
+ },
+ "chief-daddy": {
+  "note": "Nigerian comedy hit, verified via YouTube 2026-08-17.",
+  "candidates": [
+   {
+    "videoId": "hzO2BjNna90",
+    "type": "official-trailer",
+    "title": "Official Trailer",
+    "source": "YouTube",
+    "channel": "FilmOneNG",
+    "verified": true,
+    "lastChecked": "2026-08-17"
+   }
+  ]
+ },
+ "spider-man-brand-new-day": {
+  "note": "Official franchise channel @spiderman. oEmbed + watch page 2026-08-21. Not IGN.",
+  "candidates": [
+   {
+    "videoId": "8TZMtslA3UY",
+    "type": "official-trailer",
+    "title": "Official Trailer",
+    "source": "YouTube",
+    "channel": "Spider-Man",
+    "verified": true,
+    "lastChecked": "2026-08-21"
+   }
+  ]
+ },
+ "paw-patrol-the-dino-movie": {
+  "note": "Paramount Pictures US channel @paramountpictures. Watch page 2026-08-21.",
+  "candidates": [
+   {
+    "videoId": "xgI5iYmOf5Q",
+    "type": "official-trailer",
+    "title": "Official Trailer",
+    "source": "YouTube",
+    "channel": "Paramount Pictures",
+    "verified": true,
+    "lastChecked": "2026-08-21"
+   }
+  ]
+ },
+ "the-end-of-oak-street": {
+  "note": "Warner Bros. India official distributor channel. Final trailer. Watch page 2026-08-21. Not ONE Media.",
+  "candidates": [
+   {
+    "videoId": "x8xFST_qhUs",
+    "type": "official-trailer",
+    "title": "Official Trailer",
+    "source": "YouTube",
+    "channel": "Warner Bros. India",
+    "verified": true,
+    "lastChecked": "2026-08-21"
+   }
+  ]
+ },
+ "katseye-wild-hearts": {
+  "note": "Group's own channel @katseyeworld. Watch page 2026-08-21.",
+  "candidates": [
+   {
+    "videoId": "md5rZb2nEaM",
+    "type": "official-trailer",
+    "title": "Official Trailer",
+    "source": "YouTube",
+    "channel": "KATSEYE",
+    "verified": true,
+    "lastChecked": "2026-08-21"
+   }
+  ]
+ },
+ "vishwanath-and-sons": {
+  "note": "Producer Sithara Entertainments. Tamil trailer. Watch page 2026-08-21. Not dubbed reuploads.",
+  "candidates": [
+   {
+    "videoId": "jZHoM2YhFCY",
+    "type": "official-trailer",
+    "title": "Official Trailer",
+    "source": "YouTube",
+    "channel": "Sithara Entertainments",
+    "verified": true,
+    "lastChecked": "2026-08-21"
+   }
+  ]
+ },
+ "jana-nayagan": {
+  "note": "Producer KVN PRODUCTIONS @KVNPRODUCTIONSOFFICIAL, 3 Jan 2026. Fan 'concept' uploads rejected.",
+  "candidates": [
+   {
+    "videoId": "fJaAYcERf3Y",
+    "type": "official-trailer",
+    "title": "Official Trailer",
+    "source": "YouTube",
+    "channel": "KVN PRODUCTIONS",
+    "verified": true,
+    "lastChecked": "2026-08-21"
+   }
+  ]
+ },
+ "hope-2026": {
+  "note": "NEON US distributor @neonrated. Watch page 2026-08-21. Not FilmSelect / Action Society.",
+  "candidates": [
+   {
+    "videoId": "R5jcEBVBEbQ",
+    "type": "official-trailer",
+    "title": "Official Trailer",
+    "source": "YouTube",
+    "channel": "NEON",
+    "verified": true,
+    "lastChecked": "2026-08-21"
+   }
+  ]
+ },
+ "toy-story-5": {
+  "note": "Pixar official channel. Watch page 2026-08-21.",
+  "candidates": [
+   {
+    "videoId": "c51ND9Hdbw0",
+    "type": "official-trailer",
+    "title": "Official Trailer",
+    "source": "YouTube",
+    "channel": "Pixar",
+    "verified": true,
+    "lastChecked": "2026-08-21"
+   }
+  ]
+ },
+ "call-of-my-life": {
+  "note": "Bluhouse Studios producer channel. Watch page 2026-08-21. Not UPreviews.",
+  "candidates": [
+   {
+    "videoId": "0ZFdiQwx_pM",
+    "type": "official-trailer",
+    "title": "Official Trailer",
+    "source": "YouTube",
+    "channel": "Bluhouse Studios",
+    "verified": true,
+    "lastChecked": "2026-08-21"
+   }
+  ]
+ }
+}

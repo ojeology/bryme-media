@@ -1,0 +1,87 @@
+{
+  "_comment": "Originating network or studio only when BRYME's own catalogue copy or an official studio/network trailer channel already states it. Check links are official homepages labelled Check — never a live catalogue claim. Do not treat a trailer host (IGN, Rotten Tomatoes) as a studio.",
+  "shogun": {
+    "originalNetwork": "FX",
+    "kind": "series",
+    "evidence": "Catalogue description begins \"FX's epic adaptation\"; official trailer channel is FX Networks.",
+    "lead": "FX originals have typically been offered through the FX / Hulu / Disney+ family, depending on country. That is not a live listing.",
+    "check": [
+      {"name": "FX", "url": "https://www.fxnetworks.com"}
+    ]
+  },
+  "house-of-the-dragon": {
+    "originalNetwork": "HBO",
+    "kind": "series",
+    "evidence": "Official trailer channel is HBO Max.",
+    "lead": "HBO originals have typically been offered through Max / HBO in many territories. That is not a live listing.",
+    "check": [
+      {"name": "Max", "url": "https://www.max.com"}
+    ]
+  },
+  "silo": {
+    "originalNetwork": "Apple TV+",
+    "kind": "series",
+    "evidence": "Catalogue description calls it \"Apple TV+'s brilliant dystopian epic\"; official trailer channel is Apple TV.",
+    "lead": "Search the Apple TV app in your country and confirm the title page on the service itself.",
+    "check": [
+      {"name": "Apple TV+", "url": "https://tv.apple.com"}
+    ]
+  },
+  "ted-lasso": {
+    "originalNetwork": "Apple TV+",
+    "kind": "series",
+    "evidence": "Official trailer channel is Apple TV.",
+    "lead": "Search the Apple TV app in your country and confirm the title page on the service itself.",
+    "check": [
+      {"name": "Apple TV+", "url": "https://tv.apple.com"}
+    ]
+  },
+  "inside-out-2": {
+    "originalNetwork": "Pixar",
+    "kind": "movie",
+    "evidence": "Catalogue description and official trailer channel are Pixar.",
+    "lead": "Pixar films are often later offered through the Disney family of licensed services. That is not a live listing.",
+    "check": [
+      {"name": "Disney+", "url": "https://www.disneyplus.com"}
+    ]
+  },
+  "coco": {
+    "originalNetwork": "Pixar",
+    "kind": "movie",
+    "evidence": "Official trailer channel is Pixar.",
+    "lead": "Pixar films are often later offered through the Disney family of licensed services. That is not a live listing.",
+    "check": [
+      {"name": "Disney+", "url": "https://www.disneyplus.com"}
+    ]
+  },
+  "toy-story-5": {
+    "originalNetwork": "Pixar",
+    "kind": "movie",
+    "evidence": "Catalogue description and official trailer channel are Pixar.",
+    "lead": "This title may still be in theatrical or pre-release windows. Confirm on licensed services; do not assume a stream exists yet.",
+    "check": [
+      {"name": "Disney+", "url": "https://www.disneyplus.com"}
+    ]
+  },
+  "deadpool-wolverine": {
+    "originalNetwork": "Marvel",
+    "kind": "movie",
+    "evidence": "Official trailer channel is Marvel Entertainment.",
+    "lead": "Marvel theatrical titles later appear on licensed services that vary by country. Confirm on the service itself.",
+    "check": []
+  },
+  "thor-ragnarok": {
+    "originalNetwork": "Marvel",
+    "kind": "movie",
+    "evidence": "Official trailer channel is Marvel Entertainment.",
+    "lead": "Marvel theatrical titles later appear on licensed services that vary by country. Confirm on the service itself.",
+    "check": []
+  },
+  "avengers-infinity-war": {
+    "originalNetwork": "Marvel",
+    "kind": "movie",
+    "evidence": "Official trailer channel is Marvel Entertainment.",
+    "lead": "Marvel theatrical titles later appear on licensed services that vary by country. Confirm on the service itself.",
+    "check": []
+  }
+}

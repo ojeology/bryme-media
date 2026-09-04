@@ -1,0 +1,59 @@
+{
+ "ok": [
+  {
+   "slug": "encanto",
+   "videoId": "CaimKeDcudo",
+   "channel": "Walt Disney Animation Studios",
+   "videoTitle": "Disney's Encanto | Official Trailer",
+   "type": "official-trailer",
+   "channelClass": "studio",
+   "score": 1.0
+  },
+  {
+   "slug": "the-flash",
+   "videoId": "hebWYacbdvc",
+   "channel": "Warner Bros.",
+   "videoTitle": "The Flash – Official Trailer",
+   "type": "official-trailer",
+   "channelClass": "studio",
+   "score": 1.0
+  },
+  {
+   "slug": "jurassic-world-fallen-kingdom",
+   "videoId": "vn9mMeWcgoM",
+   "channel": "Universal Pictures",
+   "videoTitle": "Jurassic World: Fallen Kingdom - Official Trailer [HD]",
+   "type": "official-trailer",
+   "channelClass": "studio",
+   "score": 1.0
+  },
+  {
+   "slug": "the-witch",
+   "videoId": "iQXmlf3Sefg",
+   "channel": "A24",
+   "videoTitle": "The Witch | Official Trailer HD | A24",
+   "type": "official-trailer",
+   "channelClass": "studio",
+   "score": 1.0
+  },
+  {
+   "slug": "insidious",
+   "videoId": "zuZnRUcoWos",
+   "channel": "Rotten Tomatoes Classic Trailers",
+   "videoTitle": "Insidious (2010) Official Trailer #1 - James Wan Movie HD",
+   "type": "official-trailer",
+   "channelClass": "studio",
+   "score": 1.0
+  },
+  {
+   "slug": "ant-man",
+   "videoId": "pWdKf3MneyI",
+   "channel": "Marvel Entertainment",
+   "videoTitle": "Marvel's Ant-Man - Trailer 1",
+   "type": "official-trailer",
+   "channelClass": "studio",
+   "score": 1.0
+  }
+ ],
+ "rejected": []
+}

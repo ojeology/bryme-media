@@ -1,0 +1,228 @@
+{
+  "_comment": "BRYME SPORTS CONFIG — all page structures live here. No fabricated data: every list (transfers, fixtures, predictions, FPL picks) is empty until real, researched, sourced content is added. Update matchweek/season numbers here when the calendar advances.",
+  "season": "2026/27",
+  "matchweek": 1,
+  "hero": {
+    "kicker": "The Premier League Is Here",
+    "subtitle": "Everything you need to know about the 2026/27 season.",
+    "cards": [
+      {
+        "id": "matchweek-ahead",
+        "tag": "MATCHWEEK AHEAD",
+        "title": "Premier League Matchweek 1: The Opening Round, Confirmed",
+        "desc": "Every opening-round fixture, kick-off time and TV listing. No predictions.",
+        "route": "/sports/premier-league-matchweek-1-guide",
+        "img": "hero-matchweek.jpg"
+      },
+      {
+        "id": "fpl-watch",
+        "tag": "FPL WATCH",
+        "title": "FPL: Who Are the Big Managers Backing?",
+        "desc": "Popular selections, differentials and captaincy talk — every pick identified and sourced.",
+        "route": "/sports/fpl/gameweek-1-players-to-watch",
+        "img": "hero-fpl.jpg"
+      },
+      {
+        "id": "breakout",
+        "tag": "THE THREE WHO CAME UP",
+        "title": "Coventry, Ipswich and Hull Are Premier League Clubs Now",
+        "desc": "Official membership, how they were promoted, and their opening fixtures. Not a survival table.",
+        "route": "/sports/newly-promoted-clubs-approach",
+        "img": "hero-breakout.jpg"
+      },
+      {
+        "id": "injury-report",
+        "tag": "WHO'S IN? WHO'S OUT?",
+        "title": "Premier League Injury & Availability Report",
+        "desc": "Injured, doubtful, suspended, returning and confirmed available — updated frequently.",
+        "route": "/sports/premier-league/injuries-matchweek-1",
+        "img": "hero-injury.jpg"
+      },
+      {
+        "id": "big-matches",
+        "tag": "THE MATCHES YOU CAN'T MISS",
+        "title": "Five Opening-Weekend Matches, and Why They Matter",
+        "desc": "Five fixtures the calendar itself made important — promotion, new managers, the Shield.",
+        "route": "/sports/five-matches-we-cannot-wait-to-watch",
+        "img": "hero-matches.jpg"
+      }
+    ]
+  },
+  "articlePlaceholders": [
+    {
+      "route": "premier-league/matchweek-1-preview",
+      "title": "Premier League Matchweek 1: Everything You Need to Know",
+      "category": "Matchweek Preview",
+      "excerpt": "The complete Matchweek 1 briefing: fixtures, storylines, team news and what to watch. Editorial content is being prepared.",
+      "related": [
+        "premier-league/biggest-matches-matchweek-1",
+        "premier-league/injuries-matchweek-1",
+        "premier-league/players-to-watch-matchweek-1"
+      ]
+    },
+    {
+      "route": "fpl/gameweek-1-players-to-watch",
+      "title": "FPL: Gameweek 1 Players to Watch",
+      "category": "Fantasy Premier League",
+      "excerpt": "Popular picks, differentials and captaincy discussion for Gameweek 1 — every external selection will be identified with its source.",
+      "related": [
+        "fpl/gameweek-1",
+        "premier-league/players-to-watch-matchweek-1",
+        "premier-league/matchweek-1-preview"
+      ]
+    },
+    {
+      "route": "premier-league/players-to-watch-matchweek-1",
+      "title": "5 Players Ready to Make Their Mark in Matchweek 1",
+      "category": "Players",
+      "excerpt": "New signings, breakout candidates and underrated names who could have a major impact this gameweek.",
+      "related": [
+        "premier-league/matchweek-1-preview",
+        "fpl/gameweek-1-players-to-watch",
+        "premier-league/injuries-matchweek-1"
+      ]
+    },
+    {
+      "route": "premier-league/injuries-matchweek-1",
+      "title": "Premier League Injury & Availability Report — Matchweek 1",
+      "category": "Injury & Availability",
+      "excerpt": "Injured, doubtful, suspended, returning and confirmed available players, club by club. Every entry sourced.",
+      "related": [
+        "premier-league/matchweek-1-preview",
+        "premier-league/biggest-matches-matchweek-1",
+        "fpl/gameweek-1"
+      ]
+    },
+    {
+      "route": "premier-league/biggest-matches-matchweek-1",
+      "title": "The Biggest Matches of Matchweek 1",
+      "category": "Match Preview",
+      "excerpt": "The fixtures that can't be missed this gameweek, with the storylines behind each one.",
+      "related": [
+        "premier-league/matchweek-1-preview",
+        "premier-league/matches/",
+        "premier-league/table"
+      ]
+    }
+  ],
+  "transfers": {
+    "disclaimer": "Transfer information changes frequently. This list is updated as new information becomes available and may not include breaking or unannounced developments.",
+    "legend": {
+      "confirmed": "Confirmed",
+      "reported": "Reported",
+      "rumoured": "Rumoured"
+    },
+    "leagues": [
+      {
+        "id": "premier-league",
+        "name": "Premier League",
+        "title": "Premier League Transfers 2026/27"
+      },
+      {
+        "id": "la-liga",
+        "name": "La Liga",
+        "title": "La Liga Transfers 2026/27"
+      },
+      {
+        "id": "serie-a",
+        "name": "Serie A",
+        "title": "Serie A Transfers 2026/27"
+      },
+      {
+        "id": "bundesliga",
+        "name": "Bundesliga",
+        "title": "Bundesliga Transfers 2026/27"
+      },
+      {
+        "id": "ligue-1",
+        "name": "Ligue 1",
+        "title": "Ligue 1 Transfers 2026/27"
+      }
+    ]
+  },
+  "managers": {
+    "title": "Managers In & Out — 2026/27",
+    "note": "Managerial changes are only listed once confirmed by the clubs or widely reported by credible outlets. Sources are always shown.",
+    "leagues": [
+      "Premier League",
+      "La Liga",
+      "Serie A",
+      "Bundesliga",
+      "Ligue 1"
+    ]
+  },
+  "editorialTable": {
+    "title": "BRYME's Matchweek 1 Table Prediction",
+    "label": "BRYME Editorial Prediction — Not the Official League Table",
+    "note": "An editorial projection of how the table might look. It is not the official Premier League table and not a guarantee. After the gameweek completes, this component can be replaced by the official table.",
+    "columns": [
+      "Position",
+      "Team",
+      "Predicted points",
+      "Predicted wins",
+      "Predicted draws",
+      "Predicted losses",
+      "Predicted goal difference"
+    ]
+  },
+  "fpl": {
+    "title": "Fantasy Premier League",
+    "desc": "Gameweek-by-gameweek FPL coverage: players to watch, popular and differential picks, captaincy discussion, fixture difficulty and gameweek reviews.",
+    "sections": [
+      {
+        "id": "players-to-watch",
+        "name": "Gameweek Players to Watch"
+      },
+      {
+        "id": "popular-picks",
+        "name": "Popular Picks"
+      },
+      {
+        "id": "differential-picks",
+        "name": "Differential Picks"
+      },
+      {
+        "id": "captaincy",
+        "name": "Captaincy Discussion"
+      },
+      {
+        "id": "fixture-difficulty",
+        "name": "Fixture Difficulty"
+      },
+      {
+        "id": "injury-updates",
+        "name": "Injury Updates"
+      },
+      {
+        "id": "new-signings",
+        "name": "New Signings to Watch"
+      },
+      {
+        "id": "gameweek-review",
+        "name": "Gameweek Review"
+      }
+    ]
+  },
+  "matchCentre": {
+    "title": "Premier League Matchweek 1",
+    "note": "Matchweek 1 fixtures with dates and kick-off times from the official Premier League fixture release (19 June 2026). All 380 fixtures have their own match page — analysis sections fill in with verified data only; nothing is predicted.",
+    "matchPageSections": [
+      "Match overview",
+      "Recent form",
+      "Head-to-head record",
+      "Last five meetings",
+      "Home/away form",
+      "Key players",
+      "Injuries",
+      "Suspensions",
+      "Expected lineups",
+      "Tactical matchup",
+      "Historical context",
+      "Underdog discussion",
+      "BRYME editorial outlook",
+      "Editorial score prediction",
+      "Match result after the game",
+      "Post-match analysis"
+    ]
+  }
+}

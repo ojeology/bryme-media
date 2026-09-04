@@ -1,0 +1,2619 @@
+{
+ "_comment": "VERIFIED-DATA-ONLY transfer trackers for La Liga, Serie A, Bundesliga and Ligue 1 (2026/27). NOTHING is listed until it is officially confirmed by a club or widely reported by credible outlets — the PL tracker works this way and so do these. Club lists are shells based on the most recent completed season; the 2026/27 composition (promoted/relegated clubs) must be verified before publishing transfers. Paste verified entries into playersIn/playersOut with {player, from/to, type (Confirmed/Loan/Free/Released/Retired/Departed), detail}, manager name + note, rumours (never in confirmed tables), and notes.",
+ "leagues": [
+  {
+   "id": "la-liga",
+   "name": "La Liga",
+   "windowClose": "1 September 2026",
+   "lastUpdated": "13 August 2026",
+   "compositionVerified": true,
+   "sources": [
+    "La Liga Lowdown (Substack)",
+    "LaLiga official site",
+    "Al Jazeera",
+    "Yahoo Sports",
+    "FIFPlay",
+    "betinf.com"
+   ],
+   "clubs": [
+    {
+     "id": "real-madrid",
+     "name": "Real Madrid",
+     "colors": [
+      "#FFFFFF",
+      "#FEBE10",
+      "#00529F"
+     ],
+     "manager": "José Mourinho",
+     "managerNote": "New — second spell, replaced Xabi Alonso mid-season",
+     "playersIn": [
+      {
+       "player": "Yan Diomande",
+       "from": "RB Leipzig",
+       "type": "Confirmed",
+       "detail": "€125m"
+      },
+      {
+       "player": "Marc Cucurella",
+       "from": "Chelsea",
+       "type": "Confirmed",
+       "detail": "€55m"
+      },
+      {
+       "player": "Carlos Espí",
+       "from": "Levante",
+       "type": "Confirmed",
+       "detail": "€25m"
+      },
+      {
+       "player": "Denzel Dumfries",
+       "from": "Inter Milan",
+       "type": "Confirmed",
+       "detail": "€20m"
+      },
+      {
+       "player": "Ibrahima Konaté",
+       "from": "Liverpool",
+       "type": "Free",
+       "detail": "Free transfer"
+      },
+      {
+       "player": "Bernardo Silva",
+       "from": "Manchester City",
+       "type": "Free",
+       "detail": "Free transfer"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Gonzalo García",
+       "to": "Fulham",
+       "type": "Confirmed",
+       "detail": "€40m"
+      },
+      {
+       "player": "César Palacios",
+       "to": "Fulham",
+       "type": "Confirmed",
+       "detail": "€10m"
+      },
+      {
+       "player": "Fran García",
+       "to": "Real Betis",
+       "type": "Confirmed",
+       "detail": "€4m"
+      }
+     ],
+     "rumours": [],
+     "notes": "Mourinho's second spell begins with a statement window: Diomande for €125m and Cucurella for €55m headline the incomings, while Konaté and Bernardo Silva arrive on frees."
+    },
+    {
+     "id": "barcelona",
+     "name": "Barcelona",
+     "colors": [
+      "#A50044",
+      "#004D98",
+      "#EDBB00"
+     ],
+     "manager": "Hansi Flick",
+     "managerNote": "No change",
+     "playersIn": [
+      {
+       "player": "Anthony Gordon",
+       "from": "Newcastle United",
+       "type": "Confirmed",
+       "detail": "€80m"
+      },
+      {
+       "player": "Karim Adeyemi",
+       "from": "Borussia Dortmund",
+       "type": "Confirmed",
+       "detail": "€22m"
+      },
+      {
+       "player": "Jesse Bisiwu",
+       "from": "Club Brugge",
+       "type": "Confirmed",
+       "detail": "€8.5m"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Robert Lewandowski",
+       "to": "Chicago Fire",
+       "type": "Free",
+       "detail": "Free transfer"
+      },
+      {
+       "player": "Ansu Fati",
+       "to": "Monaco",
+       "type": "Confirmed",
+       "detail": "€11m"
+      },
+      {
+       "player": "Ronald Araújo",
+       "to": "Liverpool",
+       "type": "Loan",
+       "detail": "Season-long loan"
+      }
+     ],
+     "rumours": [],
+     "notes": "Gordon's €80m arrival is the marquee deal, while Lewandowski departs on a free to MLS and Araújo heads to Liverpool on loan."
+    },
+    {
+     "id": "atletico-madrid",
+     "name": "Atlético Madrid",
+     "colors": [
+      "#CB3524",
+      "#FFFFFF",
+      "#262E62"
+     ],
+     "manager": "Diego Simeone",
+     "managerNote": "No change — 15th season in charge",
+     "playersIn": [
+      {
+       "player": "Lee Kang-in",
+       "from": "Paris Saint-Germain",
+       "type": "Confirmed",
+       "detail": "€40m"
+      },
+      {
+       "player": "Morten Hjulmand",
+       "from": "Sporting CP",
+       "type": "Confirmed",
+       "detail": "€40m"
+      },
+      {
+       "player": "Alejandro Grimaldo",
+       "from": "Bayer Leverkusen",
+       "type": "Confirmed",
+       "detail": "€22m"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Antoine Griezmann",
+       "to": "Orlando City",
+       "type": "Free",
+       "detail": "Free transfer"
+      },
+      {
+       "player": "Thiago Almada",
+       "to": "River Plate",
+       "type": "Confirmed",
+       "detail": "€20m"
+      }
+     ],
+     "rumours": [],
+     "notes": "Simeone's 15th season brings a new creative core: Lee Kang-in and Hjulmand join for €40m each, while Griezmann's era ends with a free move to Orlando City."
+    },
+    {
+     "id": "villarreal",
+     "name": "Villarreal",
+     "colors": [
+      "#FFE667",
+      "#005187",
+      "#FFFFFF"
+     ],
+     "manager": "Íñigo Pérez",
+     "managerNote": "New — replaced Marcelino García Toral, who left after a contract dispute; Pérez guided Rayo Vallecano to last season's Conference League final",
+     "playersIn": [
+      {
+       "player": "Péter Gulácsi",
+       "from": "RB Leipzig",
+       "type": "Confirmed",
+       "detail": "€2m"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Ramón Terrats",
+       "to": "Getafe",
+       "type": "Confirmed",
+       "detail": "€2.5m"
+      },
+      {
+       "player": "Arnau Tenas",
+       "to": "Mallorca",
+       "type": "Loan",
+       "detail": "Loan"
+      }
+     ],
+     "rumours": [],
+     "notes": "Pérez arrives from Rayo after a Conference League final run, with Gulácsi adding experience in goal."
+    },
+    {
+     "id": "athletic-bilbao",
+     "name": "Athletic Club",
+     "colors": [
+      "#EE2523",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Edin Terzić",
+     "managerNote": "New",
+     "playersIn": [],
+     "playersOut": [
+      {
+       "player": "Unai Gómez",
+       "to": "Udinese",
+       "type": "Confirmed",
+       "detail": "€4.5m"
+      },
+      {
+       "player": "Urko Izeta",
+       "to": "Cádiz",
+       "type": "Confirmed",
+       "detail": "€1.5m"
+      },
+      {
+       "player": "Mikel Vesga",
+       "to": "Almería",
+       "type": "Free",
+       "detail": "Free transfer"
+      }
+     ],
+     "rumours": [],
+     "notes": "Terzić takes over with no confirmed arrivals yet — departures so far are modest, with Vesga leaving on a free."
+    },
+    {
+     "id": "real-betis",
+     "name": "Real Betis",
+     "colors": [
+      "#00954C",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Manuel Pellegrini",
+     "managerNote": "No change",
+     "playersIn": [
+      {
+       "player": "Facundo Bernal",
+       "from": "Fluminense",
+       "type": "Confirmed",
+       "detail": "€10.5m"
+      },
+      {
+       "player": "Fran García",
+       "from": "Real Madrid",
+       "type": "Confirmed",
+       "detail": "€4m"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Sergi Altimira",
+       "to": "Sporting Lisbon",
+       "type": "Confirmed",
+       "detail": "€18.3m"
+      },
+      {
+       "player": "Nobel Mendy",
+       "to": "Rayo Vallecano",
+       "type": "Confirmed",
+       "detail": "€3.5m"
+      }
+     ],
+     "rumours": [],
+     "notes": "Pellegrini rebuilds with Bernal and Fran García, with Altimira's €18.3m exit the biggest outgoing."
+    },
+    {
+     "id": "real-sociedad",
+     "name": "Real Sociedad",
+     "colors": [
+      "#0067B1",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Pellegrino Matarazzo",
+     "managerNote": "New",
+     "playersIn": [
+      {
+       "player": "Kazunari Kita",
+       "from": "Kyoto Sanga",
+       "type": "Confirmed",
+       "detail": "€1.5m"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Brais Méndez",
+       "to": "Columbus Crew",
+       "type": "Confirmed",
+       "detail": "€6m"
+      },
+      {
+       "player": "Carlos Fernández",
+       "to": "Real Oviedo",
+       "type": "Confirmed",
+       "detail": "Undisclosed"
+      }
+     ],
+     "rumours": [],
+     "notes": "Matarazzo's first window is quiet so far, with Méndez's move to MLS the headline departure."
+    },
+    {
+     "id": "sevilla",
+     "name": "Sevilla",
+     "colors": [
+      "#FFFFFF",
+      "#D81E2C",
+      "#111111"
+     ],
+     "manager": "Luis García Plaza",
+     "managerNote": "New — arrived from Alavés",
+     "playersIn": [
+      {
+       "player": "Robbie Ure",
+       "from": "Sirius",
+       "type": "Confirmed",
+       "detail": "€6.5m"
+      },
+      {
+       "player": "Julio Díaz",
+       "from": "Atlético Madrid",
+       "type": "Confirmed",
+       "detail": "€1m"
+      },
+      {
+       "player": "Jon Guridi",
+       "from": "Alavés",
+       "type": "Free",
+       "detail": "Free transfer"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Juanlu Sánchez",
+       "to": "Bournemouth",
+       "type": "Confirmed",
+       "detail": "€11m"
+      },
+      {
+       "player": "Akor Adams",
+       "to": "Venezia",
+       "type": "Confirmed",
+       "detail": "€16m"
+      },
+      {
+       "player": "César Azpilicueta",
+       "to": "—",
+       "type": "Retired",
+       "detail": "Retired"
+      }
+     ],
+     "rumours": [],
+     "notes": "Luis García Plaza brings Guridi with him from Alavés, while Azpilicueta retires after a storied career."
+    },
+    {
+     "id": "valencia",
+     "name": "Valencia",
+     "colors": [
+      "#EE7F00",
+      "#111111",
+      "#FFFFFF"
+     ],
+     "manager": "Carlos Corberán",
+     "managerNote": "No change — in charge since 2024",
+     "playersIn": [
+      {
+       "player": "Ryunosuke Sato",
+       "from": "FC Tokyo",
+       "type": "Confirmed",
+       "detail": "€4m"
+      },
+      {
+       "player": "Aliou Deng",
+       "from": "Al Ahly",
+       "type": "Confirmed",
+       "detail": "€500k"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Cenk Özkacar",
+       "to": "Trabzonspor",
+       "type": "Confirmed",
+       "detail": "€1.8m"
+      },
+      {
+       "player": "Baptiste Santamaría",
+       "to": "PAOK",
+       "type": "Free",
+       "detail": "Free transfer"
+      }
+     ],
+     "rumours": [],
+     "notes": "Corberán continues the rebuild with two low-cost additions in Sato and Deng."
+    },
+    {
+     "id": "getafe",
+     "name": "Getafe",
+     "colors": [
+      "#003DA5",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "José Bordalás",
+     "managerNote": "No change — in charge since 2023",
+     "playersIn": [
+      {
+       "player": "Martín Satriano",
+       "from": "Lyon",
+       "type": "Confirmed",
+       "detail": "€6.5m"
+      },
+      {
+       "player": "Zaid Romero",
+       "from": "Club Brugge",
+       "type": "Confirmed",
+       "detail": "€5m"
+      },
+      {
+       "player": "Mario Martín",
+       "from": "Real Madrid",
+       "type": "Confirmed",
+       "detail": "€3.5m"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Luis Milla",
+       "to": "Como",
+       "type": "Confirmed",
+       "detail": "€6m"
+      },
+      {
+       "player": "Mauro Arambarri",
+       "to": "River Plate",
+       "type": "Confirmed",
+       "detail": "€3m"
+      }
+     ],
+     "rumours": [],
+     "notes": "Bordalás adds Satriano and Romero while two key midfielders depart."
+    },
+    {
+     "id": "osasuna",
+     "name": "Osasuna",
+     "colors": [
+      "#D91A21",
+      "#0B1F3A",
+      "#FFFFFF"
+     ],
+     "manager": "Luis Miguel Ramis",
+     "managerNote": "New — arrived from Espanyol",
+     "playersIn": [
+      {
+       "player": "Jonathan Dubasin",
+       "from": "Sporting Gijón",
+       "type": "Confirmed",
+       "detail": "€4m"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Víctor Muñoz",
+       "to": "Liverpool",
+       "type": "Confirmed",
+       "detail": "€40m"
+      },
+      {
+       "player": "Javi Galán",
+       "to": "Celta Vigo",
+       "type": "Free",
+       "detail": "Free transfer"
+      }
+     ],
+     "rumours": [],
+     "notes": "Muñoz's €40m move to Liverpool is the club-record sale that funds Ramis' rebuild."
+    },
+    {
+     "id": "rayo-vallecano",
+     "name": "Rayo Vallecano",
+     "colors": [
+      "#FFFFFF",
+      "#E30613",
+      "#111111"
+     ],
+     "manager": "Beñat San José",
+     "managerNote": "New — arrived from SD Eibar, replaced Íñigo Pérez who left for Villarreal",
+     "playersIn": [
+      {
+       "player": "Nobel Mendy",
+       "from": "Real Betis",
+       "type": "Confirmed",
+       "detail": "€3.5m"
+      },
+      {
+       "player": "Jozhua Vertrouwd",
+       "from": "Castellón",
+       "type": "Confirmed",
+       "detail": "€1.5m"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Pacha Espino",
+       "to": "Racing Club",
+       "type": "Free",
+       "detail": "Free transfer"
+      },
+      {
+       "player": "Óscar Trejo",
+       "to": "—",
+       "type": "Retired",
+       "detail": "Retired"
+      }
+     ],
+     "rumours": [],
+     "notes": "San José replaces Pérez, and club icon Óscar Trejo retires."
+    },
+    {
+     "id": "celta-vigo",
+     "name": "Celta Vigo",
+     "colors": [
+      "#90BEEF",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Claudio Giráldez",
+     "managerNote": "No change — in charge since 2024",
+     "playersIn": [
+      {
+       "player": "Javi Galán",
+       "from": "Osasuna",
+       "type": "Free",
+       "detail": "Free transfer"
+      },
+      {
+       "player": "Aleix Febas",
+       "from": "Elche",
+       "type": "Free",
+       "detail": "Free transfer"
+      },
+      {
+       "player": "Altay Bayindir",
+       "from": "Manchester United",
+       "type": "Loan",
+       "detail": "Loan"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Óscar Mingueza",
+       "to": "Crystal Palace",
+       "type": "Free",
+       "detail": "Free transfer"
+      },
+      {
+       "player": "Unai Núñez",
+       "to": "Espanyol",
+       "type": "Loan",
+       "detail": "Loan"
+      }
+     ],
+     "rumours": [],
+     "notes": "Three free/low-cost additions strengthen Celta, with Bayindir arriving on loan from United."
+    },
+    {
+     "id": "espanyol",
+     "name": "Espanyol",
+     "colors": [
+      "#007FC8",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Manolo González",
+     "managerNote": "No change — in charge since 2024",
+     "playersIn": [
+      {
+       "player": "Álex Calatrava",
+       "from": "Castellón",
+       "type": "Confirmed",
+       "detail": "€5m"
+      },
+      {
+       "player": "Gabriel Moscardo",
+       "from": "Paris Saint-Germain",
+       "type": "Loan",
+       "detail": "Loan"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Lluc Castell",
+       "to": "Burnley",
+       "type": "Confirmed",
+       "detail": "Undisclosed"
+      },
+      {
+       "player": "Antoniu Roca",
+       "to": "Mallorca",
+       "type": "Loan",
+       "detail": "Loan"
+      }
+     ],
+     "rumours": [],
+     "notes": "Moscardo's loan from PSG is the eye-catching move, with Calatrava arriving permanently."
+    },
+    {
+     "id": "elche",
+     "name": "Elche",
+     "colors": [
+      "#00843D",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Eder Sarabia",
+     "managerNote": "No change — in charge since 2024",
+     "playersIn": [
+      {
+       "player": "Buba Sangaré",
+       "from": "Roma",
+       "type": "Confirmed",
+       "detail": "€4.5m"
+      },
+      {
+       "player": "Fer Niño",
+       "from": "Burgos",
+       "type": "Confirmed",
+       "detail": "€4m"
+      },
+      {
+       "player": "Facundo Buonanotte",
+       "from": "Brighton",
+       "type": "Loan",
+       "detail": "Loan"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Álvaro Rodríguez",
+       "to": "Bournemouth",
+       "type": "Confirmed",
+       "detail": "€25m"
+      },
+      {
+       "player": "André Silva",
+       "to": "Porto",
+       "type": "Free",
+       "detail": "Free transfer"
+      }
+     ],
+     "rumours": [],
+     "notes": "Rodríguez's €25m sale to Bournemouth funds a trio of additions including Buonanotte on loan."
+    },
+    {
+     "id": "levante",
+     "name": "Levante",
+     "colors": [
+      "#004C97",
+      "#E30613",
+      "#FFFFFF"
+     ],
+     "manager": "Luís Castro",
+     "managerNote": "No change — in charge since 2025",
+     "playersIn": [
+      {
+       "player": "Yanis Musayi",
+       "from": "Club Brugge",
+       "type": "Confirmed",
+       "detail": "€3m"
+      },
+      {
+       "player": "Aïssa Mandi",
+       "from": "Lille",
+       "type": "Free",
+       "detail": "Free transfer"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Carlos Espí",
+       "to": "Real Madrid",
+       "type": "Confirmed",
+       "detail": "€25m"
+      },
+      {
+       "player": "Edgar Alcañiz",
+       "to": "Atlético Madrid",
+       "type": "Confirmed",
+       "detail": "Undisclosed"
+      }
+     ],
+     "rumours": [],
+     "notes": "Espí's €25m move to Real Madrid is a club-record sale for Levante."
+    },
+    {
+     "id": "alaves",
+     "name": "Alavés",
+     "colors": [
+      "#0E4C96",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Quique Sánchez Flores",
+     "managerNote": "New — arrived from Sevilla",
+     "playersIn": [
+      {
+       "player": "Miguel Rodríguez",
+       "from": "Utrecht",
+       "type": "Confirmed",
+       "detail": "€5m"
+      },
+      {
+       "player": "Nicolás Valentini",
+       "from": "Fiorentina",
+       "type": "Confirmed",
+       "detail": "€3m"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Victor Parada",
+       "to": "Spartak Moscow",
+       "type": "Confirmed",
+       "detail": "€5m"
+      },
+      {
+       "player": "Jon Guridi",
+       "to": "Sevilla",
+       "type": "Free",
+       "detail": "Free transfer"
+      }
+     ],
+     "rumours": [],
+     "notes": "Sánchez Flores returns after his Sevilla spell, with two additions and Guridi's free exit."
+    },
+    {
+     "id": "deportivo",
+     "name": "Deportivo de La Coruña",
+     "colors": [
+      "#005CBF",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Antonio Hidalgo",
+     "managerNote": "No change — led the promotion campaign, arrived 2025 from SD Huesca",
+     "playersIn": [
+      {
+       "player": "Leo Román",
+       "from": "Mallorca",
+       "type": "Confirmed",
+       "detail": "€9m"
+      },
+      {
+       "player": "Bright Ede",
+       "from": "Motor Lublin",
+       "type": "Confirmed",
+       "detail": "€6m"
+      },
+      {
+       "player": "Jonathan Asp Jensen",
+       "from": "Bayern Munich",
+       "type": "Confirmed",
+       "detail": "€6m"
+      },
+      {
+       "player": "Pierre-Emerick Aubameyang",
+       "from": "Marseille",
+       "type": "Confirmed",
+       "detail": "€1.5m"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Luis Chacón",
+       "to": "Real Valladolid",
+       "type": "Confirmed",
+       "detail": "€500k"
+      }
+     ],
+     "rumours": [],
+     "notes": "Promoted Depor mean business: Aubameyang arrives for €1.5m to lead the line after promotion."
+    },
+    {
+     "id": "racing",
+     "name": "Real Racing Club",
+     "colors": [
+      "#009A44",
+      "#111111",
+      "#FFFFFF"
+     ],
+     "manager": "José Alberto López",
+     "managerNote": "No change — in charge since 2022, led the promotion",
+     "playersIn": [
+      {
+       "player": "Facundo González",
+       "from": "Juventus",
+       "type": "Confirmed",
+       "detail": "€2.5m"
+      },
+      {
+       "player": "Asier Villalibre",
+       "from": "Alavés",
+       "type": "Confirmed",
+       "detail": "€1m"
+      },
+      {
+       "player": "Sergio Canales",
+       "from": "Monterrey",
+       "type": "Free",
+       "detail": "Free transfer"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Suleiman Camara",
+       "to": "Slovan Bratislava",
+       "type": "Confirmed",
+       "detail": "€1m"
+      }
+     ],
+     "rumours": [],
+     "notes": "Canales returning to Spanish football on a free is the standout signing for the promoted side."
+    },
+    {
+     "id": "malaga",
+     "name": "Málaga",
+     "colors": [
+      "#0B7BB5",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Juanfran Funes",
+     "managerNote": "No change — in charge since 2025, led the promotion",
+     "playersIn": [
+      {
+       "player": "Fernando Calero",
+       "from": "Espanyol",
+       "type": "Free",
+       "detail": "Free transfer"
+      },
+      {
+       "player": "José Salinas",
+       "from": "Espanyol",
+       "type": "Loan",
+       "detail": "Loan"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Luismi",
+       "to": "—",
+       "type": "Retired",
+       "detail": "Retired"
+      }
+     ],
+     "rumours": [],
+     "notes": "Málaga's return to the top flight is marked by Calero arriving on a free and Luismi retiring."
+    }
+   ]
+  },
+  {
+   "id": "serie-a",
+   "name": "Serie A",
+   "windowClose": "1 September 2026 (20:00 CET)",
+   "lastUpdated": "13 August 2026",
+   "compositionVerified": true,
+   "sources": [
+    "Football Italia",
+    "Lega Serie A official",
+    "Sky Sport Italia",
+    "betinf.com",
+    "Tribuna.com",
+    "GetFootballNewsItaly",
+    "Yahoo Sports"
+   ],
+   "leagueNote": "Nine clubs changed head coach this summer: Napoli, Milan, Atalanta, Bologna, Fiorentina, Lazio, Sassuolo, Torino and Monza.",
+   "clubs": [
+    {
+     "id": "napoli",
+     "name": "Napoli",
+     "colors": [
+      "#00A2E8",
+      "#FFFFFF",
+      "#003366"
+     ],
+     "manager": "Massimiliano Allegri",
+     "managerNote": "New — replaced Antonio Conte, who left after two title-challenging seasons; contract to June 2029",
+     "playersIn": [],
+     "playersOut": [],
+     "rumours": [
+      "Alexis Saelemaekers (Milan) — linked",
+      "Gabriel Jesus (Manchester United) — linked, low probability",
+      "Romelu Lukaku — Napoli have rejected a Fenerbahçe bid to keep him"
+     ],
+     "notes": "No major permanent signings confirmed yet — Allegri was only appointed on 3 June, so business is expected to accelerate."
+    },
+    {
+     "id": "inter",
+     "name": "Inter Milan",
+     "colors": [
+      "#111111",
+      "#0068A8",
+      "#FFFFFF"
+     ],
+     "manager": "Cristian Chivu",
+     "managerNote": "No change — contract extended to 2028 after winning the title",
+     "playersIn": [
+      {
+       "player": "John Stones",
+       "from": "Manchester City",
+       "type": "Free",
+       "detail": "Free transfer"
+      },
+      {
+       "player": "Djed Spence",
+       "from": "Tottenham Hotspur",
+       "type": "Confirmed",
+       "detail": "~€31.5m + add-ons"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Marco Palestra",
+       "to": "Chelsea",
+       "type": "Confirmed",
+       "detail": "Fee not disclosed"
+      },
+      {
+       "player": "Denzel Dumfries",
+       "to": "Real Madrid",
+       "type": "Free",
+       "detail": "Free transfer — replacement still being sought"
+      }
+     ],
+     "rumours": [],
+     "notes": "Title-winning Chivu adds Stones on a free and Spence from Spurs, but still needs to replace Dumfries."
+    },
+    {
+     "id": "milan",
+     "name": "AC Milan",
+     "colors": [
+      "#FB090B",
+      "#111111",
+      "#FFFFFF"
+     ],
+     "manager": "Ruben Amorim",
+     "managerNote": "New — three-year deal to 2029",
+     "playersIn": [
+      {
+       "player": "Gonçalo Ramos",
+       "from": "Paris Saint-Germain",
+       "type": "Confirmed",
+       "detail": "~€74m"
+      },
+      {
+       "player": "Mario Gila",
+       "from": "Lazio",
+       "type": "Confirmed",
+       "detail": "€30m"
+      },
+      {
+       "player": "Sankhoun Diawara",
+       "from": "Troyes",
+       "type": "Confirmed",
+       "detail": "€2m"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Alvaro Morata",
+       "to": "Como",
+       "type": "Confirmed",
+       "detail": "€12m"
+      },
+      {
+       "player": "Alex Jiménez",
+       "to": "Bournemouth",
+       "type": "Confirmed",
+       "detail": "€19m"
+      },
+      {
+       "player": "Lorenzo Colombo",
+       "to": "Genoa",
+       "type": "Confirmed",
+       "detail": "€7m"
+      },
+      {
+       "player": "Tommaso Pobega",
+       "to": "Bologna",
+       "type": "Confirmed",
+       "detail": "€7m"
+      },
+      {
+       "player": "Ismael Bennacer",
+       "to": "—",
+       "type": "Released",
+       "detail": "Released — destination not confirmed"
+      }
+     ],
+     "rumours": [],
+     "notes": "Amorim's arrival is marked by the ~€74m signing of Gonçalo Ramos. Luka Modrić has extended his contract by one year — a renewal, not a transfer."
+    },
+    {
+     "id": "juventus",
+     "name": "Juventus",
+     "colors": [
+      "#111111",
+      "#FFFFFF",
+      "#7A7A7A"
+     ],
+     "manager": "Luciano Spalletti",
+     "managerNote": "No change — contract to 2028",
+     "playersIn": [
+      {
+       "player": "Jeff Ekahtor",
+       "from": "Genoa",
+       "type": "Confirmed",
+       "detail": "€16m"
+      },
+      {
+       "player": "Randal Kolo Muani",
+       "from": "Paris Saint-Germain",
+       "type": "Confirmed",
+       "detail": "Permanent after loan"
+      },
+      {
+       "player": "Kerim Alajbegovic",
+       "from": "Bayer Leverkusen",
+       "type": "Confirmed",
+       "detail": "Contract to 2031"
+      }
+     ],
+     "playersOut": [],
+     "rumours": [
+      "Dušan Vlahović — contract talks stalled; Chelsea linked"
+     ],
+     "notes": "Kolo Muani's loan becomes permanent, and Ekahtor arrives from Genoa for €16m."
+    },
+    {
+     "id": "roma",
+     "name": "Roma",
+     "colors": [
+      "#8E1F2F",
+      "#F0BC42",
+      "#FFFFFF"
+     ],
+     "manager": "Gian Piero Gasperini",
+     "managerNote": "No change — leads Roma into the Champions League after a 3rd-place finish",
+     "playersIn": [
+      {
+       "player": "Santiago Castro",
+       "from": "Bologna",
+       "type": "Confirmed",
+       "detail": "~€35m"
+      },
+      {
+       "player": "Konstantinos Koulierakis",
+       "from": "Wolfsburg",
+       "type": "Confirmed",
+       "detail": "€15m"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Artem Dovbyk",
+       "to": "Bologna",
+       "type": "Confirmed",
+       "detail": "Part of the Castro swap"
+      }
+     ],
+     "rumours": [
+      "Antonio Nusa (RB Leipzig) — linked",
+      "Mason Greenwood (Marseille) — linked",
+      "Rodrigo Mora (Porto) — linked"
+     ],
+     "notes": "Castro arrives from Bologna for ~€35m with Dovbyk heading the other way as part of the deal."
+    },
+    {
+     "id": "atalanta",
+     "name": "Atalanta",
+     "colors": [
+      "#0B4FA6",
+      "#111111",
+      "#FFFFFF"
+     ],
+     "manager": "Maurizio Sarri",
+     "managerNote": "New — reunites with sporting director Cristiano Giuntoli, three-year deal",
+     "playersIn": [],
+     "playersOut": [
+      {
+       "player": "Berat Djimsiti",
+       "to": "Al Diriyah",
+       "type": "Confirmed",
+       "detail": "Fee not disclosed"
+      }
+     ],
+     "rumours": [
+      "Daniel Maldini — loan to Cagliari linked",
+      "El Bilal Touré — loan to Parma linked",
+      "Giorgio Scalvini — Newcastle interest reported"
+     ],
+     "notes": "Sarri takes over from Gasperini, whose era ended with a third-place finish."
+    },
+    {
+     "id": "bologna",
+     "name": "Bologna",
+     "colors": [
+      "#A11C22",
+      "#1B458F",
+      "#FFFFFF"
+     ],
+     "manager": "Domenico Tedesco",
+     "managerNote": "New — returns to club football after the Belgium national team role",
+     "playersIn": [
+      {
+       "player": "Artem Dovbyk",
+       "from": "Roma",
+       "type": "Confirmed",
+       "detail": "Part of the Castro swap"
+      },
+      {
+       "player": "Mikel Amondarain",
+       "from": "Estudiantes",
+       "type": "Confirmed",
+       "detail": "Contract to 2031"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Santiago Castro",
+       "to": "Roma",
+       "type": "Confirmed",
+       "detail": "~€35m"
+      }
+     ],
+     "rumours": [],
+     "notes": "Tedesco's return to club football sees Castro leave for Roma with Dovbyk arriving in the swap. Tommaso Pobega also arrived from Milan (€7m)."
+    },
+    {
+     "id": "fiorentina",
+     "name": "Fiorentina",
+     "colors": [
+      "#582C83",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Fabio Grosso",
+     "managerNote": "New",
+     "playersIn": [
+      {
+       "player": "Franco Mastantuono",
+       "from": "Real Madrid",
+       "type": "Loan",
+       "detail": "Season-long loan"
+      },
+      {
+       "player": "Victor Valdepeñas Talavera",
+       "from": "Real Madrid",
+       "type": "Confirmed",
+       "detail": "Permanent"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Simon Sohm",
+       "to": "—",
+       "type": "Loan",
+       "detail": "Loan out — destination not disclosed"
+      },
+      {
+       "player": "Lorenzo Lucchesi",
+       "to": "—",
+       "type": "Confirmed",
+       "detail": "€1m"
+      },
+      {
+       "player": "Matías Moreno",
+       "to": "—",
+       "type": "Loan",
+       "detail": "Loan out — destination not disclosed"
+      }
+     ],
+     "rumours": [],
+     "notes": "Grosso's first window includes two Real Madrid additions. The club has stated Moise Kean is not for sale this window."
+    },
+    {
+     "id": "como",
+     "name": "Como",
+     "colors": [
+      "#2E4E9E",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Cesc Fàbregas",
+     "managerNote": "No change — first Champions League qualification in club history",
+     "playersIn": [
+      {
+       "player": "Trevoh Chalobah",
+       "from": "Chelsea",
+       "type": "Confirmed",
+       "detail": "~£25.7m + £5.1m add-ons"
+      },
+      {
+       "player": "Alvaro Morata",
+       "from": "AC Milan",
+       "type": "Confirmed",
+       "detail": "€12m"
+      }
+     ],
+     "playersOut": [],
+     "rumours": [],
+     "notes": "Champions League football brings statement signings: Chalobah and Morata both arrive."
+    },
+    {
+     "id": "genoa",
+     "name": "Genoa",
+     "colors": [
+      "#C4102B",
+      "#1B3E91",
+      "#FFFFFF"
+     ],
+     "manager": "Daniele De Rossi",
+     "managerNote": "No change",
+     "playersIn": [
+      {
+       "player": "Lorenzo Colombo",
+       "from": "AC Milan",
+       "type": "Confirmed",
+       "detail": "€7m — contract to 2029"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Jeff Ekahtor",
+       "to": "Juventus",
+       "type": "Confirmed",
+       "detail": "€16m"
+      }
+     ],
+     "rumours": [],
+     "notes": "Colombo returns permanently from Milan as Ekahtor departs for Juventus."
+    },
+    {
+     "id": "lazio",
+     "name": "Lazio",
+     "colors": [
+      "#87D8F7",
+      "#FFFFFF",
+      "#0055A4"
+     ],
+     "manager": "Gennaro Gattuso",
+     "managerNote": "New — replaced Maurizio Sarri, three-year deal",
+     "playersIn": [],
+     "playersOut": [
+      {
+       "player": "Mario Gila",
+       "to": "AC Milan",
+       "type": "Confirmed",
+       "detail": "€30m"
+      }
+     ],
+     "rumours": [
+      "Alessio Romagnoli — departure \"seems inevitable\" amid a reported relationship breakdown",
+      "Fabio Miretti — enquiry made to Juventus"
+     ],
+     "notes": "Gattuso replaces Sarri, with Gila's €30m exit to Milan the headline outgoing."
+    },
+    {
+     "id": "sassuolo",
+     "name": "Sassuolo",
+     "colors": [
+      "#0F3D25",
+      "#00A651",
+      "#FFFFFF"
+     ],
+     "manager": "Alberto Aquilani",
+     "managerNote": "New",
+     "playersIn": [],
+     "playersOut": [
+      {
+       "player": "Agustín Álvarez",
+       "to": "Talleres",
+       "type": "Confirmed",
+       "detail": "Confirmed complete"
+      }
+     ],
+     "rumours": [],
+     "notes": "Aquilani's first window has one confirmed departure so far."
+    },
+    {
+     "id": "torino",
+     "name": "Torino",
+     "colors": [
+      "#9B1B30",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Ignazio Abate",
+     "managerNote": "New",
+     "playersIn": [],
+     "playersOut": [],
+     "rumours": [
+      "Alieu Njie and Gvidas Gineitis — both drawing interest from RB Salzburg (~£20m for the pair)"
+     ],
+     "notes": "Abate takes over with the club monitoring interest in two of its young stars."
+    },
+    {
+     "id": "udinese",
+     "name": "Udinese",
+     "colors": [
+      "#111111",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Kosta Runjaić",
+     "managerNote": "No change",
+     "playersIn": [],
+     "playersOut": [],
+     "rumours": [],
+     "notes": "No major confirmed transfers found yet for this snapshot."
+    },
+    {
+     "id": "cagliari",
+     "name": "Cagliari",
+     "colors": [
+      "#A32638",
+      "#1B3E91",
+      "#FFFFFF"
+     ],
+     "manager": "Fabio Pisacane",
+     "managerNote": "No change",
+     "playersIn": [],
+     "playersOut": [],
+     "rumours": [
+      "Daniel Maldini — loan from Atalanta linked"
+     ],
+     "notes": "No major confirmed transfers found yet for this snapshot."
+    },
+    {
+     "id": "lecce",
+     "name": "Lecce",
+     "colors": [
+      "#FFD100",
+      "#E30613",
+      "#FFFFFF"
+     ],
+     "manager": "Eusebio Di Francesco",
+     "managerNote": "No change — contract auto-renewed to 2027 after securing survival, then extended to 2028",
+     "playersIn": [],
+     "playersOut": [],
+     "rumours": [],
+     "notes": "No major confirmed transfers found yet for this snapshot."
+    },
+    {
+     "id": "parma",
+     "name": "Parma",
+     "colors": [
+      "#FFD100",
+      "#0055A4",
+      "#FFFFFF"
+     ],
+     "manager": "Carlos Cuesta",
+     "managerNote": "No change",
+     "playersIn": [],
+     "playersOut": [],
+     "rumours": [
+      "El Bilal Touré — loan from Atalanta linked",
+      "David Romero (Tigre) — linked"
+     ],
+     "notes": "No major confirmed transfers found yet for this snapshot."
+    },
+    {
+     "id": "venezia",
+     "name": "Venezia",
+     "colors": [
+      "#F7941D",
+      "#0B3D2E",
+      "#111111"
+     ],
+     "manager": "Giovanni Stroppa",
+     "managerNote": "No change — led the promotion campaign",
+     "playersIn": [
+      {
+       "player": "Akor Adams",
+       "from": "Sevilla",
+       "type": "Confirmed",
+       "detail": "€16m — four-year deal, club-record fee"
+      }
+     ],
+     "playersOut": [],
+     "rumours": [],
+     "notes": "Promoted Venezia make Akor Adams their club-record signing at €16m."
+    },
+    {
+     "id": "monza",
+     "name": "Monza",
+     "colors": [
+      "#E91E2C",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Ivan Juric",
+     "managerNote": "New",
+     "playersIn": [],
+     "playersOut": [],
+     "rumours": [],
+     "notes": "No major confirmed transfers found yet for this snapshot."
+    },
+    {
+     "id": "frosinone",
+     "name": "Frosinone",
+     "colors": [
+      "#FFD100",
+      "#005CA9",
+      "#FFFFFF"
+     ],
+     "manager": "Massimiliano Alvini",
+     "managerNote": "New — led the promotion campaign; second Serie A stint after Cremonese in 2022/23",
+     "playersIn": [],
+     "playersOut": [],
+     "rumours": [],
+     "notes": "No major confirmed transfers found yet for this snapshot."
+    }
+   ]
+  },
+  {
+   "id": "bundesliga",
+   "name": "Bundesliga",
+   "windowClose": "1 September 2026",
+   "lastUpdated": "13 August 2026",
+   "compositionVerified": true,
+   "sources": [
+    "Bundesliga.com official transfer centre",
+    "betinf.com",
+    "Bavarian Football Works",
+    "Wikipedia (List of German football transfers summer 2026)",
+    "90min.de",
+    "Sky Sport Germany"
+   ],
+   "clubs": [
+    {
+     "id": "bayern",
+     "name": "Bayern Munich",
+     "colors": [
+      "#DC052D",
+      "#FFFFFF",
+      "#0066B2"
+     ],
+     "manager": "Vincent Kompany",
+     "managerNote": "No change — contract to 2029; last season set the Bundesliga record for goals scored in a campaign (122) and won the domestic double",
+     "playersIn": [
+      {
+       "player": "Ismael Saibari",
+       "from": "PSV Eindhoven",
+       "type": "Confirmed",
+       "detail": "~€55m"
+      },
+      {
+       "player": "Nathaniel Brown",
+       "from": "Eintracht Frankfurt",
+       "type": "Confirmed",
+       "detail": "~€50m"
+      },
+      {
+       "player": "Bara Sapoko Ndiaye",
+       "from": "Gambios Stars",
+       "type": "Confirmed",
+       "detail": "Near-finalized"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Jonah Kusi-Asare",
+       "to": "Fulham",
+       "type": "Confirmed",
+       "detail": "Fee not disclosed"
+      },
+      {
+       "player": "Maurice Krattenmacher",
+       "to": "St. Pauli",
+       "type": "Confirmed",
+       "detail": "Fee not disclosed"
+      },
+      {
+       "player": "Noel Aseko Nkili",
+       "to": "Eintracht Frankfurt",
+       "type": "Confirmed",
+       "detail": "~€12m"
+      }
+     ],
+     "rumours": [],
+     "notes": "Kompany's champions add Saibari and Brown for a combined ~€105m. Manuel Neuer has signed a one-year contract extension — a renewal, not a transfer."
+    },
+    {
+     "id": "dortmund",
+     "name": "Borussia Dortmund",
+     "colors": [
+      "#FDE100",
+      "#111111",
+      "#FFFFFF"
+     ],
+     "manager": "Niko Kovač",
+     "managerNote": "No change — led BVB to 2nd place in 2025/26 with the league's best defence",
+     "playersIn": [
+      {
+       "player": "Konstantinos Karetsas",
+       "from": "Genk",
+       "type": "Confirmed",
+       "detail": "Contract to 2031"
+      },
+      {
+       "player": "Kaua Prates",
+       "from": "—",
+       "type": "Confirmed",
+       "detail": "Signed earlier in the year"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Julien Duranville",
+       "to": "Lyon",
+       "type": "Confirmed",
+       "detail": "Fee not disclosed"
+      },
+      {
+       "player": "Cole Campbell",
+       "to": "—",
+       "type": "Confirmed",
+       "detail": "Loan return, out again"
+      }
+     ],
+     "rumours": [
+      "Felix Nmecha — drawing interest from Manchester United and Chelsea"
+     ],
+     "notes": "Karetsas, 18, arrives from Genk as the headline signing after a strong 2025/26."
+    },
+    {
+     "id": "leipzig",
+     "name": "RB Leipzig",
+     "colors": [
+      "#E4002B",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Martín Demichelis",
+     "managerNote": "New — replaced Ole Werner despite Leipzig finishing 3rd",
+     "playersIn": [
+      {
+       "player": "Maxime Estève",
+       "from": "—",
+       "type": "Confirmed",
+       "detail": "Defensive addition, fee not disclosed"
+      },
+      {
+       "player": "Frederik Jäkel",
+       "from": "—",
+       "type": "Confirmed",
+       "detail": "Loan made permanent"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Bazoumana Touré",
+       "to": "Newcastle United",
+       "type": "Confirmed",
+       "detail": "Newcastle interest — confirmed out"
+      },
+      {
+       "player": "Haris Tabaković",
+       "to": "RB Salzburg",
+       "type": "Confirmed",
+       "detail": "Fee not disclosed"
+      }
+     ],
+     "rumours": [],
+     "notes": "Demichelis takes over from Werner despite a 3rd-place finish, with Estève the marquee arrival."
+    },
+    {
+     "id": "leverkusen",
+     "name": "Bayer Leverkusen",
+     "colors": [
+      "#E32221",
+      "#111111",
+      "#FFFFFF"
+     ],
+     "manager": "Carles Martínez",
+     "managerNote": "New — Leverkusen's third head coach in a year, after Erik ten Hag and Kasper Hjulmand; arrives from Toulouse",
+     "playersIn": [
+      {
+       "player": "Unnamed player",
+       "from": "Napoli",
+       "type": "Confirmed",
+       "detail": "24-year-old joins as part of the squad rebuild (per betinf)"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Luca Erlein",
+       "to": "—",
+       "type": "Confirmed",
+       "detail": "Out — destination not disclosed"
+      },
+      {
+       "player": "Francis Onyeka",
+       "to": "—",
+       "type": "Loan",
+       "detail": "Loan out"
+      }
+     ],
+     "rumours": [
+      "AC Milan have made a move to sign a Leverkusen player"
+     ],
+     "notes": "Leverkusen's third coach in a year begins a squad rebuild with a 24-year-old arrival from Napoli."
+    },
+    {
+     "id": "stuttgart",
+     "name": "VfB Stuttgart",
+     "colors": [
+      "#FFFFFF",
+      "#E30613",
+      "#111111"
+     ],
+     "manager": "Sebastian Hoeneß",
+     "managerNote": "No change — has taken Stuttgart to two DFB Cup finals and two Champions League qualifications",
+     "playersIn": [
+      {
+       "player": "Leo Sauer",
+       "from": "Feyenoord",
+       "type": "Confirmed",
+       "detail": "~€15m, rising to €17m"
+      },
+      {
+       "player": "Grischa Prömel",
+       "from": "Hoffenheim",
+       "type": "Confirmed",
+       "detail": "Fee not disclosed"
+      },
+      {
+       "player": "Jarzinho Malanga",
+       "from": "—",
+       "type": "Confirmed",
+       "detail": "Loan return"
+      }
+     ],
+     "playersOut": [],
+     "rumours": [],
+     "notes": "Sauer's move from Feyenoord headlines a tidy window under Hoeneß."
+    },
+    {
+     "id": "frankfurt",
+     "name": "Eintracht Frankfurt",
+     "colors": [
+      "#E1000F",
+      "#111111",
+      "#FFFFFF"
+     ],
+     "manager": "Adi Hütter",
+     "managerNote": "New — returning for a second spell, replacing Albert Riera",
+     "playersIn": [
+      {
+       "player": "Noel Aseko Nkili",
+       "from": "Bayern Munich",
+       "type": "Confirmed",
+       "detail": "~€12m"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Nathaniel Brown",
+       "to": "Bayern Munich",
+       "type": "Confirmed",
+       "detail": "~€50m"
+      }
+     ],
+     "rumours": [],
+     "notes": "Hütter's return is financed by Brown's ~€50m sale to Bayern, with Nkili arriving from the same club."
+    },
+    {
+     "id": "hoffenheim",
+     "name": "TSG Hoffenheim",
+     "colors": [
+      "#1961B5",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Christian Ilzer",
+     "managerNote": "No change — signed a new long-term contract in May after a 5th-place finish and Europa League qualification",
+     "playersIn": [],
+     "playersOut": [
+      {
+       "player": "Grischa Prömel",
+       "to": "Stuttgart",
+       "type": "Confirmed",
+       "detail": "Fee not disclosed"
+      },
+      {
+       "player": "Kevin Akpoguma",
+       "to": "—",
+       "type": "Released",
+       "detail": "Out of contract"
+      },
+      {
+       "player": "Ihlas Bebou",
+       "to": "—",
+       "type": "Released",
+       "detail": "Out of contract"
+      },
+      {
+       "player": "Bambasé Conté",
+       "to": "—",
+       "type": "Confirmed",
+       "detail": "Loan return"
+      }
+     ],
+     "rumours": [],
+     "notes": "Ilzer's Europa League side loses Prömel plus out-of-contract Akpoguma and Bebou."
+    },
+    {
+     "id": "freiburg",
+     "name": "SC Freiburg",
+     "colors": [
+      "#E50018",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Julian Schuster",
+     "managerNote": "No change — led Freiburg to their first-ever European final, the Europa League, losing to Aston Villa",
+     "playersIn": [
+      {
+       "player": "Elias Etringer",
+       "from": "Own youth academy",
+       "type": "Confirmed",
+       "detail": "From the U19s"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Elias Etringer",
+       "to": "Elversberg",
+       "type": "Loan",
+       "detail": "Loan out"
+      },
+      {
+       "player": "Nicolas Höfler",
+       "to": "—",
+       "type": "Retired",
+       "detail": "Retired"
+      },
+      {
+       "player": "Kofi Kyereh",
+       "to": "—",
+       "type": "Released",
+       "detail": "Out of contract"
+      },
+      {
+       "player": "Johan Manzambi",
+       "to": "Aston Villa",
+       "type": "Confirmed",
+       "detail": "Fee not disclosed"
+      }
+     ],
+     "rumours": [],
+     "notes": "Etringer graduates from the U19s and is immediately loaned to Elversberg, while veteran Höfler retires."
+    },
+    {
+     "id": "augsburg",
+     "name": "FC Augsburg",
+     "colors": [
+      "#BA3733",
+      "#00A651",
+      "#FFFFFF"
+     ],
+     "manager": "Manuel Baum",
+     "managerNote": "No change — earned a further two-year contract after almost qualifying for Europe",
+     "playersIn": [
+      {
+       "player": "Hennes Behrens",
+       "from": "—",
+       "type": "Confirmed",
+       "detail": "Loan return"
+      }
+     ],
+     "playersOut": [],
+     "rumours": [],
+     "notes": "A quiet window so far, with Behrens returning from loan."
+    },
+    {
+     "id": "mainz",
+     "name": "Mainz 05",
+     "colors": [
+      "#E3000F",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Urs Fischer",
+     "managerNote": "No change — took Mainz from relegation trouble to mid-table safety and a Conference League quarter-final in his first half-season",
+     "playersIn": [],
+     "playersOut": [],
+     "rumours": [],
+     "notes": "No major confirmed transfers found yet for this snapshot."
+    },
+    {
+     "id": "union-berlin",
+     "name": "Union Berlin",
+     "colors": [
+      "#EB1923",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Mauro Lustrinelli",
+     "managerNote": "New — arrives after winning the Swiss Super League with Thun",
+     "playersIn": [
+      {
+       "player": "Stanley Nsoki",
+       "from": "—",
+       "type": "Confirmed",
+       "detail": "Loan made permanent"
+      }
+     ],
+     "playersOut": [],
+     "rumours": [],
+     "notes": "Nsoki's loan is made permanent as Lustrinelli begins his first window."
+    },
+    {
+     "id": "gladbach",
+     "name": "Borussia Mönchengladbach",
+     "colors": [
+      "#111111",
+      "#FFFFFF",
+      "#00A651"
+     ],
+     "manager": "Eugen Polanski",
+     "managerNote": "No change — took over on an interim basis in November 2025, now permanent after a 12th-place finish",
+     "playersIn": [],
+     "playersOut": [],
+     "rumours": [],
+     "notes": "No major confirmed transfers found yet for this snapshot."
+    },
+    {
+     "id": "hamburg",
+     "name": "Hamburger SV",
+     "colors": [
+      "#005CA9",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Merlin Polzin",
+     "managerNote": "No change — led HSV to promotion in 2024/25 and a 13th-place finish on return to the top flight",
+     "playersIn": [
+      {
+       "player": "Łukasz Poręba",
+       "from": "—",
+       "type": "Confirmed",
+       "detail": "Loan made permanent"
+      },
+      {
+       "player": "Immanuël Pherai",
+       "from": "—",
+       "type": "Confirmed",
+       "detail": "Loan return"
+      }
+     ],
+     "playersOut": [],
+     "rumours": [],
+     "notes": "HSV secure Poręba permanently after his loan."
+    },
+    {
+     "id": "koln",
+     "name": "1. FC Köln",
+     "colors": [
+      "#E30613",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "René Wagner",
+     "managerNote": "No change — took over as interim in March 2026 after Lukas Kwasniok, then earned a permanent two-year deal",
+     "playersIn": [
+      {
+       "player": "Tom Baack",
+       "from": "—",
+       "type": "Confirmed",
+       "detail": "Fee not disclosed"
+      }
+     ],
+     "playersOut": [],
+     "rumours": [],
+     "notes": "Baack is the only confirmed arrival so far."
+    },
+    {
+     "id": "werder",
+     "name": "Werder Bremen",
+     "colors": [
+      "#1D9053",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Daniel Thioune",
+     "managerNote": "No change — steered Bremen away from the relegation zone after taking over in February 2026; first Bundesliga job",
+     "playersIn": [
+      {
+       "player": "Mio Backhaus",
+       "from": "—",
+       "type": "Confirmed",
+       "detail": "Fee not disclosed"
+      }
+     ],
+     "playersOut": [],
+     "rumours": [],
+     "notes": "Backhaus arrives as Thioune's first full-summer signing."
+    },
+    {
+     "id": "schalke",
+     "name": "FC Schalke 04",
+     "colors": [
+      "#005CA9",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Miron Muslić",
+     "managerNote": "No change — won the 2. Bundesliga title to end Schalke's three-year top-flight absence",
+     "playersIn": [
+      {
+       "player": "Junior Adamu",
+       "from": "Freiburg",
+       "type": "Confirmed",
+       "detail": "Fee not disclosed"
+      }
+     ],
+     "playersOut": [],
+     "rumours": [],
+     "notes": "Promoted Schalke bring in Adamu as they return to the top flight."
+    },
+    {
+     "id": "elversberg",
+     "name": "SV Elversberg",
+     "colors": [
+      "#005CA9",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Vincent Wagner",
+     "managerNote": "No change — guided Elversberg to their first-ever Bundesliga promotion as runners-up",
+     "playersIn": [
+      {
+       "player": "Elias Etringer",
+       "from": "Freiburg",
+       "type": "Loan",
+       "detail": "Loan"
+      }
+     ],
+     "playersOut": [],
+     "rumours": [],
+     "notes": "Etringer arrives on loan from Freiburg for their historic top-flight debut."
+    },
+    {
+     "id": "paderborn",
+     "name": "SC Paderborn",
+     "colors": [
+      "#005CA9",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Ralf Kettemann",
+     "managerNote": "No change — beat Wolfsburg in the promotion play-off, 2–1 on aggregate",
+     "playersIn": [
+      {
+       "player": "Luka Đurić",
+       "from": "Hoffenheim",
+       "type": "Confirmed",
+       "detail": "Fee not disclosed"
+      },
+      {
+       "player": "Nahuel Noll",
+       "from": "Hoffenheim",
+       "type": "Loan",
+       "detail": "Loan"
+      }
+     ],
+     "playersOut": [],
+     "rumours": [],
+     "notes": "Play-off winners Paderborn add Đurić and Noll from Hoffenheim."
+    }
+   ]
+  },
+  {
+   "id": "ligue-1",
+   "name": "Ligue 1",
+   "windowClose": "1 September 2026 (19:59 local)",
+   "lastUpdated": "13 August 2026",
+   "compositionVerified": true,
+   "leagueNote": "18 clubs, 12 with a new head coach this summer — a record for Ligue 1, beating the previous high of 9 (matched in 2002/03, 2009/10 and 2021/22). Metz and Nantes were relegated to Ligue 2; Troyes and Le Mans came up in their place. The transfer window opened 15 June 2026.",
+   "sources": [
+    "Ligue1.com official site",
+    "Wikipedia (2026–27 Ligue 1, 2026–27 Ligue 2)",
+    "Yahoo Sports",
+    "OneFootball",
+    "betinf.com",
+    "footmercato.net",
+    "dicodusport.fr",
+    "mercatominute.fr",
+    "info.fr",
+    "franceinfo.fr",
+    "footballtoday.com"
+   ],
+   "clubs": [
+    {
+     "id": "psg",
+     "name": "Paris Saint-Germain",
+     "colors": [
+      "#004170",
+      "#DA291C",
+      "#FFFFFF"
+     ],
+     "manager": "Luis Enrique",
+     "managerNote": "No change — one of only six Ligue 1 clubs keeping its coach this summer",
+     "playersIn": [
+      {
+       "player": "Luca Koleosho",
+       "from": "Burnley",
+       "type": "Confirmed",
+       "detail": "Permanent, undisclosed fee — after a loan spell last season"
+      },
+      {
+       "player": "Lassine Sinayoko",
+       "from": "Auxerre",
+       "type": "Confirmed",
+       "detail": "Three-year deal"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Gonçalo Ramos",
+       "to": "AC Milan",
+       "type": "Confirmed",
+       "detail": "~€74m"
+      },
+      {
+       "player": "Lee Kang-in",
+       "to": "Atlético Madrid",
+       "type": "Confirmed",
+       "detail": "~€40m"
+      }
+     ],
+     "rumours": [],
+     "notes": "PSG retained the European Super Cup on penalties against Aston Villa this week, while Ramos (~€74m) and Lee Kang-in (~€40m) depart."
+    },
+    {
+     "id": "marseille",
+     "name": "Olympique de Marseille",
+     "colors": [
+      "#2FAEE0",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Bruno Génésio",
+     "managerNote": "New — replaced Habib Beye; Génésio departed Lille for this role",
+     "playersIn": [
+      {
+       "player": "Timothy Weah",
+       "from": "Juventus",
+       "type": "Confirmed",
+       "detail": "~€14.4m"
+      },
+      {
+       "player": "Hamed Traoré",
+       "from": "Bournemouth",
+       "type": "Confirmed",
+       "detail": "~€7.7m"
+      },
+      {
+       "player": "Quinten Timber",
+       "from": "Feyenoord",
+       "type": "Confirmed",
+       "detail": "~€4.5m"
+      },
+      {
+       "player": "Tochukwu Nnadi",
+       "from": "—",
+       "type": "Confirmed",
+       "detail": "~€6m"
+      },
+      {
+       "player": "Himad Abdelli",
+       "from": "Angers",
+       "type": "Confirmed",
+       "detail": "~€2.8m"
+      },
+      {
+       "player": "Benjamin Pavard",
+       "from": "Inter Milan",
+       "type": "Loan",
+       "detail": "Loan"
+      },
+      {
+       "player": "Ethan Nwaneri",
+       "from": "Arsenal",
+       "type": "Loan",
+       "detail": "Loan"
+      },
+      {
+       "player": "Matt O'Riley",
+       "from": "Brighton",
+       "type": "Loan",
+       "detail": "Loan"
+      },
+      {
+       "player": "Arthur Vermeeren",
+       "from": "RB Leipzig",
+       "type": "Loan",
+       "detail": "Loan"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Ismaël Koné",
+       "to": "Sassuolo",
+       "type": "Confirmed",
+       "detail": "~€10m"
+      },
+      {
+       "player": "Mason Greenwood",
+       "to": "Fenerbahçe",
+       "type": "Confirmed",
+       "detail": "Fee not disclosed"
+      },
+      {
+       "player": "Pierre-Emerick Aubameyang",
+       "to": "Deportivo de La Coruña",
+       "type": "Confirmed",
+       "detail": "~€1.5m"
+      }
+     ],
+     "rumours": [],
+     "notes": "Génésio's Marseille rebuild brings five permanent arrivals and four high-profile loans, with Greenwood and Aubameyang departing."
+    },
+    {
+     "id": "monaco",
+     "name": "AS Monaco",
+     "colors": [
+      "#E30613",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Filipe Luís",
+     "managerNote": "New — replaced Sébastien Pocognoli",
+     "playersIn": [
+      {
+       "player": "Matthis Abline",
+       "from": "Nantes",
+       "type": "Confirmed",
+       "detail": "~€25m, five-year deal"
+      },
+      {
+       "player": "Ansu Fati",
+       "from": "Barcelona",
+       "type": "Confirmed",
+       "detail": "~€11m — loan converted to permanent"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Aladji Bamba",
+       "to": "Newcastle United",
+       "type": "Confirmed",
+       "detail": "~€35.5m"
+      }
+     ],
+     "rumours": [
+      "Troyes forward Mathys Detourbet — sold to Manchester City, expected to be loaned to Monaco this window"
+     ],
+     "notes": "Filipe Luís' first window is funded by Bamba's ~€35.5m sale to Newcastle, with Abline arriving for ~€25m."
+    },
+    {
+     "id": "lyon",
+     "name": "Olympique Lyonnais",
+     "colors": [
+      "#DA291C",
+      "#0055A4",
+      "#FFFFFF"
+     ],
+     "manager": "Paulo Fonseca",
+     "managerNote": "No change — in charge since January 2025",
+     "playersIn": [
+      {
+       "player": "Mads Bidstrup",
+       "from": "—",
+       "type": "Confirmed",
+       "detail": "~€10.5m"
+      },
+      {
+       "player": "Karim Adeyemi",
+       "from": "Borussia Dortmund",
+       "type": "Confirmed",
+       "detail": "Fee not disclosed — per Barcelona's tracker this is a separate Adeyemi deal to confirm; treat with caution, recheck"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Afonso Moreira",
+       "to": "Bayer Leverkusen",
+       "type": "Confirmed",
+       "detail": "~€29.5m"
+      }
+     ],
+     "rumours": [],
+     "notes": "Lyon's Adeyemi arrival is flagged for rechecking — the source itself advises caution on this item."
+    },
+    {
+     "id": "lille",
+     "name": "Lille (LOSC)",
+     "colors": [
+      "#E30613",
+      "#12264C",
+      "#FFFFFF"
+     ],
+     "manager": "Davide Ancelotti",
+     "managerNote": "New — son of Carlo Ancelotti, previously Botafogo and long-time Real Madrid/Bayern/Napoli/Brazil assistant; replaced Bruno Génésio, who left for Marseille; two-year deal",
+     "playersIn": [],
+     "playersOut": [],
+     "rumours": [],
+     "notes": "No major permanent signings confirmed yet for this snapshot — recheck as the window nears its close."
+    },
+    {
+     "id": "nice",
+     "name": "OGC Nice",
+     "colors": [
+      "#E30613",
+      "#111111",
+      "#FFFFFF"
+     ],
+     "manager": "Olivier Pantaloni",
+     "managerNote": "New — arrived from Lorient, replacing Claude Puel after a season that ended with a scramble to avoid relegation and a lost Coupe de France final",
+     "playersIn": [],
+     "playersOut": [],
+     "rumours": [],
+     "notes": "Returning loanees form the core of an early rebuild under Pantaloni; no major permanent fees confirmed yet for this snapshot."
+    },
+    {
+     "id": "rennes",
+     "name": "Stade Rennais",
+     "colors": [
+      "#E30613",
+      "#111111",
+      "#FFFFFF"
+     ],
+     "manager": "Franck Haise",
+     "managerNote": "No change — in post since February 2026",
+     "playersIn": [
+      {
+       "player": "Eliezer Mayenda",
+       "from": "—",
+       "type": "Confirmed",
+       "detail": "~€22m"
+      },
+      {
+       "player": "Gonçalo Oliveira",
+       "from": "Benfica",
+       "type": "Confirmed",
+       "detail": "Fee not disclosed"
+      },
+      {
+       "player": "Bryan Reynolds",
+       "from": "—",
+       "type": "Confirmed",
+       "detail": "Fee not disclosed"
+      },
+      {
+       "player": "Arnaud Nordin",
+       "from": "—",
+       "type": "Confirmed",
+       "detail": "Fee not disclosed"
+      },
+      {
+       "player": "Nicolas Lemaître",
+       "from": "Troyes",
+       "type": "Confirmed",
+       "detail": "Goalkeeper, backup to Brice Samba"
+      },
+      {
+       "player": "Charlie Cresswell",
+       "from": "—",
+       "type": "Confirmed",
+       "detail": "Contract to 2031"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Albert Grønbæk",
+       "to": "—",
+       "type": "Confirmed",
+       "detail": "Destination not disclosed"
+      },
+      {
+       "player": "Jérémy Jacquet",
+       "to": "—",
+       "type": "Confirmed",
+       "detail": "Destination not disclosed"
+      }
+     ],
+     "rumours": [],
+     "notes": "Rennes back Haise with six additions, led by Mayenda at ~€22m."
+    },
+    {
+     "id": "lens",
+     "name": "RC Lens",
+     "colors": [
+      "#E30613",
+      "#F7C600",
+      "#FFFFFF"
+     ],
+     "manager": "Dino Toppmöller",
+     "managerNote": "New — German coach, signed through 2028, replacing Pierre Sage, who left for Crystal Palace; Lens are now on their third straight summer with a new head coach",
+     "playersIn": [
+      {
+       "player": "Michael Cuisance",
+       "from": "Hertha Berlin",
+       "type": "Confirmed",
+       "detail": "~€5m, four-year deal to 2030"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Mamadou Sangaré",
+       "to": "Brentford",
+       "type": "Confirmed",
+       "detail": "~€48m"
+      }
+     ],
+     "rumours": [],
+     "notes": "Sangaré's ~€48m sale to Brentford is the standout outgoing, funding Cuisance's arrival."
+    },
+    {
+     "id": "strasbourg",
+     "name": "RC Strasbourg",
+     "colors": [
+      "#009FE3",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Hugo Oliveira",
+     "managerNote": "New — Portuguese coach, replacing Gary O'Neil, who left for Ipswich Town",
+     "playersIn": [
+      {
+       "player": "Diogo Sousa",
+       "from": "Vitória",
+       "type": "Confirmed",
+       "detail": "~€10m, five-year deal"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Emmanuel Emegha",
+       "to": "Chelsea",
+       "type": "Confirmed",
+       "detail": "~€25.3m"
+      }
+     ],
+     "rumours": [],
+     "notes": "Emegha's ~€25.3m move to Chelsea funds Sousa's arrival."
+    },
+    {
+     "id": "toulouse",
+     "name": "Toulouse FC",
+     "colors": [
+      "#5C2D91",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Jens Berthel Askou",
+     "managerNote": "New — Danish coach, replaced Carles Martínez Novell, who left for Bayer Leverkusen",
+     "playersIn": [],
+     "playersOut": [],
+     "rumours": [],
+     "notes": "No major confirmed transfers found yet for this snapshot."
+    },
+    {
+     "id": "brest",
+     "name": "Stade Brestois",
+     "colors": [
+      "#E30613",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Julien Lachuer",
+     "managerNote": "New — promoted into the role after the death of Éric Roy, the club's longtime manager, on 17 June 2026 at age 58 following a battle with pancreatic cancer",
+     "playersIn": [
+      {
+       "player": "Joseph Nonge",
+       "from": "—",
+       "type": "Confirmed",
+       "detail": "Fee not disclosed"
+      }
+     ],
+     "playersOut": [],
+     "rumours": [],
+     "notes": "Lachuer steps up after the tragic passing of Éric Roy, with Nonge the first arrival."
+    },
+    {
+     "id": "le-havre",
+     "name": "Le Havre AC",
+     "colors": [
+      "#0094D8",
+      "#0B3D2E",
+      "#FFFFFF"
+     ],
+     "manager": "Didier Digard",
+     "managerNote": "No change — extended his contract by one year plus an option, since July 2024",
+     "playersIn": [],
+     "playersOut": [],
+     "rumours": [],
+     "notes": "No major confirmed transfers found yet for this snapshot."
+    },
+    {
+     "id": "angers",
+     "name": "Angers SCO",
+     "colors": [
+      "#111111",
+      "#FFFFFF",
+      "#D4AF37"
+     ],
+     "manager": "Stéphane Gilli",
+     "managerNote": "New — arrived from Paris FC, replacing Alexandre Dujeux, who moved the other way to Lorient",
+     "playersIn": [],
+     "playersOut": [
+      {
+       "player": "Himad Abdelli",
+       "to": "Marseille",
+       "type": "Confirmed",
+       "detail": "~€2.8m"
+      }
+     ],
+     "rumours": [],
+     "notes": "Abdelli's departure to Marseille is the only confirmed move so far."
+    },
+    {
+     "id": "auxerre",
+     "name": "AJ Auxerre",
+     "colors": [
+      "#FFFFFF",
+      "#005CA9",
+      "#111111"
+     ],
+     "manager": "Will Still",
+     "managerNote": "New — Belgian-English coach, replaced Christophe Pélissier",
+     "playersIn": [],
+     "playersOut": [
+      {
+       "player": "Lassine Sinayoko",
+       "to": "Paris Saint-Germain",
+       "type": "Confirmed",
+       "detail": "Three-year deal"
+      }
+     ],
+     "rumours": [],
+     "notes": "Sinayoko's move to PSG is the window's headline departure."
+    },
+    {
+     "id": "paris-fc",
+     "name": "Paris FC",
+     "colors": [
+      "#005CA9",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Liam Rosenior",
+     "managerNote": "New — replaced Antoine Kombouaré",
+     "playersIn": [
+      {
+       "player": "Patrick Zabi",
+       "from": "—",
+       "type": "Confirmed",
+       "detail": "~€25m"
+      },
+      {
+       "player": "Diego Coppola",
+       "from": "—",
+       "type": "Confirmed",
+       "detail": "~€17.5m"
+      },
+      {
+       "player": "Pablo Pagis",
+       "from": "—",
+       "type": "Confirmed",
+       "detail": "~€15m"
+      }
+     ],
+     "playersOut": [],
+     "rumours": [],
+     "notes": "Rosenior's first window is aggressive: three arrivals totalling ~€57.5m."
+    },
+    {
+     "id": "lorient",
+     "name": "FC Lorient",
+     "colors": [
+      "#FF6600",
+      "#111111",
+      "#FFFFFF"
+     ],
+     "manager": "Alexandre Dujeux",
+     "managerNote": "New — arrived from Angers, replacing Olivier Pantaloni, who left for Nice",
+     "playersIn": [],
+     "playersOut": [],
+     "rumours": [],
+     "notes": "No major confirmed transfers found yet for this snapshot; club sources describe an intersession built on continuity rather than upheaval."
+    },
+    {
+     "id": "troyes",
+     "name": "ESTAC Troyes",
+     "colors": [
+      "#005CA9",
+      "#FFFFFF",
+      "#111111"
+     ],
+     "manager": "Stéphane Dumont",
+     "managerNote": "No change — led Troyes to the 2025/26 Ligue 2 title",
+     "playersIn": [
+      {
+       "player": "Patrick Beach",
+       "from": "—",
+       "type": "Confirmed",
+       "detail": "Australian goalkeeper, part of the City Football Group network, ~€1.7m"
+      }
+     ],
+     "playersOut": [
+      {
+       "player": "Mathys Detourbet",
+       "to": "Manchester City",
+       "type": "Confirmed",
+       "detail": "~€25m, City Football Group deal; expected to be loaned to Monaco"
+      },
+      {
+       "player": "Martin Adeline",
+       "to": "Hamburger SV",
+       "type": "Confirmed",
+       "detail": "~€6m"
+      },
+      {
+       "player": "Nicolas Lemaître",
+       "to": "Rennes",
+       "type": "Confirmed",
+       "detail": "Fee not disclosed"
+      }
+     ],
+     "rumours": [
+      "Sankhoun Diawara — linked with Rangers, unconfirmed"
+     ],
+     "notes": "Promoted Troyes bank ~€25m for Detourbet while adding Beach from the City Football Group network."
+    },
+    {
+     "id": "le-mans",
+     "name": "Le Mans FC",
+     "colors": [
+      "#FF6600",
+      "#111111",
+      "#FFFFFF"
+     ],
+     "manager": "Patrick Videira",
+     "managerNote": "No change — led the club to back-to-back promotions",
+     "playersIn": [
+      {
+       "player": "Billal Brahimi",
+       "from": "—",
+       "type": "Confirmed",
+       "detail": "Fee not disclosed"
+      },
+      {
+       "player": "Louis Mafouta",
+       "from": "Guingamp",
+       "type": "Confirmed",
+       "detail": "Fee not disclosed"
+      },
+      {
+       "player": "Yasser Larouci",
+       "from": "Troyes",
+       "type": "Free",
+       "detail": "Free transfer, contract to 2029"
+      }
+     ],
+     "playersOut": [],
+     "rumours": [],
+     "notes": "Back-to-back promotions bring measured additions. The club was recently taken over by Brazilian investment fund Outfield; former Lyon/PSG sporting director Bruno Cheyrou has joined as a football adviser."
+    }
+   ]
+  }
+ ]
+}

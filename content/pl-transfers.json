@@ -1,0 +1,1328 @@
+{
+  "_comment": "PL TRANSFER TRACKER 2026/27 — data as supplied by the BRYME owner on 13 Aug 2026. Statuses are strict: Confirmed / Loan / Free / Released / Retired / Departed. Rumours live ONLY in the rumours field, never in the confirmed tables. Update lastUpdated + windowClose as the window progresses.",
+  "lastUpdated": "2 September 2026",
+  "windowClose": "1 September 2026",
+  "sources": [
+    "Sky Sports",
+    "Premier League official transfer tracker",
+    "ESPN",
+    "Reuters",
+    "The Guardian",
+    "Transfermarkt"
+  ],
+  "clubs": [
+    {
+      "id": "arsenal",
+      "name": "Arsenal",
+      "manager": "Mikel Arteta",
+      "managerNote": "No change",
+      "playersIn": [
+        {
+          "player": "Bruno Guimarães",
+          "from": "Newcastle United",
+          "type": "Confirmed",
+          "detail": "~€87.5m"
+        },
+        {
+          "player": "Piero Hincapié",
+          "from": "Bayer Leverkusen",
+          "type": "Confirmed",
+          "detail": "~€49m"
+        },
+        {
+          "player": "Christos Tzolis",
+          "from": "Club Brugge",
+          "type": "Confirmed",
+          "detail": "~€40m"
+        },
+        {
+          "player": "Illan Meslier",
+          "from": "Leeds United",
+          "type": "Free",
+          "detail": "Free transfer"
+        }
+      ],
+      "playersOut": [
+        {
+          "player": "Leandro Trossard",
+          "to": "Beşiktaş",
+          "type": "Confirmed",
+          "detail": "~€18m"
+        },
+        {
+          "player": "Jakub Kiwior",
+          "to": "Porto",
+          "type": "Confirmed",
+          "detail": "~€17m"
+        },
+        {
+          "player": "Christian Nørgaard",
+          "to": "Everton",
+          "type": "Confirmed",
+          "detail": "~€8.15m"
+        },
+        {
+          "player": "Karl Hein",
+          "to": "Werder Bremen",
+          "type": "Confirmed",
+          "detail": "~€3m"
+        },
+        {
+          "player": "Gabriel Jesus",
+          "to": "Barcelona",
+          "type": "Confirmed",
+          "detail": "£8.6m"
+        }
+      ],
+      "notes": "A statement window: Guimarães finally anchors the midfield, Hincapié adds a ball-playing left-back and Tzolis gives Arteta a direct wide threat. Back from loan: Jakub Kiwior, Ethan Nwaneri, Fábio Vieira, Reiss Nelson and Karl Hein — with Kiwior and Hein since moving on."
+    },
+    {
+      "id": "aston-villa",
+      "name": "Aston Villa",
+      "manager": "Unai Emery",
+      "managerNote": "No change",
+      "playersIn": [
+        {
+          "player": "Johan Manzambi",
+          "from": "Freiburg",
+          "type": "Confirmed",
+          "detail": "~€60m"
+        },
+        {
+          "player": "João Gomes",
+          "from": "Wolves",
+          "type": "Confirmed",
+          "detail": "~€40m"
+        },
+        {
+          "player": "Modou Kéba Cissé",
+          "from": "LASK",
+          "type": "Confirmed",
+          "detail": "~€5.5m"
+        },
+        {
+          "player": "Alejandro Garnacho",
+          "from": "Chelsea",
+          "type": "Loan",
+          "detail": "Loan"
+        },
+        {
+          "player": "Nicolas Jackson",
+          "from": "Chelsea",
+          "type": "Confirmed",
+          "detail": "£65m"
+        },
+        {
+          "player": "Ibrahim Mbaye",
+          "from": "Paris Saint-Germain",
+          "type": "Confirmed",
+          "detail": "£47m"
+        }
+      ],
+      "playersOut": [
+        {
+          "player": "Morgan Rogers",
+          "to": "Chelsea",
+          "type": "Confirmed",
+          "detail": "~€138m"
+        },
+        {
+          "player": "Youri Tielemans",
+          "to": "Manchester United",
+          "type": "Confirmed",
+          "detail": "~€41m"
+        },
+        {
+          "player": "Donyell Malen",
+          "to": "Roma",
+          "type": "Confirmed",
+          "detail": "~€25m"
+        },
+        {
+          "player": "Enzo Barrenechea",
+          "to": "Benfica",
+          "type": "Confirmed",
+          "detail": "~€12m"
+        },
+        {
+          "player": "Lewis Dobbin",
+          "to": "Southampton",
+          "type": "Confirmed",
+          "detail": "~€10.5m"
+        },
+        {
+          "player": "Lucas Digne",
+          "to": "PSG",
+          "type": "Confirmed",
+          "detail": "~€7m"
+        },
+        {
+          "player": "Emiliano Martínez",
+          "to": "Chelsea",
+          "type": "Confirmed",
+          "detail": "£7.5m"
+        }
+      ],
+      "notes": "Emery is rebuilding around the record sale of Morgan Rogers to Chelsea. Manzambi and João Gomes refresh the midfield spine, while Garnacho arrives on loan to replace some of the creative output that left with Rogers."
+    },
+    {
+      "id": "bournemouth",
+      "name": "Bournemouth",
+      "manager": "Marco Rose",
+      "managerNote": "New — replaced Andoni Iraola",
+      "playersIn": [
+        {
+          "player": "Álvaro Rodríguez",
+          "from": "Elche",
+          "type": "Confirmed",
+          "detail": "Fee not disclosed"
+        },
+        {
+          "player": "António Silva",
+          "from": "Benfica",
+          "type": "Confirmed",
+          "detail": "~£25m"
+        },
+        {
+          "player": "Juanlu Sánchez",
+          "from": "Sevilla",
+          "type": "Confirmed",
+          "detail": "Fee not disclosed"
+        }
+      ],
+      "playersOut": [
+        {
+          "player": "Marcos Senesi",
+          "to": "Tottenham Hotspur",
+          "type": "Free",
+          "detail": "Free transfer"
+        },
+        {
+          "player": "Hamed Traoré",
+          "to": "Marseille",
+          "type": "Confirmed",
+          "detail": "Fee not disclosed"
+        },
+        {
+          "player": "Luis Sinisterra",
+          "to": "Cruzeiro",
+          "type": "Confirmed",
+          "detail": "Fee not disclosed"
+        },
+        {
+          "player": "Romain Faivre",
+          "to": "Auxerre",
+          "type": "Confirmed",
+          "detail": "Fee not disclosed"
+        }
+      ],
+      "notes": "A new era under Marco Rose, who replaces Andoni Iraola. António Silva is the marquee defensive signing, while Senesi's departure to Tottenham frees the central-defensive spot."
+    },
+    {
+      "id": "brentford",
+      "name": "Brentford",
+      "manager": "Keith Andrews",
+      "managerNote": "No change",
+      "playersIn": [
+        {
+          "player": "Mamadou Sangaré",
+          "from": "Lens",
+          "type": "Confirmed",
+          "detail": "~€48m"
+        },
+        {
+          "player": "Jannik Schuster",
+          "from": "RB Salzburg",
+          "type": "Confirmed",
+          "detail": "~€18m"
+        },
+        {
+          "player": "Jaidon Anthony",
+          "from": "Burnley",
+          "type": "Confirmed",
+          "detail": "~€17.5m"
+        },
+        {
+          "player": "Callum Wilson",
+          "from": "West Ham United",
+          "type": "Free",
+          "detail": "Free transfer"
+        }
+      ],
+      "playersOut": [
+        {
+          "player": "Frank Onyeka",
+          "to": "Coventry City",
+          "type": "Confirmed",
+          "detail": "~€7m"
+        },
+        {
+          "player": "Jordan Henderson",
+          "to": "Chelsea",
+          "type": "Free",
+          "detail": "Free transfer"
+        }
+      ],
+      "notes": "Brentford's model in action: Sangaré becomes the club-record arrival and Callum Wilson arrives on a free to lead the line, while experience departs in Henderson."
+    },
+    {
+      "id": "brighton",
+      "name": "Brighton & Hove Albion",
+      "manager": "Fabian Hürzeler",
+      "managerNote": "No change — contract extended through 2029",
+      "playersIn": [
+        {
+          "player": "Luka Vušković",
+          "from": "Tottenham Hotspur",
+          "type": "Confirmed",
+          "detail": "~€54m"
+        },
+        {
+          "player": "Zadok Yohanna",
+          "from": "AIK",
+          "type": "Confirmed",
+          "detail": "~€28m"
+        },
+        {
+          "player": "Pascal Struijk",
+          "from": "Leeds United",
+          "type": "Confirmed",
+          "detail": "~€23.2m"
+        },
+        {
+          "player": "Costinha",
+          "from": "Olympiacos",
+          "type": "Confirmed",
+          "detail": "~€12.7m"
+        },
+        {
+          "player": "Michael Svoboda",
+          "from": "Venezia",
+          "type": "Confirmed",
+          "detail": "~€5m"
+        }
+      ],
+      "playersOut": [
+        {
+          "player": "Jan Paul van Hecke",
+          "to": "Tottenham Hotspur",
+          "type": "Confirmed",
+          "detail": "~€60m"
+        },
+        {
+          "player": "Carl Rushworth",
+          "to": "Coventry City",
+          "type": "Confirmed",
+          "detail": "~€25.7m"
+        },
+        {
+          "player": "Diego Coppola",
+          "to": "Paris FC",
+          "type": "Confirmed",
+          "detail": "~€17.5m"
+        },
+        {
+          "player": "Danny Welbeck",
+          "to": "Chelsea",
+          "type": "Confirmed",
+          "detail": "~€5.85m"
+        },
+        {
+          "player": "James Milner",
+          "to": "—",
+          "type": "Retired",
+          "detail": "Retired"
+        },
+        {
+          "player": "Carlos Baleba",
+          "to": "Manchester United",
+          "type": "Confirmed",
+          "detail": "£65–70m"
+        }
+      ],
+      "notes": "A heavy-rebuild summer: van Hecke's €60m exit funds a raft of signings led by Vušković and Struijk, while club legend James Milner retires."
+    },
+    {
+      "id": "chelsea",
+      "name": "Chelsea",
+      "manager": "Xabi Alonso",
+      "managerNote": "New",
+      "playersIn": [
+        {
+          "player": "Morgan Rogers",
+          "from": "Aston Villa",
+          "type": "Confirmed",
+          "detail": "£117m"
+        },
+        {
+          "player": "Maxence Lacroix",
+          "from": "Crystal Palace",
+          "type": "Confirmed",
+          "detail": "£51m"
+        },
+        {
+          "player": "Geovany Quenda",
+          "from": "Sporting CP",
+          "type": "Confirmed",
+          "detail": "£43.5m"
+        },
+        {
+          "player": "Marco Palestra",
+          "from": "Atalanta",
+          "type": "Confirmed",
+          "detail": "£43m"
+        },
+        {
+          "player": "Pep Chavarria",
+          "from": "Rayo Vallecano",
+          "type": "Confirmed",
+          "detail": "£16.3m"
+        },
+        {
+          "player": "Danny Welbeck",
+          "from": "Brighton",
+          "type": "Confirmed",
+          "detail": "Fee not disclosed"
+        },
+        {
+          "player": "Emmanuel Emegha",
+          "from": "Strasbourg",
+          "type": "Confirmed",
+          "detail": "Fee not disclosed"
+        },
+        {
+          "player": "Jordan Henderson",
+          "from": "Brentford",
+          "type": "Free",
+          "detail": "Free transfer"
+        },
+        {
+          "player": "Emiliano Martínez",
+          "from": "Aston Villa",
+          "type": "Confirmed",
+          "detail": "£7.5m"
+        }
+      ],
+      "playersOut": [
+        {
+          "player": "Marc Cucurella",
+          "to": "Real Madrid",
+          "type": "Confirmed",
+          "detail": "£51.8m"
+        },
+        {
+          "player": "Andrey Santos",
+          "to": "Manchester United",
+          "type": "Confirmed",
+          "detail": "£50m"
+        },
+        {
+          "player": "Trevoh Chalobah",
+          "to": "Como",
+          "type": "Confirmed",
+          "detail": "£30.8m"
+        },
+        {
+          "player": "Tyrique George",
+          "to": "Everton",
+          "type": "Confirmed",
+          "detail": "£24m"
+        },
+        {
+          "player": "Alejandro Garnacho",
+          "to": "Aston Villa",
+          "type": "Loan",
+          "detail": "Loan"
+        },
+        {
+          "player": "Enzo Fernández",
+          "to": "Manchester City",
+          "type": "Confirmed",
+          "detail": "£125m — deadline day"
+        },
+        {
+          "player": "Nicolas Jackson",
+          "to": "Aston Villa",
+          "type": "Confirmed",
+          "detail": "£65m"
+        },
+        {
+          "player": "Liam Delap",
+          "to": "Nottingham Forest",
+          "type": "Confirmed",
+          "detail": "£45–50m"
+        },
+        {
+          "player": "Mykhailo Mudryk",
+          "to": "Tottenham Hotspur",
+          "type": "Loan",
+          "detail": "Season-long loan"
+        },
+        {
+          "player": "Tosin Adarabioyo",
+          "to": "Tottenham Hotspur",
+          "type": "Confirmed",
+          "detail": "£10m"
+        }
+      ],
+      "notes": "Xabi Alonso's Chelsea spent big on Rogers then sold Enzo Fernández to City for £125m on deadline day. Camara from Monaco collapsed. Mudryk left on loan to Spurs."
+    },
+    {
+      "id": "crystal-palace",
+      "name": "Crystal Palace",
+      "manager": "Pierre Sage",
+      "managerNote": "New — replaced Oliver Glasner",
+      "playersIn": [
+        {
+          "player": "Dwight McNeil",
+          "from": "Everton",
+          "type": "Confirmed",
+          "detail": "Swap with Brennan Johnson"
+        },
+        {
+          "player": "Óscar Mingueza",
+          "from": "Celta Vigo",
+          "type": "Free",
+          "detail": "Free transfer"
+        },
+        {
+          "player": "Takehiro Tomiyasu",
+          "from": "Ajax",
+          "type": "Free",
+          "detail": "Free transfer"
+        },
+        {
+          "player": "Evann Guessand",
+          "from": "Aston Villa",
+          "type": "Loan",
+          "detail": "Loan"
+        }
+      ],
+      "playersOut": [
+        {
+          "player": "Maxence Lacroix",
+          "to": "Chelsea",
+          "type": "Confirmed",
+          "detail": "£51m"
+        },
+        {
+          "player": "Brennan Johnson",
+          "to": "Everton",
+          "type": "Confirmed",
+          "detail": "Swap with Dwight McNeil"
+        },
+        {
+          "player": "Daniel Muñoz",
+          "to": "Nottingham Forest",
+          "type": "Confirmed",
+          "detail": "up to £22m"
+        }
+      ],
+      "notes": "A reset under Pierre Sage: Lacroix's £51m sale to Chelsea funds a quiet rebuild, with McNeil arriving in a direct swap and two free signings shoring up the back line."
+    },
+    {
+      "id": "everton",
+      "name": "Everton",
+      "manager": "David Moyes",
+      "managerNote": "No change",
+      "playersIn": [
+        {
+          "player": "Hayden Hackney",
+          "from": "Middlesbrough",
+          "type": "Confirmed",
+          "detail": "£24m"
+        },
+        {
+          "player": "Tyrique George",
+          "from": "Chelsea",
+          "type": "Confirmed",
+          "detail": "£24m"
+        },
+        {
+          "player": "Merlin Röhl",
+          "from": "Freiburg",
+          "type": "Confirmed",
+          "detail": "£19m"
+        },
+        {
+          "player": "Christian Nørgaard",
+          "from": "Arsenal",
+          "type": "Confirmed",
+          "detail": "£7m"
+        },
+        {
+          "player": "Brennan Johnson",
+          "from": "Crystal Palace",
+          "type": "Confirmed",
+          "detail": "Swap with Dwight McNeil"
+        },
+        {
+          "player": "Jack Grealish",
+          "from": "Manchester City",
+          "type": "Loan",
+          "detail": "Loan — deadline day"
+        }
+      ],
+      "playersOut": [
+        {
+          "player": "Dwight McNeil",
+          "to": "Crystal Palace",
+          "type": "Confirmed",
+          "detail": "Swap with Brennan Johnson"
+        },
+        {
+          "player": "Seamus Coleman",
+          "to": "—",
+          "type": "Released",
+          "detail": "Released"
+        },
+        {
+          "player": "Idrissa Gueye",
+          "to": "—",
+          "type": "Released",
+          "detail": "Released"
+        },
+        {
+          "player": "Iliman Ndiaye",
+          "to": "Manchester City",
+          "type": "Confirmed",
+          "detail": "£65m — deadline day"
+        }
+      ],
+      "notes": "Moyes refreshes an ageing squad: Tyrique George and Brennan Johnson add pace in wide areas, while long-serving Seamus Coleman and Idrissa Gueye depart as released free agents."
+    },
+    {
+      "id": "fulham",
+      "name": "Fulham",
+      "manager": "Álvaro Arbeloa",
+      "managerNote": "New",
+      "playersIn": [
+        {
+          "player": "Gonzalo García",
+          "from": "Real Madrid",
+          "type": "Confirmed",
+          "detail": "£34m"
+        },
+        {
+          "player": "Shea Charles",
+          "from": "Southampton",
+          "type": "Confirmed",
+          "detail": "£30m"
+        },
+        {
+          "player": "César Palacios",
+          "from": "Real Madrid",
+          "type": "Confirmed",
+          "detail": "£8.5m"
+        },
+        {
+          "player": "Jonah Kusi-Asare",
+          "from": "Bayern Munich",
+          "type": "Confirmed",
+          "detail": "£5m"
+        }
+      ],
+      "playersOut": [
+        {
+          "player": "Saša Lukić",
+          "to": "Ipswich Town",
+          "type": "Confirmed",
+          "detail": "£9m"
+        },
+        {
+          "player": "Issa Diop",
+          "to": "Ipswich Town",
+          "type": "Confirmed",
+          "detail": "£8.5m"
+        },
+        {
+          "player": "Raúl Jiménez",
+          "to": "Wolves",
+          "type": "Free",
+          "detail": "Free transfer"
+        }
+      ],
+      "notes": "Arbeloa's first window leans on Real Madrid connections: Gonzalo García and César Palacios arrive from the Spanish capital as Fulham reshape their midfield."
+    },
+    {
+      "id": "leeds",
+      "name": "Leeds United",
+      "manager": "Daniel Farke",
+      "managerNote": "No change",
+      "playersIn": [
+        {
+          "player": "James Trafford",
+          "from": "Manchester City",
+          "type": "Confirmed",
+          "detail": "£40m"
+        },
+        {
+          "player": "Tarik Muharemović",
+          "from": "Sassuolo",
+          "type": "Confirmed",
+          "detail": "£34m"
+        },
+        {
+          "player": "Harry Wilson",
+          "from": "Fulham",
+          "type": "Free",
+          "detail": "Free transfer"
+        }
+      ],
+      "playersOut": [
+        {
+          "player": "Pascal Struijk",
+          "to": "Brighton",
+          "type": "Confirmed",
+          "detail": "£18m"
+        },
+        {
+          "player": "Isaac Schmidt",
+          "to": "Young Boys",
+          "type": "Confirmed",
+          "detail": "Fee not disclosed"
+        },
+        {
+          "player": "Jack Harrison",
+          "to": "New England Revolution",
+          "type": "Confirmed",
+          "detail": "Fee not disclosed"
+        },
+        {
+          "player": "Illan Meslier",
+          "to": "Arsenal",
+          "type": "Free",
+          "detail": "Free transfer"
+        }
+      ],
+      "notes": "Back in the Premier League, Leeds invest in a new number one — Trafford for £40m — while Meslier, Struijk and Harrison move on as part of the squad reset."
+    },
+    {
+      "id": "liverpool",
+      "name": "Liverpool",
+      "manager": "Andoni Iraola",
+      "managerNote": "New — replaced Arne Slot",
+      "playersIn": [
+        {
+          "player": "Jérémy Jacquet",
+          "from": "Rennes",
+          "type": "Confirmed",
+          "detail": "Fee not disclosed"
+        },
+        {
+          "player": "Víctor Muñoz",
+          "from": "Osasuna",
+          "type": "Confirmed",
+          "detail": "Fee not disclosed"
+        },
+        {
+          "player": "Ronald Araújo",
+          "from": "Barcelona",
+          "type": "Loan",
+          "detail": "Season-long loan; reported option to buy"
+        }
+      ],
+      "playersOut": [
+        {
+          "player": "Mohamed Salah",
+          "to": "Trabzonspor",
+          "type": "Free",
+          "detail": "Free transfer"
+        },
+        {
+          "player": "Andy Robertson",
+          "to": "Tottenham Hotspur",
+          "type": "Free",
+          "detail": "Free transfer"
+        },
+        {
+          "player": "Ibrahima Konaté",
+          "to": "Real Madrid",
+          "type": "Free",
+          "detail": "Free transfer"
+        }
+      ],
+      "notes": "The end of an era: Salah, Robertson and Konaté all leave on free transfers as Iraola takes over from Arne Slot. Araújo's loan from Barcelona — with a reported option to buy — is the window's most eye-catching deal."
+    },
+    {
+      "id": "man-city",
+      "name": "Manchester City",
+      "manager": "Enzo Maresca",
+      "managerNote": "New — replaced Pep Guardiola",
+      "playersIn": [
+        {
+          "player": "Elliot Anderson",
+          "from": "Nottingham Forest",
+          "type": "Confirmed",
+          "detail": "~£116m"
+        },
+        {
+          "player": "Jeremy Monga",
+          "from": "Leicester City",
+          "type": "Confirmed",
+          "detail": "Fee not disclosed"
+        },
+        {
+          "player": "Gerónimo Rulli",
+          "from": "Marseille",
+          "type": "Confirmed",
+          "detail": "~£1.7m"
+        },
+        {
+          "player": "Enzo Fernández",
+          "from": "Chelsea",
+          "type": "Confirmed",
+          "detail": "£125m — deadline day (Sky Sports / ESPN)"
+        },
+        {
+          "player": "Iliman Ndiaye",
+          "from": "Everton",
+          "type": "Confirmed",
+          "detail": "£65m — deadline day (Sky Sports / ESPN)"
+        },
+        {
+          "player": "Ayyoub Bouaddi",
+          "from": "Lille",
+          "type": "Confirmed",
+          "detail": "reported earlier in window (Premier League)"
+        }
+      ],
+      "playersOut": [
+        {
+          "player": "Bernardo Silva",
+          "to": "Real Madrid",
+          "type": "Free",
+          "detail": "Free transfer"
+        },
+        {
+          "player": "John Stones",
+          "to": "—",
+          "type": "Departed",
+          "detail": "Destination not confirmed"
+        },
+        {
+          "player": "Manuel Akanji",
+          "to": "—",
+          "type": "Departed",
+          "detail": "Destination not confirmed"
+        },
+        {
+          "player": "Nathan Aké",
+          "to": "—",
+          "type": "Departed",
+          "detail": "Destination not confirmed"
+        },
+        {
+          "player": "James Trafford",
+          "to": "Leeds United",
+          "type": "Confirmed",
+          "detail": "£40m"
+        },
+        {
+          "player": "Jack Grealish",
+          "to": "Everton",
+          "type": "Loan",
+          "detail": "Loan — deadline day"
+        }
+      ],
+      "rumours": [],
+      "notes": "Deadline day: Enzo Fernández (£125m, British record-equalling) and Iliman Ndiaye (£65m) join Elliot Anderson. Jack Grealish left on loan to Everton. Window closed 1 September 2026."
+    },
+    {
+      "id": "man-united",
+      "name": "Manchester United",
+      "manager": "Michael Carrick",
+      "managerNote": "No change — made permanent after Rúben Amorim's departure",
+      "playersIn": [
+        {
+          "player": "Andrey Santos",
+          "from": "Chelsea",
+          "type": "Confirmed",
+          "detail": "~£50m"
+        },
+        {
+          "player": "Youri Tielemans",
+          "from": "Aston Villa",
+          "type": "Confirmed",
+          "detail": "~£35m"
+        },
+        {
+          "player": "Karl Darlow",
+          "from": "Leeds United",
+          "type": "Free",
+          "detail": "Free transfer"
+        },
+        {
+          "player": "Tynan Thompson",
+          "from": "Tottenham Hotspur",
+          "type": "Confirmed",
+          "detail": "£8m"
+        },
+        {
+          "player": "Carlos Baleba",
+          "from": "Brighton",
+          "type": "Confirmed",
+          "detail": "£65–70m (ESPN / Sky Sports)"
+        }
+      ],
+      "playersOut": [
+        {
+          "player": "Rasmus Højlund",
+          "to": "Napoli",
+          "type": "Confirmed",
+          "detail": "Permanent after loan"
+        },
+        {
+          "player": "Casemiro",
+          "to": "—",
+          "type": "Departed",
+          "detail": "Destination not confirmed"
+        },
+        {
+          "player": "Jadon Sancho",
+          "to": "—",
+          "type": "Departed",
+          "detail": "Destination not confirmed"
+        },
+        {
+          "player": "Tyrell Malacia",
+          "to": "—",
+          "type": "Departed",
+          "detail": "Destination not confirmed"
+        }
+      ],
+      "notes": "Carrick's first full summer sees Santos and Tielemans rebuild the midfield, while Højlund's loan becomes permanent at Napoli and Casemiro, Sancho and Malacia depart without confirmed next clubs."
+    },
+    {
+      "id": "newcastle",
+      "name": "Newcastle United",
+      "manager": "Matthias Jaissle",
+      "managerNote": "New — replaced Eddie Howe",
+      "playersIn": [
+        {
+          "player": "Aladji Bamba",
+          "from": "Monaco",
+          "type": "Confirmed",
+          "detail": "Fee not disclosed"
+        },
+        {
+          "player": "Bazoumana Touré",
+          "from": "Hoffenheim",
+          "type": "Confirmed",
+          "detail": "Fee not disclosed"
+        },
+        {
+          "player": "Sean Steur",
+          "from": "Ajax",
+          "type": "Confirmed",
+          "detail": "Fee not disclosed"
+        },
+        {
+          "player": "Lukas Hornicek",
+          "from": "Braga",
+          "type": "Confirmed",
+          "detail": "Fee not disclosed"
+        }
+      ],
+      "playersOut": [
+        {
+          "player": "Sandro Tonali",
+          "to": "Tottenham Hotspur",
+          "type": "Confirmed",
+          "detail": "~£100m"
+        },
+        {
+          "player": "Anthony Gordon",
+          "to": "Barcelona",
+          "type": "Confirmed",
+          "detail": "Fee not disclosed"
+        },
+        {
+          "player": "Bruno Guimarães",
+          "to": "Arsenal",
+          "type": "Confirmed",
+          "detail": "~€87.5m"
+        },
+        {
+          "player": "Kieran Trippier",
+          "to": "—",
+          "type": "Departed",
+          "detail": "Destination not confirmed"
+        }
+      ],
+      "notes": "Jaissle inherits a rebuild on the back of major sales: Tonali (£100m), Bruno Guimarães and Gordon all leave, funding a younger core in Bamba, Touré, Steur and Hornicek."
+    },
+    {
+      "id": "nottingham-forest",
+      "name": "Nottingham Forest",
+      "manager": "Oliver Glasner",
+      "managerNote": "New — joined after leaving Crystal Palace",
+      "playersIn": [
+        {
+          "player": "Xaver Schlager",
+          "from": "Free agent",
+          "type": "Free",
+          "detail": "Free transfer"
+        },
+        {
+          "player": "Ousmane Diomande",
+          "from": "Sporting CP",
+          "type": "Confirmed",
+          "detail": "~£34m"
+        },
+        {
+          "player": "Liam Delap",
+          "from": "Chelsea",
+          "type": "Confirmed",
+          "detail": "£45–50m"
+        },
+        {
+          "player": "Daniel Muñoz",
+          "from": "Crystal Palace",
+          "type": "Confirmed",
+          "detail": "up to £22m"
+        }
+      ],
+      "playersOut": [
+        {
+          "player": "Elliot Anderson",
+          "to": "Manchester City",
+          "type": "Confirmed",
+          "detail": "~£116m"
+        },
+        {
+          "player": "Angus Gunn",
+          "to": "San Jose Earthquakes",
+          "type": "Confirmed",
+          "detail": "Fee not disclosed"
+        },
+        {
+          "player": "Stefan Ortega",
+          "to": "Olympiacos",
+          "type": "Confirmed",
+          "detail": "Fee not disclosed"
+        },
+        {
+          "player": "Jota Silva",
+          "to": "Olympiacos",
+          "type": "Confirmed",
+          "detail": "Fee not disclosed"
+        },
+        {
+          "player": "Gustavo Sá",
+          "to": "Olympiacos",
+          "type": "Confirmed",
+          "detail": "Fee not disclosed"
+        }
+      ],
+      "notes": "Glasner takes over from the departed Nuno era with the club-record sale of Elliot Anderson to Man City (~£116m). Diomande and the free-agent signing of Schlager begin the rebuild."
+    },
+    {
+      "id": "sunderland",
+      "name": "Sunderland",
+      "manager": "Régis Le Bris",
+      "managerNote": "No change",
+      "playersIn": [
+        {
+          "player": "Thomas Meunier",
+          "from": "Lille",
+          "type": "Free",
+          "detail": "Free transfer"
+        },
+        {
+          "player": "Ethan Berry",
+          "from": "Crystal Palace",
+          "type": "Free",
+          "detail": "Free transfer"
+        },
+        {
+          "player": "Adam Nelson",
+          "from": "Glentoran",
+          "type": "Free",
+          "detail": "Free transfer"
+        }
+      ],
+      "playersOut": [
+        {
+          "player": "Eliezer Mayenda",
+          "to": "Rennes",
+          "type": "Confirmed",
+          "detail": "£22m"
+        },
+        {
+          "player": "Anthony Patterson",
+          "to": "Wrexham",
+          "type": "Confirmed",
+          "detail": "£10m"
+        },
+        {
+          "player": "Dan Neil",
+          "to": "Rangers",
+          "type": "Free",
+          "detail": "Free transfer"
+        },
+        {
+          "player": "Bertrand Traoré",
+          "to": "—",
+          "type": "Released",
+          "detail": "Released"
+        }
+      ],
+      "notes": "Promoted Sunderland bank £22m for Mayenda and add experience on frees — Meunier from Lille — while Patterson's move to Wrexham raises eyebrows."
+    },
+    {
+      "id": "tottenham",
+      "name": "Tottenham Hotspur",
+      "manager": "Roberto De Zerbi",
+      "managerNote": "No change",
+      "playersIn": [
+        {
+          "player": "Sandro Tonali",
+          "from": "Newcastle United",
+          "type": "Confirmed",
+          "detail": "£100m"
+        },
+        {
+          "player": "Mateus Fernandes",
+          "from": "West Ham United",
+          "type": "Confirmed",
+          "detail": "£85m"
+        },
+        {
+          "player": "Jan Paul van Hecke",
+          "from": "Brighton",
+          "type": "Confirmed",
+          "detail": "£52m"
+        },
+        {
+          "player": "Martin Dúbravka",
+          "from": "Burnley",
+          "type": "Free",
+          "detail": "Free transfer"
+        },
+        {
+          "player": "Andy Robertson",
+          "from": "Liverpool",
+          "type": "Free",
+          "detail": "Free transfer"
+        },
+        {
+          "player": "Marcos Senesi",
+          "from": "Bournemouth",
+          "type": "Free",
+          "detail": "Free transfer"
+        },
+        {
+          "player": "Cole Ramsey",
+          "from": "Aston Villa",
+          "type": "Free",
+          "detail": "Free transfer"
+        },
+        {
+          "player": "Mykhailo Mudryk",
+          "from": "Chelsea",
+          "type": "Loan",
+          "detail": "Season-long loan"
+        },
+        {
+          "player": "Tosin Adarabioyo",
+          "from": "Chelsea",
+          "type": "Confirmed",
+          "detail": "£10m"
+        }
+      ],
+      "playersOut": [
+        {
+          "player": "Luka Vušković",
+          "to": "Brighton",
+          "type": "Confirmed",
+          "detail": "£50m"
+        },
+        {
+          "player": "Will Lankshear",
+          "to": "Middlesbrough",
+          "type": "Confirmed",
+          "detail": "£20m"
+        },
+        {
+          "player": "Tynan Thompson",
+          "to": "Manchester United",
+          "type": "Confirmed",
+          "detail": "£8m"
+        }
+      ],
+      "notes": "De Zerbi's Spurs make the window's biggest splash: Tonali for £100m and Fernandes for £85m, plus free additions Robertson and Senesi, as Vušković's £50m exit balances the books."
+    },
+    {
+      "id": "coventry",
+      "name": "Coventry City",
+      "manager": "Frank Lampard",
+      "managerNote": "No change",
+      "playersIn": [
+        {
+          "player": "Caleb Yirenkyi",
+          "from": "Nordsjælland",
+          "type": "Confirmed",
+          "detail": "£26m"
+        },
+        {
+          "player": "Carl Rushworth",
+          "from": "Brighton",
+          "type": "Confirmed",
+          "detail": "£22.5m"
+        },
+        {
+          "player": "Loum Tchaouna",
+          "from": "Burnley",
+          "type": "Confirmed",
+          "detail": "£20m"
+        },
+        {
+          "player": "Aurèle Amenda",
+          "from": "Eintracht Frankfurt",
+          "type": "Confirmed",
+          "detail": "£17.2m"
+        },
+        {
+          "player": "Gustavo Hamer",
+          "from": "Sheffield United",
+          "type": "Confirmed",
+          "detail": "£6m"
+        },
+        {
+          "player": "Frank Onyeka",
+          "from": "Brentford",
+          "type": "Confirmed",
+          "detail": "Fee not disclosed"
+        }
+      ],
+      "playersOut": [
+        {
+          "player": "Jahnoah Markelo",
+          "to": "Shabab Al-Ahli",
+          "type": "Confirmed",
+          "detail": "Fee not disclosed"
+        },
+        {
+          "player": "Brad Collins",
+          "to": "Bristol City",
+          "type": "Free",
+          "detail": "Free transfer"
+        }
+      ],
+      "notes": "Promoted Coventry are spending like they belong: Yirenkyi, Rushworth and Tchaouna arrive for a combined £68.5m as Lampard strengthens every area of the pitch."
+    },
+    {
+      "id": "ipswich",
+      "name": "Ipswich Town",
+      "manager": "Gary O'Neil",
+      "managerNote": "New — replaced Kieran McKenna, who stepped down after promotion",
+      "playersIn": [
+        {
+          "player": "Emersonn",
+          "from": "Toulouse",
+          "type": "Confirmed",
+          "detail": "£26.6m"
+        },
+        {
+          "player": "Abdul Fatawu",
+          "from": "Leicester City",
+          "type": "Confirmed",
+          "detail": "£23m"
+        },
+        {
+          "player": "Florentino",
+          "from": "Burnley",
+          "type": "Confirmed",
+          "detail": "£19m"
+        },
+        {
+          "player": "Kjell Scherpen",
+          "from": "Union Saint-Gilloise",
+          "type": "Confirmed",
+          "detail": "£11m"
+        },
+        {
+          "player": "Daizen Maeda",
+          "from": "Celtic",
+          "type": "Confirmed",
+          "detail": "£10m"
+        },
+        {
+          "player": "Saša Lukić",
+          "from": "Fulham",
+          "type": "Confirmed",
+          "detail": "£9m"
+        },
+        {
+          "player": "Issa Diop",
+          "from": "Fulham",
+          "type": "Confirmed",
+          "detail": "£8.5m"
+        }
+      ],
+      "playersOut": [
+        {
+          "player": "Arijanet Muric",
+          "to": "Sassuolo",
+          "type": "Confirmed",
+          "detail": "£8.6m"
+        },
+        {
+          "player": "Ashley Young",
+          "to": "—",
+          "type": "Retired",
+          "detail": "Retired"
+        }
+      ],
+      "notes": "After McKenna's departure, O'Neil inherits a promoted squad being given real backing: seven arrivals led by Emersonn and Fatawu, while Ashley Young retires at 41."
+    },
+    {
+      "id": "hull",
+      "name": "Hull City",
+      "manager": "Sergej Jakirović",
+      "managerNote": "No change",
+      "playersIn": [
+        {
+          "player": "Jack Butland",
+          "from": "Rangers",
+          "type": "Confirmed",
+          "detail": "£3m"
+        },
+        {
+          "player": "Matt Targett",
+          "from": "Newcastle United",
+          "type": "Free",
+          "detail": "Free transfer"
+        },
+        {
+          "player": "Ben Robinson",
+          "from": "Preston North End",
+          "type": "Free",
+          "detail": "Free transfer"
+        },
+        {
+          "player": "Hidemasa Morita",
+          "from": "Sporting CP",
+          "type": "Free",
+          "detail": "Free transfer"
+        }
+      ],
+      "playersOut": [
+        {
+          "player": "Ivor Pandur",
+          "to": "Rangers",
+          "type": "Confirmed",
+          "detail": "£6m"
+        },
+        {
+          "player": "Kyle Joseph",
+          "to": "Middlesbrough",
+          "type": "Confirmed",
+          "detail": "£4m"
+        }
+      ],
+      "notes": "Hull's third promotion in the modern era brings measured business: Butland arrives from Rangers while Morita adds international quality on a free."
+    }
+  ]
+}

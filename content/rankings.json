@@ -1,0 +1,333 @@
+{
+ "_comment": "BRYME CENTRAL RANKINGS — THIS IS THE ONE FILE TO EDIT. Change the Trending lists here; no catalogue records need touching. 'slug' identifies the title (the 'title' field is only for your readability — the build checks it matches). 'trendingRank' controls order (lower = first). 'until' (optional, YYYY-MM-DD) auto-removes an entry after that date. This is a manually curated editorial list — NOT live traffic data, no fake view counts.",
+ "hero": {
+  "slug": "spider-man-brand-new-day",
+  "title": "Spider-Man: Brand New Day",
+  "typeDir": "movie"
+ },
+ "trending": {
+  "movie": [
+   {
+    "slug": "spider-man-brand-new-day",
+    "title": "Spider-Man: Brand New Day",
+    "trendingRank": 1,
+    "badge": "hot",
+    "note": "The film actually filling cinemas this month — not a December placeholder."
+   },
+   {
+    "slug": "the-odyssey",
+    "title": "The Odyssey",
+    "trendingRank": 2,
+    "badge": "hot",
+    "note": "Nolan's Homer film is still running behind Spider-Man, not a memory of July."
+   },
+   {
+    "slug": "niu-lai",
+    "title": "Niu Lai",
+    "trendingRank": 3,
+    "badge": "viral",
+    "note": "The Chinese calf cartoon that flopped, then would not leave the chart."
+   },
+   {
+    "slug": "the-end-of-oak-street",
+    "title": "The End of Oak Street",
+    "trendingRank": 4,
+    "badge": "new",
+    "note": "The grown-up dinosaur film that opened against PAW Patrol."
+   },
+   {
+    "slug": "paw-patrol-the-dino-movie",
+    "title": "PAW Patrol: The Dino Movie",
+    "trendingRank": 5,
+    "badge": "new",
+    "note": "The kids' dinosaur film in the same August weekend."
+   },
+   {
+    "slug": "toy-story-5",
+    "title": "Toy Story 5",
+    "trendingRank": 6,
+    "badge": "rising",
+    "note": "Still in theatres in August after a June opening."
+   },
+   {
+    "slug": "jana-nayagan",
+    "title": "Jana Nayagan",
+    "trendingRank": 7,
+    "badge": "regional",
+    "note": "Vijay's delayed Tamil film, released after he became Chief Minister."
+   },
+   {
+    "slug": "katseye-wild-hearts",
+    "title": "KATSEYE: WILD HEARTS",
+    "trendingRank": 8,
+    "badge": "global",
+    "note": "A pop-group documentary that took limited cinema dates in August."
+   },
+   {
+    "slug": "hope-2026",
+    "title": "Hope",
+    "trendingRank": 9,
+    "badge": "regional",
+    "note": "Na Hong-jin's Korean creature film: out at home, US date still ahead."
+   },
+   {
+    "slug": "call-of-my-life",
+    "title": "Call of My Life",
+    "trendingRank": 10,
+    "badge": "regional",
+    "note": "A 2026 Nollywood rom-com that actually sold cinema tickets at home."
+   }
+  ],
+  "series": [
+   {
+    "slug": "squid-game",
+    "title": "Squid Game",
+    "trendingRank": 1,
+    "until": "2026-12-31"
+   },
+   {
+    "slug": "stranger-things",
+    "title": "Stranger Things",
+    "trendingRank": 2
+   },
+   {
+    "slug": "severance",
+    "title": "Severance",
+    "trendingRank": 3
+   },
+   {
+    "slug": "the-last-of-us",
+    "title": "The Last of Us",
+    "trendingRank": 4
+   },
+   {
+    "slug": "house-of-the-dragon",
+    "title": "House of the Dragon",
+    "trendingRank": 5
+   },
+   {
+    "slug": "wednesday",
+    "title": "Wednesday",
+    "trendingRank": 6
+   }
+  ],
+  "anime": [
+   {
+    "slug": "solo-leveling",
+    "title": "Solo Leveling",
+    "trendingRank": 1
+   },
+   {
+    "slug": "sakamoto-days",
+    "title": "Sakamoto Days",
+    "trendingRank": 2
+   },
+   {
+    "slug": "dandadan",
+    "title": "Dandadan",
+    "trendingRank": 3
+   },
+   {
+    "slug": "kaiju-no-8",
+    "title": "Kaiju No. 8",
+    "trendingRank": 4
+   },
+   {
+    "slug": "demon-slayer",
+    "title": "Demon Slayer: Kimetsu no Yaiba",
+    "trendingRank": 5
+   },
+   {
+    "slug": "chainsaw-man",
+    "title": "Chainsaw Man",
+    "trendingRank": 6
+   }
+  ]
+ },
+ "popular": {
+  "movie": [
+   {
+    "slug": "titanic",
+    "title": "Titanic",
+    "popularRank": 1
+   },
+   {
+    "slug": "avatar-the-way-of-water",
+    "title": "Avatar: The Way of Water",
+    "popularRank": 2
+   },
+   {
+    "slug": "the-dark-knight",
+    "title": "The Dark Knight",
+    "popularRank": 3
+   },
+   {
+    "slug": "inception",
+    "title": "Inception",
+    "popularRank": 4
+   },
+   {
+    "slug": "interstellar",
+    "title": "Interstellar",
+    "popularRank": 5
+   },
+   {
+    "slug": "avengers-endgame",
+    "title": "Avengers: Endgame",
+    "popularRank": 6
+   },
+   {
+    "slug": "spider-man-no-way-home",
+    "title": "Spider-Man: No Way Home",
+    "popularRank": 7
+   },
+   {
+    "slug": "the-godfather",
+    "title": "The Godfather",
+    "popularRank": 8
+   },
+   {
+    "slug": "the-shawshank-redemption",
+    "title": "The Shawshank Redemption",
+    "popularRank": 9
+   },
+   {
+    "slug": "forrest-gump",
+    "title": "Forrest Gump",
+    "popularRank": 10
+   },
+   {
+    "slug": "parasite",
+    "title": "Parasite",
+    "popularRank": 11
+   },
+   {
+    "slug": "top-gun-maverick",
+    "title": "Top Gun: Maverick",
+    "popularRank": 12
+   }
+  ],
+  "series": [
+   {
+    "slug": "breaking-bad",
+    "title": "Breaking Bad",
+    "popularRank": 1
+   },
+   {
+    "slug": "money-heist",
+    "title": "Money Heist",
+    "popularRank": 2
+   },
+   {
+    "slug": "game-of-thrones",
+    "title": "Game of Thrones",
+    "popularRank": 3
+   },
+   {
+    "slug": "squid-game",
+    "title": "Squid Game",
+    "popularRank": 4
+   },
+   {
+    "slug": "the-office-us",
+    "title": "The Office",
+    "popularRank": 5
+   },
+   {
+    "slug": "friends",
+    "title": "Friends",
+    "popularRank": 6
+   },
+   {
+    "slug": "peaky-blinders",
+    "title": "Peaky Blinders",
+    "popularRank": 7
+   },
+   {
+    "slug": "sherlock",
+    "title": "Sherlock",
+    "popularRank": 8
+   }
+  ],
+  "anime": [
+   {
+    "slug": "one-piece",
+    "title": "One Piece",
+    "popularRank": 1
+   },
+   {
+    "slug": "naruto",
+    "title": "Naruto",
+    "popularRank": 2
+   },
+   {
+    "slug": "dragon-ball-z",
+    "title": "Dragon Ball Z",
+    "popularRank": 3
+   },
+   {
+    "slug": "attack-on-titan",
+    "title": "Attack on Titan",
+    "popularRank": 4
+   },
+   {
+    "slug": "jujutsu-kaisen",
+    "title": "Jujutsu Kaisen",
+    "popularRank": 5
+   },
+   {
+    "slug": "death-note",
+    "title": "Death Note",
+    "popularRank": 6
+   },
+   {
+    "slug": "my-hero-academia",
+    "title": "My Hero Academia",
+    "popularRank": 7
+   },
+   {
+    "slug": "demon-slayer",
+    "title": "Demon Slayer: Kimetsu no Yaiba",
+    "popularRank": 8
+   }
+  ]
+ },
+ "editorPicks": [
+  {
+   "slug": "one-piece",
+   "title": "One Piece",
+   "editorPickRank": 1,
+   "note": "The pirate adventure of a lifetime"
+  },
+  {
+   "slug": "solo-leveling",
+   "title": "Solo Leveling",
+   "editorPickRank": 2,
+   "note": "E-rank to S-rank — the grind arc"
+  },
+  {
+   "slug": "breaking-bad",
+   "title": "Breaking Bad",
+   "editorPickRank": 3,
+   "note": "TV drama gold standard"
+  },
+  {
+   "slug": "into-the-badlands",
+   "title": "Into the Badlands",
+   "editorPickRank": 4,
+   "note": "The underrated martial-arts gem"
+  },
+  {
+   "slug": "interstellar",
+   "title": "Interstellar",
+   "editorPickRank": 5,
+   "note": "Space, time and the power of love"
+  },
+  {
+   "slug": "squid-game",
+   "title": "Squid Game",
+   "editorPickRank": 6,
+   "note": "Survival games that broke the internet"
+  }
+ ]
+}

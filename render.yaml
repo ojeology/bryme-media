@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: bryme-media
+    runtime: node
+    rootDir: server
+    plan: free
+    buildCommand: npm install --omit=dev
+    startCommand: node server.js
+    healthCheckPath: /healthz
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: TELEGRAM_ENABLED
+        value: "0"
+      - key: WATCHDOG
+        value: "off"

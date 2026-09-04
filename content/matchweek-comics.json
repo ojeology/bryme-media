@@ -1,0 +1,449 @@
+{
+  "_readme": "BRYME Matchweek Chronicles. Original cartoon storylines only. Scores and named scorers must already exist in content/results.json. Speech bubbles are fictional cartoon-squad chatter, not quotes from real people. Artwork lives in /assets/img/sports/comics/ and is original generated illustration — no broadcast stills, no player photographs, no club badges in the drawings.",
+  "art": {
+    "masthead": "/assets/img/sports/comics/masthead.jpg",
+    "arrival": "/assets/img/sports/comics/panel-arrival.jpg",
+    "kickoff": "/assets/img/sports/comics/panel-kickoff.jpg",
+    "concede": "/assets/img/sports/comics/panel-concede.jpg",
+    "celebrate": "/assets/img/sports/comics/panel-celebrate.jpg",
+    "manager": "/assets/img/sports/comics/panel-manager.jpg",
+    "table": "/assets/img/sports/comics/panel-table.jpg",
+    "awaiting": "/assets/img/sports/comics/panel-awaiting.jpg",
+    "hu1": "/assets/img/sports/comics/hull-united-mw1/01.jpg",
+    "hu2": "/assets/img/sports/comics/hull-united-mw1/02.jpg",
+    "hu3": "/assets/img/sports/comics/hull-united-mw1/03.jpg",
+    "hu4": "/assets/img/sports/comics/hull-united-mw1/04.jpg",
+    "hu5": "/assets/img/sports/comics/hull-united-mw1/05.jpg",
+    "hu6": "/assets/img/sports/comics/hull-united-mw1/06.jpg",
+    "hu7": "/assets/img/sports/comics/hull-united-mw1/07.jpg",
+    "hu8": "/assets/img/sports/comics/hull-united-mw1/08.jpg"
+  },
+  "stories": [
+    {
+      "teamId": "arsenal",
+      "matchweek": 1,
+      "matchSlug": "arsenal-vs-coventry",
+      "headline": "The title defence opens with a clean sheet",
+      "resultLine": "Arsenal 3–0 Coventry City",
+      "status": "complete",
+      "panels": [
+        {
+          "art": "arrival",
+          "title": "Before kickoff",
+          "caption": "Friday night at the Emirates. A new league season, a promoted visitor, and a cartoon squad that has decided three points is the only acceptable souvenir.",
+          "bubble": "New season. Same red shirts. Let's take the first three and go home."
+        },
+        {
+          "art": "kickoff",
+          "title": "The first one",
+          "caption": "The opening goal goes in. BRYME does not have a sourced scorer for this match, so the comic does not invent a name — only the scoreline that BBC Sport later confirmed.",
+          "bubble": "That's one. Don't get clever. Get two."
+        },
+        {
+          "art": "celebrate",
+          "title": "The second",
+          "caption": "Coventry spend the rest of the half chasing a side that has already decided the evening's direction.",
+          "bubble": "They're running. We're passing. Keep it boring."
+        },
+        {
+          "art": "celebrate",
+          "title": "The third",
+          "caption": "A third goal lands. The title defence has a first win. It is a start, not a carved-in-stone statement.",
+          "bubble": "Three-nil. Write it down. Then forget it until next week."
+        },
+        {
+          "art": "kickoff",
+          "title": "Full time",
+          "caption": "Arsenal 3–0 Coventry City. Confirmed via BBC Sport on 21 August 2026.",
+          "bubble": "Clean sheet. Three points. Next."
+        },
+        {
+          "art": "table",
+          "title": "The board",
+          "caption": "Played 1, won 1. Several Premier League sides still have their opening match in front of them, so the table is a snapshot, not a throne.",
+          "bubble": "We're on three. So is anyone else who already won. Sit down."
+        }
+      ]
+    },
+    {
+      "teamId": "man-united",
+      "matchweek": 1,
+      "matchSlug": "hull-vs-man-united",
+      "headline": "The Tigers are back",
+      "resultLine": "Hull City 2–0 Manchester United",
+      "status": "complete",
+      "panels": [
+        {
+          "art": "hu1",
+          "title": "Hull’s Premier League return",
+          "caption": "Home tunnel. Amber flags. Nine years away. United stay on the grass.",
+          "bubble": "Nobody expects us to be here."
+        },
+        {
+          "art": "hu2",
+          "title": "Kick-off → 17′ Ajayi",
+          "caption": "McBurnie saved. Rebound. Semi Ajayi. 1–0.",
+          "bubble": "We were supposed to control this game."
+        },
+        {
+          "art": "hu3",
+          "title": "Dorgu booked → 38′ Mendy",
+          "caption": "Yellow on 34′. Slater’s free-kick, Mendy’s header. 2–0.",
+          "bubble": "Another set piece."
+        },
+        {
+          "art": "hu4",
+          "title": "Half-time: two rooms",
+          "caption": "Stripes only on the left. Red only on the right. Rashford laces up.",
+          "bubble": "Marcus, get ready."
+        },
+        {
+          "art": "hu5",
+          "title": "Rashford on",
+          "caption": "United own the ball. Hull own the score. 72% possession.",
+          "bubble": "We have 72%."
+        },
+        {
+          "art": "hu6",
+          "title": "The changes",
+          "caption": "Ajayi and Mendy off to applause. Sesko and Mainoo on.",
+          "bubble": "You need two."
+        },
+        {
+          "art": "hu7",
+          "title": "Late push · full time",
+          "caption": "Tzolakis keeps Mbeumo out. Millar yellow 90+6. Whistle.",
+          "bubble": "At 2–0?"
+        },
+        {
+          "art": "hu8",
+          "title": "The Tigers are back",
+          "caption": "Ajayi 17. Mendy 38. Possession does not keep the points.",
+          "bubble": "Welcome back to the Premier League."
+        }
+      ]
+    },
+    {
+      "teamId": "tottenham",
+      "matchweek": 1,
+      "matchSlug": "brentford-vs-tottenham",
+      "headline": "A Saturday evening that only travelled one way",
+      "resultLine": "Brentford 3–0 Tottenham Hotspur",
+      "status": "complete",
+      "panels": [
+        {
+          "art": "arrival",
+          "title": "Before kickoff",
+          "caption": "West London, 17:30, Sky Sports. Tottenham travel across the city expecting a contest. Brentford have prepared a different evening.",
+          "bubble": "Short hop. Get the three. Don't make it a story."
+        },
+        {
+          "art": "concede",
+          "title": "12 minutes",
+          "caption": "Keane Lewis-Potter, 12'. The first one. BBC Sport has the name and the minute. The cartoon away end has its head in its hands.",
+          "bubble": "Already? We just sat down."
+        },
+        {
+          "art": "concede",
+          "title": "33 and 48",
+          "caption": "Vitaly Janelt on 33', Michael Kayode on 48'. Three different names, one direction of traffic.",
+          "bubble": "Three. Three different people. This is a parade."
+        },
+        {
+          "art": "manager",
+          "title": "The reaction",
+          "caption": "The cartoon away bench stares at the scoreboard as if it personally betrayed them. It did not. Brentford did.",
+          "bubble": "Don't look at the board. Look at the ball. It's over there."
+        },
+        {
+          "art": "kickoff",
+          "title": "Full time",
+          "caption": "Brentford 3–0 Tottenham Hotspur. Confirmed via BBC Sport on 22 August 2026.",
+          "bubble": "Zero shots of comfort. Zero points. Next week is not this week, and that is the only good news."
+        },
+        {
+          "art": "table",
+          "title": "The board",
+          "caption": "Played 1, lost 1, three conceded. Several sides have not even kicked off yet. Tottenham already know how the opening weekend felt.",
+          "bubble": "Put us wherever the lost column lives. We'll climb later."
+        }
+      ]
+    },
+    {
+      "teamId": "atletico-madrid",
+      "matchweek": 1,
+      "matchSlug": "atletico-madrid-vs-malaga",
+      "headline": "A midweek start, two goals, no drama invented",
+      "resultLine": "Atlético Madrid 2–0 Málaga",
+      "status": "complete",
+      "panels": [
+        {
+          "art": "arrival",
+          "title": "Before kickoff",
+          "caption": "Wednesday night at the Riyadh Air Metropolitano. Málaga visit. The cartoon red-and-white shirts treat it as a first chore of a long league.",
+          "bubble": "Midweek. Home. Two goals would be polite."
+        },
+        {
+          "art": "kickoff",
+          "title": "The first",
+          "caption": "A first goal goes in. BRYME does not have a sourced scorer for this match, so the comic does not name one.",
+          "bubble": "One-nil. Keep the door shut."
+        },
+        {
+          "art": "celebrate",
+          "title": "The second",
+          "caption": "A second follows. The evening settles into the kind of home win that does not need a novel, only a scoreline.",
+          "bubble": "Two. That's the polite number."
+        },
+        {
+          "art": "manager",
+          "title": "The touchline",
+          "caption": "The cartoon dugout folds its arms. A first league win is in the book. Sunday's visitors will be harder.",
+          "bubble": "Good. Now recover. Villarreal is not Málaga."
+        },
+        {
+          "art": "kickoff",
+          "title": "Full time",
+          "caption": "Atlético Madrid 2–0 Málaga. Confirmed via BBC Sport on 19 August 2026.",
+          "bubble": "Three points. Clean sheet. File it."
+        },
+        {
+          "art": "table",
+          "title": "The board",
+          "caption": "Played 1, won 1. La Liga's opening weeks are staggered, so the table is a running tally of sourced results, not an official jornada close.",
+          "bubble": "We're on three. Don't frame it."
+        }
+      ]
+    },
+    {
+      "teamId": "real-madrid",
+      "matchweek": 2,
+      "matchSlug": "espanyol-vs-real-madrid",
+      "headline": "Stolen at the death in Barcelona",
+      "resultLine": "Espanyol 1–2 Real Madrid",
+      "status": "complete",
+      "panels": [
+        {
+          "art": "arrival",
+          "title": "Before kickoff",
+          "caption": "Saturday night in Barcelona. Madrid are the visitors. The cartoon white shirts expect control. The evening has other plans.",
+          "bubble": "Away. Get the three. Don't make it late."
+        },
+        {
+          "art": "celebrate",
+          "title": "9 minutes",
+          "caption": "Jude Bellingham, 9'. Quick. BBC Sport has the minute. The comic does not need to decorate it.",
+          "bubble": "Early. Good. Now don't fall asleep."
+        },
+        {
+          "art": "concede",
+          "title": "30 minutes",
+          "caption": "Cala, 30'. Level. The home side have a way back into their own evening.",
+          "bubble": "We were winning. We were literally just winning."
+        },
+        {
+          "art": "celebrate",
+          "title": "90 minutes",
+          "caption": "Carlos Espí, 90'. Late. The cartoon white shirts finally breathe. A first league win of the season, taken at the death.",
+          "bubble": "Now. Now you score. Typical."
+        },
+        {
+          "art": "kickoff",
+          "title": "Full time",
+          "caption": "Espanyol 1–2 Real Madrid. Confirmed via BBC Sport on 22 August 2026.",
+          "bubble": "Ugly. Fine. Three points do not have to be pretty."
+        },
+        {
+          "art": "table",
+          "title": "The board",
+          "caption": "A first sourced league win is on the board. Real Madrid's numbered 'matchweek 1' fixture is still ahead — the calendar is not the same thing as the clock.",
+          "bubble": "Win first. Argue about jornada numbers later."
+        }
+      ]
+    },
+    {
+      "teamId": "inter",
+      "matchweek": 1,
+      "matchSlug": "inter-vs-monza",
+      "headline": "Four goals, one reply, a loud San Siro start",
+      "resultLine": "Inter Milan 4–1 Monza",
+      "status": "complete",
+      "panels": [
+        {
+          "art": "arrival",
+          "title": "Before kickoff",
+          "caption": "Saturday at San Siro. Monza visit. The cartoon nerazzurri treat the opener as a home chore that should end with a smile.",
+          "bubble": "Home. First night. Make it four if they let us."
+        },
+        {
+          "art": "celebrate",
+          "title": "6 minutes",
+          "caption": "Hakan Çalhanoğlu, 6'. The evening starts on time.",
+          "bubble": "Six minutes. That's the tempo."
+        },
+        {
+          "art": "concede",
+          "title": "29 minutes",
+          "caption": "Gustavo Varela, 29'. Monza have a reply. The cartoon home end briefly remembers that football is not a procession by law.",
+          "bubble": "One-one? Who said they could do that?"
+        },
+        {
+          "art": "celebrate",
+          "title": "The second half",
+          "caption": "Piotr Zieliński 48', Francesco Pio Esposito 55', Yann Aurel Bisseck 63'. Three more, all sourced from BBC Sport. The procession resumes.",
+          "bubble": "Right. That's more like four."
+        },
+        {
+          "art": "kickoff",
+          "title": "Full time",
+          "caption": "Inter Milan 4–1 Monza. Confirmed via BBC Sport on 22 August 2026.",
+          "bubble": "Four-one. File it under 'start'."
+        },
+        {
+          "art": "table",
+          "title": "The board",
+          "caption": "Played 1, won 1, four scored. Several Serie A sides still have their first match on Sunday or Monday.",
+          "bubble": "We're on three. The rest of the city can catch up tomorrow."
+        }
+      ]
+    },
+    {
+      "teamId": "napoli",
+      "matchweek": 1,
+      "matchSlug": "genoa-vs-napoli",
+      "headline": "Two late punches in Genoa",
+      "resultLine": "Genoa 0–2 Napoli",
+      "status": "complete",
+      "panels": [
+        {
+          "art": "arrival",
+          "title": "Before kickoff",
+          "caption": "Saturday night in Genoa. Napoli travel. The cartoon sky-blue shirts are patient. They will need to be.",
+          "bubble": "Away. Don't panic early. The goal will come."
+        },
+        {
+          "art": "kickoff",
+          "title": "A long evening",
+          "caption": "For a long time the comic has no goal to draw. That is not a plot hole. It is the match.",
+          "bubble": "Still 0-0. Keep running. They'll blink."
+        },
+        {
+          "art": "celebrate",
+          "title": "82 minutes",
+          "caption": "Kevin De Bruyne, 82'. Late, and sourced. The evening finally tilts.",
+          "bubble": "There. I told you they'd blink."
+        },
+        {
+          "art": "celebrate",
+          "title": "87 minutes",
+          "caption": "Antonio Vergara, 87'. A second, four minutes later. The cartoon away end finds its voice.",
+          "bubble": "Two. Now it looks like a plan."
+        },
+        {
+          "art": "kickoff",
+          "title": "Full time",
+          "caption": "Genoa 0–2 Napoli. Confirmed via BBC Sport on 22 August 2026.",
+          "bubble": "Patience. Then two. That's an away win."
+        },
+        {
+          "art": "table",
+          "title": "The board",
+          "caption": "Played 1, won 1, clean sheet. A first Serie A night that refused to become a story until the last ten minutes.",
+          "bubble": "Three points. No need to frame the last ten. Just take them."
+        }
+      ]
+    },
+    {
+      "teamId": "marseille",
+      "matchweek": 1,
+      "matchSlug": "marseille-vs-strasbourg",
+      "headline": "A Friday night at the Vélodrome, settled after the break",
+      "resultLine": "Marseille 4–0 Strasbourg",
+      "status": "complete",
+      "panels": [
+        {
+          "art": "arrival",
+          "title": "Before kickoff",
+          "caption": "Friday in Marseille. Strasbourg visit. The cartoon home end wants a statement. The first half declines to provide one.",
+          "bubble": "Friday. Home. Don't let them leave with a point."
+        },
+        {
+          "art": "kickoff",
+          "title": "The first half",
+          "caption": "Goalless at the break. The comic sits on its hands. Then the second half begins.",
+          "bubble": "Still 0-0. Fine. Now start."
+        },
+        {
+          "art": "celebrate",
+          "title": "Gouiri, twice",
+          "caption": "Amine Gouiri, 46' and 68'. A brace, both sourced from BBC Sport. The Vélodrome remembers how this is supposed to feel.",
+          "bubble": "Two for him. Keep serving."
+        },
+        {
+          "art": "celebrate",
+          "title": "Late, then later",
+          "caption": "Emran Soglo Abdallah 89', Pierre-Emile Højbjerg 90+6'. Four-nil by the time the referee has had enough.",
+          "bubble": "Four. That's a Friday."
+        },
+        {
+          "art": "kickoff",
+          "title": "Full time",
+          "caption": "Olympique de Marseille 4–0 RC Strasbourg. Confirmed via BBC Sport on 21 August 2026.",
+          "bubble": "Clean sheet. Four goals. Put it on the wall and go to sleep."
+        },
+        {
+          "art": "table",
+          "title": "The board",
+          "caption": "Played 1, won 1, four scored, none conceded. Ligue 1's opening weekend is still being played.",
+          "bubble": "We're on three. Paris play Sunday. That's their problem."
+        }
+      ]
+    },
+    {
+      "teamId": "lyon",
+      "matchweek": 1,
+      "matchSlug": "toulouse-vs-lyon",
+      "headline": "A clean away night in Toulouse",
+      "resultLine": "Toulouse 0–2 Lyon",
+      "status": "complete",
+      "panels": [
+        {
+          "art": "arrival",
+          "title": "Before kickoff",
+          "caption": "Saturday in Toulouse. Lyon travel. The cartoon visitors want a first-night win and no souvenirs left behind.",
+          "bubble": "Away. Two goals. Don't give them one."
+        },
+        {
+          "art": "kickoff",
+          "title": "The first",
+          "caption": "A first goal goes in. BRYME does not have a sourced scorer for this match, so the comic does not invent a name.",
+          "bubble": "One-nil. Stay mean."
+        },
+        {
+          "art": "celebrate",
+          "title": "The second",
+          "caption": "A second follows. The evening becomes the kind of away win that looks simple only after it is finished.",
+          "bubble": "Two. That's the number we asked for."
+        },
+        {
+          "art": "manager",
+          "title": "The touchline",
+          "caption": "The cartoon away bench stays standing until the whistle. A clean sheet is still available and they would like to keep it.",
+          "bubble": "Don't get cute. Take the zero."
+        },
+        {
+          "art": "kickoff",
+          "title": "Full time",
+          "caption": "Toulouse 0–2 Olympique Lyonnais. Confirmed via BBC Sport on 22 August 2026.",
+          "bubble": "Two-nil away. First box ticked."
+        },
+        {
+          "art": "table",
+          "title": "The board",
+          "caption": "Played 1, won 1, none conceded. Sunday's Ligue 1 programme is still ahead of several rivals.",
+          "bubble": "Three points. Let Paris and Monaco play tomorrow."
+        }
+      ]
+    }
+  ]
+}

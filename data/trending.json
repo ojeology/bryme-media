@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-21T20:29:26.148Z",
+  "mode": "editorial-curation",
+  "note": "Trending Now is editorially curated (content/rankings.json). No live traffic data is claimed. When real analytics exist, Trending Score = recent engagement + growth rate + searches + clicks + recency can replace this list without changing the site architecture.",
+  "futureSignals": [
+    "pageViews",
+    "searches",
+    "cardClicks",
+    "trailerClicks",
+    "watchInteractions",
+    "favorites",
+    "shares",
+    "recentGrowth"
+  ],
+  "records": [
+    {
+      "slug": "spider-man-brand-new-day",
+      "title": "Spider-Man: Brand New Day",
+      "typeDir": "movie",
+      "year": 2026,
+      "trendingRank": 1,
+      "trendingUntil": null
+    },
+    {
+      "slug": "the-odyssey",
+      "title": "The Odyssey",
+      "typeDir": "movie",
+      "year": 2026,
+      "trendingRank": 2,
+      "trendingUntil": null
+    },
+    {
+      "slug": "niu-lai",
+      "title": "Niu Lai",
+      "typeDir": "movie",
+      "year": 2026,
+      "trendingRank": 3,
+      "trendingUntil": null
+    },
+    {
+      "slug": "the-end-of-oak-street",
+      "title": "The End of Oak Street",
+      "typeDir": "movie",
+      "year": 2026,
+      "trendingRank": 4,
+      "trendingUntil": null
+    },
+    {
+      "slug": "paw-patrol-the-dino-movie",
+      "title": "PAW Patrol: The Dino Movie",
+      "typeDir": "movie",
+      "year": 2026,
+      "trendingRank": 5,
+      "trendingUntil": null
+    },
+    {
+      "slug": "toy-story-5",
+      "title": "Toy Story 5",
+      "typeDir": "movie",
+      "year": 2026,
+      "trendingRank": 6,
+      "trendingUntil": null
+    },
+    {
+      "slug": "jana-nayagan",
+      "title": "Jana Nayagan",
+      "typeDir": "movie",
+      "year": 2026,
+      "trendingRank": 7,
+      "trendingUntil": null
+    },
+    {
+      "slug": "katseye-wild-hearts",
+      "title": "KATSEYE: WILD HEARTS",
+      "typeDir": "movie",
+      "year": 2026,
+      "trendingRank": 8,
+      "trendingUntil": null
+    },
+    {
+      "slug": "hope-2026",
+      "title": "Hope",
+      "typeDir": "movie",
+      "year": 2026,
+      "trendingRank": 9,
+      "trendingUntil": null
+    },
+    {
+      "slug": "call-of-my-life",
+      "title": "Call of My Life",
+      "typeDir": "movie",
+      "year": 2026,
+      "trendingRank": 10,
+      "trendingUntil": null
+    },
+    {
+      "slug": "squid-game",
+      "title": "Squid Game",
+      "typeDir": "series",
+      "year": 2021,
+      "trendingRank": 1,
+      "trendingUntil": "2026-12-31"
+    },
+    {
+      "slug": "stranger-things",
+      "title": "Stranger Things",
+      "typeDir": "series",
+      "year": 2016,
+      "trendingRank": 2,
+      "trendingUntil": null
+    },
+    {
+      "slug": "severance",
+      "title": "Severance",
+      "typeDir": "series",
+      "year": 2022,
+      "trendingRank": 3,
+      "trendingUntil": null
+    },
+    {
+      "slug": "the-last-of-us",
+      "title": "The Last of Us",
+      "typeDir": "series",
+      "year": 2023,
+      "trendingRank": 4,
+      "trendingUntil": null
+    },
+    {
+      "slug": "house-of-the-dragon",
+      "title": "House of the Dragon",
+      "typeDir": "series",
+      "year": 2022,
+      "trendingRank": 5,
+      "trendingUntil": null
+    },
+    {
+      "slug": "wednesday",
+      "title": "Wednesday",
+      "typeDir": "series",
+      "year": 2022,
+      "trendingRank": 6,
+      "trendingUntil": null
+    },
+    {
+      "slug": "solo-leveling",
+      "title": "Solo Leveling",
+      "typeDir": "anime",
+      "year": 2024,
+      "trendingRank": 1,
+      "trendingUntil": null
+    },
+    {
+      "slug": "sakamoto-days",
+      "title": "Sakamoto Days",
+      "typeDir": "anime",
+      "year": 2025,
+      "trendingRank": 2,
+      "trendingUntil": null
+    },
+    {
+      "slug": "dandadan",
+      "title": "Dandadan",
+      "typeDir": "anime",
+      "year": 2024,
+      "trendingRank": 3,
+      "trendingUntil": null
+    },
+    {
+      "slug": "kaiju-no-8",
+      "title": "Kaiju No. 8",
+      "typeDir": "anime",
+      "year": 2024,
+      "trendingRank": 4,
+      "trendingUntil": null
+    },
+    {
+      "slug": "demon-slayer",
+      "title": "Demon Slayer: Kimetsu no Yaiba",
+      "typeDir": "anime",
+      "year": 2019,
+      "trendingRank": 5,
+      "trendingUntil": null
+    },
+    {
+      "slug": "chainsaw-man",
+      "title": "Chainsaw Man",
+      "typeDir": "anime",
+      "year": 2022,
+      "trendingRank": 6,
+      "trendingUntil": null
+    }
+  ]
+}

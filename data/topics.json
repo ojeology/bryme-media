@@ -1,0 +1,128 @@
+[
+  {
+    "id": "marvel-movies",
+    "slug": "marvel-movies",
+    "title": "Marvel Movies",
+    "description": "A focused route through the Marvel titles already available in the BRYME catalogue, from team-up events to character-led stories.",
+    "status": "published",
+    "movieSlugs": [
+      "the-avengers",
+      "avengers-infinity-war",
+      "avengers-endgame",
+      "black-panther",
+      "thor-ragnarok",
+      "guardians-of-the-galaxy",
+      "spider-man-no-way-home",
+      "deadpool-wolverine"
+    ],
+    "articleSlugs": [
+      "how-to-pick-a-movie-tonight"
+    ]
+  },
+  {
+    "id": "space-and-big-ideas",
+    "slug": "space-and-big-ideas",
+    "title": "Space and Big Ideas",
+    "description": "Science-fiction films from the catalogue for viewers who want cosmic scale, survival stories and questions worth discussing after the credits.",
+    "status": "published",
+    "movieSlugs": [
+      "interstellar",
+      "arrival",
+      "the-martian",
+      "gravity",
+      "dune-part-two",
+      "blade-runner-2049"
+    ],
+    "articleSlugs": [
+      "movies-like-interstellar",
+      "why-dune-part-two-feels-large"
+    ]
+  },
+  {
+    "id": "action-essentials",
+    "slug": "action-essentials",
+    "title": "Action Essentials",
+    "description": "A curated route through action films already in the BRYME catalogue, from high-speed spectacle to precise genre classics.",
+    "status": "published",
+    "movieSlugs": [
+      "mad-max-fury-road",
+      "top-gun-maverick",
+      "john-wick",
+      "mission-impossible-fallout",
+      "the-dark-knight",
+      "edge-of-tomorrow"
+    ],
+    "articleSlugs": [
+      "how-to-pick-a-movie-tonight"
+    ]
+  },
+  {
+    "id": "modern-horror",
+    "slug": "modern-horror",
+    "title": "Modern Horror",
+    "description": "A focused set of contemporary horror films and spoiler-light reading for viewers choosing their next unsettling watch.",
+    "status": "published",
+    "movieSlugs": [
+      "get-out",
+      "a-quiet-place",
+      "hereditary",
+      "midsommar",
+      "nope",
+      "the-menu"
+    ],
+    "articleSlugs": [
+      "modern-horror-starter-route"
+    ]
+  },
+  {
+    "id": "korean-cinema",
+    "slug": "korean-cinema",
+    "title": "Korean Cinema",
+    "description": "A starting point for Korean movies already in the catalogue, with titles selected for different moods and entry points.",
+    "status": "published",
+    "movieSlugs": [
+      "parasite",
+      "train-to-busan",
+      "oldboy",
+      "the-handmaiden",
+      "burning"
+    ],
+    "articleSlugs": [
+      "korean-cinema-starter-guide",
+      "10-korean-movies-everyone-should-watch"
+    ]
+  },
+  {
+    "id": "nigerian-cinema",
+    "slug": "nigerian-cinema",
+    "title": "Nigerian Cinema",
+    "description": "A starting point for Nigerian films in the BRYME catalogue, spanning family drama, crime stories, social comedy and fantasy.",
+    "status": "published",
+    "movieSlugs": [
+      "the-wedding-party",
+      "lionheart",
+      "king-of-boys",
+      "the-black-book",
+      "eyimofe",
+      "citation",
+      "anikulapo"
+    ],
+    "articleSlugs": []
+  },
+  {
+    "id": "indian-cinema",
+    "slug": "indian-cinema",
+    "title": "Indian Cinema",
+    "description": "A selection of Indian films from the catalogue across Telugu, Hindi, Kannada and Malayalam storytelling.",
+    "status": "published",
+    "movieSlugs": [
+      "rrr",
+      "3-idiots",
+      "dangal",
+      "the-lunchbox",
+      "kantara",
+      "jallikattu"
+    ],
+    "articleSlugs": []
+  }
+]

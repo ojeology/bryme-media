@@ -1,0 +1,778 @@
+{
+ "_comment": "Frontend-only editorial metadata. Adds real genre tags to series and anime records whose catalogue genre field is the type marker ('Series'/'Anime'). Does NOT modify content/catalogue.json. Genres are well-known factual classifications of these titles. Max 3 per title.",
+ "series": {
+  "agatha": [
+   "Fantasy",
+   "Comedy",
+   "Superhero"
+  ],
+  "all-of-us-are-dead": [
+   "Horror",
+   "Survival",
+   "Thriller"
+  ],
+  "andor": [
+   "Sci-Fi",
+   "Action",
+   "Thriller"
+  ],
+  "arcane": [
+   "Animation",
+   "Fantasy",
+   "Action"
+  ],
+  "arcane-season-2": [
+   "Animation",
+   "Fantasy",
+   "Action"
+  ],
+  "band-of-brothers": [
+   "War",
+   "Drama",
+   "Historical"
+  ],
+  "better-call-saul": [
+   "Crime",
+   "Drama",
+   "Thriller"
+  ],
+  "black-mirror": [
+   "Sci-Fi",
+   "Thriller",
+   "Drama"
+  ],
+  "bodyguard": [
+   "Thriller",
+   "Action",
+   "Political"
+  ],
+  "breaking-bad": [
+   "Crime",
+   "Drama",
+   "Thriller"
+  ],
+  "chernobyl": [
+   "Drama",
+   "Historical"
+  ],
+  "crash-landing-on-you": [
+   "Romance",
+   "Comedy",
+   "Drama"
+  ],
+  "dark": [
+   "Sci-Fi",
+   "Mystery",
+   "Thriller"
+  ],
+  "downton-abbey": [
+   "Drama",
+   "Historical",
+   "Romance"
+  ],
+  "euphoria": [
+   "Drama"
+  ],
+  "extraordinary-attorney-woo": [
+   "Drama",
+   "Comedy"
+  ],
+  "fallout": [
+   "Sci-Fi",
+   "Action",
+   "Adventure"
+  ],
+  "fargo": [
+   "Crime",
+   "Drama",
+   "Thriller"
+  ],
+  "friends": [
+   "Comedy",
+   "Romance"
+  ],
+  "game-of-thrones": [
+   "Fantasy",
+   "Drama",
+   "Adventure"
+  ],
+  "gen-v": [
+   "Superhero",
+   "Drama",
+   "Action"
+  ],
+  "good-omens": [
+   "Fantasy",
+   "Comedy"
+  ],
+  "hawkeye": [
+   "Superhero",
+   "Action",
+   "Comedy"
+  ],
+  "house-of-the-dragon": [
+   "Fantasy",
+   "Drama"
+  ],
+  "into-the-badlands": [
+   "Action",
+   "Adventure",
+   "Fantasy"
+  ],
+  "invincible": [
+   "Animation",
+   "Superhero",
+   "Action"
+  ],
+  "itaewon-class": [
+   "Drama",
+   "Crime"
+  ],
+  "kingdom": [
+   "Horror",
+   "Thriller",
+   "Historical"
+  ],
+  "loki": [
+   "Superhero",
+   "Sci-Fi",
+   "Action"
+  ],
+  "loki-season-2": [
+   "Superhero",
+   "Sci-Fi"
+  ],
+  "lost": [
+   "Mystery",
+   "Adventure",
+   "Sci-Fi",
+   "Survival"
+  ],
+  "luther": [
+   "Crime",
+   "Thriller"
+  ],
+  "mindhunter": [
+   "Crime",
+   "Thriller",
+   "Drama"
+  ],
+  "miraculous": [
+   "Animation",
+   "Family",
+   "Action"
+  ],
+  "money-heist": [
+   "Crime",
+   "Thriller",
+   "Action"
+  ],
+  "moon-knight": [
+   "Superhero",
+   "Action",
+   "Fantasy"
+  ],
+  "ms-marvel": [
+   "Superhero",
+   "Comedy",
+   "Action"
+  ],
+  "my-name": [
+   "Crime",
+   "Action",
+   "Thriller"
+  ],
+  "narcos": [
+   "Crime",
+   "Drama",
+   "Thriller"
+  ],
+  "ozark": [
+   "Crime",
+   "Drama",
+   "Thriller"
+  ],
+  "peaky-blinders": [
+   "Crime",
+   "Drama",
+   "Historical"
+  ],
+  "secret-invasion": [
+   "Superhero",
+   "Thriller",
+   "Sci-Fi"
+  ],
+  "seinfeld": [
+   "Comedy"
+  ],
+  "severance": [
+   "Sci-Fi",
+   "Thriller",
+   "Mystery"
+  ],
+  "she-hulk": [
+   "Superhero",
+   "Comedy"
+  ],
+  "sherlock": [
+   "Crime",
+   "Mystery",
+   "Drama"
+  ],
+  "shogun": [
+   "Historical",
+   "Drama",
+   "Adventure"
+  ],
+  "silo": [
+   "Sci-Fi",
+   "Mystery",
+   "Drama"
+  ],
+  "squid-game": [
+   "Survival",
+   "Thriller",
+   "Drama"
+  ],
+  "stranger-things": [
+   "Sci-Fi",
+   "Horror",
+   "Mystery"
+  ],
+  "succession": [
+   "Drama"
+  ],
+  "sweet-home": [
+   "Horror",
+   "Survival",
+   "Thriller"
+  ],
+  "ted-lasso": [
+   "Comedy",
+   "Drama",
+   "Sports"
+  ],
+  "the-100": [
+   "Sci-Fi",
+   "Survival",
+   "Drama"
+  ],
+  "the-bear": [
+   "Drama",
+   "Comedy"
+  ],
+  "the-boys": [
+   "Superhero",
+   "Action",
+   "Comedy"
+  ],
+  "the-boys-season-2": [
+   "Superhero",
+   "Action"
+  ],
+  "the-boys-season-3": [
+   "Superhero",
+   "Action"
+  ],
+  "the-crown": [
+   "Drama",
+   "Historical"
+  ],
+  "the-falcon-winter-soldier": [
+   "Superhero",
+   "Action"
+  ],
+  "the-glory": [
+   "Thriller",
+   "Drama"
+  ],
+  "the-last-kingdom": [
+   "Historical",
+   "Action",
+   "Drama"
+  ],
+  "the-last-of-us": [
+   "Survival",
+   "Drama",
+   "Horror"
+  ],
+  "the-mandalorian": [
+   "Sci-Fi",
+   "Action",
+   "Adventure"
+  ],
+  "the-office-us": [
+   "Comedy"
+  ],
+  "the-penguin": [
+   "Crime",
+   "Drama",
+   "Superhero"
+  ],
+  "the-sandman": [
+   "Fantasy",
+   "Horror",
+   "Drama"
+  ],
+  "the-sopranos": [
+   "Crime",
+   "Drama"
+  ],
+  "the-umbrella-academy": [
+   "Superhero",
+   "Comedy",
+   "Sci-Fi"
+  ],
+  "the-walking-dead": [
+   "Horror",
+   "Survival",
+   "Drama"
+  ],
+  "the-white-lotus": [
+   "Drama",
+   "Comedy",
+   "Mystery"
+  ],
+  "the-wire": [
+   "Crime",
+   "Drama"
+  ],
+  "the-witcher": [
+   "Fantasy",
+   "Action",
+   "Drama"
+  ],
+  "true-detective": [
+   "Crime",
+   "Thriller",
+   "Mystery"
+  ],
+  "vikings": [
+   "Historical",
+   "Action",
+   "Drama"
+  ],
+  "vincenzo": [
+   "Crime",
+   "Comedy",
+   "Thriller"
+  ],
+  "wandavision": [
+   "Superhero",
+   "Sci-Fi",
+   "Drama"
+  ],
+  "wednesday": [
+   "Fantasy",
+   "Comedy",
+   "Mystery"
+  ],
+  "yellowjackets": [
+   "Survival",
+   "Thriller",
+   "Horror"
+  ],
+  "prison-break": [
+   "Crime",
+   "Drama",
+   "Thriller"
+  ],
+  "alice-in-borderland": [
+   "Survival",
+   "Thriller",
+   "Sci-Fi"
+  ]
+ },
+ "anime": {
+  "films": [
+   "a-silent-voice",
+   "castle-in-sky",
+   "demon-slayer-mugen-train",
+   "dragon-ball-super-broly",
+   "dragon-ball-super-super-hero",
+   "grave-fireflies",
+   "howls-moving-castle",
+   "jujutsu-kaisen-0",
+   "kikis-delivery",
+   "look-back",
+   "nausicaa",
+   "one-piece-film-red",
+   "paprika",
+   "porco-rosso",
+   "princess-mononoke",
+   "spirited-away",
+   "suzume",
+   "the-boy-and-the-heron",
+   "the-wind-rises",
+   "totoro",
+   "weathering-with-you",
+   "whisper-heart",
+   "your-name"
+  ],
+  "a-silent-voice": [
+   "Drama",
+   "Romance",
+   "Slice of Life"
+  ],
+  "attack-on-titan": [
+   "Action",
+   "Fantasy",
+   "Thriller"
+  ],
+  "black-clover": [
+   "Shonen",
+   "Action",
+   "Fantasy"
+  ],
+  "bleach": [
+   "Shonen",
+   "Action",
+   "Supernatural"
+  ],
+  "blue-lock": [
+   "Sports",
+   "Shonen",
+   "Drama"
+  ],
+  "castle-in-sky": [
+   "Adventure",
+   "Fantasy",
+   "Family"
+  ],
+  "chainsaw-man": [
+   "Action",
+   "Horror",
+   "Shonen"
+  ],
+  "code-geass": [
+   "Mecha",
+   "Sci-Fi",
+   "Thriller"
+  ],
+  "cowboy-bebop": [
+   "Sci-Fi",
+   "Action",
+   "Drama"
+  ],
+  "dandadan": [
+   "Action",
+   "Comedy",
+   "Supernatural"
+  ],
+  "death-note": [
+   "Psychological",
+   "Thriller",
+   "Mystery"
+  ],
+  "demon-slayer": [
+   "Shonen",
+   "Action",
+   "Fantasy"
+  ],
+  "demon-slayer-mugen-train": [
+   "Shonen",
+   "Action",
+   "Fantasy"
+  ],
+  "dragon-ball-super": [
+   "Shonen",
+   "Action",
+   "Adventure"
+  ],
+  "dragon-ball-super-broly": [
+   "Shonen",
+   "Action"
+  ],
+  "dragon-ball-super-super-hero": [
+   "Shonen",
+   "Action"
+  ],
+  "dragon-ball-z": [
+   "Shonen",
+   "Action",
+   "Adventure"
+  ],
+  "fairy-tail": [
+   "Shonen",
+   "Fantasy",
+   "Action"
+  ],
+  "fire-force": [
+   "Shonen",
+   "Action",
+   "Supernatural"
+  ],
+  "frieren": [
+   "Fantasy",
+   "Adventure",
+   "Drama"
+  ],
+  "fullmetal-alchemist-brotherhood": [
+   "Shonen",
+   "Action",
+   "Fantasy"
+  ],
+  "gintama": [
+   "Comedy",
+   "Action",
+   "Sci-Fi"
+  ],
+  "grave-fireflies": [
+   "Drama",
+   "War",
+   "Historical"
+  ],
+  "haikyuu": [
+   "Sports",
+   "Shonen",
+   "Drama"
+  ],
+  "hells-paradise": [
+   "Action",
+   "Horror",
+   "Historical"
+  ],
+  "horimiya": [
+   "Romance",
+   "Comedy",
+   "Slice of Life"
+  ],
+  "howls-moving-castle": [
+   "Fantasy",
+   "Romance",
+   "Family"
+  ],
+  "hunter-x-hunter": [
+   "Shonen",
+   "Action",
+   "Adventure"
+  ],
+  "jojo-bizarre-adventure": [
+   "Action",
+   "Supernatural",
+   "Adventure"
+  ],
+  "jujutsu-kaisen": [
+   "Shonen",
+   "Action",
+   "Supernatural"
+  ],
+  "jujutsu-kaisen-0": [
+   "Shonen",
+   "Action",
+   "Supernatural"
+  ],
+  "kaguya-sama": [
+   "Comedy",
+   "Romance",
+   "Slice of Life"
+  ],
+  "kaiju-no-8": [
+   "Action",
+   "Sci-Fi",
+   "Shonen"
+  ],
+  "kikis-delivery": [
+   "Family",
+   "Fantasy",
+   "Slice of Life"
+  ],
+  "kuroko-basketball": [
+   "Sports",
+   "Shonen"
+  ],
+  "look-back": [
+   "Drama",
+   "Slice of Life"
+  ],
+  "mashle": [
+   "Comedy",
+   "Action",
+   "Fantasy"
+  ],
+  "mob-psycho-100": [
+   "Action",
+   "Comedy",
+   "Supernatural"
+  ],
+  "my-hero-academia": [
+   "Shonen",
+   "Superhero",
+   "Action"
+  ],
+  "totoro": [
+   "Family",
+   "Fantasy"
+  ],
+  "naruto": [
+   "Shonen",
+   "Action",
+   "Adventure"
+  ],
+  "nausicaa": [
+   "Adventure",
+   "Fantasy",
+   "Sci-Fi"
+  ],
+  "one-piece": [
+   "Shonen",
+   "Adventure",
+   "Fantasy"
+  ],
+  "one-piece-film-red": [
+   "Shonen",
+   "Adventure",
+   "Music"
+  ],
+  "one-punch-man": [
+   "Action",
+   "Comedy",
+   "Superhero"
+  ],
+  "overlord": [
+   "Isekai",
+   "Fantasy",
+   "Action"
+  ],
+  "paprika": [
+   "Sci-Fi",
+   "Psychological",
+   "Thriller"
+  ],
+  "porco-rosso": [
+   "Adventure",
+   "Comedy",
+   "Historical"
+  ],
+  "princess-mononoke": [
+   "Fantasy",
+   "Adventure",
+   "Drama"
+  ],
+  "re-zero": [
+   "Isekai",
+   "Fantasy",
+   "Thriller"
+  ],
+  "sakamoto-days": [
+   "Action",
+   "Comedy",
+   "Shonen"
+  ],
+  "samurai-champloo": [
+   "Action",
+   "Historical",
+   "Comedy"
+  ],
+  "slam-dunk": [
+   "Sports",
+   "Shonen",
+   "Comedy"
+  ],
+  "solo-leveling": [
+   "Action",
+   "Fantasy",
+   "Adventure"
+  ],
+  "soul-eater": [
+   "Shonen",
+   "Action",
+   "Supernatural"
+  ],
+  "spirited-away": [
+   "Fantasy",
+   "Family",
+   "Adventure"
+  ],
+  "spy-x-family": [
+   "Comedy",
+   "Action",
+   "Slice of Life"
+  ],
+  "steins-gate": [
+   "Sci-Fi",
+   "Thriller",
+   "Psychological"
+  ],
+  "suzume": [
+   "Fantasy",
+   "Adventure",
+   "Romance"
+  ],
+  "sword-art-online": [
+   "Isekai",
+   "Action",
+   "Sci-Fi"
+  ],
+  "slime": [
+   "Isekai",
+   "Fantasy",
+   "Action"
+  ],
+  "apothecary-diary": [
+   "Mystery",
+   "Drama",
+   "Historical"
+  ],
+  "the-boy-and-the-heron": [
+   "Fantasy",
+   "Adventure",
+   "Drama"
+  ],
+  "seven-deadly-sins": [
+   "Shonen",
+   "Fantasy",
+   "Action"
+  ],
+  "the-wind-rises": [
+   "Drama",
+   "Historical",
+   "Romance"
+  ],
+  "tokyo-ghoul": [
+   "Horror",
+   "Supernatural",
+   "Thriller"
+  ],
+  "toradora": [
+   "Romance",
+   "Comedy",
+   "Slice of Life"
+  ],
+  "trigun": [
+   "Sci-Fi",
+   "Action",
+   "Comedy"
+  ],
+  "vinland-saga": [
+   "Historical",
+   "Action",
+   "Drama"
+  ],
+  "violet-evergarden": [
+   "Drama",
+   "Fantasy",
+   "Romance"
+  ],
+  "weathering-with-you": [
+   "Romance",
+   "Drama",
+   "Fantasy"
+  ],
+  "whisper-heart": [
+   "Romance",
+   "Slice of Life",
+   "Drama"
+  ],
+  "your-lie-in-april": [
+   "Drama",
+   "Romance",
+   "Music"
+  ],
+  "your-name": [
+   "Romance",
+   "Drama",
+   "Fantasy"
+  ]
+ }
+}

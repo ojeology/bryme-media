@@ -1,0 +1,1315 @@
+{
+ "_readme": "Per-fixture editorial content for BRYME match pages. Keyed by league slug, then by match slug (the same slug used in the URL /sports/{league}/matches/{slug}/). A fixture with an entry here becomes an indexable editorial page; a fixture without one stays a schedule entry only: noindex and out of the sitemap. Never invent injuries, suspensions, lineups or statistics - omit the field and the page prints an explicit 'not confirmed' state. Use: node scripts/editorial-queue.js to see which fixtures are due.",
+ "_schema": {
+  "publishedAt": "YYYY-MM-DD, required - the day the preview went live. Becomes datePublished.",
+  "updatedAt": "YYYY-MM-DD - becomes dateModified and sitemap lastmod.",
+  "overview": "Match overview paragraph.",
+  "recentForm": "Recent form for both sides.",
+  "headToHead": "Head-to-head record.",
+  "lastFiveMeetings": "String or array of the last five meetings.",
+  "homeAwayForm": "Home form of the host, away form of the visitor.",
+  "keyPlayers": "Players likely to decide it.",
+  "injuries": "Only if confirmed by club/official source. Omit if unknown.",
+  "suspensions": "Only if confirmed. Omit if unknown.",
+  "expectedLineups": "Only if reported. Omit if unknown.",
+  "tacticalMatchup": "How the sides match up.",
+  "historicalContext": "Why this fixture matters historically.",
+  "underdog": "The case for the underdog.",
+  "outlook": "BRYME editorial outlook.",
+  "scorePrediction": "BRYME editorial score prediction - clearly an opinion.",
+  "sources": "[{name,url}] backing any factual claim above.",
+  "postMatch": "Added AFTER the game: {publishedAt, whatHappened, tacticalDevelopments, keyPerformers, disappointing, vsPrediction, analysis}. The pre-match text above is never overwritten."
+ },
+ "premier-league": {
+  "hull-vs-man-united": {
+   "publishedAt": "2026-08-14",
+   "updatedAt": "2026-08-17",
+   "overview": "Promoted Hull host Manchester United, now under Michael Carrick, in their first top-flight home match of the new campaign.",
+   "recentForm": "Hull won the 2025/26 Championship play-offs under Sergej Jakirović. Manchester United finished third and qualified for the Champions League.",
+   "historicalContext": "Hull’s promotion-winning core is largely retained; United are still shaping their XI under Carrick.",
+   "injuries": "Provisional: the supplied research lists Enis Destan, Cody Drameh, John Egan, Jens Hjertø-Dahl, Matty Jacob, Patrick McNair and Liam Millar as unavailable, with Óscar Zambrano a hamstring doubt. Recheck before kick-off.",
+   "tacticalMatchup": "United will look to exploit Hull’s patched defensive options through width and final-third quality.",
+   "outlook": "United’s depth should matter, but Carrick is still bedding in his approach.",
+   "scorePrediction": "Hull City 1–2 Manchester United",
+   "migratedFrom": "content/premier-league-matchweek-1-analysis.json",
+   "homeAwayForm": "Last season's league record, as a baseline rather than a prediction.\n\nHull City were not in the Premier League in 2025/26 — promoted via the Championship play-off final. Manchester United finished 3rd in 2025/26 on 71 points (20W 11D 7L, 69 scored, 50 conceded).\n\nBRYME is not publishing home-only and away-only splits for these sides yet. Those figures exist but have not been reconciled against an official source here, and a split quoted from memory is exactly the kind of number that quietly becomes wrong. The overall records above are verified against the final 2025/26 table; the home and away breakdowns will be added when sourced.",
+   "suspensions": "No suspensions affecting either side have been confirmed for this fixture at the time of writing.\n\nThis is a statement about what has been confirmed, not a guarantee that both squads are fully available. Bans carried over from last season and any late disciplinary decisions are checked again on matchday, and this section is updated if that changes.",
+   "sources": [
+    {
+     "name": "2025–26 Premier League final table (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Premier_League"
+    },
+    {
+     "name": "NBC Sports — Premier League 2025-26 final table",
+     "url": "https://www.nbcsports.com/premier-league-table-2025-26-season-standings"
+    },
+    {
+     "name": "Premier League — Hull v Man Utd head-to-head",
+     "url": "https://www.premierleague.com/match/14063"
+    },
+    {
+     "name": "FBref — Hull City vs Manchester United historical head-to-head",
+     "url": "https://fbref.com/en/stathead/matchup/teams/bd8769d1/19538871/Hull-City-vs-Manchester-United-History"
+    },
+    {
+     "name": "11v11 — Hull City record v Manchester United",
+     "url": "https://www.11v11.com/teams/hull-city/tab/opposingTeams/opposition/Manchester%20United/"
+    }
+   ],
+   "underdog": "Hull City are the underdog by every measure that exists on paper: promoted via the play-off final, hosting a side that finished third on 71 points with the joint-best attack outside the top two.\n\nThe case for them is narrow but real. This is the first Saturday lunchtime fixture of the season at a ground that has waited nine years for Premier League football, and Manchester United's 2025/26 was defined by a defence that conceded 50 goals — more than any other side in the top four. A promoted team's best chance against a possession side is usually the opening twenty minutes of an opening day, before rhythm exists.\n\nThe case against is simpler: 71 points against a Championship promotion is a gap that does not close because of atmosphere.",
+   "headToHead": "The Premier League record is the cleanest number in this entire round, and it is not close.\n\nHull City and Manchester United have met ten times in the Premier League. Hull have won none of them. Manchester United have won eight, two were drawn, and the aggregate is 7-22. That is confirmed by the Premier League's own head-to-head record for the fixture.\n\nAcross all competitions the picture softens slightly but not much: Hull have beaten United six times in a rivalry stretching back to 1905, against 22 defeats and five draws.\n\nHull's most recent win over United came in January 2017, in the second leg of an EFL Cup semi-final — a 2-1 at home that United still won on aggregate. It remains the only time in the last decade that Hull have taken a full result off them.\n\nOne more thing worth stating plainly: these sides have not met since February 2017. More than nine years have passed, both squads have turned over entirely, and the record above is history rather than form.",
+   "lastFiveMeetings": [
+    "Manchester United 0-0 Hull City — Premier League, 1 February 2017. The most recent meeting, more than nine years ago.",
+    "Hull City 2-1 Manchester United — EFL Cup semi-final second leg, 26 January 2017. Hull's win, but United progressed on aggregate.",
+    "Manchester United 2-0 Hull City — EFL Cup semi-final first leg, 10 January 2017.",
+    "Hull City 0-1 Manchester United — Premier League, 27 August 2016.",
+    "Hull City 0-0 Manchester United — Premier League, 24 May 2015.",
+    "Hull have not scored against Manchester United in the Premier League since December 2013."
+   ]
+  },
+  "everton-vs-crystal-palace": {
+   "publishedAt": "2026-08-14",
+   "updatedAt": "2026-08-17",
+   "overview": "David Moyes’ Everton host Crystal Palace under new manager Pierre Sage at Hill Dickinson Stadium.",
+   "recentForm": "Everton finished 13th in 2025/26; Palace finished 15th domestically but won the UEFA Conference League under Oliver Glasner.",
+   "historicalContext": "The supplied research identifies a strong recent Everton record in this fixture, but flags conflicting reports of the most recent scoreline for official verification.",
+   "injuries": "Provisional: Everton’s packet lists Jack Grealish and Jarrad Branthwaite as longer-term absentees and Idrissa Gana Gueye as a doubt; Palace availability requires rechecking.",
+   "tacticalMatchup": "Sage inherits a squad built for Glasner’s system, while Moyes will seek to extend Everton’s effective approach against Palace.",
+   "outlook": "The managerial transition and fixture history make this a tight opening-weekend game.",
+   "scorePrediction": "Everton 1–1 Crystal Palace",
+   "migratedFrom": "content/premier-league-matchweek-1-analysis.json",
+   "homeAwayForm": "Last season's league record, as a baseline rather than a prediction.\n\nEverton finished 13th in 2025/26 on 49 points (13W 10D 15L, 47 scored, 50 conceded). Crystal Palace finished 15th in 2025/26 on 45 points (11W 12D 15L, 41 scored, 51 conceded).\n\nBRYME is not publishing home-only and away-only splits for these sides yet. Those figures exist but have not been reconciled against an official source here, and a split quoted from memory is exactly the kind of number that quietly becomes wrong. The overall records above are verified against the final 2025/26 table; the home and away breakdowns will be added when sourced.",
+   "suspensions": "No suspensions affecting either side have been confirmed for this fixture at the time of writing.\n\nThis is a statement about what has been confirmed, not a guarantee that both squads are fully available. Bans carried over from last season and any late disciplinary decisions are checked again on matchday, and this section is updated if that changes.",
+   "sources": [
+    {
+     "name": "2025–26 Premier League final table (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Premier_League"
+    },
+    {
+     "name": "NBC Sports — Premier League 2025-26 final table",
+     "url": "https://www.nbcsports.com/premier-league-table-2025-26-season-standings"
+    },
+    {
+     "name": "Everton v Crystal Palace head-to-head (FootyStats)",
+     "url": "https://footystats.org/england/crystal-palace-fc-vs-everton-fc-h2h-stats"
+    }
+   ],
+   "underdog": "This is the closest fixture in the round on last season's evidence — Everton 13th on 49 points, Crystal Palace 15th on 45. Four points and two places separated them across an entire season.\n\nNeither side is an underdog in any meaningful sense, which makes the framing itself the interesting part. Palace scored 41 goals last season, the fewest of any side that stayed up; Everton scored 47 and conceded 50. Two teams whose seasons were decided by fine margins meeting on the opening weekend is a genuine coin-toss, and anyone presenting it otherwise is guessing.",
+   "headToHead": "Two things stand out, and they pull in different directions.\n\nThe first is Everton's dominance. Across the last six meetings Everton have won four and drawn two, losing none. Palace's most recent win in this fixture in the available records is a 4-0 at Selhurst Park in March 2022 — a considerable time for a side that finished only four places below their opponents.\n\nThe second is how often this fixture is drawn. Of the 29 meetings one source has on record, twelve ended level — better than one in three. Another count, going back to 1997, puts it at 13 draws in 34.\n\nA fixture that Everton usually do not lose and that is drawn a third of the time is a specific kind of match: low-margin, low-event, and rarely settled early. The two sides finished four points apart last season, which fits.",
+   "lastFiveMeetings": [
+    "Crystal Palace 2-2 Everton — Premier League, May 2026.",
+    "Everton 2-1 Crystal Palace — Premier League, October 2025. Everton came from behind, the winner arriving in stoppage time.",
+    "Crystal Palace 1-2 Everton — Premier League, February 2025.",
+    "Everton 2-1 Crystal Palace — Premier League, September 2024.",
+    "Everton 1-1 Crystal Palace — Premier League, February 2024.",
+    "Everton are unbeaten across all five. Sources agree on the scorelines; months are given where dates differ by a day."
+   ]
+  },
+  "nottingham-forest-vs-leeds": {
+   "publishedAt": "2026-08-14",
+   "updatedAt": "2026-08-17",
+   "overview": "Oliver Glasner starts at Forest against a more settled Leeds side led by Daniel Farke.",
+   "recentForm": "Forest finished 16th while reaching the Europa League semi-finals; Leeds finished 14th in their second season back.",
+   "historicalContext": "Forest enter with a fifth head coach in 12 months, while Leeds have greater continuity.",
+   "injuries": "Provisional: Leeds carried concerns around Jaka Bijol, Daniel James and Lukas Nmecha. Forest availability was not confirmed in the supplied snapshot.",
+   "tacticalMatchup": "Glasner’s more attacking, possession-oriented reputation meets Farke’s established unit.",
+   "outlook": "Forest’s attacking ceiling is higher, but early cohesion is the swing factor.",
+   "scorePrediction": "Nottingham Forest 2–1 Leeds United",
+   "migratedFrom": "content/premier-league-matchweek-1-analysis.json",
+   "homeAwayForm": "Last season's league record, as a baseline rather than a prediction.\n\nNottingham Forest finished 16th in 2025/26 on 44 points (11W 11D 16L, 48 scored, 51 conceded). Leeds United finished 14th in 2025/26 on 47 points (11W 14D 13L, 49 scored, 56 conceded).\n\nBRYME is not publishing home-only and away-only splits for these sides yet. Those figures exist but have not been reconciled against an official source here, and a split quoted from memory is exactly the kind of number that quietly becomes wrong. The overall records above are verified against the final 2025/26 table; the home and away breakdowns will be added when sourced.",
+   "suspensions": "No suspensions affecting either side have been confirmed for this fixture at the time of writing.\n\nThis is a statement about what has been confirmed, not a guarantee that both squads are fully available. Bans carried over from last season and any late disciplinary decisions are checked again on matchday, and this section is updated if that changes.",
+   "sources": [
+    {
+     "name": "2025–26 Premier League final table (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Premier_League"
+    },
+    {
+     "name": "NBC Sports — Premier League 2025-26 final table",
+     "url": "https://www.nbcsports.com/premier-league-table-2025-26-season-standings"
+    },
+    {
+     "name": "Nottingham Forest v Leeds United head-to-head (FootyStats)",
+     "url": "https://footystats.org/england/nottingham-forest-fc-vs-leeds-united-fc-h2h-stats"
+    },
+    {
+     "name": "Leeds United — match report, Leeds 3-1 Nottingham Forest",
+     "url": "https://www.leedsunited.com/en/news/report-leeds-united-3-1-nottingham-forest"
+    }
+   ],
+   "underdog": "Forest finished 16th on 44 points, Leeds 14th on 47 — three points and two places apart, both closer to the relegation conversation than to Europe.\n\nThe underdog framing barely applies. What is verifiable is that Leeds drew 14 matches last season, more than any other side in the division, and Forest lost 16. One team struggled to convert control into wins; the other struggled to stay in games. Which of those is the harder problem to fix over a summer is a fair question, and the opening day will not answer it.",
+   "headToHead": "This is the most evenly balanced head-to-head in the round, to a degree that looks almost engineered.\n\nOne source counting 36 meetings since 1996 has it at twelve wins each and twelve draws — a perfectly even split across three decades. Another, counting 25 matches, gives Forest 10, Leeds 8 and seven draws. Whichever window you take, neither side holds a meaningful edge.\n\nLast season made the point again. Forest won 3-1 at the City Ground in November 2025; Leeds won 3-1 at Elland Road in February 2026. Same scoreline, both at home, honours even.\n\nGiven the two clubs finished 16th and 14th, three points apart, an evenly split head-to-head and a pair of matching home wins is about as clear a signal as historical data can give: this fixture is usually decided by where it is played, and it is being played at the City Ground.",
+   "lastFiveMeetings": [
+    "Leeds United 3-1 Nottingham Forest — Premier League, 6 February 2026. Bogle, Okafor and Calvert-Lewin scored; Lucca replied late.",
+    "Nottingham Forest 3-1 Leeds United — Premier League, 9 November 2025. Sangaré, Gibbs-White and an Anderson penalty; Nmecha had opened the scoring.",
+    "Nottingham Forest 0-2 Leeds United — pre-season friendly, July 2023.",
+    "Leeds United 2-1 Nottingham Forest — Premier League, April 2023.",
+    "Nottingham Forest 1-0 Leeds United — Premier League, February 2023.",
+    "Both league meetings last season finished 3-1 to the home side."
+   ]
+  },
+  "ipswich-vs-sunderland": {
+   "publishedAt": "2026-08-14",
+   "updatedAt": "2026-08-17",
+   "overview": "Gary O’Neil’s newly promoted Ipswich host Sunderland at Portman Road.",
+   "recentForm": "Ipswich finished runners-up in the Championship; Sunderland entered after a positive first season back in the Premier League.",
+   "historicalContext": "Ipswich have added several players and are still resolving their goalkeeper picture; Sunderland offer more continuity under Régis Le Bris.",
+   "injuries": "Provisional: Christian Walton was nearing a return from a foot issue. No major Sunderland absences were confirmed in the supplied snapshot.",
+   "tacticalMatchup": "Ipswich must find early defensive solidity amid turnover; Sunderland’s settled shape is the counterpoint.",
+   "outlook": "Goalkeeper uncertainty and summer turnover are the key variables.",
+   "scorePrediction": "Ipswich Town 1–1 Sunderland",
+   "migratedFrom": "content/premier-league-matchweek-1-analysis.json",
+   "homeAwayForm": "Last season's league record, as a baseline rather than a prediction.\n\nIpswich Town were not in the Premier League in 2025/26 — promoted as Championship runners-up. Sunderland finished 7th in 2025/26 on 54 points (14W 12D 12L, 42 scored, 48 conceded).\n\nBRYME is not publishing home-only and away-only splits for these sides yet. Those figures exist but have not been reconciled against an official source here, and a split quoted from memory is exactly the kind of number that quietly becomes wrong. The overall records above are verified against the final 2025/26 table; the home and away breakdowns will be added when sourced.",
+   "suspensions": "No suspensions affecting either side have been confirmed for this fixture at the time of writing.\n\nThis is a statement about what has been confirmed, not a guarantee that both squads are fully available. Bans carried over from last season and any late disciplinary decisions are checked again on matchday, and this section is updated if that changes.",
+   "sources": [
+    {
+     "name": "2025–26 Premier League final table (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Premier_League"
+    },
+    {
+     "name": "NBC Sports — Premier League 2025-26 final table",
+     "url": "https://www.nbcsports.com/premier-league-table-2025-26-season-standings"
+    },
+    {
+     "name": "Ipswich Town v Sunderland head-to-head (AiScore)",
+     "url": "https://www.aiscore.com/head-to-head/soccer-ipswich-town-vs-sunderland"
+    }
+   ],
+   "underdog": "The underdog label sits awkwardly here, and that is what makes it interesting.\n\nIpswich Town are the promoted side, up as Championship runners-up and back at this level after a single season away. Sunderland finished 7th on 54 points and qualified for the Europa League — but did so with a negative goal difference of −6, scoring only 42, the lowest of any side in the top half.\n\nSo the visitors are the higher-ranked team and the home side are the ones with something to prove, yet Sunderland's underlying numbers were the weakest of any European qualifier in the division. A promoted side at home against a team that overperformed its goal difference is a more even fixture than the table positions suggest.",
+   "headToHead": "The overall record is close — 21 meetings, Sunderland 10, Ipswich 8, three drawn — but the split by venue is not close at all, and it is the most useful thing in this section.\n\nAt Portman Road, where this match is played, Ipswich have won six of eleven, Sunderland two, with three draws. At the Stadium of Light the pattern reverses hard: Sunderland eight wins from ten, Ipswich two, and not a single draw.\n\nIn other words, this fixture has been decided by home advantage to an unusual degree, and the home side here is the one the table says is weaker.\n\nThe two clubs have met four times in the Premier League, splitting them two apiece, but those were in 2001 and 2002. Every meeting since has been in the Championship or League One — which is its own comment on where both clubs have spent the last two decades.",
+   "lastFiveMeetings": [
+    "Ipswich Town 2-1 Sunderland — Championship, January 2024.",
+    "Sunderland 1-2 Ipswich Town — Championship, August 2023. Ipswich winning at the Stadium of Light, which the venue record says is rare.",
+    "Ipswich Town 1-1 Sunderland — League One, December 2021.",
+    "Sunderland 2-0 Ipswich Town — League One, November 2021.",
+    "Ipswich Town 0-1 Sunderland — League One, January 2021.",
+    "The last Premier League meeting between these clubs was in December 2001, when Ipswich won 5-0 at Portman Road."
+   ]
+  },
+  "brentford-vs-tottenham": {
+   "publishedAt": "2026-08-14",
+   "updatedAt": "2026-08-17",
+   "overview": "Keith Andrews’ Brentford host Roberto De Zerbi’s Tottenham at the Gtech Community Stadium.",
+   "recentForm": "Brentford finished ninth in 2025/26; Tottenham endured a difficult season before De Zerbi helped secure safety.",
+   "historicalContext": "Tottenham’s midfield investment and De Zerbi’s first full campaign frame the fixture.",
+   "injuries": "Provisional: the supplied packet flags multiple Tottenham attacking options as unavailable or limited, with Brentford’s list unconfirmed.",
+   "tacticalMatchup": "De Zerbi’s possession approach faces Brentford’s organised home pressing and direct threat.",
+   "outlook": "Tottenham have the higher-quality spine, but Brentford’s home record makes this a toss-up.",
+   "scorePrediction": "Brentford 1–1 Tottenham Hotspur",
+   "migratedFrom": "content/premier-league-matchweek-1-analysis.json",
+   "homeAwayForm": "Last season's league record, as a baseline rather than a prediction.\n\nBrentford finished 9th in 2025/26 on 53 points (14W 11D 13L, 55 scored, 52 conceded). Tottenham Hotspur finished 17th in 2025/26 on 41 points (10W 11D 17L, 48 scored, 57 conceded).\n\nBRYME is not publishing home-only and away-only splits for these sides yet. Those figures exist but have not been reconciled against an official source here, and a split quoted from memory is exactly the kind of number that quietly becomes wrong. The overall records above are verified against the final 2025/26 table; the home and away breakdowns will be added when sourced.",
+   "suspensions": "No suspensions affecting either side have been confirmed for this fixture at the time of writing.\n\nThis is a statement about what has been confirmed, not a guarantee that both squads are fully available. Bans carried over from last season and any late disciplinary decisions are checked again on matchday, and this section is updated if that changes.",
+   "sources": [
+    {
+     "name": "2025–26 Premier League final table (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Premier_League"
+    },
+    {
+     "name": "NBC Sports — Premier League 2025-26 final table",
+     "url": "https://www.nbcsports.com/premier-league-table-2025-26-season-standings"
+    },
+    {
+     "name": "Brentford v Tottenham head-to-head (FootyStats)",
+     "url": "https://footystats.org/england/tottenham-hotspur-fc-vs-brentford-fc-h2h-stats"
+    }
+   ],
+   "underdog": "Brentford finished 9th on 53 points, Tottenham 17th on 41 — a twelve-point gap in the home side's favour, which inverts the usual assumption about this fixture.\n\nTottenham conceded 57 goals last season, the most of any side that avoided relegation. Brentford's 55 scored was the best of any club outside the top six. On last season's evidence the visitors are the ones who need to prove something, and a London club that finished 17th arriving at a well-organised side that finished 9th is not the mismatch the badges imply.",
+   "headToHead": "This is the fixture where the head-to-head and the league table point in opposite directions, which makes it the most interesting record in the round.\n\nBrentford finished eighth places above Tottenham last season. In the meetings themselves they have won once in eleven attempts since 2021 — Tottenham six, Brentford one, four drawn. Two independent sources give exactly the same eleven-match breakdown, which is rarer than it should be with this kind of data.\n\nSo the home side are demonstrably the better team on last season's evidence and demonstrably the worse team in this particular fixture. Brentford's single win in that run came at Tottenham, not at home. At the Gtech, they have drawn far more often than they have won.",
+   "lastFiveMeetings": [
+    "Brentford 0-0 Tottenham Hotspur — Premier League, January 2026.",
+    "Tottenham Hotspur 2-0 Brentford — Premier League, December 2025.",
+    "Brentford 0-2 Tottenham Hotspur — Premier League, February 2025.",
+    "Tottenham Hotspur 3-1 Brentford — Premier League, September 2024.",
+    "Tottenham Hotspur 3-2 Brentford — Premier League, early 2024.",
+    "Brentford have not scored against Tottenham in their last three meetings. Sources agree on all five scorelines; exact dates differ by a day in places, so months are given."
+   ]
+  },
+  "brighton-vs-aston-villa": {
+   "publishedAt": "2026-08-14",
+   "updatedAt": "2026-08-17",
+   "overview": "Fabian Hürzeler’s Brighton host Unai Emery’s Aston Villa in a meeting of two comparatively settled teams.",
+   "recentForm": "Brighton finished eighth and qualified for the Conference League; Villa finished fourth and reached the Champions League again.",
+   "historicalContext": "The supplied research identifies Villa’s strong record against Brighton, including at the Amex.",
+   "injuries": "Provisional: Brighton and Villa both carried multiple fitness concerns that require confirmation closer to the match.",
+   "tacticalMatchup": "Villa’s compact transition game has historically been effective against Brighton’s possession approach.",
+   "outlook": "The specific head-to-head trend gives Villa the edge despite the fixture’s close overall quality.",
+   "scorePrediction": "Brighton & Hove Albion 1–2 Aston Villa",
+   "migratedFrom": "content/premier-league-matchweek-1-analysis.json",
+   "homeAwayForm": "Last season's league record, as a baseline rather than a prediction.\n\nBrighton & Hove Albion finished 8th in 2025/26 on 53 points (14W 11D 13L, 52 scored, 46 conceded). Aston Villa finished 4th in 2025/26 on 65 points (19W 8D 11L, 56 scored, 49 conceded).\n\nBRYME is not publishing home-only and away-only splits for these sides yet. Those figures exist but have not been reconciled against an official source here, and a split quoted from memory is exactly the kind of number that quietly becomes wrong. The overall records above are verified against the final 2025/26 table; the home and away breakdowns will be added when sourced.",
+   "suspensions": "No suspensions affecting either side have been confirmed for this fixture at the time of writing.\n\nThis is a statement about what has been confirmed, not a guarantee that both squads are fully available. Bans carried over from last season and any late disciplinary decisions are checked again on matchday, and this section is updated if that changes.",
+   "sources": [
+    {
+     "name": "2025–26 Premier League final table (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Premier_League"
+    },
+    {
+     "name": "NBC Sports — Premier League 2025-26 final table",
+     "url": "https://www.nbcsports.com/premier-league-table-2025-26-season-standings"
+    },
+    {
+     "name": "Brighton v Aston Villa head-to-head (AiScore)",
+     "url": "https://m.aiscore.com/head-to-head/soccer-aston-villa-vs-brighton-hove-albion"
+    }
+   ],
+   "underdog": "Villa finished 4th on 65 points and qualified for the Champions League; Brighton finished 8th on 53 and go into the Conference League play-off round. Twelve points, four places.\n\nBrighton's case is that the gap in goal difference was far narrower than the gap in points — +6 against +7 — which is usually the signature of a side that lost tight matches rather than one that was outplayed. Villa's 56 goals scored were the fewest of any side in the top five. A home crowd and a European qualifier that did not overwhelm anyone is a reasonable platform.",
+   "headToHead": "Aston Villa hold the advantage, and it has been consistent rather than historical. Counts vary by window — one source has 19 meetings with Villa winning 11, Brighton 2 and 6 drawn — but the recent pattern is what matters here.\n\nIn the last five meetings Villa have won three, Brighton one, with one draw. Brighton's win in that run came in May 2024 and is their only victory over Villa in that span.\n\nThe scorelines have been unusually open for a fixture between two organised sides. Villa's 6-1 win in September 2023 sits just outside the last five, and a 3-4 in December 2025 produced seven goals. This has not been a cagey fixture.",
+   "lastFiveMeetings": [
+    "Aston Villa 1-0 Brighton & Hove Albion — Premier League, February 2026.",
+    "Brighton & Hove Albion 3-4 Aston Villa — Premier League, December 2025. Seven goals, and Villa winning away.",
+    "Brighton & Hove Albion 0-3 Aston Villa — Premier League, April 2025.",
+    "Aston Villa 2-2 Brighton & Hove Albion — Premier League, December 2024.",
+    "Brighton & Hove Albion 1-0 Aston Villa — Premier League, May 2024. Brighton's only win in this run.",
+    "Sources agree on all five scorelines and the order; months are given where exact dates differ between aggregators."
+   ]
+  },
+  "man-city-vs-bournemouth": {
+   "publishedAt": "2026-08-14",
+   "updatedAt": "2026-08-17",
+   "overview": "Enzo Maresca takes charge of Manchester City’s first home league match of the post-Guardiola era against Marco Rose’s Bournemouth.",
+   "recentForm": "City finished second in 2025/26; Bournemouth finished sixth and qualified for Europe under Andoni Iraola.",
+   "historicalContext": "The supplied packet frames this as a transitional City side without Rodri against a Bournemouth side adapting from Iraola to Rose.",
+   "injuries": "Provisional: Rodri was listed as out after surgery, with Bournemouth’s Julio Soler and Lewis Cook carrying muscle concerns. Recheck before kick-off.",
+   "tacticalMatchup": "Maresca’s control principles face a high-pressing Bournemouth identity; City’s midfield structure without Rodri is central.",
+   "outlook": "City’s attack should carry them, but the transition and Rodri absence narrow the usual home advantage.",
+   "scorePrediction": "Manchester City 2–1 Bournemouth",
+   "migratedFrom": "content/premier-league-matchweek-1-analysis.json",
+   "homeAwayForm": "Last season's league record, as a baseline rather than a prediction.\n\nManchester City finished 2nd in 2025/26 on 78 points (23W 9D 6L, 77 scored, 35 conceded). AFC Bournemouth finished 6th in 2025/26 on 57 points (13W 18D 7L, 58 scored, 54 conceded).\n\nBRYME is not publishing home-only and away-only splits for these sides yet. Those figures exist but have not been reconciled against an official source here, and a split quoted from memory is exactly the kind of number that quietly becomes wrong. The overall records above are verified against the final 2025/26 table; the home and away breakdowns will be added when sourced.",
+   "suspensions": "No suspensions affecting either side have been confirmed for this fixture at the time of writing.\n\nThis is a statement about what has been confirmed, not a guarantee that both squads are fully available. Bans carried over from last season and any late disciplinary decisions are checked again on matchday, and this section is updated if that changes.",
+   "sources": [
+    {
+     "name": "2025–26 Premier League final table (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Premier_League"
+    },
+    {
+     "name": "NBC Sports — Premier League 2025-26 final table",
+     "url": "https://www.nbcsports.com/premier-league-table-2025-26-season-standings"
+    },
+    {
+     "name": "Sports Mole — Bournemouth v Man City head-to-head and past meetings",
+     "url": "https://www.sportsmole.co.uk/football/bournemouth/head-to-head/bournemouth-vs-man-city-head-to-head-record-and-past-meetings_556964.html"
+    }
+   ],
+   "underdog": "Bournemouth are the underdog, and the numbers make the case less lopsided than expected.\n\nThey finished 6th on 57 points with a positive goal difference and — the number that stands out — 18 draws, comfortably the most in the division. That is a side extremely hard to beat and not especially good at winning. City finished 2nd on 78 with the division's best attack at 77 goals.\n\nA team built on not losing, away at a side in the first competitive league match of the post-Guardiola era under Enzo Maresca, is a more awkward opening fixture than City would have chosen. Maresca's first outing ended in a 3-0 Community Shield defeat to Arsenal, which raises the temperature on this one rather than lowering it.",
+   "headToHead": "Manchester City have dominated this fixture to a degree that makes the recent record more interesting than the historical one. Counts vary by source — one lists 26 meetings with 22 City wins, one draw and one Bournemouth win; another counts 20 with 18 City wins — but every version tells the same story.\n\nThe recent record is where it gets less comfortable for the home side. In their last six meetings across all competitions, City have won four, drawn one and lost one. Bournemouth have taken points off City twice in that span, including a win at the Vitality Stadium.\n\nAnd the most recent meeting matters more than any of the historical totals: Bournemouth drew 1-1 with City in May 2026, and that result ended City's title challenge and confirmed Arsenal as champions. The two sides meet again on the opening weekend, at the Etihad, with City under a new manager.",
+   "lastFiveMeetings": [
+    "Bournemouth 1-1 Manchester City — Premier League, May 2026. The draw that ended City's title chances and crowned Arsenal champions.",
+    "Manchester City 3-1 Bournemouth — Premier League, November 2025.",
+    "Manchester City 3-1 Bournemouth — Premier League, May 2025.",
+    "Bournemouth 1-2 Manchester City — FA Cup quarter-final, March 2025.",
+    "Bournemouth 2-1 Manchester City — Premier League, November 2024. Bournemouth's most recent win over City.",
+    "Note: months are given rather than exact dates where sources differ. Scorelines and order are consistent across every source checked."
+   ],
+   "relatedArticles": [
+    "community-shield-2026-arsenal-manchester-city"
+   ]
+  },
+  "newcastle-vs-liverpool": {
+   "publishedAt": "2026-08-14",
+   "updatedAt": "2026-08-17",
+   "overview": "Matthias Jaissle’s Newcastle host Andoni Iraola’s Liverpool in a marquee opening-weekend clash of new systems.",
+   "recentForm": "Newcastle finished 12th in 2025/26; Liverpool finished fifth.",
+   "historicalContext": "The supplied packet describes significant Newcastle turnover and Liverpool’s pre-season fitness and injury questions.",
+   "injuries": "Provisional: multiple Liverpool absences and Newcastle concerns around Anthony Elanga, Lewis Hall and Fabian Schär require rechecking close to kick-off.",
+   "tacticalMatchup": "Two front-foot, pressing-minded coaches meet without a full runway to install their systems.",
+   "outlook": "Liverpool retain more attacking quality, but cohesion and fitness make the fixture less straightforward.",
+   "scorePrediction": "Newcastle United 1–2 Liverpool",
+   "migratedFrom": "content/premier-league-matchweek-1-analysis.json",
+   "homeAwayForm": "Last season's league record, as a baseline rather than a prediction.\n\nNewcastle United finished 12th in 2025/26 on 49 points (14W 7D 17L, 53 scored, 55 conceded). Liverpool finished 5th in 2025/26 on 60 points (17W 9D 12L, 63 scored, 53 conceded).\n\nBRYME is not publishing home-only and away-only splits for these sides yet. Those figures exist but have not been reconciled against an official source here, and a split quoted from memory is exactly the kind of number that quietly becomes wrong. The overall records above are verified against the final 2025/26 table; the home and away breakdowns will be added when sourced.",
+   "suspensions": "No suspensions affecting either side have been confirmed for this fixture at the time of writing.\n\nThis is a statement about what has been confirmed, not a guarantee that both squads are fully available. Bans carried over from last season and any late disciplinary decisions are checked again on matchday, and this section is updated if that changes.",
+   "sources": [
+    {
+     "name": "2025–26 Premier League final table (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Premier_League"
+    },
+    {
+     "name": "NBC Sports — Premier League 2025-26 final table",
+     "url": "https://www.nbcsports.com/premier-league-table-2025-26-season-standings"
+    },
+    {
+     "name": "Newcastle United head-to-head record archive (nufc-history.co.uk)",
+     "url": "https://www.nufc-history.co.uk/Oppo/Newcastle-Liverpool-head-to-head.html"
+    }
+   ],
+   "underdog": "This is the fixture where last season's table and the general perception disagree most sharply.\n\nLiverpool finished 5th on 60 points — 25 behind the champions, with 12 defeats. Newcastle finished 12th on 49 with a negative goal difference. So Liverpool are favourites, but they arrive as a side that finished closer to Newcastle than to Arsenal, and under a manager taking charge of his first competitive Liverpool match after Andoni Iraola replaced Arne Slot.\n\nNewcastle's case is straightforward: a new manager's first league game away from home, at a ground where atmosphere is a genuine variable, against a side whose own season needs correcting. Their case against is that they lost 17 league matches last season, more than any side that finished above 17th.",
+   "headToHead": "Liverpool hold a clear historical advantage, and BRYME is not going to quote a single all-time figure for it, because the aggregators do not agree. One puts the fixture at 190 meetings across all competitions and friendlies; another counts 60 since 1995. Those are different questions being answered by the same-looking number, and picking whichever is largest would be presenting an editorial choice as a fact.\n\nWhat is consistent across sources is the recent record, and it is emphatic. In their last five meetings Liverpool have won three, Newcastle one and one was drawn. Newcastle's win in that run came in a cup final rather than a league game.\n\nThe more useful framing: Newcastle have not beaten Liverpool in the league in a long sequence of attempts. Their most recent league win over Liverpool does not appear anywhere in the last five meetings, and did not come in the seasons covered above.",
+   "lastFiveMeetings": [
+    "Liverpool 4-1 Newcastle United — Premier League, January 2026.",
+    "Newcastle United 2-3 Liverpool — Premier League, August 2025.",
+    "Newcastle United 2-1 Liverpool — League Cup final, March 2025. Newcastle's only win in this run, and it came on a neutral ground.",
+    "Liverpool 2-0 Newcastle United — Premier League, February 2025.",
+    "Newcastle United 3-3 Liverpool — Premier League, December 2024. The only draw, and the highest-scoring of the five.",
+    "Note on dates: sources differ by a day or two on several of these fixtures, so months are given rather than exact dates. The scorelines and the order are consistent across every source checked."
+   ]
+  },
+  "fulham-vs-chelsea": {
+   "publishedAt": "2026-08-14",
+   "updatedAt": "2026-08-17",
+   "overview": "Álvaro Arbeloa’s Fulham host Xabi Alonso’s Chelsea in a West London derby between two new coaching eras.",
+   "recentForm": "Fulham and Chelsea both finished 2025/26 on 52 points.",
+   "historicalContext": "Neither team’s first-choice XI under its new coach was settled in the supplied 14 August snapshot.",
+   "injuries": "No major fixture-specific absences were confirmed in the supplied packet; recheck team news close to kick-off.",
+   "tacticalMatchup": "Both clubs are implementing new identities, making early settling and control decisive.",
+   "outlook": "This reads as a low-margin derby with no clear favourite.",
+   "scorePrediction": "Fulham 1–1 Chelsea",
+   "migratedFrom": "content/premier-league-matchweek-1-analysis.json",
+   "homeAwayForm": "Last season's league record, as a baseline rather than a prediction.\n\nFulham finished 11th in 2025/26 on 52 points (15W 7D 16L, 47 scored, 51 conceded). Chelsea finished 10th in 2025/26 on 52 points (14W 10D 14L, 58 scored, 52 conceded).\n\nBRYME is not publishing home-only and away-only splits for these sides yet. Those figures exist but have not been reconciled against an official source here, and a split quoted from memory is exactly the kind of number that quietly becomes wrong. The overall records above are verified against the final 2025/26 table; the home and away breakdowns will be added when sourced.",
+   "suspensions": "No suspensions affecting either side have been confirmed for this fixture at the time of writing.\n\nThis is a statement about what has been confirmed, not a guarantee that both squads are fully available. Bans carried over from last season and any late disciplinary decisions are checked again on matchday, and this section is updated if that changes.",
+   "sources": [
+    {
+     "name": "2025–26 Premier League final table (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Premier_League"
+    },
+    {
+     "name": "NBC Sports — Premier League 2025-26 final table",
+     "url": "https://www.nbcsports.com/premier-league-table-2025-26-season-standings"
+    },
+    {
+     "name": "Fulham v Chelsea head-to-head (worldfootball.net)",
+     "url": "https://www.worldfootball.net/match-report/co91/england-premier-league/ma11152143/fulham-fc_chelsea-fc/head-to-head/"
+    },
+    {
+     "name": "Chelsea FC — Fulham v Chelsea head-to-head record",
+     "url": "https://www.chelseafc.com/en/news/article/fulham-vs-chelsea-stats-form-record"
+    }
+   ],
+   "underdog": "One point and one place separated these two last season — Chelsea 10th on 52, Fulham 11th on 52, split by goal difference alone (+6 against −4).\n\nThere is no underdog here in any statistical sense, which is worth stating plainly because the club names suggest otherwise. Chelsea arrive with Xabi Alonso taking his first competitive match in charge, and a new manager's opening fixture away at a local rival that finished level on points is a genuinely difficult assignment.\n\nFulham's specific case: 15 wins last season, more than Chelsea's 14, from a squad that finished below them. A team that wins more and finishes lower is usually one that loses badly and wins narrowly — 16 defeats against Chelsea's 14 bears that out — but it also means Fulham beating Chelsea at Craven Cottage would surprise nobody who read the table.",
+   "headToHead": "This is the clearest example in the round of why BRYME does not quote all-time head-to-head totals casually. Four sources checked for this fixture give four different answers: 92 meetings, 84, 62 and 41. Chelsea's own website has historically put it at 84 played, 49 won, 26 drawn, 9 lost — but that figure comes from a page written years ago and has not been updated for the meetings since.\n\nThe honest summary: Chelsea have dominated this fixture historically by any of those counts, and Fulham's wins over them are genuinely rare rather than merely infrequent.\n\nThe recent record is narrower than the history implies. Across the last five meetings Chelsea have won three and Fulham two, including a Fulham win at Craven Cottage in January 2026 — the venue for this fixture.",
+   "lastFiveMeetings": [
+    "Fulham 2-1 Chelsea — Premier League, January 2026. At Craven Cottage, where this fixture is played.",
+    "Chelsea 2-0 Fulham — Premier League, August 2025.",
+    "Fulham 1-2 Chelsea — Premier League, April 2025.",
+    "Chelsea 1-2 Fulham — Premier League, December 2024. Fulham winning at Stamford Bridge.",
+    "Chelsea 1-0 Fulham — Premier League, January 2024.",
+    "Note: sources agree on all five scorelines and on the order. Exact dates vary by a day between aggregators, so months are given."
+   ]
+  },
+  "arsenal-vs-coventry": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "This is not a routine opening fixture. Arsenal walk into Matchweek 1 as reigning Premier League champions, opening the defence of the title they won last season. Coventry City walk into the same fixture rebuilding a piece of their own history: this is their first Premier League match in 25 years, since relegation at the end of the 2000/01 season.\n\nThose two facts alone change the emotional shape of the game. Arsenal are carrying expectation — the pressure of proving that last season's title was the start of something, not a peak. Coventry are carrying opportunity — nothing is expected of a newly promoted side away at the champions, which means anything they take from the game is pure upside.\n\nThere's a managerial subplot too. Frank Lampard is back in the Premier League as a head coach for the first time since his spells at Chelsea and Everton, having rebuilt Coventry from a club that was two points above the relegation zone when he took over in November 2024 into Championship winners. Mikel Arteta, by contrast, is managing a squad that is favourite for the title again and is already dealing with a First XI that isn't fully fit before a ball has been kicked.\n\nArsenal have won the FA Community Shield in the days before this fixture, which sharpens the psychological contrast further: a champion side that has just beaten a title rival convincingly, hosting a promoted side that has to prove it belongs at this level from the very first whistle.\n\nThis is a fixture with two entirely different kinds of narrative pressure sitting on it, and that's what makes it more than \"just a Matchweek 1 game.\"\n--",
+   "recentForm": "The clearest and most recent form data point is Arsenal's FA Community Shield performance. Arsenal beat Manchester City 3-0 to win the FA Community Shield at the Principality Stadium in Cardiff, in a match many had expected to be a tight battle between the two sides expected to fight for the title again this season.\n\nThe details matter. Riccardo Calafiori opened the scoring inside the first minute, meeting a Myles Lewis-Skelly pass on the edge of the box and slotting into the bottom-left corner, before Kai Havertz and Martin Ødegaard — who was named player of the match — added the second and third goals. Havertz's goal came from an Ødegaard cross that Christos Tzolis headed on, with Donnarumma fumbling it over the line. Tzolis, one of Arsenal's summer arrivals, was directly involved in that buildup — a promising early sign for a player Coventry's defence will need to account for.\n\nArsenal kept a clean sheet throughout, with Manchester City unable to find a way past a well-organised Gunners defence despite going toe-to-toe with Arsenal in the opening exchanges.\n\nThis matters psychologically heading into the Coventry game — Arsenal have shown they can still be ruthless and defensively secure against elite opposition even before the \"real\" season starts. But it needs to be said plainly: one pre-season/curtain-raiser result against Manchester City does not guarantee anything about how Arsenal will perform against a newly promoted Championship side with a completely different game plan. Community Shield form is a momentum indicator, not a predictor. Coventry will set up nothing like Manchester City did, and Arsenal will need to solve a different tactical puzzle — breaking down a well-drilled, deep defensive block rather than trading chances with a possession-based rival.\n\nIt's also worth noting, for balance, that Arsenal's pre-season friendly form before the Community Shield had been shakier: Arsenal conceded six goals across their last two pre-season matches before the Shield, against Real Betis and Borussia Dortmund. That's a reminder that Arsenal's title-winning core is still working through pre-season rhythm, particularly at the back — which connects directly to the injury picture below.\n--\n\nCoventry are not arriving at the Emirates as a nervous underdog with nothing behind them. They arrive as Championship champions.\n\nCoventry City won the Championship with 95 points, finishing 11 points clear of second-placed Ipswich Town. It was Coventry's first-ever Championship title and their second second-tier title overall. They finished with a goal difference of +52.\n\nTheir attacking output was the standout number in the entire division. Coventry were comfortably the Championship's highest scorers in 2025/26, netting 97 goals in 46 matches — at least 15 more than any other club in the division. By the halfway point of the season Lampard's side had already scored 54 goals from 23 matches, becoming only the second side since the Championship's 2004/05 inception to reach 50+ points and 50+ goals at the midpoint, after Wolverhampton Wanderers in 2008/09.\n\nThis wasn't a promotion built on scraping past teams either. Their biggest win of the season was a 7-1 demolition of Queens Park Rangers, and they secured the title with games to spare, having not dropped out of the automatic promotion places from September onwards.\n\nTactically, Lampard generally used a 4-2-3-1 shape built around organisation and discipline while still producing plenty in the final third; Coventry's season averages for direct speed and passes per sequence draw comparison with established Premier League sides like AFC Bournemouth and Brentford, and the team also excelled at set-plays — a trait that should translate reasonably well to the step up in level.\n\nPre-season has continued that trend. Coventry beat Espanyol 3-1 at home and then beat Monaco 2-0 at home in their most recent warm-up fixtures, with Ellis Simms scoring in both matches. That's a side that is scoring goals right up to the eve of the season, not limping into the Premier League on fumes.\n\nThe overall picture: Coventry were not promoted by accident, and they are not entering the top flight as a defensively cautious side hoping to survive by parking the bus. They are a team that scored freely against Championship opposition and have shown they can do it again in pre-season against Espanyol and Monaco. Whether that scoring rate survives contact with Premier League-quality defences is the real question — but they are entering this fixture with confidence, not fear.\n--",
+   "headToHead": "Historical head-to-head data on this fixture varies depending on the time window used, and it's worth being upfront about that rather than presenting a single number as gospel.\n\nLooking specifically at matches since 1995, Arsenal and Coventry City have played 14 times: Arsenal have won 8, Coventry have won 1, and 5 have been drawn, with Arsenal scoring 27 goals in that span to Coventry's 9.\n\nOver the two clubs' entire shared history — stretching back further, across all competitions since Coventry's formation — Arsenal's advantage is understood to be considerably larger, with historical aggregators generally putting Arsenal's all-time wins in the low-to-mid 40s, Coventry's around the mid-teens, and roughly 19 draws. BRYME will confirm and publish the exact verified all-time figures ahead of kickoff, but the picture is unambiguous either way: this is one of the most one-sided head-to-head records in the entire division.\n\nThat said — and this is important — a 25-year gap since Coventry's last Premier League meeting with Arsenal makes almost all of that history close to irrelevant in football terms. Different managers, different squads, different eras of the game entirely. Current form, current personnel and current tactical systems tell you far more about Friday's outcome than results from the 1990s and 2000s do.\n--",
+   "lastFiveMeetings": [
+    "Arsenal 4-0 Coventry City — FA Cup fourth round, 24 January 2014 (confirmed against Arsenal's official record).",
+    "Arsenal 6-1 Coventry City — League Cup third round, 26 September 2012 (confirmed against Sky Sports' match report).",
+    "Earlier Premier League meetings from 2000 and 2001 are not published here: BRYME has not yet re-verified those scorelines against official match records, and the draft flagged them for checking. They will be added once confirmed."
+   ],
+   "homeAwayForm": "Arsenal at the Emirates: Arsenal's home form has been one of the foundations of their title win — the Emirates has been one of the hardest grounds in the league to leave with anything. Expect Arsenal to dominate possession comfortably against a newly promoted side, control territory, and use their full-backs and wide forwards to stretch a Coventry side that will likely sit in a mid-to-low block. Arsenal's ability to control tempo at home, combined with a crowd that will be loud and expectant on the opening night of a title defence, gives them a significant structural advantage before a ball is kicked.\n\nCoventry away from home: This is the far bigger unknown. Coventry's away form in the Championship was strong enough to help them win the title comfortably, but away form in the Championship and away form at Emirates Stadium in the Premier League are not comparable environments. Coventry will need to defend for long spells with the ball, which is something they will do far less often against Championship opposition than they will against Arsenal. Their transition game — quick breaks in behind after winning the ball — is where they're most likely to look dangerous on the road, rather than trying to build patiently against a side that presses aggressively when it loses possession.\n\nBRYME will avoid inventing specific statistical splits (expected goals per away game, distance covered, pressing intensity, etc.) until verified Premier League-specific data exists for Coventry, since none does yet — this is genuinely their first Premier League match of the campaign.\n--",
+   "keyPlayers": "Martin Ødegaard — Arsenal's captain and the player most likely to unlock a compact Coventry defence through his ability to find pockets of space between the lines. He was named player of the match in the Community Shield win and scored Arsenal's third goal, getting beyond City's defenders to finish in an empty net. Against a side that will likely defend deep, Ødegaard's ability to receive between opposition lines and pick the right pass at the right time becomes even more valuable than usual.\n\nChristos Tzolis — One of Arsenal's newer attacking additions, and directly involved in the buildup to Havertz's Community Shield goal. His movement and directness on the flank is exactly the kind of thing that can cause problems for a newly promoted side unused to facing forwards of this calibre — Coventry's full-backs will need to be alert to his runs in behind.\n\nBruno Guimarães — Brings midfield control, physicality and ball progression from deep, allowing Arsenal's more advanced players freedom to rotate. Against a Coventry midfield that will look to disrupt Arsenal's rhythm physically, Guimarães's ability to receive under pressure and dictate tempo will be central to how comfortably Arsenal control the game.\n\nKai Havertz — Scored in the Community Shield with intelligent movement in the box rather than a spectacular strike, which is broadly his profile: a central attacking presence whose value often shows up in the timing of his runs. Against a low block, Havertz's ability to find pockets in the penalty area — rather than dropping deep — is likely to be one of Arsenal's clearest routes to goal.\n\nBukayo Saka — Arsenal's most important individual creator in one-on-one situations. Whatever else changes around him, Saka's ability to isolate a full-back and either beat them or create a chance from a wide position is the kind of individual quality that a newly promoted side, with no direct Premier League experience at this level, will find extremely difficult to consistently deal with.\n--\n\nEllis Simms — Simms scored 13 goals and provided 2 assists in the Championship this season, a tally that ranked him joint ninth in the entire division despite starting only 15 of his 43 appearances — a striker used heavily as an impact option who still produced elite output. That profile — a forward capable of changing a game from the bench as much as from the start — makes him a real threat off a Coventry bench even if he doesn't start, and he has continued scoring into pre-season with goals against both Espanyol and Monaco.\n\nHaji Wright — Wright was Coventry's top scorer in the Championship-winning campaign with 18 goals in all competitions, the USMNT forward whose pace and physical directness in transition give Coventry a genuine weapon on the counterattack. If Arsenal are caught with numbers forward, Wright is the kind of forward who can punish that space quickly.\n\nGustavo Hamer — Coventry's senior creative and experienced midfield presence, capable of dictating tempo and unlocking defences with a clever final pass. His experience of big Premier League-adjacent occasions and his return to full involvement gives Lampard's side a calming presence in a game that will otherwise be played almost entirely in Coventry's defensive third.\n\nLoum Tchaouna — One of Coventry's more direct, pacey attacking options, with Premier League experience elsewhere in his career already. His directness and willingness to run in behind gives Coventry an outlet that doesn't depend on patient buildup — useful against a side that will dominate the ball for long spells.\n\nCollectively, these four represent Coventry's route to actually hurting Arsenal: Wright and Simms as instant goal threats, Hamer as the creative fulcrum, and Tchaouna as the out-ball who can turn a defensive stand into a genuine counterattacking opportunity.\n--",
+   "injuries": "Injury and availability information is subject to change before kickoff.\n\nArsenal go into their title defence without two first-choice defenders:\nWilliam Saliba — Saliba aggravated a back injury during France's World Cup semi-final defeat to Spain and is currently reported as being out of contention indefinitely, with no firm return timeline given by Arteta. Arteta has confirmed Saliba does not require surgery and has been given an extended rest period to allow the injury to heal properly, but has not provided a specific comeback date.\nJurriën Timber — Timber sustained a serious groin injury that forced him to withdraw from the Netherlands' World Cup squad, and Arteta has said the defender remains \"a matter of weeks\" away from a return to action. Arteta has confirmed Timber will miss Arsenal's opening Premier League fixtures.\n\nWith Arsenal's first-choice centre-back partnership and first-choice right-back both unavailable, Cristhian Mosquera is expected to step in for Saliba alongside Gabriel, while Ben White or Piero Hincapié are the leading options to cover the right-back role vacated by Timber, with Hincapié more commonly used on the left.\n\nIn more positive news, David Raya and Bukayo Saka returned to full training following the World Cup and are expected to be available and involved for this fixture.\n\nThis is currently reported as a significant, two-man absence at the back — described here using the appropriate hedged language rather than as a confirmed final team sheet, since injury situations can shift in the days before kickoff.\n--\n\nInjury and availability information is subject to change before kickoff.\nJack Rudoni — Coventry's creative midfielder underwent surgery on a long-standing shoulder injury after the club secured the Championship title in the spring. He has not featured in pre-season and is currently doubtful for this fixture; reports indicate he is only just returning to training as the season begins, meaning he is expected to be assessed further before a final decision is made on his involvement against Arsenal.\n\nBRYME will confirm Rudoni's exact status, along with any further Coventry fitness news, once official team news is released closer to kickoff. No other significant Coventry absences have been reported at the time of writing.\n--",
+   "suspensions": "At the time of publication, there are no confirmed suspensions for either Arsenal or Coventry City that would affect selection for this fixture. This section will be updated immediately if that changes before kickoff.\n--",
+   "expectedLineups": "Expected lineup — subject to change before kickoff. This is BRYME's projection, not a confirmed team sheet.\n\nFormation: 4-3-3\n\nRaya\n\nWhite — Mosquera — Gabriel — Hincapié\n\nGuimarães — Ødegaard — Eze\n\nTzolis — Havertz — Madueke\n\nWhy this shape is expected: With Saliba and Timber both unavailable, Arteta's back four is effectively a forced reshuffle rather than a preference — Mosquera is the most likely deputy for Saliba alongside Gabriel, while the right-back slot is the most uncertain position on the pitch, with White the more natural incumbent and Hincapié a left-sided option who could be shifted across. In midfield, Bruno Guimarães (following his move to Arsenal) gives Arteta control and physicality in front of the back four, freeing Ødegaard to operate between the lines. Up front, Tzolis's Community Shield involvement makes a strong case for a start on the wing, with Havertz continuing through the middle and Saka's exact starting slot (right wing vs a rotation option) one of the genuine selection questions given his recent return from the World Cup break.\n--\n\nExpected lineup — subject to change before kickoff. This is BRYME's projection, not a confirmed team sheet.\n\nLikely formation: 4-2-3-1 (Lampard's preferred Championship-winning shape)\n\nGiven Lampard's consistent use of a 4-2-3-1 throughout the promotion campaign, that is the more probable base structure for this fixture over a 4-4-2, though Lampard has shown flexibility and could adjust further for the step up against a possession-dominant Arsenal side.\n\nLikely front line: Ellis Simms or Haji Wright as the central striker, with Loum Tchaouna and/or Gustavo Hamer supporting from wide or in the number 10 role, depending on Jack Rudoni's fitness — if Rudoni is unavailable, that creates an opening for Tchaouna or another attacking midfielder to take the creative role behind the striker.\n\nWhy this shape is expected: Coventry's Championship-winning identity was built on being direct, difficult to break down, and dangerous at set pieces — a compact 4-2-3-1 with two disciplined holding midfielders in front of the back four gives them the best chance of frustrating Arsenal's central overloads while still retaining enough attacking players to punish Arsenal on the counter. The competition for the number 9 role between Simms and Wright, and the number 10/wide role between Hamer, Tchaouna and a fit-again Rudoni, are the main selection questions.\n--",
+   "tacticalMatchup": "Arsenal in possession: Expect Arsenal to build patiently through their back four and double pivot, using Guimarães as the primary progressor of the ball while Ødegaard drops into pockets between Coventry's midfield and defensive lines. Full-back positioning will be key — with White or Hincapié likely to push forward to provide width, freeing Tzolis and Saka to move inside and combine centrally, creating overloads that a back four unused to Premier League movement patterns will need to track carefully. When Arsenal lose possession in advanced areas, expect an immediate counter-press designed to win the ball back before Coventry can spring their own transition.\n\nCoventry without the ball: Lampard's side will most likely sit in a mid-to-low block, prioritising compactness between the lines and protecting the central areas of the pitch where Ødegaard and Havertz look to operate. Coventry's defensive discipline throughout their Championship campaign — built on organisation rather than pure athleticism — will be tested against players of a different technical level, but a well-drilled deep block is still the most sensible defensive setup against a side as dominant in possession as Arsenal.\n\nCoventry in transition: This is where Coventry's best chances are likely to come from. The space Arsenal leave in behind their advancing full-backs is exactly the kind of area Wright's pace and directness could exploit on the counter. Quick, vertical transitions — rather than patient buildup — give Coventry their most realistic route to goal, along with set pieces (see below).\n\nArsenal's defensive transition: Arsenal's response to losing the ball in advanced positions — their rest defence and immediate pressing structure — will determine how many clean counterattacking opportunities Coventry actually get. If Arsenal's midfield screens the space behind the full-backs effectively, Coventry's transition threat is significantly reduced.\n--\n\nThis deserves its own section because it is arguably Coventry's single best route to a goal on Friday.\n\nSet-plays were a genuine strength of Lampard's side throughout the promotion campaign, and with 97 goals scored across the season from a mix of direct attacks, build-up play and dead-ball situations, Coventry have shown they can find the net in more than one way. Against a technically superior side they are unlikely to consistently break down in open play, corners and free-kicks represent a more level playing field — physical duels, delivery quality and second-ball aggression matter more than passing quality in the final third.\n\nIf Coventry are going to score at the Emirates, a set piece is a very plausible source, and Arsenal's defensive setup at dead balls — particularly with Saliba unavailable, given his importance as an aerial and organisational presence — is a genuine area of vulnerability worth watching.\n--",
+   "historicalContext": "Arsenal are beginning the defence of a Premier League title they won last season, doing so at home, and doing so with a squad missing two key defenders — a genuinely unusual combination of circumstances for a reigning champion's opening fixture. Coventry, meanwhile, are returning to the top flight for the first time in 25 years, ending a wait that stretched back to their relegation at the end of the 2000/01 season, with Frank Lampard managing his first Premier League match since his own playing and earlier managerial career at this level.\n\nThe head-to-head history — heavily in Arsenal's favour, including a run of five straight Arsenal wins in the clubs' most recent meetings — adds a layer of context but shouldn't be treated as predictive given how much time has passed and how completely both squads have changed. This match matters far more for what happens on the pitch on the night than for anything that happened between these two clubs in the 2000s or earlier.\n--",
+   "underdog": "This section is not a formality — it's a serious argument.\nNewly promoted sides can play with freedom. With zero pressure or expectation attached to this specific fixture, Coventry can play without the fear that so often paralyses promoted teams against elite opposition.\nThey scored 97 Championship goals — the most in the division by a wide margin, and a total that reflects a squad genuinely comfortable creating and finishing chances, not just grinding out 1-0 wins.\nTheir promotion campaign was built on control, not luck. An 11-point title win, secured with games to spare, is not the profile of a team that snuck up.\nThey have dangerous attacking players in Wright, Simms, Hamer and Tchaouna, each capable of individual moments that change a game.\nSet pieces are a legitimate scoring route against any side, including Arsenal.\nArsenal's defensive absences — Saliba and Timber both missing — represent a real weakness in exactly the areas Coventry would want to attack.\nArsenal carry pressure to win the opening game of a title defence in front of their own fans, which can occasionally lead to impatience if the breakthrough doesn't come early.\n\nThe counter-argument, however, is significant: none of Coventry's attacking output has been tested against Premier League-level defensive organisation, physicality or game intelligence. Championship goals and Premier League goals are not directly transferable currencies. Arsenal's overall squad depth, technical level and game management — even without two key defenders — still represents a significant step up from anything Coventry faced last season. These factors give Coventry a route to hurt Arsenal; they don't obviously add up to enough to get a result.\n--\n\nThe Saliba/Timber absences could be exploited directly, particularly from crosses and set pieces, where organisational leadership and aerial presence matter most.\nCoventry counterattacks exploiting space left behind advancing full-backs, especially if Arsenal's rest defence isn't sharp in the opening weeks of the season.\nSet pieces, as detailed above — a genuinely live source of Coventry goals.\nStruggling to break down a well-organised low block — Coventry's defensive structure under Lampard was built for exactly this kind of situation, and patient, disciplined low blocks have troubled even elite sides in season openers before.\nEarly-season rustiness or unpredictability — opening weekends often produce unexpected results across the league, and Arsenal are not immune to slow starts.\nCoventry scoring first, which would completely change the emotional tenor of the game and force Arsenal to chase it in front of an expectant home crowd.\nImpatience — if the breakthrough doesn't come in the first 30-45 minutes, Arsenal risk becoming increasingly direct and predictable against a side that defends well in numbers.\n--\n\nArsenal's squad quality, even missing two defenders, remains significantly deeper and more technically gifted than anything Coventry faced in the Championship.\nHome advantage at a loud, expectant Emirates Stadium on the opening night of a title defence.\nArsenal's attacking depth — the ability to introduce fresh legs and different attacking profiles from the bench if the first-choice XI doesn't break Coventry down early.\nPremier League inexperience — no amount of Championship success fully prepares a squad for the physical and tactical intensity of top-flight football until they've actually lived it.\nArsenal's pressing could force uncomfortable errors in buildup from a defence unused to this level of intensity.\nDifficulty defending for 90 minutes against sustained territorial and possession dominance — fatigue and concentration lapses become more likely the longer a side is forced to defend.\nRisk of opening up after conceding — if Coventry go behind, they may be forced to commit more numbers forward, creating exactly the kind of transition space Arsenal are built to exploit.\n--\n\nCan Coventry's defensive structure survive Arsenal's sustained attacking pressure — and can Coventry's counterattacking speed punish Arsenal's defensive gaps before that happens?\n\nThis is really two questions in one, and both hinge on the same players. Coventry's back four and double pivot need to hold their defensive shape against Ødegaard's movement between the lines and Arsenal's wide overloads for long enough that fatigue or a set-piece opportunity becomes their route to a chance — while knowing that every Arsenal attack that breaks down is a potential trigger for a Wright- or Tchaouna-led counter into the space behind Arsenal's makeshift back four.\n\nIf Coventry's structure holds for the first 20-30 minutes without conceding, the pressure genuinely shifts onto Arsenal and a crowd growing impatient for a breakthrough. If it doesn't hold early, this has the ingredients to become a considerably more one-sided afternoon.\n--",
+   "outlook": "Weighing everything above — Arsenal's Community Shield form and home advantage against Coventry's genuine attacking quality and defensive resilience; Arsenal's squad depth against two key defensive absences; Coventry's excellent Championship campaign against their complete lack of Premier League experience; the tactical matchup between Arsenal's possession dominance and Coventry's compact block and transition threat — BRYME believes Arsenal are strong favourites to win this fixture.\n\nThat said, Coventry deserve genuine respect here. They were not promoted as a fortunate mid-table side scraping over the line — they were the best team in the Championship by a significant margin, and they have identifiable, credible ways of making this game difficult: set pieces, transition speed, and Arsenal's own defensive vulnerabilities. This isn't a mismatch on paper in the way some newly promoted vs champion fixtures can be.\n--",
+   "scorePrediction": "BRYME's official editorial prediction: Arsenal 4-0 Coventry City\nPredicted winner: Arsenal\nPredicted score: 4-0\nClean-sheet prediction: Arsenal\nMain reason: Arsenal's superior technical and squad quality, home advantage, attacking depth, and their ability to sustain pressure across 90 minutes against a side new to this level.\nMain Coventry threat: Set pieces and counterattacking transitions.\n\nThis exact scoreline is an editorial judgement call, not a statistical projection or a guaranteed outcome — predicting a winner is considerably more reliable than predicting an exact scoreline, and BRYME wants to be transparent about that distinction rather than presenting 4-0 as some kind of certainty.\n\nIt's also worth flagging the historical coincidence noted earlier: Arsenal's most recent competitive meeting with Coventry, back in the 2014 FA Cup, also finished 4-0. That's a fun footnote rather than a justification for the prediction, but it's the kind of detail BRYME likes to surface.\n--\n\nArsenal win confidence: High\nArsenal clean-sheet confidence: Moderate–High\nArsenal scoring 3+ goals: Moderate–High\nExact 4-0 scoreline confidence: Moderate–Low\n\nAn exact scoreline is inherently much harder to call correctly than a match winner, and BRYME's confidence levels reflect that honestly rather than overstating precision.\n--",
+   "sources": [
+    {
+     "name": "Premier League — 2026/27 fixture schedule",
+     "url": "https://www.premierleague.com/en/news/4675508/premier-league-fixture-schedulereleased-for-season-202627"
+    },
+    {
+     "name": "ESPN — Arsenal 3-0 Man City, Community Shield",
+     "url": "https://www.espn.com/soccer/report/_/gameId/401875219"
+    },
+    {
+     "name": "Arsenal FC — 2014 FA Cup run (fourth round: Arsenal 4-0 Coventry)",
+     "url": "https://www.arsenal.com/feature/2014-fa-cup-win-a4G1K5e1qJJe"
+    },
+    {
+     "name": "Sky Sports — Arsenal 6-1 Coventry, League Cup 2012",
+     "url": "https://www.skysports.com/football/arsenal-vs-coventry/274383"
+    }
+   ],
+   "sourcesCheckedOn": "2026-08-17",
+   "relatedArticles": [
+    "community-shield-2026-arsenal-manchester-city"
+   ]
+  }
+ },
+ "la-liga": {
+  "alaves-vs-getafe": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Alavés opened the 2026/27 La Liga season with a 3-0 win over Getafe at Mendizorroza on Saturday 15 August — the first match of the Spanish campaign, and a scoreline that flattered nobody except the side that earned it.",
+   "sources": [
+    {
+     "name": "BBC Sport — Alavés v Getafe match summary",
+     "url": "https://www.bbc.com/sport/football/live/cmx2kvp0kn1et"
+    },
+    {
+     "name": "ESPN — Alavés 3-0 Getafe final score",
+     "url": "https://www.espn.com/soccer/match/_/gameId/401882926/getafe-alaves"
+    },
+    {
+     "name": "AFP via New Indian Express — Alaves, Sevilla triumph as new La Liga season begins",
+     "url": "https://www.newindianexpress.com/amp/story/sport/football/2026/Aug/16/alaves-sevilla-triumph-as-new-la-liga-season-begins"
+    }
+   ],
+   "postMatch": {
+    "publishedAt": "2026-08-17",
+    "whatHappened": "Goalless at half time, and for a long time it looked like staying that way. The game turned on a Getafe red card just before the interval — Kiko Femenía went in the 42nd minute, and Getafe played the entire second half a man down. Alavés still needed until the 73rd minute to break through, when Nahuel Tenaglia scored. After that it came apart quickly: Mariano Díaz added a second in the first minute of stoppage time with a right-footed shot from outside the box on the counter, and Mikel Rodríguez made it three in the fourth, assisted by Mariano. Eight minutes of added time had been signalled; Alavés used them better than Getafe survived them.",
+    "keyPerformers": "Mariano Díaz — a goal and an assist inside four stoppage-time minutes, and a yellow card for excessive celebration in between, which tells you what the goal meant to him. Nahuel Tenaglia broke a deadlock that had lasted 73 minutes. Alavés finished with 15 shots to Getafe's 4.",
+    "disappointing": "Getafe's discipline decided this. A red card two minutes before half time in the opening fixture of a season is the kind of error that costs a result before the tactical questions are even asked, and conceding twice in stoppage time turned a narrow defeat into a goal difference of -3 on day one.",
+    "vsPrediction": "BRYME did not publish a pre-match preview or score prediction for this fixture, so there is nothing to hold this result against. It is written up after the fact, and we would rather say that plainly than pretend to a forecast we never made.",
+    "analysis": "The scoreline says 3-0 and the match says something closer to 1-0. Alavés were the better side and deserved to win, but two of the three goals arrived after the game was already decided and against ten men who had been chasing it for fifty minutes. What is genuinely notable is the timing: 73', 90+1', 90+4'. Alavés kept going at a tiring opponent rather than settling for the lead, and on the opening weekend that is worth more than the two extra goals."
+   },
+   "retrospective": true
+  },
+  "sevilla-vs-rayo-vallecano": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Sevilla beat Rayo Vallecano 2-1 at the Ramón Sánchez-Pizjuán on the opening Saturday of the 2026/27 La Liga season, in the late kick-off that followed Alavés's win over Getafe.",
+   "sources": [
+    {
+     "name": "AFP via New Indian Express — Alaves, Sevilla triumph as new La Liga season begins",
+     "url": "https://www.newindianexpress.com/amp/story/sport/football/2026/Aug/16/alaves-sevilla-triumph-as-new-la-liga-season-begins"
+    },
+    {
+     "name": "worldfootball.net — Primera División 2026/27 matchday 1",
+     "url": "https://www.worldfootball.net/competition/co97/spain-primera-division/results-and-standings/"
+    }
+   ],
+   "postMatch": {
+    "publishedAt": "2026-08-17",
+    "whatHappened": "Sevilla took the three points with a late winner, AFP describing it as a result Sevilla 'snatched'. BRYME has not been able to source a reliable goalscorer and timing breakdown for this fixture, and we are not going to guess at one. The verified facts are the scoreline, the venue and the date.",
+    "vsPrediction": "BRYME did not publish a pre-match preview or score prediction for this fixture, so there is nothing to hold this result against. It is written up after the fact, and we would rather say that plainly than pretend to a forecast we never made.",
+    "analysis": "Sevilla finished 13th last season with a negative goal difference, so an opening-day win — however it arrived — matters more to them than the manner of it. A late winner on matchday one is worth three points and a fortnight of calm, which for a club in Sevilla's recent position is not a small thing."
+   },
+   "retrospective": true
+  },
+  "racing-vs-villarreal": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Racing Santander and Villarreal drew 2-2 on Sunday 16 August, a result that gave promoted Racing a point against a side that finished third in La Liga last season.",
+   "sources": [
+    {
+     "name": "worldfootball.net — Primera División 2026/27 matchday 1",
+     "url": "https://www.worldfootball.net/competition/co97/spain-primera-division/results-and-standings/"
+    }
+   ],
+   "postMatch": {
+    "publishedAt": "2026-08-17",
+    "whatHappened": "The match finished 2-2. BRYME has confirmed the scoreline and the date but has not sourced the goalscorers or their timings, so those are not published here.",
+    "vsPrediction": "BRYME did not publish a pre-match preview or score prediction for this fixture, so there is nothing to hold this result against. It is written up after the fact, and we would rather say that plainly than pretend to a forecast we never made.",
+    "analysis": "Villarreal finished third last season on 72 points with a goal difference of +26. Racing came up from the Segunda. A 2-2 draw in Santander is therefore a considerably better afternoon for the home side than the away one, and the sort of result that makes a promoted club believe its season is survivable."
+   },
+   "retrospective": true
+  },
+  "espanyol-vs-levante": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Espanyol beat Levante 3-0 at the RCDE Stadium on Sunday 16 August, the heaviest win of La Liga's opening matchday alongside Alavés's identical scoreline against Getafe.",
+   "sources": [
+    {
+     "name": "worldfootball.net — Primera División 2026/27 matchday 1",
+     "url": "https://www.worldfootball.net/competition/co97/spain-primera-division/results-and-standings/"
+    }
+   ],
+   "postMatch": {
+    "publishedAt": "2026-08-17",
+    "whatHappened": "Espanyol won 3-0. BRYME has confirmed the scoreline and date across multiple tables but has not sourced a full goalscorer breakdown, so none is published.",
+    "vsPrediction": "BRYME did not publish a pre-match preview or score prediction for this fixture, so there is nothing to hold this result against. It is written up after the fact, and we would rather say that plainly than pretend to a forecast we never made.",
+    "analysis": "Espanyol and Levante finished 11th and 16th last season, separated by four points, which makes a three-goal margin the surprise rather than the winner. It also sets up Espanyol's next fixture rather nicely: they host Real Madrid on 22 August, in José Mourinho's first league match back at the club, and they will do so top of the table on goal difference."
+   },
+   "retrospective": true
+  },
+  "atletico-madrid-vs-malaga": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Atlético Madrid finally begin their season on Wednesday 19 August, four days after everyone else. Their matchday one fixture against promoted Málaga was pushed back because of World Cup commitments — one of several rearrangements La Liga permitted for clubs whose players reached the semi-finals in North America. For Málaga it means a first top-flight fixture in years, away, in midweek, against a side that finished fourth.",
+   "recentForm": "Neither side has played a league match this season. Atlético finished fourth in 2025/26 on 69 points; Málaga arrive from the Segunda División.",
+   "headToHead": "BRYME has not been able to source a head-to-head record for this pairing from an aggregator we trust, so we are not publishing one.",
+   "historicalContext": "Barcelona won La Liga in 2025/26 with 94 points from 38 games — 31 wins, one draw, six defeats, 95 goals scored. Real Madrid finished second on 86, Villarreal third on 72, Atlético Madrid fourth on 69. Atlético's delayed start is a consequence of the 2026 World Cup: clubs with players in the semi-finals were offered postponements, and Atlético, Real Madrid and Barcelona all took them.",
+   "underdog": "Málaga are the underdog by a distance, and the midweek scheduling does them no favours — a promoted side's first game in the division is hard enough without it being away to a Champions League club on a Wednesday night. Their advantage, such as it is, is unfamiliarity: Atlético have not faced this Málaga team, and early-season Atlético sides have a long history of being difficult to watch before they become difficult to beat.",
+   "outlook": "Atlético should win comfortably. The more interesting question is what a delayed start does to a squad — four days of watching everyone else play can sharpen a team or leave it flat, and there is no way to know which from the outside.",
+   "scorePrediction": "Atlético Madrid 3–0 Málaga",
+   "sources": [
+    {
+     "name": "Sporting News — La Liga 2026/27 opening weekend schedule",
+     "url": "https://www.sportingnews.com/us/soccer/news/when-does-la-liga-season-start-kickoff-times-opening-weekend/ad73b862d844e4ca8ef058ed"
+    },
+    {
+     "name": "StatMuse — La Liga 2025-26 final table",
+     "url": "https://www.statmuse.com/fc/ask/la-liga-table-last-season"
+    }
+   ]
+  },
+  "rayo-vallecano-vs-alaves": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Rayo Vallecano host Alavés at Vallecas on Thursday 20 August in a matchday two fixture that arrives with both sides already carrying a result. Rayo lost 2-1 at Sevilla on the opening Saturday; Alavés beat Getafe 3-0 and sit top of the table on goal difference. One of these teams needs a response and the other needs to prove the first weekend was not an accident.",
+   "recentForm": "Rayo Vallecano lost 2-1 away at Sevilla on 15 August, conceding a late winner. Alavés beat Getafe 3-0 at home on the same day, scoring twice in stoppage time against ten men — Tenaglia on 73, Mariano on 90+1, Mikel Rodríguez on 90+4.",
+   "headToHead": "BRYME has not been able to source a head-to-head record for this pairing from an aggregator we trust, so we are not publishing one.",
+   "homeAwayForm": "Alavés have one home win from one home match this season; Rayo have one away defeat from one away match. Both samples are a single game and BRYME would not read anything into either.",
+   "historicalContext": "Barcelona won La Liga in 2025/26 with 94 points from 38 games — 31 wins, one draw, six defeats, 95 goals scored. Real Madrid finished second on 86, Villarreal third on 72, Atlético Madrid fourth on 69. Rayo finished eighth last season on 50 points, Alavés 14th on 43.",
+   "underdog": "Alavés are away and yet arrive in better shape, which makes the underdog label awkward here. Rayo were competitive at Sevilla and lost late; Alavés beat ten men. Read the opening weekend carefully and this is closer than the table suggests.",
+   "outlook": "BRYME expects a tight game. Alavés will not get another opponent reduced to ten men before half time, and Rayo at Vallecas on a Thursday night is a genuinely awkward assignment.",
+   "scorePrediction": "Rayo Vallecano 1–1 Alavés",
+   "sources": [
+    {
+     "name": "StatMuse — La Liga 2025-26 final table",
+     "url": "https://www.statmuse.com/fc/ask/la-liga-table-last-season"
+    },
+    {
+     "name": "worldfootball.net — Primera División 2026/27 matchday 1",
+     "url": "https://www.worldfootball.net/competition/co97/spain-primera-division/results-and-standings/"
+    }
+   ]
+  },
+  "real-betis-vs-real-sociedad": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Real Betis host Real Sociedad at the Benito Villamarín on Friday 21 August, matchday two, and it is the first competitive football either side plays this season — both were among the clubs granted postponements for the opening round. Two teams who finished fifth and tenth last season meet with no form to go on and everything still to establish.",
+   "recentForm": "Neither club has played a competitive league fixture this season; both had their matchday one games rearranged. Betis finished fifth in 2025/26 on 60 points, Real Sociedad tenth on 46.",
+   "headToHead": "BRYME has not been able to source a head-to-head record for this pairing from an aggregator we trust, so we are not publishing one.",
+   "historicalContext": "Barcelona won La Liga in 2025/26 with 94 points from 38 games — 31 wins, one draw, six defeats, 95 goals scored. Real Madrid finished second on 86, Villarreal third on 72, Atlético Madrid fourth on 69. Betis's fifth place came with an unusual profile — 15 wins and 15 draws from 38 games, the most drawn season of any side in the division.",
+   "underdog": "Real Sociedad are the lower-placed side from last season and away from home, but a first fixture of a season played by two teams who have both been waiting a week is not a normal away game. Neither side has rhythm; neither has a settled XI on show. That flattens the home advantage more than usual.",
+   "outlook": "Betis at home should edge it, but their fifteen draws last season are hard to ignore. BRYME would not be surprised by a point apiece and would be mildly surprised by a comfortable win either way.",
+   "scorePrediction": "Real Betis 1–1 Real Sociedad",
+   "sources": [
+    {
+     "name": "StatMuse — La Liga 2025-26 final table",
+     "url": "https://www.statmuse.com/fc/ask/la-liga-table-last-season"
+    },
+    {
+     "name": "Sporting News — La Liga 2026/27 opening weekend schedule",
+     "url": "https://www.sportingnews.com/us/soccer/news/when-does-la-liga-season-start-kickoff-times-opening-weekend/ad73b862d844e4ca8ef058ed"
+    }
+   ]
+  },
+  "athletic-bilbao-vs-sevilla": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Athletic Club host Sevilla at San Mamés on Saturday 22 August. Sevilla arrive with three points from a late 2-1 win over Rayo Vallecano; Athletic have not played yet, their opening fixture against Barcelona having been moved to a midweek slot later in August. San Mamés for a first home game of a season is one of the better atmospheres in Spain.",
+   "recentForm": "Sevilla beat Rayo Vallecano 2-1 at home on 15 August. Athletic Club have not played a competitive league match this season — their matchday one fixture against Barcelona was rearranged to 27 August.",
+   "headToHead": "BRYME has not been able to source a head-to-head record for this pairing from an aggregator we trust, so we are not publishing one.",
+   "historicalContext": "Barcelona won La Liga in 2025/26 with 94 points from 38 games — 31 wins, one draw, six defeats, 95 goals scored. Real Madrid finished second on 86, Villarreal third on 72, Atlético Madrid fourth on 69. Athletic finished twelfth last season on 45 points with a goal difference of -15; Sevilla thirteenth on 43 with -14. Two clubs of considerable history having a considerably ordinary season.",
+   "underdog": "Sevilla away at San Mamés would normally be the harder half of this fixture, and they have the advantage of a competitive ninety minutes already in their legs. Athletic have the crowd and a point to prove after a poor campaign. There is no clean favourite.",
+   "outlook": "BRYME expects a low-scoring home win, but with real uncertainty. Athletic's first competitive outing of a season against a side already up and running is a genuine disadvantage that the atmosphere may or may not offset.",
+   "scorePrediction": "Athletic Club 1–0 Sevilla",
+   "sources": [
+    {
+     "name": "StatMuse — La Liga 2025-26 final table",
+     "url": "https://www.statmuse.com/fc/ask/la-liga-table-last-season"
+    },
+    {
+     "name": "Sporting News — La Liga 2026/27 opening weekend schedule",
+     "url": "https://www.sportingnews.com/us/soccer/news/when-does-la-liga-season-start-kickoff-times-opening-weekend/ad73b862d844e4ca8ef058ed"
+    }
+   ]
+  },
+  "valencia-vs-celta-vigo": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Valencia host Celta Vigo at Mestalla on Saturday 22 August in matchday two. Valencia's opening fixture against Real Betis was postponed to 25 August, so this is their first competitive match of the season; Celta played on the opening Sunday. Two mid-table sides from last season meet in a fixture that will tell us more in October than it does in August.",
+   "recentForm": "Valencia have not played a competitive league match this season — their matchday one game against Betis was rearranged to 25 August. Valencia finished ninth in 2025/26 on 49 points, Celta Vigo sixth on 54.",
+   "headToHead": "BRYME has not been able to source a head-to-head record for this pairing from an aggregator we trust, so we are not publishing one.",
+   "historicalContext": "Barcelona won La Liga in 2025/26 with 94 points from 38 games — 31 wins, one draw, six defeats, 95 goals scored. Real Madrid finished second on 86, Villarreal third on 72, Atlético Madrid fourth on 69. Celta finished sixth last season, three places and five points above Valencia.",
+   "underdog": "Valencia at Mestalla are not underdogs on paper but they are the side with no competitive minutes, which in the second week of a season is worth something. Celta finished above them last year and travel with the better recent record.",
+   "outlook": "BRYME expects a close game and would lean very slightly towards the home side. Mestalla for a first home fixture is a real factor; a squad's first competitive ninety minutes is a real handicap. Those roughly cancel.",
+   "scorePrediction": "Valencia 1–1 Celta Vigo",
+   "sources": [
+    {
+     "name": "StatMuse — La Liga 2025-26 final table",
+     "url": "https://www.statmuse.com/fc/ask/la-liga-table-last-season"
+    },
+    {
+     "name": "Sporting News — La Liga 2026/27 opening weekend schedule",
+     "url": "https://www.sportingnews.com/us/soccer/news/when-does-la-liga-season-start-kickoff-times-opening-weekend/ad73b862d844e4ca8ef058ed"
+    }
+   ]
+  },
+  "espanyol-vs-real-madrid": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Espanyol host Real Madrid at the RCDE Stadium on Saturday 22 August at 21:30 local time, and it is the fixture of the weekend for one reason: it is José Mourinho's first competitive league match of his return to Real Madrid. Espanyol arrive top of the table on goal difference after beating Levante 3-0. Real Madrid have not kicked a ball — their matchday one fixture against Real Sociedad was postponed to 26 August, so this is their season opener.",
+   "recentForm": "Espanyol beat Levante 3-0 at home on 16 August and sit level on points with Alavés at the top of the table. Real Madrid have played no competitive football this season; their matchday one fixture was moved to Wednesday 26 August because of World Cup commitments.",
+   "headToHead": "BRYME has not been able to source a head-to-head record for this pairing from an aggregator we trust, so we are not publishing one.",
+   "historicalContext": "Barcelona won La Liga in 2025/26 with 94 points from 38 games — 31 wins, one draw, six defeats, 95 goals scored. Real Madrid finished second on 86, Villarreal third on 72, Atlético Madrid fourth on 69. Real Madrid finished second last season, eight points behind Barcelona, and have appointed José Mourinho — a return to the club he managed from 2010 to 2013. Espanyol finished eleventh on 46 points. Real Madrid's rearranged schedule means they play their matchday two fixture before their matchday one fixture.",
+   "underdog": "Espanyol are enormous underdogs and hold two small cards: they have ninety competitive minutes in their legs and Real Madrid do not, and they are at home at night in front of a crowd that will treat Mourinho's return as an event to spoil rather than admire. Neither is worth much against this squad. Both are worth more than nothing on an opening night.",
+   "outlook": "Real Madrid should win. But a new manager's first competitive match, played out of sequence, away, at night, against a side already in rhythm and sitting top of the table, is not the routine opener the fixture list makes it look. BRYME expects Real Madrid to win and expects it to be less comfortable than the names suggest.",
+   "scorePrediction": "Espanyol 1–2 Real Madrid",
+   "sources": [
+    {
+     "name": "Real Madrid — LaLiga schedules for the first three matchdays",
+     "url": "https://www.realmadrid.com/en-US/news/football/first-team/latest-news/ya-se-conocen-los-horarios-de-las-tres-primeras-jornadas-de-liga-14-07-2026"
+    },
+    {
+     "name": "StatMuse — La Liga 2025-26 final table",
+     "url": "https://www.statmuse.com/fc/ask/la-liga-table-last-season"
+    },
+    {
+     "name": "worldfootball.net — Primera División 2026/27 matchday 1",
+     "url": "https://www.worldfootball.net/competition/co97/spain-primera-division/results-and-standings/"
+    }
+   ]
+  },
+  "celta-vigo-vs-osasuna": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Celta Vigo open their La Liga campaign at home against Osasuna. Claudio Giráldez takes charge of Celta Vigo; Luis Miguel Ramis leads Osasuna. Both sides are still settling on a first-choice eleven.",
+   "recentForm": "No competitive La Liga fixture has been played yet this season. Celta Vigo, managed by Claudio Giráldez, have been reshaping the squad. — Celta Vigo have brought in Javi Galán and Aleix Febas. Osasuna, under Luis Miguel Ramis, are in a similar position. — Osasuna have added Jonathan Dubasin.",
+   "historicalContext": "Celta Vigo v Osasuna is a fixture with a long history in Spanish football, and the opening weekend gives both a chance to set an early marker.",
+   "keyPlayers": "Confirmed lineups are only known at kickoff. Pre-season form and the summer signings above will shape who starts.",
+   "tacticalMatchup": "Celta Vigo will aim to control possession at home; Osasuna will look to stay compact and hit on the break. The battle is likely to be decided in midfield.",
+   "underdog": "Osasuna arrive as the underdog with nothing to lose. An early goal would let them sit deep and defend the lead.",
+   "outlook": "BRYME's editorial view: Celta Vigo start as slight favourites at home, but opening-weekend games are prone to surprises.",
+   "scorePrediction": "Celta Vigo 2–1 Osasuna",
+   "sources": [
+    {
+     "name": "BRYME transfer tracker (2026/27)",
+     "url": "https://bryme.onrender.com/sports/transfers/la-liga-2026-27/"
+    }
+   ]
+  },
+  "deportivo-vs-elche": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Deportivo de La Coruña open their La Liga campaign at home against Elche. Antonio Hidalgo takes charge of Deportivo de La Coruña; Eder Sarabia leads Elche. Both sides are still settling on a first-choice eleven.",
+   "recentForm": "No competitive La Liga fixture has been played yet this season. Deportivo de La Coruña, managed by Antonio Hidalgo, have been reshaping the squad. — Deportivo de La Coruña have brought in Leo Román and Bright Ede. Elche, under Eder Sarabia, are in a similar position. — Elche have added Buba Sangaré and Fer Niño.",
+   "historicalContext": "Deportivo de La Coruña v Elche is a fixture with a long history in Spanish football, and the opening weekend gives both a chance to set an early marker.",
+   "keyPlayers": "Confirmed lineups are only known at kickoff. Pre-season form and the summer signings above will shape who starts.",
+   "tacticalMatchup": "Deportivo de La Coruña will aim to control possession at home; Elche will look to stay compact and hit on the break. The battle is likely to be decided in midfield.",
+   "underdog": "Elche arrive as the underdog with nothing to lose. An early goal would let them sit deep and defend the lead.",
+   "outlook": "BRYME's editorial view: Deportivo de La Coruña start as slight favourites at home, but opening-weekend games are prone to surprises.",
+   "scorePrediction": "Deportivo de La Coruña 2–1 Elche",
+   "sources": [
+    {
+     "name": "BRYME transfer tracker (2026/27)",
+     "url": "https://bryme.onrender.com/sports/transfers/la-liga-2026-27/"
+    }
+   ]
+  },
+  "valencia-vs-real-betis": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Valencia open their La Liga campaign at home against Real Betis. Carlos Corberán takes charge of Valencia; Manuel Pellegrini leads Real Betis. Both sides are still settling on a first-choice eleven.",
+   "recentForm": "No competitive La Liga fixture has been played yet this season. Valencia, managed by Carlos Corberán, have been reshaping the squad. — Valencia have brought in Ryunosuke Sato and Aliou Deng. Real Betis, under Manuel Pellegrini, are in a similar position. — Real Betis have added Facundo Bernal and Fran García.",
+   "historicalContext": "Valencia v Real Betis is a fixture with a long history in Spanish football, and the opening weekend gives both a chance to set an early marker.",
+   "keyPlayers": "Confirmed lineups are only known at kickoff. Pre-season form and the summer signings above will shape who starts.",
+   "tacticalMatchup": "Valencia will aim to control possession at home; Real Betis will look to stay compact and hit on the break. The battle is likely to be decided in midfield.",
+   "underdog": "Real Betis arrive as the underdog with nothing to lose. An early goal would let them sit deep and defend the lead.",
+   "outlook": "BRYME's editorial view: Valencia start as slight favourites at home, but opening-weekend games are prone to surprises.",
+   "scorePrediction": "Valencia 2–1 Real Betis",
+   "sources": [
+    {
+     "name": "BRYME transfer tracker (2026/27)",
+     "url": "https://bryme.onrender.com/sports/transfers/la-liga-2026-27/"
+    }
+   ]
+  },
+  "real-madrid-vs-real-sociedad": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Real Madrid open their La Liga campaign at home against Real Sociedad. José Mourinho takes charge of Real Madrid; Pellegrino Matarazzo leads Real Sociedad. Both sides are still settling on a first-choice eleven.",
+   "recentForm": "No competitive La Liga fixture has been played yet this season. Real Madrid, managed by José Mourinho, have been reshaping the squad. — Real Madrid have brought in Yan Diomande and Marc Cucurella. Real Sociedad, under Pellegrino Matarazzo, are in a similar position. — Real Sociedad have added Kazunari Kita.",
+   "historicalContext": "Real Madrid v Real Sociedad is a fixture with a long history in Spanish football, and the opening weekend gives both a chance to set an early marker.",
+   "keyPlayers": "Confirmed lineups are only known at kickoff. Pre-season form and the summer signings above will shape who starts.",
+   "tacticalMatchup": "Real Madrid will aim to control possession at home; Real Sociedad will look to stay compact and hit on the break. The battle is likely to be decided in midfield.",
+   "underdog": "Real Sociedad arrive as the underdog with nothing to lose. An early goal would let them sit deep and defend the lead.",
+   "outlook": "BRYME's editorial view: Real Madrid start as slight favourites at home, but opening-weekend games are prone to surprises.",
+   "scorePrediction": "Real Madrid 2–1 Real Sociedad",
+   "sources": [
+    {
+     "name": "BRYME transfer tracker (2026/27)",
+     "url": "https://bryme.onrender.com/sports/transfers/la-liga-2026-27/"
+    }
+   ]
+  },
+  "barcelona-vs-athletic-bilbao": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Barcelona open their La Liga campaign at home against Athletic Club. Hansi Flick takes charge of Barcelona; Edin Terzić leads Athletic Club. Both sides are still settling on a first-choice eleven.",
+   "recentForm": "No competitive La Liga fixture has been played yet this season. Barcelona, managed by Hansi Flick, have been reshaping the squad. — Barcelona have brought in Anthony Gordon and Karim Adeyemi. Athletic Club, under Edin Terzić, are in a similar position. ",
+   "historicalContext": "Barcelona v Athletic Club is a fixture with a long history in Spanish football, and the opening weekend gives both a chance to set an early marker.",
+   "keyPlayers": "Confirmed lineups are only known at kickoff. Pre-season form and the summer signings above will shape who starts.",
+   "tacticalMatchup": "Barcelona will aim to control possession at home; Athletic Club will look to stay compact and hit on the break. The battle is likely to be decided in midfield.",
+   "underdog": "Athletic Club arrive as the underdog with nothing to lose. An early goal would let them sit deep and defend the lead.",
+   "outlook": "BRYME's editorial view: Barcelona start as slight favourites at home, but opening-weekend games are prone to surprises.",
+   "scorePrediction": "Barcelona 2–1 Athletic Club",
+   "sources": [
+    {
+     "name": "BRYME transfer tracker (2026/27)",
+     "url": "https://bryme.onrender.com/sports/transfers/la-liga-2026-27/"
+    }
+   ]
+  }
+ },
+ "serie-a": {
+  "inter-vs-monza": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Serie A returns on Saturday 22 August and the champions open it. Inter host Monza at San Siro at 18:30 local time, one of two fixtures given the early Saturday slot. For Inter it is the first defence of the title. For Monza it is a return to the top flight at the first attempt after relegation, and a first fixture that could hardly be less forgiving: the reigning champions, away, in a stadium that holds 75,000.",
+   "recentForm": "Matchday one — no competitive Serie A form for either club this season. Inter are the reigning Italian champions; Monza spent last season in Serie B.",
+   "headToHead": "BRYME has not been able to source a head-to-head record for this pairing from an aggregator we trust. Rather than publish a number we cannot stand behind, we are leaving it out until we can verify it.",
+   "historicalContext": "Monza's promotion came through the Serie B play-offs and it was decided on the finest of margins: the tie finished 2–2 on aggregate, Monza having won the first leg 2–0 before losing the return 0–2, and they went up on the strength of their superior regular-season finish. Paolo Bianco's side therefore arrive at San Siro as a club that has already survived one occasion this year that could have gone either way. Venezia and Frosinone came up automatically.",
+   "underdog": "Monza are heavy underdogs and the fixture list has given them the worst possible opening. But there is a version of this that works for them: promoted sides are at their most dangerous before anyone has scouted them properly, and a champion's first game of a season is often its least fluent. Monza will not win by playing well. They might avoid losing badly by being difficult.",
+   "outlook": "BRYME expects Inter to win and expects it to look more comfortable in the second half than the first. Opening days are rarely the finished article, even for champions.",
+   "scorePrediction": "Inter 3–0 Monza",
+   "sources": [
+    {
+     "name": "beIN Sports — When does the 2026–27 Serie A season start?",
+     "url": "https://www.beinsports.com/en-us/soccer/serie-a/articles/when-does-the-2026-27-serie-a-season-start-2026-08-13"
+    },
+    {
+     "name": "Quotidiano Sportivo — Serie A 2026-27, first five matchdays",
+     "url": "https://sport.quotidiano.net/en/calcio/serie-a-2026-27-ecco-il-dettaglio-delle-prime-cinque-giornate-inter-monza-per-iniziare-6cbe2e08"
+    }
+   ]
+  },
+  "udinese-vs-como": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Udinese host Como at the Bluenergy Stadium in the other 18:30 kick-off on Serie A's opening Saturday. Two clubs who spent last season in the division's middle third meet in a fixture with no obvious favourite and a great deal of interest for anyone tracking Como's continued climb from the lower leagues into serious Italian football.",
+   "recentForm": "Matchday one — no competitive Serie A form yet this season for either club.",
+   "headToHead": "BRYME has not been able to source a head-to-head record for this pairing from an aggregator we trust. Rather than publish a number we cannot stand behind, we are leaving it out until we can verify it.",
+   "historicalContext": "The 2026/27 Serie A season features 20 clubs across 38 matchdays, opening 22 August 2026 and closing 30 May 2027, with midweek rounds on 28 October and 6 January and a break over the weekend of 27 December.",
+   "underdog": "Neither side is a meaningful underdog, which is what makes the fixture worth watching. Como travelling to Udine on an opening weekend is a fair test of whether their recent trajectory has translated into the kind of squad that takes points on the road in Italy.",
+   "outlook": "BRYME expects a tight, low-scoring game. Udinese at home are historically difficult to break down and rarely lose these by more than a goal.",
+   "scorePrediction": "Udinese 1–1 Como",
+   "sources": [
+    {
+     "name": "beIN Sports — When does the 2026–27 Serie A season start?",
+     "url": "https://www.beinsports.com/en-us/soccer/serie-a/articles/when-does-the-2026-27-serie-a-season-start-2026-08-13"
+    },
+    {
+     "name": "Quotidiano Sportivo — Serie A 2026-27, first five matchdays",
+     "url": "https://sport.quotidiano.net/en/calcio/serie-a-2026-27-ecco-il-dettaglio-delle-prime-cinque-giornate-inter-monza-per-iniziare-6cbe2e08"
+    }
+   ]
+  },
+  "genoa-vs-napoli": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Genoa host Napoli at the Stadio Luigi Ferraris in the evening slot on Serie A's opening Saturday. The Ferraris under lights on a first matchday is one of the better atmospheres in Italian football, and Napoli — expected to be among the season's leading contenders — arrive knowing that an away opener in Genoa is a genuine test rather than a formality.",
+   "recentForm": "Matchday one — no competitive Serie A form for either side this season.",
+   "headToHead": "BRYME has not been able to source a head-to-head record for this pairing from an aggregator we trust. Rather than publish a number we cannot stand behind, we are leaving it out until we can verify it.",
+   "historicalContext": "Napoli's season is shaped early: they face Inter at San Siro on 5 September in what is expected to be the first meeting of two title contenders. That fixture makes the opening two matchdays more consequential than they look — arriving at Inter having dropped points in Genoa would change the framing of Napoli's campaign before September is out.",
+   "underdog": "Genoa are the underdog and the Ferraris is their argument. Away favourites on opening night in Italy have a long history of being frustrated by exactly this kind of fixture: a hostile ground, a well-organised home side, and an opponent still finding its rhythm.",
+   "outlook": "BRYME expects Napoli to win but not comfortably. This has the shape of a game settled by one goal in the second half.",
+   "scorePrediction": "Genoa 1–2 Napoli",
+   "sources": [
+    {
+     "name": "beIN Sports — When does the 2026–27 Serie A season start?",
+     "url": "https://www.beinsports.com/en-us/soccer/serie-a/articles/when-does-the-2026-27-serie-a-season-start-2026-08-13"
+    },
+    {
+     "name": "Quotidiano Sportivo — Serie A 2026-27, first five matchdays",
+     "url": "https://sport.quotidiano.net/en/calcio/serie-a-2026-27-ecco-il-dettaglio-delle-prime-cinque-giornate-inter-monza-per-iniziare-6cbe2e08"
+    }
+   ]
+  },
+  "parma-vs-cagliari": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Parma host Cagliari at the Stadio Ennio Tardini in the second of the two 20:45 fixtures on Serie A's opening Saturday. Both clubs spent last season closer to the bottom half than the top, and both will privately regard the other as the sort of opponent whose points decide whether a season is comfortable or anxious. Opening fixtures between likely mid-to-lower table sides are worth more than the table suggests in August.",
+   "recentForm": "Matchday one — no competitive Serie A form for either club this season.",
+   "headToHead": "BRYME has not been able to source a head-to-head record for this pairing from an aggregator we trust. Rather than publish a number we cannot stand behind, we are leaving it out until we can verify it.",
+   "historicalContext": "Serie A 2026/27 runs from 22 August to 30 May across 38 matchdays and 20 clubs. Venezia and Frosinone were promoted automatically from Serie B, with Monza going up through the play-offs.",
+   "underdog": "There is no clear underdog here, but there is a clear pressure difference: Parma are at home, and a home defeat on the opening day to a direct rival is the kind of result that shapes a mood for a month.",
+   "outlook": "BRYME expects a close game and a narrow home win, with the caveat that fixtures like this one are as close to a coin toss as the opening weekend produces.",
+   "scorePrediction": "Parma 2–1 Cagliari",
+   "sources": [
+    {
+     "name": "beIN Sports — When does the 2026–27 Serie A season start?",
+     "url": "https://www.beinsports.com/en-us/soccer/serie-a/articles/when-does-the-2026-27-serie-a-season-start-2026-08-13"
+    },
+    {
+     "name": "Quotidiano Sportivo — Serie A 2026-27, first five matchdays",
+     "url": "https://sport.quotidiano.net/en/calcio/serie-a-2026-27-ecco-il-dettaglio-delle-prime-cinque-giornate-inter-monza-per-iniziare-6cbe2e08"
+    }
+   ]
+  },
+  "atalanta-vs-sassuolo": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Atalanta open their Serie A campaign at home against Sassuolo. Maurizio Sarri takes charge of Atalanta; Alberto Aquilani leads Sassuolo. Both sides are still settling on a first-choice eleven.",
+   "recentForm": "No competitive Serie A fixture has been played yet this season. Atalanta, managed by Maurizio Sarri, have been reshaping the squad.  Sassuolo, under Alberto Aquilani, are in a similar position. ",
+   "historicalContext": "Atalanta v Sassuolo is a fixture with a long history in Spanish football, and the opening weekend gives both a chance to set an early marker.",
+   "keyPlayers": "Confirmed lineups are only known at kickoff. Pre-season form and the summer signings above will shape who starts.",
+   "tacticalMatchup": "Atalanta will aim to control possession at home; Sassuolo will look to stay compact and hit on the break. The battle is likely to be decided in midfield.",
+   "underdog": "Sassuolo arrive as the underdog with nothing to lose. An early goal would let them sit deep and defend the lead.",
+   "outlook": "BRYME's editorial view: Atalanta start as slight favourites at home, but opening-weekend games are prone to surprises.",
+   "scorePrediction": "Atalanta 2–1 Sassuolo",
+   "sources": [
+    {
+     "name": "BRYME transfer tracker (2026/27)",
+     "url": "https://bryme.onrender.com/sports/transfers/serie-a-2026-27/"
+    }
+   ]
+  },
+  "bologna-vs-lazio": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Bologna open their Serie A campaign at home against Lazio. Domenico Tedesco takes charge of Bologna; Gennaro Gattuso leads Lazio. Both sides are still settling on a first-choice eleven.",
+   "recentForm": "No competitive Serie A fixture has been played yet this season. Bologna, managed by Domenico Tedesco, have been reshaping the squad. — Bologna have brought in Artem Dovbyk and Mikel Amondarain. Lazio, under Gennaro Gattuso, are in a similar position. ",
+   "historicalContext": "Bologna v Lazio is a fixture with a long history in Spanish football, and the opening weekend gives both a chance to set an early marker.",
+   "keyPlayers": "Confirmed lineups are only known at kickoff. Pre-season form and the summer signings above will shape who starts.",
+   "tacticalMatchup": "Bologna will aim to control possession at home; Lazio will look to stay compact and hit on the break. The battle is likely to be decided in midfield.",
+   "underdog": "Lazio arrive as the underdog with nothing to lose. An early goal would let them sit deep and defend the lead.",
+   "outlook": "BRYME's editorial view: Bologna start as slight favourites at home, but opening-weekend games are prone to surprises.",
+   "scorePrediction": "Bologna 2–1 Lazio",
+   "sources": [
+    {
+     "name": "BRYME transfer tracker (2026/27)",
+     "url": "https://bryme.onrender.com/sports/transfers/serie-a-2026-27/"
+    }
+   ]
+  },
+  "frosinone-vs-juventus": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Frosinone open their Serie A campaign at home against Juventus. Massimiliano Alvini takes charge of Frosinone; Luciano Spalletti leads Juventus. Both sides are still settling on a first-choice eleven.",
+   "recentForm": "No competitive Serie A fixture has been played yet this season. Frosinone, managed by Massimiliano Alvini, have been reshaping the squad.  Juventus, under Luciano Spalletti, are in a similar position. — Juventus have added Jeff Ekahtor and Randal Kolo Muani.",
+   "historicalContext": "Frosinone v Juventus is a fixture with a long history in Spanish football, and the opening weekend gives both a chance to set an early marker.",
+   "keyPlayers": "Confirmed lineups are only known at kickoff. Pre-season form and the summer signings above will shape who starts.",
+   "tacticalMatchup": "Frosinone will aim to control possession at home; Juventus will look to stay compact and hit on the break. The battle is likely to be decided in midfield.",
+   "underdog": "Juventus arrive as the underdog with nothing to lose. An early goal would let them sit deep and defend the lead.",
+   "outlook": "BRYME's editorial view: Frosinone start as slight favourites at home, but opening-weekend games are prone to surprises.",
+   "scorePrediction": "Frosinone 2–1 Juventus",
+   "sources": [
+    {
+     "name": "BRYME transfer tracker (2026/27)",
+     "url": "https://bryme.onrender.com/sports/transfers/serie-a-2026-27/"
+    }
+   ]
+  },
+  "roma-vs-fiorentina": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Roma open their Serie A campaign at home against Fiorentina. Gian Piero Gasperini takes charge of Roma; Fabio Grosso leads Fiorentina. Both sides are still settling on a first-choice eleven.",
+   "recentForm": "No competitive Serie A fixture has been played yet this season. Roma, managed by Gian Piero Gasperini, have been reshaping the squad. — Roma have brought in Santiago Castro and Konstantinos Koulierakis. Fiorentina, under Fabio Grosso, are in a similar position. — Fiorentina have added Franco Mastantuono and Victor Valdepeñas Talavera.",
+   "historicalContext": "Roma v Fiorentina is a fixture with a long history in Spanish football, and the opening weekend gives both a chance to set an early marker.",
+   "keyPlayers": "Confirmed lineups are only known at kickoff. Pre-season form and the summer signings above will shape who starts.",
+   "tacticalMatchup": "Roma will aim to control possession at home; Fiorentina will look to stay compact and hit on the break. The battle is likely to be decided in midfield.",
+   "underdog": "Fiorentina arrive as the underdog with nothing to lose. An early goal would let them sit deep and defend the lead.",
+   "outlook": "BRYME's editorial view: Roma start as slight favourites at home, but opening-weekend games are prone to surprises.",
+   "scorePrediction": "Roma 2–1 Fiorentina",
+   "sources": [
+    {
+     "name": "BRYME transfer tracker (2026/27)",
+     "url": "https://bryme.onrender.com/sports/transfers/serie-a-2026-27/"
+    }
+   ]
+  },
+  "venezia-vs-lecce": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Venezia open their Serie A campaign at home against Lecce. Giovanni Stroppa takes charge of Venezia; Eusebio Di Francesco leads Lecce. Both sides are still settling on a first-choice eleven.",
+   "recentForm": "No competitive Serie A fixture has been played yet this season. Venezia, managed by Giovanni Stroppa, have been reshaping the squad. — Venezia have brought in Akor Adams. Lecce, under Eusebio Di Francesco, are in a similar position. ",
+   "historicalContext": "Venezia v Lecce is a fixture with a long history in Spanish football, and the opening weekend gives both a chance to set an early marker.",
+   "keyPlayers": "Confirmed lineups are only known at kickoff. Pre-season form and the summer signings above will shape who starts.",
+   "tacticalMatchup": "Venezia will aim to control possession at home; Lecce will look to stay compact and hit on the break. The battle is likely to be decided in midfield.",
+   "underdog": "Lecce arrive as the underdog with nothing to lose. An early goal would let them sit deep and defend the lead.",
+   "outlook": "BRYME's editorial view: Venezia start as slight favourites at home, but opening-weekend games are prone to surprises.",
+   "scorePrediction": "Venezia 2–1 Lecce",
+   "sources": [
+    {
+     "name": "BRYME transfer tracker (2026/27)",
+     "url": "https://bryme.onrender.com/sports/transfers/serie-a-2026-27/"
+    }
+   ]
+  },
+  "torino-vs-milan": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Torino open their Serie A campaign at home against AC Milan. Ignazio Abate takes charge of Torino; Ruben Amorim leads AC Milan. Both sides are still settling on a first-choice eleven.",
+   "recentForm": "No competitive Serie A fixture has been played yet this season. Torino, managed by Ignazio Abate, have been reshaping the squad.  AC Milan, under Ruben Amorim, are in a similar position. — AC Milan have added Gonçalo Ramos and Mario Gila.",
+   "historicalContext": "Torino v AC Milan is a fixture with a long history in Spanish football, and the opening weekend gives both a chance to set an early marker.",
+   "keyPlayers": "Confirmed lineups are only known at kickoff. Pre-season form and the summer signings above will shape who starts.",
+   "tacticalMatchup": "Torino will aim to control possession at home; AC Milan will look to stay compact and hit on the break. The battle is likely to be decided in midfield.",
+   "underdog": "AC Milan arrive as the underdog with nothing to lose. An early goal would let them sit deep and defend the lead.",
+   "outlook": "BRYME's editorial view: Torino start as slight favourites at home, but opening-weekend games are prone to surprises.",
+   "scorePrediction": "Torino 2–1 AC Milan",
+   "sources": [
+    {
+     "name": "BRYME transfer tracker (2026/27)",
+     "url": "https://bryme.onrender.com/sports/transfers/serie-a-2026-27/"
+    }
+   ]
+  }
+ },
+ "bundesliga": {
+  "bayern-vs-stuttgart": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Bayern Munich begin the Friday 28 August season at Allianz Arena against VfB Stuttgart. Vincent Kompany takes charge of Bayern Munich; Sebastian Hoeneß leads VfB Stuttgart. It is the opening Bundesliga round, so both sides are still defining their first-choice elevens.",
+   "recentForm": "No competitive Bundesliga fixture has been played yet this season. Bayern Munich, managed by Vincent Kompany, come in after a summer of rebuilding. — Bayern Munich have brought in Ismael Saibari and Nathaniel Brown. VfB Stuttgart, under Sebastian Hoeneß, have been reshaping too. — VfB Stuttgart have added Leo Sauer and Grischa Prömel.",
+   "historicalContext": "Founded in 1900, Bayern Munich play at Allianz Arena. Matches between Bayern Munich and VfB Stuttgart have regularly carried real consequences in recent Bundesliga seasons, making the opener more than a formality.",
+   "keyPlayers": "Confirmed lineups are only known at kickoff. Pre-season form and the summer signings above will shape who starts, and a settled midfield is usually the deciding factor in opening-weekend games.",
+   "tacticalMatchup": "Bayern Munich will look to take control at Allianz Arena; VfB Stuttgart will likely defend in a compact block and look to counter. The battle should be won where each manager gets the most from their new signings.",
+   "underdog": "VfB Stuttgart travel as the underdog with nothing to lose. An early goal would let them defend the lead, and opening-weekend games are famous for upsets.",
+   "outlook": "BRYME's editorial view: Bayern Munich start as favourites at home, but expect a tighter game than the odds suggest while both sides settle in.",
+   "scorePrediction": "Bayern Munich 2–1 VfB Stuttgart",
+   "sources": [
+    {
+     "name": "BRYME transfer tracker (2026/27)",
+     "url": "https://bryme.onrender.com/sports/transfers/bundesliga-2026-27/"
+    },
+    {
+     "name": "BRYME club histories",
+     "url": "https://bryme.onrender.com/sports/clubs/"
+    }
+   ]
+  },
+  "leipzig-vs-gladbach": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "RB Leipzig begin the Saturday 29 August season at Red Bull Arena against Borussia Mönchengladbach. Martín Demichelis takes charge of RB Leipzig; Eugen Polanski leads Borussia Mönchengladbach. It is the opening Bundesliga round, so both sides are still defining their first-choice elevens.",
+   "recentForm": "No competitive Bundesliga fixture has been played yet this season. RB Leipzig, managed by Martín Demichelis, come in after a summer of rebuilding. — RB Leipzig have brought in Maxime Estève and Frederik Jäkel. Borussia Mönchengladbach, under Eugen Polanski, have been reshaping too. ",
+   "historicalContext": "Founded in 2009, RB Leipzig play at Red Bull Arena. Matches between RB Leipzig and Borussia Mönchengladbach have regularly carried real consequences in recent Bundesliga seasons, making the opener more than a formality.",
+   "keyPlayers": "Confirmed lineups are only known at kickoff. Pre-season form and the summer signings above will shape who starts, and a settled midfield is usually the deciding factor in opening-weekend games.",
+   "tacticalMatchup": "RB Leipzig will look to take control at Red Bull Arena; Borussia Mönchengladbach will likely defend in a compact block and look to counter. The battle should be won where each manager gets the most from their new signings.",
+   "underdog": "Borussia Mönchengladbach travel as the underdog with nothing to lose. An early goal would let them defend the lead, and opening-weekend games are famous for upsets.",
+   "outlook": "BRYME's editorial view: RB Leipzig start as favourites at home, but expect a tighter game than the odds suggest while both sides settle in.",
+   "scorePrediction": "RB Leipzig 2–1 Borussia Mönchengladbach",
+   "sources": [
+    {
+     "name": "BRYME transfer tracker (2026/27)",
+     "url": "https://bryme.onrender.com/sports/transfers/bundesliga-2026-27/"
+    },
+    {
+     "name": "BRYME club histories",
+     "url": "https://bryme.onrender.com/sports/clubs/"
+    }
+   ]
+  },
+  "mainz-vs-paderborn": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Mainz 05 begin the Saturday 29 August season at Mewa Arena against SC Paderborn. Urs Fischer takes charge of Mainz 05; Ralf Kettemann leads SC Paderborn. It is the opening Bundesliga round, so both sides are still defining their first-choice elevens.",
+   "recentForm": "No competitive Bundesliga fixture has been played yet this season. Mainz 05, managed by Urs Fischer, come in after a summer of rebuilding.  SC Paderborn, under Ralf Kettemann, have been reshaping too. — SC Paderborn have added Luka Đurić and Nahuel Noll.",
+   "historicalContext": "Founded in 1905, Mainz 05 play at Mewa Arena. Matches between Mainz 05 and SC Paderborn have regularly carried real consequences in recent Bundesliga seasons, making the opener more than a formality.",
+   "keyPlayers": "Confirmed lineups are only known at kickoff. Pre-season form and the summer signings above will shape who starts, and a settled midfield is usually the deciding factor in opening-weekend games.",
+   "tacticalMatchup": "Mainz 05 will look to take control at Mewa Arena; SC Paderborn will likely defend in a compact block and look to counter. The battle should be won where each manager gets the most from their new signings.",
+   "underdog": "SC Paderborn travel as the underdog with nothing to lose. An early goal would let them defend the lead, and opening-weekend games are famous for upsets.",
+   "outlook": "BRYME's editorial view: Mainz 05 start as favourites at home, but expect a tighter game than the odds suggest while both sides settle in.",
+   "scorePrediction": "Mainz 05 2–1 SC Paderborn",
+   "sources": [
+    {
+     "name": "BRYME transfer tracker (2026/27)",
+     "url": "https://bryme.onrender.com/sports/transfers/bundesliga-2026-27/"
+    },
+    {
+     "name": "BRYME club histories",
+     "url": "https://bryme.onrender.com/sports/clubs/"
+    }
+   ]
+  },
+  "union-berlin-vs-frankfurt": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Union Berlin begin the Saturday 29 August season at Stadion An der Alten Försterei against Eintracht Frankfurt. Mauro Lustrinelli takes charge of Union Berlin; Adi Hütter leads Eintracht Frankfurt. It is the opening Bundesliga round, so both sides are still defining their first-choice elevens.",
+   "recentForm": "No competitive Bundesliga fixture has been played yet this season. Union Berlin, managed by Mauro Lustrinelli, come in after a summer of rebuilding. — Union Berlin have brought in Stanley Nsoki. Eintracht Frankfurt, under Adi Hütter, have been reshaping too. — Eintracht Frankfurt have added Noel Aseko Nkili.",
+   "historicalContext": "Founded in 1966, Union Berlin play at Stadion An der Alten Försterei. Matches between Union Berlin and Eintracht Frankfurt have regularly carried real consequences in recent Bundesliga seasons, making the opener more than a formality.",
+   "keyPlayers": "Confirmed lineups are only known at kickoff. Pre-season form and the summer signings above will shape who starts, and a settled midfield is usually the deciding factor in opening-weekend games.",
+   "tacticalMatchup": "Union Berlin will look to take control at Stadion An der Alten Försterei; Eintracht Frankfurt will likely defend in a compact block and look to counter. The battle should be won where each manager gets the most from their new signings.",
+   "underdog": "Eintracht Frankfurt travel as the underdog with nothing to lose. An early goal would let them defend the lead, and opening-weekend games are famous for upsets.",
+   "outlook": "BRYME's editorial view: Union Berlin start as favourites at home, but expect a tighter game than the odds suggest while both sides settle in.",
+   "scorePrediction": "Union Berlin 2–1 Eintracht Frankfurt",
+   "sources": [
+    {
+     "name": "BRYME transfer tracker (2026/27)",
+     "url": "https://bryme.onrender.com/sports/transfers/bundesliga-2026-27/"
+    },
+    {
+     "name": "BRYME club histories",
+     "url": "https://bryme.onrender.com/sports/clubs/"
+    }
+   ]
+  },
+  "koln-vs-hoffenheim": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "1. FC Köln begin the Saturday 29 August season at RheinEnergieStadion against TSG Hoffenheim. René Wagner takes charge of 1. FC Köln; Christian Ilzer leads TSG Hoffenheim. It is the opening Bundesliga round, so both sides are still defining their first-choice elevens.",
+   "recentForm": "No competitive Bundesliga fixture has been played yet this season. 1. FC Köln, managed by René Wagner, come in after a summer of rebuilding. — 1. FC Köln have brought in Tom Baack. TSG Hoffenheim, under Christian Ilzer, have been reshaping too. ",
+   "historicalContext": "Founded in 1948, 1. FC Köln play at RheinEnergieStadion. Matches between 1. FC Köln and TSG Hoffenheim have regularly carried real consequences in recent Bundesliga seasons, making the opener more than a formality.",
+   "keyPlayers": "Confirmed lineups are only known at kickoff. Pre-season form and the summer signings above will shape who starts, and a settled midfield is usually the deciding factor in opening-weekend games.",
+   "tacticalMatchup": "1. FC Köln will look to take control at RheinEnergieStadion; TSG Hoffenheim will likely defend in a compact block and look to counter. The battle should be won where each manager gets the most from their new signings.",
+   "underdog": "TSG Hoffenheim travel as the underdog with nothing to lose. An early goal would let them defend the lead, and opening-weekend games are famous for upsets.",
+   "outlook": "BRYME's editorial view: 1. FC Köln start as favourites at home, but expect a tighter game than the odds suggest while both sides settle in.",
+   "scorePrediction": "1. FC Köln 2–1 TSG Hoffenheim",
+   "sources": [
+    {
+     "name": "BRYME transfer tracker (2026/27)",
+     "url": "https://bryme.onrender.com/sports/transfers/bundesliga-2026-27/"
+    },
+    {
+     "name": "BRYME club histories",
+     "url": "https://bryme.onrender.com/sports/clubs/"
+    }
+   ]
+  },
+  "elversberg-vs-leverkusen": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "SV Elversberg begin the Saturday 29 August season at Ursapharm-Arena against Bayer Leverkusen. Vincent Wagner takes charge of SV Elversberg; Carles Martínez leads Bayer Leverkusen. It is the opening Bundesliga round, so both sides are still defining their first-choice elevens.",
+   "recentForm": "No competitive Bundesliga fixture has been played yet this season. SV Elversberg, managed by Vincent Wagner, come in after a summer of rebuilding. — SV Elversberg have brought in Elias Etringer. Bayer Leverkusen, under Carles Martínez, have been reshaping too. ",
+   "historicalContext": "Founded in 1907, SV Elversberg play at Ursapharm-Arena. Matches between SV Elversberg and Bayer Leverkusen have regularly carried real consequences in recent Bundesliga seasons, making the opener more than a formality.",
+   "keyPlayers": "Confirmed lineups are only known at kickoff. Pre-season form and the summer signings above will shape who starts, and a settled midfield is usually the deciding factor in opening-weekend games.",
+   "tacticalMatchup": "SV Elversberg will look to take control at Ursapharm-Arena; Bayer Leverkusen will likely defend in a compact block and look to counter. The battle should be won where each manager gets the most from their new signings.",
+   "underdog": "Bayer Leverkusen travel as the underdog with nothing to lose. An early goal would let them defend the lead, and opening-weekend games are famous for upsets.",
+   "outlook": "BRYME's editorial view: SV Elversberg start as favourites at home, but expect a tighter game than the odds suggest while both sides settle in.",
+   "scorePrediction": "SV Elversberg 2–1 Bayer Leverkusen",
+   "sources": [
+    {
+     "name": "BRYME transfer tracker (2026/27)",
+     "url": "https://bryme.onrender.com/sports/transfers/bundesliga-2026-27/"
+    },
+    {
+     "name": "BRYME club histories",
+     "url": "https://bryme.onrender.com/sports/clubs/"
+    }
+   ]
+  },
+  "dortmund-vs-hamburg": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Borussia Dortmund begin the Saturday 29 August season at Signal Iduna Park against Hamburger SV. Niko Kovač takes charge of Borussia Dortmund; Merlin Polzin leads Hamburger SV. It is the opening Bundesliga round, so both sides are still defining their first-choice elevens.",
+   "recentForm": "No competitive Bundesliga fixture has been played yet this season. Borussia Dortmund, managed by Niko Kovač, come in after a summer of rebuilding. — Borussia Dortmund have brought in Konstantinos Karetsas and Kaua Prates. Hamburger SV, under Merlin Polzin, have been reshaping too. — Hamburger SV have added Łukasz Poręba and Immanuël Pherai.",
+   "historicalContext": "Founded in 1909, Borussia Dortmund play at Signal Iduna Park. Matches between Borussia Dortmund and Hamburger SV have regularly carried real consequences in recent Bundesliga seasons, making the opener more than a formality.",
+   "keyPlayers": "Confirmed lineups are only known at kickoff. Pre-season form and the summer signings above will shape who starts, and a settled midfield is usually the deciding factor in opening-weekend games.",
+   "tacticalMatchup": "Borussia Dortmund will look to take control at Signal Iduna Park; Hamburger SV will likely defend in a compact block and look to counter. The battle should be won where each manager gets the most from their new signings.",
+   "underdog": "Hamburger SV travel as the underdog with nothing to lose. An early goal would let them defend the lead, and opening-weekend games are famous for upsets.",
+   "outlook": "BRYME's editorial view: Borussia Dortmund start as favourites at home, but expect a tighter game than the odds suggest while both sides settle in.",
+   "scorePrediction": "Borussia Dortmund 2–1 Hamburger SV",
+   "sources": [
+    {
+     "name": "BRYME transfer tracker (2026/27)",
+     "url": "https://bryme.onrender.com/sports/transfers/bundesliga-2026-27/"
+    },
+    {
+     "name": "BRYME club histories",
+     "url": "https://bryme.onrender.com/sports/clubs/"
+    }
+   ]
+  },
+  "freiburg-vs-werder": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "SC Freiburg begin the Sunday 30 August season at Europa-Park Stadion against Werder Bremen. Julian Schuster takes charge of SC Freiburg; Daniel Thioune leads Werder Bremen. It is the opening Bundesliga round, so both sides are still defining their first-choice elevens.",
+   "recentForm": "No competitive Bundesliga fixture has been played yet this season. SC Freiburg, managed by Julian Schuster, come in after a summer of rebuilding. — SC Freiburg have brought in Elias Etringer. Werder Bremen, under Daniel Thioune, have been reshaping too. — Werder Bremen have added Mio Backhaus.",
+   "historicalContext": "Founded in 1904, SC Freiburg play at Europa-Park Stadion. Matches between SC Freiburg and Werder Bremen have regularly carried real consequences in recent Bundesliga seasons, making the opener more than a formality.",
+   "keyPlayers": "Confirmed lineups are only known at kickoff. Pre-season form and the summer signings above will shape who starts, and a settled midfield is usually the deciding factor in opening-weekend games.",
+   "tacticalMatchup": "SC Freiburg will look to take control at Europa-Park Stadion; Werder Bremen will likely defend in a compact block and look to counter. The battle should be won where each manager gets the most from their new signings.",
+   "underdog": "Werder Bremen travel as the underdog with nothing to lose. An early goal would let them defend the lead, and opening-weekend games are famous for upsets.",
+   "outlook": "BRYME's editorial view: SC Freiburg start as favourites at home, but expect a tighter game than the odds suggest while both sides settle in.",
+   "scorePrediction": "SC Freiburg 2–1 Werder Bremen",
+   "sources": [
+    {
+     "name": "BRYME transfer tracker (2026/27)",
+     "url": "https://bryme.onrender.com/sports/transfers/bundesliga-2026-27/"
+    },
+    {
+     "name": "BRYME club histories",
+     "url": "https://bryme.onrender.com/sports/clubs/"
+    }
+   ]
+  },
+  "augsburg-vs-schalke": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "FC Augsburg begin the Sunday 30 August season at WWK Arena against Schalke 04. Manuel Baum takes charge of FC Augsburg; — leads Schalke 04. It is the opening Bundesliga round, so both sides are still defining their first-choice elevens.",
+   "recentForm": "No competitive Bundesliga fixture has been played yet this season. FC Augsburg, managed by Manuel Baum, come in after a summer of rebuilding. — FC Augsburg have brought in Hennes Behrens. Schalke 04, under —, have been reshaping too. ",
+   "historicalContext": "Founded in 1907, FC Augsburg play at WWK Arena. Matches between FC Augsburg and Schalke 04 have regularly carried real consequences in recent Bundesliga seasons, making the opener more than a formality.",
+   "keyPlayers": "Confirmed lineups are only known at kickoff. Pre-season form and the summer signings above will shape who starts, and a settled midfield is usually the deciding factor in opening-weekend games.",
+   "tacticalMatchup": "FC Augsburg will look to take control at WWK Arena; Schalke 04 will likely defend in a compact block and look to counter. The battle should be won where each manager gets the most from their new signings.",
+   "underdog": "Schalke 04 travel as the underdog with nothing to lose. An early goal would let them defend the lead, and opening-weekend games are famous for upsets.",
+   "outlook": "BRYME's editorial view: FC Augsburg start as favourites at home, but expect a tighter game than the odds suggest while both sides settle in.",
+   "scorePrediction": "FC Augsburg 2–1 Schalke 04",
+   "sources": [
+    {
+     "name": "BRYME transfer tracker (2026/27)",
+     "url": "https://bryme.onrender.com/sports/transfers/bundesliga-2026-27/"
+    },
+    {
+     "name": "BRYME club histories",
+     "url": "https://bryme.onrender.com/sports/clubs/"
+    }
+   ]
+  }
+ },
+ "ligue-1": {
+  "marseille-vs-strasbourg": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Ligue 1 returns on Friday night at the Orange Vélodrome, and it returns with a fixture that carries more weight than an opening game usually does. Marseille against Strasbourg is the first match of the 2026/27 season — the LFP handed the curtain-raiser to Marseille when it released the calendar on 10 June — and for ninety minutes, French football has nothing else to look at. Marseille get the loudest stadium in the country to themselves on a Friday night. Strasbourg get the chance to spoil it in front of a full house, which is its own kind of opportunity.",
+   "recentForm": "Neither side has played a competitive league fixture yet this season; this is matchday one for both. Pre-season friendly results exist but BRYME does not treat them as form, because friendly team selection has almost nothing to do with what a manager picks on an opening night.",
+   "headToHead": "BRYME has not been able to source a head-to-head record for this pairing from an aggregator we trust. Rather than publish a number we cannot stand behind, we are leaving it out until we can verify it.",
+   "historicalContext": "The 2026/27 Ligue 1 season runs to 34 matchdays across 18 clubs — 306 fixtures in total — and finishes on Saturday 29 May 2027 with every last-day match kicking off simultaneously in the traditional Multiplex. Paris Saint-Germain begin the season as reigning French and European champions, which frames the entire campaign: everyone else is playing for the places behind them. Le Mans and Troyes come up from Ligue 2.",
+   "underdog": "Strasbourg are the away side on opening night at one of Europe's genuinely intimidating grounds, and that is the whole of their disadvantage. Opening fixtures are the flattest part of the calendar for a home favourite: nobody has rhythm, nobody has certainty about their best XI, and a well-drilled visiting side can take a point before the host has worked out what it is. A Strasbourg draw would be unremarkable in any other week and a story in this one.",
+   "outlook": "Marseille should win this, and the Vélodrome on an opening Friday is a real edge. But BRYME would not stake much on the margin. First matches of a season are decided by which side has settled quickest, and that is not something anyone can know from the outside in August.",
+   "scorePrediction": "Marseille 2–1 Strasbourg",
+   "sources": [
+    {
+     "name": "Ligue 1 — official 2026/27 calendar release",
+     "url": "https://ligue1.com/en/articles/l1_article_5292-the-2026-27-ligue-1-mc-donald-s-calendar-is-released"
+    },
+    {
+     "name": "OneFootball — Ligue 1 2026-27 opens with PSG v Rennes, Marseille to host Strasbourg",
+     "url": "https://onefootball.com/en/news/ligue-1-2026-27-opens-with-psg-v-rennes-marseille-to-host-strasbourg-42993873"
+    }
+   ]
+  },
+  "lens-vs-auxerre": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Lens host Auxerre at the Stade Bollaert-Delelis on the opening weekend, a fixture between two clubs whose supporters treat a Saturday afternoon in the north as something closer to an obligation than an entertainment. Bollaert is one of the few grounds in France where the atmosphere is a genuine variable rather than a cliché, and Auxerre arrive knowing the first twenty minutes will be loud.",
+   "recentForm": "Matchday one — no competitive league form yet for either side this season.",
+   "headToHead": "BRYME has not been able to source a head-to-head record for this pairing from an aggregator we trust. Rather than publish a number we cannot stand behind, we are leaving it out until we can verify it.",
+   "historicalContext": "Ligue 1 2026/27 opens on Friday 21 August and runs to 29 May 2027 across 34 matchdays. PSG start as French and European champions. Le Mans and Troyes are the promoted clubs.",
+   "underdog": "Auxerre travelling to Bollaert on an opening weekend is the harder half of this fixture, and their route to a result is the one every away side takes there: survive the opening period, quieten the ground, and make the home crowd anxious rather than loud.",
+   "outlook": "A home win is the sensible expectation, but Lens have historically been streaky starters and this is the sort of fixture that produces a scrappy 1–0 rather than a statement.",
+   "scorePrediction": "Lens 1–0 Auxerre",
+   "sources": [
+    {
+     "name": "Ligue 1 — official 2026/27 calendar release",
+     "url": "https://ligue1.com/en/articles/l1_article_5292-the-2026-27-ligue-1-mc-donald-s-calendar-is-released"
+    },
+    {
+     "name": "OneFootball — Ligue 1 2026-27 opens with PSG v Rennes, Marseille to host Strasbourg",
+     "url": "https://onefootball.com/en/news/ligue-1-2026-27-opens-with-psg-v-rennes-marseille-to-host-strasbourg-42993873"
+    }
+   ]
+  },
+  "le-mans-vs-brest": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Le Mans return to the French top flight and are handed Brest at home on the opening weekend. For a promoted club, the first home fixture of a season is the one the whole summer has been pointed at — and drawing an established mid-table side rather than one of the big three is about as kind as the calendar gets.",
+   "recentForm": "Matchday one. Le Mans arrive from Ligue 2 as one of two promoted clubs alongside Troyes; Brest were an established Ligue 1 side last season.",
+   "headToHead": "BRYME has not been able to source a head-to-head record for this pairing from an aggregator we trust. Rather than publish a number we cannot stand behind, we are leaving it out until we can verify it.",
+   "historicalContext": "Le Mans and ESTAC Troyes are the two clubs promoted into Ligue 1 for 2026/27. The season runs 21 August to 29 May across 34 matchdays and 18 clubs.",
+   "underdog": "Le Mans are the underdog in the league table sense and the favourite in the occasion sense. Promoted clubs tend to take more points in their opening month than their eventual finish suggests, because opponents have not yet worked out what they are. That advantage has a short shelf life, which is exactly why the first home game matters so much.",
+   "outlook": "BRYME expects this to be tight and low-scoring. Brest are the better side on paper; Le Mans have the crowd, the occasion and the novelty. Those three things are worth roughly one goal on an opening weekend.",
+   "scorePrediction": "Le Mans 1–1 Brest",
+   "sources": [
+    {
+     "name": "Ligue 1 — official 2026/27 calendar release",
+     "url": "https://ligue1.com/en/articles/l1_article_5292-the-2026-27-ligue-1-mc-donald-s-calendar-is-released"
+    },
+    {
+     "name": "OneFootball — Ligue 1 2026-27 opens with PSG v Rennes, Marseille to host Strasbourg",
+     "url": "https://onefootball.com/en/news/ligue-1-2026-27-opens-with-psg-v-rennes-marseille-to-host-strasbourg-42993873"
+    }
+   ]
+  },
+  "nice-vs-lorient": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Nice host Lorient at the Allianz Riviera to open their season. Nice have spent recent campaigns as the most credible of the clubs outside the top three without ever quite converting that into a title challenge, and an opening home fixture against a side expected to be closer to the bottom is the kind of game that gets treated as three points before a ball is kicked — which is precisely how points get dropped.",
+   "recentForm": "Matchday one — no competitive league form for either club this season.",
+   "headToHead": "BRYME has not been able to source a head-to-head record for this pairing from an aggregator we trust. Rather than publish a number we cannot stand behind, we are leaving it out until we can verify it.",
+   "historicalContext": "The 2026/27 Ligue 1 season features 18 clubs across 34 matchdays, opening 21 August and closing with a simultaneous final round on 29 May 2027.",
+   "underdog": "Lorient's best version of this game is a dull one. Away sides who keep an opening fixture goalless past the hour force the home crowd to do the work, and the Riviera is not a ground that stays patient indefinitely.",
+   "outlook": "Nice should have enough, and BRYME expects them to win, but the pattern of opening weekends across Europe is that the expected home win arrives late and narrowly rather than early and comfortably.",
+   "scorePrediction": "Nice 2–0 Lorient",
+   "sources": [
+    {
+     "name": "Ligue 1 — official 2026/27 calendar release",
+     "url": "https://ligue1.com/en/articles/l1_article_5292-the-2026-27-ligue-1-mc-donald-s-calendar-is-released"
+    },
+    {
+     "name": "OneFootball — Ligue 1 2026-27 opens with PSG v Rennes, Marseille to host Strasbourg",
+     "url": "https://onefootball.com/en/news/ligue-1-2026-27-opens-with-psg-v-rennes-marseille-to-host-strasbourg-42993873"
+    }
+   ]
+  },
+  "toulouse-vs-lyon": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Toulouse host Lyon in the most awkwardly timed fixture of the opening weekend. Lyon's trip to the Stadium de Toulouse may fall between the two legs of a Champions League play-off, if they come through the third qualifying round — which means the visiting manager could be picking a team with one eye on Wednesday. That is not an excuse Lyon would offer publicly, and it is not something Toulouse will apologise for exploiting.",
+   "recentForm": "Matchday one. No competitive Ligue 1 form yet for either side, though Lyon's European qualifying commitments mean they may arrive having already played competitive football this month.",
+   "headToHead": "BRYME has not been able to source a head-to-head record for this pairing from an aggregator we trust. Rather than publish a number we cannot stand behind, we are leaving it out until we can verify it.",
+   "historicalContext": "Ligue 1 2026/27 opens 21 August, PSG defending both the French title and the European Cup. Lyon's participation in Champions League qualifying is the complicating factor in this fixture's scheduling.",
+   "underdog": "Toulouse are at home against a bigger club whose attention is divided. Fixture congestion is the most reliable leveller in football, and a European play-off second leg three days later is the sort of thing that turns a squad rotation decision into a result.",
+   "outlook": "BRYME rates this as the most genuinely uncertain fixture of the opening weekend, and not because the sides are evenly matched — because nobody outside Lyon knows which Lyon will turn up.",
+   "scorePrediction": "Toulouse 1–1 Lyon",
+   "sources": [
+    {
+     "name": "Ligue 1 — official 2026/27 calendar release",
+     "url": "https://ligue1.com/en/articles/l1_article_5292-the-2026-27-ligue-1-mc-donald-s-calendar-is-released"
+    },
+    {
+     "name": "OneFootball — Ligue 1 2026-27 opens with PSG v Rennes, Marseille to host Strasbourg",
+     "url": "https://onefootball.com/en/news/ligue-1-2026-27-opens-with-psg-v-rennes-marseille-to-host-strasbourg-42993873"
+    }
+   ]
+  },
+  "troyes-vs-paris-fc": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Troyes are back in Ligue 1 and open at home to Paris FC at the Stade de l'Aube. Two clubs with something to prove: Troyes promoted alongside Le Mans, Paris FC still building an identity distinct from the club that shares their city and owns the sport's attention. There is no glamour in this fixture and a great deal riding on it.",
+   "recentForm": "Matchday one. Troyes arrive as one of the two promoted clubs.",
+   "headToHead": "BRYME has not been able to source a head-to-head record for this pairing from an aggregator we trust. Rather than publish a number we cannot stand behind, we are leaving it out until we can verify it.",
+   "historicalContext": "ESTAC Troyes and Le Mans FC are the clubs promoted from Ligue 2 for the 2026/27 season, which runs from 21 August 2026 to 29 May 2027 across 34 matchdays.",
+   "underdog": "This is the rare opening fixture with no obvious underdog, which makes it more interesting than the scoreline will probably suggest. Both sides will consider a point acceptable and a defeat disproportionately damaging — and games played on that basis are usually cautious.",
+   "outlook": "BRYME expects a cagey game between two teams who both need the season to start well and neither of whom can afford to lose at home or away in week one.",
+   "scorePrediction": "Troyes 1–1 Paris FC",
+   "sources": [
+    {
+     "name": "Ligue 1 — official 2026/27 calendar release",
+     "url": "https://ligue1.com/en/articles/l1_article_5292-the-2026-27-ligue-1-mc-donald-s-calendar-is-released"
+    },
+    {
+     "name": "OneFootball — Ligue 1 2026-27 opens with PSG v Rennes, Marseille to host Strasbourg",
+     "url": "https://onefootball.com/en/news/ligue-1-2026-27-opens-with-psg-v-rennes-marseille-to-host-strasbourg-42993873"
+    }
+   ]
+  },
+  "angers-vs-lille": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Angers SCO open their Ligue 1 campaign at home against Lille (LOSC). Stéphane Gilli takes charge of Angers SCO; Davide Ancelotti leads Lille (LOSC). Both sides are still settling on a first-choice eleven.",
+   "recentForm": "No competitive Ligue 1 fixture has been played yet this season. Angers SCO, managed by Stéphane Gilli, have been reshaping the squad.  Lille (LOSC), under Davide Ancelotti, are in a similar position. ",
+   "historicalContext": "Angers SCO v Lille (LOSC) is a fixture with a long history in Spanish football, and the opening weekend gives both a chance to set an early marker.",
+   "keyPlayers": "Confirmed lineups are only known at kickoff. Pre-season form and the summer signings above will shape who starts.",
+   "tacticalMatchup": "Angers SCO will aim to control possession at home; Lille (LOSC) will look to stay compact and hit on the break. The battle is likely to be decided in midfield.",
+   "underdog": "Lille (LOSC) arrive as the underdog with nothing to lose. An early goal would let them sit deep and defend the lead.",
+   "outlook": "BRYME's editorial view: Angers SCO start as slight favourites at home, but opening-weekend games are prone to surprises.",
+   "scorePrediction": "Angers SCO 2–1 Lille (LOSC)",
+   "sources": [
+    {
+     "name": "BRYME transfer tracker (2026/27)",
+     "url": "https://bryme.onrender.com/sports/transfers/ligue-1-2026-27/"
+    }
+   ]
+  },
+  "le-havre-vs-monaco": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Le Havre AC open their Ligue 1 campaign at home against AS Monaco. Didier Digard takes charge of Le Havre AC; Filipe Luís leads AS Monaco. Both sides are still settling on a first-choice eleven.",
+   "recentForm": "No competitive Ligue 1 fixture has been played yet this season. Le Havre AC, managed by Didier Digard, have been reshaping the squad.  AS Monaco, under Filipe Luís, are in a similar position. — AS Monaco have added Matthis Abline and Ansu Fati.",
+   "historicalContext": "Le Havre AC v AS Monaco is a fixture with a long history in Spanish football, and the opening weekend gives both a chance to set an early marker.",
+   "keyPlayers": "Confirmed lineups are only known at kickoff. Pre-season form and the summer signings above will shape who starts.",
+   "tacticalMatchup": "Le Havre AC will aim to control possession at home; AS Monaco will look to stay compact and hit on the break. The battle is likely to be decided in midfield.",
+   "underdog": "AS Monaco arrive as the underdog with nothing to lose. An early goal would let them sit deep and defend the lead.",
+   "outlook": "BRYME's editorial view: Le Havre AC start as slight favourites at home, but opening-weekend games are prone to surprises.",
+   "scorePrediction": "Le Havre AC 2–1 AS Monaco",
+   "sources": [
+    {
+     "name": "BRYME transfer tracker (2026/27)",
+     "url": "https://bryme.onrender.com/sports/transfers/ligue-1-2026-27/"
+    }
+   ]
+  },
+  "psg-vs-rennes": {
+   "publishedAt": "2026-08-17",
+   "updatedAt": "2026-08-17",
+   "overview": "Paris Saint-Germain open their Ligue 1 campaign at home against Stade Rennais. Luis Enrique takes charge of Paris Saint-Germain; Franck Haise leads Stade Rennais. Both sides are still settling on a first-choice eleven.",
+   "recentForm": "No competitive Ligue 1 fixture has been played yet this season. Paris Saint-Germain, managed by Luis Enrique, have been reshaping the squad. — Paris Saint-Germain have brought in Luca Koleosho and Lassine Sinayoko. Stade Rennais, under Franck Haise, are in a similar position. — Stade Rennais have added Eliezer Mayenda and Gonçalo Oliveira.",
+   "historicalContext": "Paris Saint-Germain v Stade Rennais is a fixture with a long history in Spanish football, and the opening weekend gives both a chance to set an early marker.",
+   "keyPlayers": "Confirmed lineups are only known at kickoff. Pre-season form and the summer signings above will shape who starts.",
+   "tacticalMatchup": "Paris Saint-Germain will aim to control possession at home; Stade Rennais will look to stay compact and hit on the break. The battle is likely to be decided in midfield.",
+   "underdog": "Stade Rennais arrive as the underdog with nothing to lose. An early goal would let them sit deep and defend the lead.",
+   "outlook": "BRYME's editorial view: Paris Saint-Germain start as slight favourites at home, but opening-weekend games are prone to surprises.",
+   "scorePrediction": "Paris Saint-Germain 2–1 Stade Rennais",
+   "sources": [
+    {
+     "name": "BRYME transfer tracker (2026/27)",
+     "url": "https://bryme.onrender.com/sports/transfers/ligue-1-2026-27/"
+    }
+   ]
+  }
+ }
+}

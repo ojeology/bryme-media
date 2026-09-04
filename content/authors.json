@@ -1,0 +1,33 @@
+[
+  {
+    "slug": "ibrahim-sodiq",
+    "name": "Ibrahim Sodiq",
+    "role": "Writer — Make Money, Tech & AI, Sports",
+    "summary": "Self-taught developer who started out building software on an Android phone with Termux. Writes BRYME's Make Money, Tech and Sports coverage.",
+    "bio": [
+      "Ibrahim Sodiq writes BRYME's Make Money, Tech & AI and Sports coverage.",
+      "He started learning and developing software on an Android phone, primarily using Termux, rather than beginning with a conventional computer setup. Early on he ran into dependency and installation problems while trying to build the tools he needed — particularly the numerical and data-analysis packages, which carry compiled dependencies that are harder to install on mobile Termux than on desktop Linux — and moved to an Ubuntu environment on the phone to see whether that would be easier. He later returned to Termux after finding that a Python virtual environment gave him a better way to isolate a project and manage its dependencies, which let him keep building on the phone rather than abandon the work.",
+      "That work was driven by wanting to build his own automated trading systems rather than use someone else's, on a Python stack including NumPy, pandas, pandas-ta, scikit-learn and WebSocket and API libraries. The same phone-based setup went on to support Python trading bots, API integrations, automation and websites.",
+      "He has deployed his own projects to Render and worked through real deployment failures rather than tutorial examples — a build that could not find package.json because the platform was starting from the wrong directory, a static site that would not deploy without a publish directory, and an accidental second deployment of a project that already had a production service. His backend work has involved PostgreSQL, Neon, Firebase and Express, alongside the configuration and connectivity problems that come with them.",
+      "He works with Python, APIs, databases, WebSockets, automation and web development, and has built trading bots with Telegram integrations, machine-learning components, databases and live dashboards. Tools he has worked with include GitHub, Firebase, Neon and PostgreSQL, Replit, Render and Capacitor. What he writes about deployment comes from troubleshooting real failures rather than from following tutorials."
+    ],
+    "knowsAbout": [
+      "Python",
+      "Termux",
+      "Android development",
+      "APIs",
+      "Databases",
+      "WebSockets",
+      "Automation",
+      "Web development",
+      "Trading bots",
+      "Machine learning",
+      "Deployment",
+      "PostgreSQL",
+      "Firebase",
+      "Render",
+      "Capacitor",
+      "GitHub"
+    ]
+  }
+]

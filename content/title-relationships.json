@@ -1,0 +1,227 @@
+{
+ "_comment": "MANUAL EDITORIAL TITLE RELATIONSHIPS — boosts the 'YOU MAY ALSO LIKE' scoring on title pages. Each entry lists slugs that editors consider strongly related to the key title. The related-title algorithm (deterministic) scores: manual relationship (+100) + shared genres + same era (±3 years) + editorial rating. Slugs that don't exist in the catalogue are ignored with a build warning.",
+ "prison-break": [
+  "money-heist",
+  "breaking-bad",
+  "ozark",
+  "peaky-blinders",
+  "sherlock",
+  "luther"
+ ],
+ "alice-in-borderland": [
+  "squid-game",
+  "all-of-us-are-dead",
+  "sweet-home",
+  "kingdom",
+  "the-100",
+  "yellowjackets"
+ ],
+ "squid-game": [
+  "alice-in-borderland",
+  "all-of-us-are-dead",
+  "sweet-home",
+  "yellowjackets",
+  "the-100"
+ ],
+ "solo-leveling": [
+  "jujutsu-kaisen",
+  "demon-slayer",
+  "hells-paradise",
+  "chainsaw-man",
+  "kaiju-no-8",
+  "one-punch-man"
+ ],
+ "one-piece": [
+  "naruto",
+  "hunter-x-hunter",
+  "my-hero-academia",
+  "black-clover",
+  "fairy-tail",
+  "dragon-ball-z"
+ ],
+ "naruto": [
+  "one-piece",
+  "bleach",
+  "my-hero-academia",
+  "black-clover",
+  "hunter-x-hunter"
+ ],
+ "attack-on-titan": [
+  "vinland-saga",
+  "chainsaw-man",
+  "jujutsu-kaisen",
+  "death-note",
+  "code-geass",
+  "hells-paradise"
+ ],
+ "jujutsu-kaisen": [
+  "chainsaw-man",
+  "demon-slayer",
+  "hells-paradise",
+  "solo-leveling",
+  "kaiju-no-8"
+ ],
+ "demon-slayer": [
+  "jujutsu-kaisen",
+  "chainsaw-man",
+  "my-hero-academia",
+  "hells-paradise",
+  "solo-leveling"
+ ],
+ "interstellar": [
+  "the-martian",
+  "arrival",
+  "gravity",
+  "blade-runner-2049",
+  "dune-part-two",
+  "2001-space-odyssey"
+ ],
+ "titanic": [
+  "the-notebook",
+  "casablanca",
+  "a-silent-voice",
+  "your-name",
+  "spirited-away"
+ ],
+ "avengers-endgame": [
+  "avengers-infinity-war",
+  "thor-ragnarok",
+  "guardians-of-the-galaxy",
+  "spider-man-no-way-home",
+  "captain-america"
+ ],
+ "into-the-badlands": [
+  "shogun",
+  "vikings",
+  "the-last-kingdom",
+  "game-of-thrones",
+  "the-witcher"
+ ],
+ "breaking-bad": [
+  "better-call-saul",
+  "ozark",
+  "narcos",
+  "mindhunter",
+  "fargo",
+  "true-detective"
+ ],
+ "death-note": [
+  "code-geass",
+  "steins-gate",
+  "tokyo-ghoul",
+  "attack-on-titan",
+  "death-note"
+ ],
+ "the-last-of-us": [
+  "squid-game",
+  "alice-in-borderland",
+  "all-of-us-are-dead",
+  "the-walking-dead",
+  "sweet-home"
+ ],
+ "one-punch-man": [
+  "mob-psycho-100",
+  "my-hero-academia",
+  "solo-leveling",
+  "jujutsu-kaisen",
+  "sakamoto-days"
+ ],
+ "sakamoto-days": [
+  "one-punch-man",
+  "spy-x-family",
+  "dandadan",
+  "kaiju-no-8",
+  "hells-paradise"
+ ],
+ "dandadan": [
+  "chainsaw-man",
+  "jujutsu-kaisen",
+  "mob-psycho-100",
+  "sakamoto-days",
+  "kaiju-no-8"
+ ],
+ "money-heist": [
+  "prison-break",
+  "narcos",
+  "ozark",
+  "breaking-bad",
+  "vincenzo"
+ ],
+ "the-witcher": [
+  "game-of-thrones",
+  "house-of-the-dragon",
+  "the-last-kingdom",
+  "vikings",
+  "shogun"
+ ],
+ "shogun": [
+  "into-the-badlands",
+  "vikings",
+  "the-last-kingdom",
+  "the-witcher",
+  "game-of-thrones"
+ ],
+ "spirited-away": [
+  "your-name",
+  "a-silent-voice",
+  "weathering-with-you",
+  "suzume",
+  "the-boy-and-the-heron",
+  "grave-fireflies"
+ ],
+ "your-name": [
+  "spirited-away",
+  "a-silent-voice",
+  "weathering-with-you",
+  "suzume",
+  "the-wind-rises"
+ ],
+ "spider-man-brand-new-day": [
+  "spider-man-no-way-home",
+  "the-odyssey",
+  "avengers-endgame",
+  "black-panther"
+ ],
+ "the-odyssey": [
+  "interstellar",
+  "oppenheimer",
+  "2001-space-odyssey",
+  "spider-man-brand-new-day"
+ ],
+ "paw-patrol-the-dino-movie": [
+  "toy-story-5",
+  "how-to-train-your-dragon-2025",
+  "the-end-of-oak-street"
+ ],
+ "the-end-of-oak-street": [
+  "jurassic-park",
+  "jurassic-world-rebirth",
+  "paw-patrol-the-dino-movie"
+ ],
+ "niu-lai": [
+  "ne-zha",
+  "wandering-earth"
+ ],
+ "jana-nayagan": [
+  "rrr",
+  "jawan",
+  "vishwanath-and-sons"
+ ],
+ "vishwanath-and-sons": [
+  "jana-nayagan",
+  "the-wedding-party"
+ ],
+ "hope-2026": [
+  "the-wailing",
+  "parasite"
+ ],
+ "toy-story-5": [
+  "toy-story",
+  "inside-out",
+  "paw-patrol-the-dino-movie"
+ ],
+ "call-of-my-life": [
+  "a-tribe-called-judah",
+  "the-wedding-party"
+ ]
+}

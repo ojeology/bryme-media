@@ -1,0 +1,274 @@
+/* ==========================================================================
+   BRYME SPORTS SKIN — v2.0 (site-wide layer for EVERY /sports/ page)
+   --------------------------------------------------------------------------
+   One layer that re-themes every sports component family to the Sports
+   Desk v2 language: flat surfaces, hairline borders, signal-green data
+   accents, no gradient text, no glass panels, no glows.
+   Loaded AFTER site.css + sports-hub.css. Specificity is matched to the
+   site.css rules it replaces (checked rule by rule).
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   0. Tokens — available on every sports page (body scope)
+   -------------------------------------------------------------------------- */
+body[data-nav="sports"] {
+  --bsd-bg: #0a0c0f;
+  --bsd-panel: #10141b;
+  --bsd-panel-2: #151b24;
+  --bsd-panel-3: #1a212c;
+  --bsd-line: #222a36;
+  --bsd-line-2: #2e3947;
+  --bsd-text: #eef1f5;
+  --bsd-muted: #8d95a3;
+  --bsd-faint: #626b78;
+  --bsd-live: #3ddc84;
+  --bsd-accent: #e94b2c;
+  --bsd-gold: #e7bb5c;
+}
+
+/* --------------------------------------------------------------------------
+   1. Base — flat deep background instead of the old .spx gradient wash
+   -------------------------------------------------------------------------- */
+body.spx[data-nav="sports"] {
+  background: var(--bsd-bg);
+  background-image: none;
+  background-attachment: scroll;
+  color: var(--bsd-text);
+}
+
+/* --------------------------------------------------------------------------
+   2. Typography — kill gradient display text, flatten eyebrows
+   -------------------------------------------------------------------------- */
+body[data-nav="sports"] .hero h1,
+body[data-nav="sports"] .vhero h1,
+body[data-nav="sports"] .article-hero h1,
+body[data-nav="sports"] .td-hero h1,
+body[data-nav="sports"] .hero-facts {
+  background: none;
+  -webkit-background-clip: initial;
+  background-clip: initial;
+  -webkit-text-fill-color: currentColor;
+  color: var(--bsd-text);
+}
+
+body[data-nav="sports"] .eyebrow {
+  background: none;
+  -webkit-background-clip: initial;
+  background-clip: initial;
+  -webkit-text-fill-color: var(--bsd-live);
+  color: var(--bsd-live);
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+}
+
+/* section heading lead-in bar: flat signal green */
+body[data-nav="sports"] main h2:before,
+body[data-nav="sports"] .section-head h2:before {
+  background: var(--bsd-live);
+  border-radius: 2px;
+}
+
+body[data-nav="sports"] .section-head a { color: var(--bsd-muted); font-weight: 600; }
+body[data-nav="sports"] .section-head a:hover { color: var(--bsd-text); }
+
+/* calmer in-body links */
+body[data-nav="sports"] .prose a,
+body[data-nav="sports"] .sp-table a { color: #45d17f; }
+body[data-nav="sports"] .prose a:hover,
+body[data-nav="sports"] .sp-table a:hover { color: #6fe8a4; }
+
+/* --------------------------------------------------------------------------
+   3. Hero blocks — no orange glow, tighter professional spacing
+   -------------------------------------------------------------------------- */
+body[data-nav="sports"] .hero {
+  padding: 42px 0 28px;
+  background: none;
+}
+body[data-nav="sports"] .article-hero { padding: 46px 0 26px; }
+body[data-nav="sports"] .crumb { padding-top: 18px; font-size: 12.5px; color: var(--bsd-faint); }
+
+/* --------------------------------------------------------------------------
+   4. Panels & cards — flat surfaces, hairline borders, 10px radii
+   -------------------------------------------------------------------------- */
+
+/* engine league groups: was glass blur panel */
+body.spx .sp-lg {
+  background: var(--bsd-panel);
+  border: 1px solid var(--bsd-line);
+  border-radius: 10px;
+  padding: 12px;
+  backdrop-filter: none;
+}
+body.spx .sp-lg-head b { color: var(--bsd-muted); font-size: 12px; }
+body.spx .sp-lg-head a { color: var(--bsd-faint); font-weight: 600; }
+body.spx .sp-lg-head a:hover { color: var(--bsd-live); }
+
+/* hub dashboard minis */
+body[data-nav="sports"] .sp-dash-col {
+  background: var(--bsd-panel);
+  border: 1px solid var(--bsd-line);
+  border-radius: 10px;
+}
+
+/* matchweek / club header bars: was gradient */
+body[data-nav="sports"] .sp-mw-head,
+body[data-nav="sports"] .sp-club-head {
+  background: var(--bsd-panel-2);
+  border-bottom: 1px solid var(--bsd-line);
+}
+body[data-nav="sports"] .sp-mw-head h2 { letter-spacing: -0.015em; }
+
+body[data-nav="sports"] .sp-fixture:hover { background: var(--bsd-panel-2); }
+
+/* vertical chip cards: was gradient + lift hover */
+body[data-nav="sports"] .vchip {
+  background: var(--bsd-panel);
+  border: 1px solid var(--bsd-line);
+  border-radius: 10px;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+body[data-nav="sports"] .vchip:before { display: none; }
+body[data-nav="sports"] .vchip:hover {
+  transform: none;
+  box-shadow: none;
+  border-color: var(--bsd-line-2);
+  background: var(--bsd-panel-2);
+}
+
+/* team/comic directory heroes: was glow card */
+body[data-nav="sports"] .td-hero {
+  border-radius: 12px;
+  border: 1px solid var(--bsd-line);
+  background: var(--bsd-panel);
+}
+body[data-nav="sports"] .td-hero:before { display: none; }
+
+/* directory cards */
+body[data-nav="sports"] .vcat {
+  background: var(--bsd-panel);
+  border: 1px solid var(--bsd-line);
+  border-radius: 10px;
+}
+body[data-nav="sports"] .vcat:hover { border-color: var(--bsd-line-2); }
+
+/* match centre placeholders: was dashed */
+body[data-nav="sports"] .sp-mc-card {
+  border: 1px solid var(--bsd-line);
+  border-radius: 10px;
+  background: var(--bsd-panel);
+}
+
+/* photo feature cards — keep the photo, tighten the frame */
+body[data-nav="sports"] .sp-comp-card {
+  border-radius: 12px;
+  border: 1px solid var(--bsd-line);
+}
+body[data-nav="sports"] .sp-hero-card {
+  border-radius: 12px;
+  background: linear-gradient(160deg, var(--bsd-panel-2), var(--bsd-panel) 72%);
+  border: 1px solid var(--bsd-line);
+}
+body[data-nav="sports"] .sp-hero-card:after { opacity: 0.22; }
+
+/* sports article cards */
+body[data-nav="sports"] .sa-card { border-radius: 10px; }
+
+/* club badge drop shadows off */
+body[data-nav="sports"] .sp-club-head img { filter: none; }
+
+/* --------------------------------------------------------------------------
+   5. Engine boards on inner pages (.sp-pro wrappers) — match hub style
+   -------------------------------------------------------------------------- */
+body[data-nav="sports"] .sp-pro .sp-board-head {
+  border-left: 0;
+  padding: 0 0 10px;
+  border-bottom: 1px solid var(--bsd-line);
+  background: none;
+  margin: 26px 0 12px;
+}
+body[data-nav="sports"] .sp-pro .sp-board-head h2 { font-size: 19px; }
+
+body[data-nav="sports"] .sp-pro .sp-scorecard {
+  background: var(--bsd-panel);
+  border: 1px solid var(--bsd-line);
+  border-radius: 10px;
+  box-shadow: none;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+body[data-nav="sports"] .sp-pro .sp-scorecard:hover {
+  border-color: var(--bsd-line-2);
+  background: var(--bsd-panel-2);
+}
+body[data-nav="sports"] .sp-sc-club img { filter: none; }
+
+/* status pills — one system: FT green-ink, KO gold-ink, LIVE solid */
+body[data-nav="sports"] .sp-sc-pill.ft {
+  color: var(--bsd-live);
+  background: rgba(61, 220, 132, 0.1);
+  border-color: transparent;
+}
+body[data-nav="sports"] .sp-sc-pill.ko {
+  color: var(--bsd-gold);
+  background: rgba(231, 187, 92, 0.08);
+  border-color: transparent;
+}
+
+body[data-nav="sports"] .sp-table th {
+  background: transparent;
+  border-bottom: 1px solid var(--bsd-line);
+}
+body[data-nav="sports"] .sp-lg-head a,
+body[data-nav="sports"] .sp-scorecard:hover .sp-sc-go { color: var(--bsd-live); }
+body[data-nav="sports"] .sp-lg-head a { color: var(--bsd-faint); }
+
+/* --------------------------------------------------------------------------
+   6. Chips & filter pills
+   -------------------------------------------------------------------------- */
+body[data-nav="sports"] .sp-club-nav a,
+body[data-nav="sports"] .sp-mwnav a {
+  border: 1px solid var(--bsd-line);
+  border-radius: 999px;
+  background: var(--bsd-panel-2);
+  color: var(--bsd-muted);
+  font-weight: 600;
+}
+body[data-nav="sports"] .sp-club-nav a:hover,
+body[data-nav="sports"] .sp-mwnav a:hover {
+  color: var(--bsd-text);
+  border-color: var(--bsd-line-2);
+}
+
+/* --------------------------------------------------------------------------
+   7. Buttons — ghost buttons match bsd-btn-ghost
+   -------------------------------------------------------------------------- */
+body[data-nav="sports"] .cta-ghost {
+  border: 1px solid var(--bsd-line-2);
+  color: var(--bsd-muted);
+  background: transparent;
+}
+body[data-nav="sports"] .cta-ghost:hover {
+  color: var(--bsd-text);
+  border-color: var(--bsd-faint);
+}
+
+/* --------------------------------------------------------------------------
+   8. Ticker — upcoming chips read differently from results
+   -------------------------------------------------------------------------- */
+.tk.tk-up { opacity: 0.72; }
+.tk.tk-up b { font-weight: 600; letter-spacing: 0.01em; }
+.tk.tk-up i { color: var(--bsd-gold); }
+
+/* --------------------------------------------------------------------------
+   9. Misc surfaces
+   -------------------------------------------------------------------------- */
+body[data-nav="sports"] .sp-related { border-top: 1px solid var(--bsd-line); }
+body[data-nav="sports"] .sp-source,
+body[data-nav="sports"] .sp-rel,
+body[data-nav="sports"] .sp-fix-legend,
+body[data-nav="sports"] .sp-archive-note {
+  background: var(--bsd-panel);
+  border: 1px solid var(--bsd-line);
+  border-radius: 10px;
+}
+body[data-nav="sports"] .sp-result-meta { color: var(--bsd-faint); }

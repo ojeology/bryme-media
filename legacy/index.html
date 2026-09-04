@@ -1,0 +1,1315 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex,follow">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0a0a0a">
+<meta name="description" content="BRYME — official trailer highlights, reviews, endings explained. Picks for You. Anime. The feed never stops.">
+<!-- Production URL metadata is generated from site.config.json by scripts/build-static-foundation.js. -->
+<link rel="manifest" href="../manifest.webmanifest">
+<title>BRYME</title>
+<link rel="canonical" href="https://bryme-media.onrender.com/legacy/">
+<meta property="og:url" content="https://bryme-media.onrender.com/legacy/">
+<meta property="og:site_name" content="BRYME">
+<style>
+  :root{
+    --bg:#0a0a0a; --bg2:#111111; --card:#141414; --card2:#1c1c1c; --line:#262626;
+    --txt:#f5f5f5; --dim:#8a8a8a; --red:#e50914; --gold:#f5c518;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+  html,body{background:var(--bg);color:var(--txt);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-size:16px;line-height:1.55}
+  body{padding-bottom:78px}
+  ::selection{background:var(--red);color:#fff}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,.98);border-bottom:1px solid var(--line)}
+  .topbar{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 16px 10px}
+  .brand{font-size:22px;font-weight:900;letter-spacing:2px;text-transform:uppercase;cursor:pointer;user-select:none}
+  .brand .r{color:var(--red)}
+  .brand .dot{color:var(--gold)}
+  .topsearch{flex:1;max-width:300px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:9px 16px;font-size:14px;color:var(--txt);outline:none}
+  .topsearch::placeholder{color:var(--dim)}
+  .topsearch:focus{border-color:var(--red)}
+  nav{position:fixed;bottom:0;left:0;right:0;z-index:60;display:flex;background:rgba(12,12,12,.98);border-top:1px solid var(--line)}
+  .navbtn{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;padding:9px 2px 11px;background:none;border:none;color:var(--dim);font-size:10.5px;font-weight:700;cursor:pointer}
+  .navbtn .ic{font-size:19px;line-height:1}
+  .navbtn.on{color:var(--red)}
+  main{max-width:900px;margin:0 auto;padding:12px 14px 0}
+  .view{display:none}
+  .view.on{display:block;animation:fadein .25s ease}
+  @keyframes fadein{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  h2{font-size:18px;font-weight:800;margin:20px 0 10px;text-transform:uppercase;letter-spacing:.5px}
+  h2 .count{font-size:12px;color:var(--dim);font-weight:600;text-transform:none}
+  /* banner ads */
+  .bannerad{border:1.5px dashed #3a3a3a;border-radius:10px;background:repeating-linear-gradient(45deg,#0d0d0d,#0d0d0d 12px,#101010 12px,#101010 24px);display:flex;align-items:center;justify-content:center;min-height:64px;margin:14px 0;color:#666;font-size:11.5px;font-weight:700;letter-spacing:.6px;text-transform:uppercase}
+  /* hero */
+  .hero{position:relative;border-radius:16px;overflow:hidden;border:1px solid var(--line);margin-bottom:4px}
+  .hero .back{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+  .hero .ovl{position:absolute;inset:0;background:linear-gradient(0deg,rgba(10,10,10,.96),rgba(10,10,10,.35) 55%,rgba(10,10,10,.1))}
+  .hero .meta{position:absolute;left:18px;right:18px;bottom:16px}
+  .hero .tag{font-size:11px;font-weight:800;color:var(--gold);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:6px}
+  .hero .t{font-size:26px;font-weight:900;line-height:1.1;margin-bottom:6px}
+  .hero .line{font-size:13.5px;color:var(--dim);margin-bottom:10px}
+  .hero .btns{display:flex;gap:8px;flex-wrap:wrap}
+  .hbtn{background:var(--card2);border:1px solid var(--line);color:var(--txt);border-radius:999px;padding:9px 18px;font-size:13px;font-weight:800;cursor:pointer}
+  .hbtn.red{background:var(--red);border-color:var(--red);color:#fff}
+  .hbtn:hover{filter:brightness(1.15)}
+  /* rows */
+  .row{display:flex;gap:10px;overflow-x:auto;padding:2px 2px 8px;scroll-snap-type:x mandatory;scrollbar-width:none}
+  .row::-webkit-scrollbar{display:none}
+  .poster{flex:0 0 auto;width:128px;scroll-snap-align:start;cursor:pointer;border:none;background:none;padding:0;text-align:left}
+  .poster .pimg{width:128px;aspect-ratio:2/3;border-radius:10px;overflow:hidden;position:relative;border:1px solid var(--line);transition:transform .18s}
+  .poster:hover .pimg{transform:scale(1.04);border-color:var(--red)}
+  .poster .pimg img{width:100%;height:100%;object-fit:cover;display:block}
+  .poster .gen{position:absolute;top:6px;left:6px;font-size:9.5px;font-weight:800;background:rgba(0,0,0,.65);padding:2px 7px;border-radius:999px;color:var(--gold)}
+  .poster .sc{position:absolute;top:6px;right:6px;font-size:9.5px;font-weight:800;background:rgba(0,0,0,.65);padding:2px 7px;border-radius:999px;color:#fff}
+  .poster .pt{font-size:13px;font-weight:800;margin-top:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .poster .py{font-size:11.5px;color:var(--dim)}
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+  @media(min-width:640px){.grid{grid-template-columns:repeat(5,1fr)}}
+  .chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+  .chip{background:var(--card);border:1px solid var(--line);color:var(--dim);border-radius:999px;padding:7px 14px;font-size:12.5px;font-weight:700;cursor:pointer}
+  .chip.on{background:var(--red);border-color:var(--red);color:#fff}
+  .wide{grid-column:1/-1;background:var(--card2);border:1px solid var(--line);border-radius:14px;padding:18px;text-align:center;color:var(--dim);font-size:13.5px}
+  /* picks */
+  .quiz{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;margin-bottom:14px}
+  .quiz .qh{font-weight:800;font-size:16px;margin-bottom:4px}
+  .quiz .qs{font-size:13px;color:var(--dim);margin-bottom:14px}
+  .qrow{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:12px}
+  .qfield{flex:1;min-width:140px}
+  .qfield label{display:block;font-size:11px;color:var(--dim);font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:5px}
+  .qfield select{width:100%;background:var(--bg2);border:1px solid var(--line);border-radius:10px;color:var(--txt);padding:11px 12px;font-size:14px;outline:none}
+  .qfield select:focus{border-color:var(--red)}
+  .qgo{width:100%;background:var(--red);border:none;color:#fff;border-radius:12px;padding:13px;font-size:15px;font-weight:800;cursor:pointer}
+  .qgo:hover{filter:brightness(1.15)}
+  .pickcard{display:flex;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px;margin-bottom:10px;cursor:pointer}
+  .pickcard:hover{border-color:var(--red)}
+  .pickcard .pcimg{width:74px;flex:0 0 auto}
+  .pickcard .pcimg img{width:74px;aspect-ratio:2/3;border-radius:8px;object-fit:cover;display:block}
+  .pickcard .pci{flex:1;min-width:0}
+  .pickcard .pct{font-weight:800;font-size:15px}
+  .pickcard .pcm{font-size:12px;color:var(--dim);margin:2px 0 6px}
+  .pickcard .pcw{font-size:12.5px;color:var(--gold)}
+  /* movie page */
+  .backbtn{display:inline-flex;align-items:center;gap:6px;margin:4px 0 12px;background:var(--card);border:1px solid var(--line);color:var(--txt);border-radius:999px;padding:8px 16px;font-size:13px;font-weight:700;cursor:pointer}
+  .mvhead{position:relative;border-radius:16px;overflow:hidden;border:1px solid var(--line);margin-bottom:12px}
+  .mvhead .back{width:100%;aspect-ratio:16/8;object-fit:cover;display:block}
+  .mvhead .ovl{position:absolute;inset:0;background:linear-gradient(0deg,rgba(10,10,10,.97) 10%,rgba(10,10,10,.3) 60%,rgba(10,10,10,.15))}
+  .mvhead .meta{position:absolute;left:16px;right:16px;bottom:14px}
+  .mvhead .t{font-size:28px;font-weight:900;line-height:1.05;margin-bottom:4px}
+  .mvhead .pills{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}
+  .mvhead .pill{font-size:11px;font-weight:800;background:rgba(0,0,0,.6);border:1px solid rgba(255,255,255,.25);padding:3px 10px;border-radius:999px;color:var(--gold)}
+  .mvhead .pill.sc{color:#fff;border-color:var(--red);background:var(--red)}
+  .mvhead .tagline{font-size:13.5px;color:var(--dim)}
+  .mvactions{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 4px}
+  .playerwrap{background:#000;border:1px solid var(--line);border-radius:16px;overflow:hidden;position:relative}
+  .ytwrap{position:relative;width:100%;aspect-ratio:16/9;background:#000}
+  .ytwrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .posterfill{width:100%;aspect-ratio:16/9;background:#141414;display:flex;align-items:center;justify-content:center;position:relative}
+  .posterfill img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .playlay{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;background:rgba(0,0,0,.5);cursor:pointer}
+  .playlay .big{font-size:52px}
+  .playlay .lbl{font-size:13px;color:#fff;font-weight:800;background:rgba(0,0,0,.65);padding:6px 14px;border-radius:999px}
+  .plmeta{position:absolute;top:8px;left:8px;right:8px;display:flex;justify-content:space-between;align-items:center;gap:6px;z-index:2}
+  .plbadge{font-size:11px;font-weight:800;background:rgba(0,0,0,.65);color:var(--gold);padding:4px 10px;border-radius:999px}
+  .plnext{font-size:11px;background:rgba(0,0,0,.65);color:var(--dim);padding:4px 10px;border-radius:999px;max-width:60%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .plctrls{position:absolute;bottom:10px;left:0;right:0;display:flex;justify-content:center;gap:10px;z-index:2}
+  .pbtn{background:rgba(0,0,0,.7);border:1px solid rgba(255,255,255,.3);color:#fff;border-radius:999px;padding:9px 18px;font-size:13px;font-weight:800;cursor:pointer}
+  .soundbtn{position:absolute;top:10px;right:10px;z-index:5;background:var(--red);border:none;color:#fff;border-radius:999px;padding:9px 15px;font-size:13px;font-weight:800;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.6);animation:pulse 1.6s infinite}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(229,9,20,.5)}70%{box-shadow:0 0 0 12px rgba(229,9,20,0)}100%{box-shadow:0 0 0 0 rgba(229,9,20,0)}}
+  .cliptitle{display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin-top:10px}
+  .cliptitle .ct{font-weight:800;font-size:16px}
+  .cliptitle .cp{font-size:12.5px;color:var(--dim)}
+  .share{width:100%;margin-top:10px;background:#1faa53;border:none;color:#fff;border-radius:12px;padding:13px;font-size:15px;font-weight:800;cursor:pointer}
+  .sec{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;margin-top:14px}
+  .sec .h{font-weight:800;font-size:14.5px;margin-bottom:10px;color:var(--gold);text-transform:uppercase;letter-spacing:.5px}
+  .sec p{font-size:15px;margin-bottom:10px}
+  .facts{list-style:none;padding:0}
+  .facts li{font-size:14.5px;padding:8px 0 8px 28px;position:relative;border-bottom:1px dashed var(--line)}
+  .facts li:last-child{border-bottom:none}
+  .facts li::before{content:"✦";position:absolute;left:4px;color:var(--gold)}
+  .score{display:flex;align-items:center;gap:14px;margin-bottom:10px}
+  .score .num{font-size:44px;font-weight:900;color:var(--gold)}
+  .score .meta{font-size:13px;color:var(--dim)}
+  .verdict{font-size:15px;margin-bottom:8px}
+  .who{font-size:13px;color:var(--dim);border-left:3px solid var(--red);padding-left:10px}
+  .aibadge{display:inline-block;font-size:10px;font-weight:800;background:var(--card2);color:var(--gold);border:1px solid var(--line);border-radius:999px;padding:3px 9px;margin-left:6px;vertical-align:middle;text-transform:uppercase}
+  .watch{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+  .watch a{background:var(--card2);border:1px solid var(--line);color:var(--txt);border-radius:10px;padding:10px 16px;font-size:13.5px;font-weight:700;text-decoration:none}
+  .watch a:hover{border-color:var(--red);color:var(--red)}
+  .stars{display:flex;gap:4px;margin-top:6px}
+  .stars span{font-size:26px;cursor:pointer;color:#3a3a3a}
+  .stars span.on{color:var(--gold)}
+  .ratenote{font-size:12px;color:var(--dim);margin-top:4px}
+  .heartbtn{background:var(--card2);border:1px solid var(--line);color:var(--dim);border-radius:999px;padding:9px 18px;font-size:13px;font-weight:800;cursor:pointer}
+  .heartbtn.on{color:var(--red);border-color:var(--red)}
+  .avatar{width:96px;height:96px;border-radius:50%;background:linear-gradient(135deg,var(--red),#7a0a12);display:flex;align-items:center;justify-content:center;font-size:34px;font-weight:900;color:#fff;margin:0 auto 14px;border:3px solid var(--card2);box-shadow:0 8px 24px rgba(229,9,20,.35)}
+  .center{text-align:center}
+  .name{font-size:26px;font-weight:900;letter-spacing:.5px}
+  .role{color:var(--gold);font-size:14px;font-weight:700;margin-bottom:6px;text-transform:uppercase;letter-spacing:1px}
+  .aboutbody{max-width:640px;margin:16px auto 0}
+  .aboutbody p{font-size:15px;margin-bottom:12px;color:#ddd}
+  .aboutbody p b{color:#fff}
+  .tags{display:flex;gap:6px;flex-wrap:wrap;justify-content:center;margin:14px 0}
+  .tags span{background:var(--card);border:1px solid var(--line);color:var(--dim);border-radius:999px;padding:5px 12px;font-size:12px;font-weight:700}
+  .contactlist{max-width:520px;margin:0 auto}
+  .citem{display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:10px;text-decoration:none;color:var(--txt)}
+  .citem:hover{border-color:var(--red)}
+  .citem .ic{font-size:22px}
+  .citem .lbl{font-size:14px;font-weight:700}
+  .citem .sub{font-size:12.5px;color:var(--dim)}
+  .formwrap{max-width:520px;margin:20px auto 0;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
+  .formwrap h3{font-size:15px;margin-bottom:12px;color:var(--gold);text-transform:uppercase;letter-spacing:.5px}
+  .field{margin-bottom:12px}
+  .field label{display:block;font-size:12px;color:var(--dim);margin-bottom:5px;font-weight:700;text-transform:uppercase;letter-spacing:.4px}
+  .field input,.field textarea{width:100%;background:var(--bg2);border:1px solid var(--line);border-radius:10px;color:var(--txt);padding:11px 13px;font-size:14.5px;font-family:inherit;outline:none}
+  .field input:focus,.field textarea:focus{border-color:var(--red)}
+  .field textarea{min-height:110px;resize:vertical}
+  .sendbtn{width:100%;background:var(--red);border:none;color:#fff;border-radius:12px;padding:13px;font-size:15px;font-weight:800;cursor:pointer}
+  .note{background:var(--card2);border-radius:12px;padding:12px 14px;font-size:13.5px;margin-bottom:10px;color:#ccc}
+  .note b{color:var(--gold)}
+  .footer{color:#555;font-size:12px;text-align:center;padding:24px 0 90px}
+  .toast{position:fixed;bottom:96px;left:50%;transform:translateX(-50%);background:var(--card2);border:1px solid var(--red);color:#fff;padding:12px 18px;border-radius:12px;font-size:14px;font-weight:700;z-index:99;box-shadow:0 8px 24px rgba(0,0,0,.6);transition:opacity .4s;max-width:90vw;text-align:center}
+  .toast.out{opacity:0}
+
+  html,body{overflow-x:hidden;min-height:100dvh}
+  img{max-width:100%}
+  main{width:100%}
+  .hero .t{font-size:clamp(20px,6vw,28px)}
+  .mvhead .t{font-size:clamp(22px,7vw,30px)}
+  @media(max-width:480px){
+    .grid{grid-template-columns:repeat(2,1fr)}
+    .poster{width:118px}
+    .poster .pimg{width:118px}
+    .navbtn{font-size:9.5px}
+    .navbtn .ic{font-size:17px}
+    .brand{font-size:18px}
+  }
+
+
+  .sitefooter{border-top:1px solid var(--line);margin-top:28px;padding:18px 4px 6px;text-align:center}
+  .frow{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-bottom:8px}
+  .frow a{color:var(--dim);font-size:13px;font-weight:700;text-decoration:none;cursor:pointer}
+  .frow a:hover{color:var(--red)}
+  .fcopy{color:#555;font-size:11.5px}
+</style>
+<link rel="alternate" type="application/rss+xml" title="BRYME — Latest" href="/feed.xml"><link rel="stylesheet" href="/assets/media-v2.css"></head>
+<body><a class="skip-link" href="#main">Skip to content</a><header class="top media-top"><div class="shell"><a class="brand" href="/" aria-label="BRYME Media home">BRY<b>ME</b> <span>MEDIA</span></a><nav class="topnav" aria-label="Primary"><a href="/sports/">Sports</a><a href="/movies/">Movies</a><a href="/series/">Series</a><a href="/anime/">Anime</a><a href="/articles/">Read</a><a href="/about/">About</a></nav><div class="top-tools"><a class="header-search" href="/sports/">Sports</a></div></div></header>
+<header>
+  <div class="topbar">
+    <div class="brand" data-route="#/">NEXT<span class="r">CLIP</span><span class="dot">.</span></div>
+    <input class="topsearch" id="topSearch" placeholder="Search movies &amp; anime…">
+  </div>
+</header>
+<main id="main">
+  <div id="view-home" class="view"></div>
+  <div id="view-browse" class="view"></div>
+  <div id="view-picks" class="view"></div>
+  <div id="view-anime" class="view"></div>
+  <div id="view-movie" class="view"></div>
+  <div id="view-about" class="view"></div>
+  <div id="view-contact" class="view"></div>
+  <div id="view-vs" class="view"></div>
+  <div id="view-box" class="view"></div>
+  <div id="view-disclaimer" class="view"></div>
+  <div id="view-article" class="view"></div>
+  <div id="view-matchup" class="view"></div>
+</main><nav class="mobile-nav media-bottom" aria-label="Primary mobile"><a href="/"><span class="mn-ico">⌂</span>Home</a><a href="/sports/"><span class="mn-ico">◆</span>Sports</a><a href="/movies/"><span class="mn-ico">▶</span>Movies</a><a href="/series/"><span class="mn-ico">▣</span>Series</a><a href="/anime/"><span class="mn-ico">◇</span>Anime</a><a href="/articles/"><span class="mn-ico">✦</span>Read</a></nav>
+<nav>
+  <button class="navbtn" data-route="#/"><span class="ic">🏠</span>Home</button>
+  <button class="navbtn" data-route="#/browse"><span class="ic">🎬</span>Browse</button>
+  <button class="navbtn" data-route="#/picks"><span class="ic">🎯</span>Picks</button>
+  <button class="navbtn" data-route="#/anime"><span class="ic">🌸</span>Anime</button>
+  <button class="navbtn" data-route="#/box"><span class="ic">📰</span>Box</button>
+  <button class="navbtn" data-route="#/vs"><span class="ic">⚔️</span>Clash</button>
+
+</nav>
+<div class="footer">BRYME · official trailers only · built by Ibrahim Sodiq · © 2026 · v9</div>
+<script>
+"use strict";
+var mem = {};
+function sget(k){ try{ return window.localStorage.getItem(k); }catch(e){ return mem[k]!==undefined?mem[k]:null; } }
+function sset(k,v){ try{ window.localStorage.setItem(k,v); }catch(e){} mem[k]=v; }
+
+function watchLinks(q, extra){
+  var arr = [
+    {name:"Netflix", url:"https://www.netflix.com/search?q="+encodeURIComponent(q)},
+    {name:"Prime Video", url:"https://www.primevideo.com/search?q="+encodeURIComponent(q)},
+    {name:"Apple TV", url:"https://tv.apple.com/search?q="+encodeURIComponent(q)}
+  ];
+  if(extra) arr = arr.concat(extra);
+  return arr;
+}
+var LIB = [
+{id:"dune2",title:"Dune: Part Two",genre:"Sci-Fi",year:"2024",score:9,
+  ytId:"PAV9YN5TEVg",ytStart:10,ytEnd:100,
+  teaser:"Paul Atreides faces the desert, the prophecy, and his own destiny. The sandworms are coming, and so is war.",
+  about:"The sequel to Denis Villeneuve Dune adaptation. Paul unites with the Fremen to wage war against House Harkonnen while the prophecy of the Lisan al-Gaib tightens around him. A colossal sci-fi epic shot like a painting, with a score that shakes the room.",
+  facts:["The desert scenes were shot on location in Jordan and Abu Dhabi with real dunes, no green screen.","The sandworm riding sequence took over three months of rehearsal with a custom gimbal rig.","Hans Zimmer reportedly turned down other projects for years to focus on this score.","Chani, played by Zendaya, appears far more in the film than in the book."],
+  review:{verdict:"A monumental sequel that turns sci-fi into scripture. Every frame is a painting, the sound is a weapon, and the final act is breathtaking. It demands a big screen and rewards patience.",who:"For fans of epic sci-fi and slow burns. Skip if you hate films over two and a half hours."},
+  recap:"Paul embraces his role as Lisan al-Gaib even as he fears it. Chani doubts the prophecy and loves the man, not the messiah. The film ends where the book second half begins: Paul has the Fremen, the war machine, and the terrible choice ahead.",
+  spec:"Dune Messiah is inevitable: Paul jihad, Alia rise, and the Bene Gesserit conspiracy. If Villeneuve keeps this pace, Messiah could be the best of the trilogy.",
+  links:watchLinks("Dune Part Two"),
+  related:["topgun","oppenheimer","interstellar"]},
+ {id:"topgun",title:"Top Gun: Maverick",genre:"Action",year:"2022",score:9,
+  ytId:"qSqVVswa420",ytStart:15,ytEnd:105,
+  teaser:"Thirty years later, Maverick is back with one more mission. The sky has never felt closer.",
+  about:"Tom Cruise returns as Pete Maverick Mitchell, now a test pilot forced to train a new generation for an impossible mission. Shot with real jets and real G-forces, it is the rare legacy sequel that outflies the original.",
+  facts:["The actors really flew in F-18s and endured up to 7.5 Gs during filming.","There is no CGI for the flight scenes, only practical aerial cinematography.","Maverick is the only Tom Cruise film where he actually plays a father figure to his rival son.","The final canyon run was filmed in real locations, not a set."],
+  review:{verdict:"The rare legacy sequel that outflies the original. Practical jets, real G-forces, and a final act that is pure cinema. It made audiences cry at an F-14 and earned every tear.",who:"For anyone who loved the original, aviation nerds, and people who just want two hours of pure joy."},
+  recap:"The mission is impossible by design: a canyon run at Mach 10 that no one survives. Maverick whole arc is about letting go of Goose, of his ego, and of the idea that he has to be the one. Rooster flying the finale is the thesis made literal.",
+  spec:"A third film has been discussed for years. The obvious thread: Maverick as a teacher who sends the next generation where he can no longer go, possibly into space if the rumours hold.",
+  links:watchLinks("Top Gun Maverick"),
+  related:["madmax","dune2","deadpool3"]},
+ {id:"oppenheimer",title:"Oppenheimer",genre:"Drama",year:"2023",score:9,
+  ytId:"uYPbbksJxIg",ytStart:20,ytEnd:120,
+  teaser:"The man who built the bomb. The moment that ended the world and began his.",
+  about:"Christopher Nolan epic about J. Robert Oppenheimer, the physicist who led the Manhattan Project. A three-hour thunderclap that turns committee rooms into battlefields and a physics lecture into a horror film.",
+  facts:["The Trinity test was recreated without CGI, using practical explosives and lighting tricks.","The film is told in two timelines distinguished by color and black and white.","Cillian Murphy lost a significant amount of weight for the role.","The script was written in the first person, so the audience sees what Oppenheimer sees."],
+  review:{verdict:"A three-hour thunderclap. Nolan turns committee rooms into battlefields and a physics lecture into a horror film. The Trinity sequence is the best filmmaking of the decade and Murphy gives the performance of his life.",who:"For fans of history, Nolan, and films that stay in your head for days. Not a popcorn movie."},
+  recap:"The real subject is not the bomb, it is the trial that destroyed the man. The security hearing and Strauss Senate confirmation mirror each other: two men undone by their own narratives. The final line reframes the entire film.",
+  spec:"With AI and nuclear ambiguity in the news, the question the film asks, can a scientist control what their work becomes, is more urgent than ever.",
+  links:watchLinks("Oppenheimer"),
+  related:["interstellar","dune2","barbie"]},
+ {id:"godzilla",title:"Godzilla Minus One",genre:"Action",year:"2023",score:9,
+  ytId:"ZPeuTKrBzmo",ytStart:20,ytEnd:110,
+  teaser:"Japan, post-war, zero hope. And then the sea begins to move. The best Godzilla film in decades.",
+  about:"Set in postwar Japan, a kamikaze pilot returns home to a destroyed country and faces a new terror rising from the sea. It became the first Japanese Godzilla film to win an Oscar.",
+  facts:["It won the Oscar for Best Visual Effects on a budget of about 15 million dollars.","The film is set in 1945-1947, right after World War Two.","The director also wrote and edited the film and handled much of the VFX himself.","The monster design returns to the original 1954 silhouette."],
+  review:{verdict:"A monster movie with a human heart and a monster that finally feels like a force of nature again. The atomic bomb allegory is raw, the VFX are stunning, and the ending earns its tears.",who:"For fans of monster movies, war dramas, and films that take their themes seriously."},
+  recap:"The film uses Godzilla as the trauma Japan never processed after the war. Koichi arc, survivor guilt, chosen family, and finally standing his ground, is the real plot. Godzilla is the reckoning.",
+  spec:"The Oscar win proved that heart and craft beat budget. A sequel has been teased, and with the Minus Color re-release, the franchise is hotter than ever.",
+  links:watchLinks("Godzilla Minus One"),
+  related:["dune2","topgun","madmax"]},
+ {id:"interstellar",title:"Interstellar",genre:"Sci-Fi",year:"2014",score:9,
+  ytId:"zSWdZVtXT7E",ytStart:15,ytEnd:105,
+  teaser:"Mankind last hope is a wormhole, a ship, and a father who refuses to say goodbye. Love is the only thing that crosses dimensions.",
+  about:"Nolan most emotional film. As Earth dies, a farmer turned pilot leads a mission through a wormhole to find a new home for humanity, while his daughter waits on Earth. A three-hour ode to fathers, daughters, and the idea that love might be physics.",
+  facts:["Hans Zimmer wrote the score before seeing the script, based on a one-page description.","The wormhole and black hole visuals were generated with real physics equations.","The cornfield scenes were filmed in a real field that had just been harvested for the production.","The TARS robot was operated by puppeteers, not CGI."],
+  review:{verdict:"Nolan most emotional film, a three-hour ode to fathers, daughters, and the idea that love might be physics. The organ score is a character. It is not perfect science, but it is perfect cinema.",who:"For fans of big-screen sci-fi, family dramas, and films that make you cry in IMAX."},
+  recap:"The tesseract scene is the thesis: gravity is the only force that crosses dimensions, and love is the only force that crosses time. Cooper line, we brought ourselves, is the film in one sentence.",
+  spec:"The 10th anniversary re-release made more money than many new releases, proof that audiences crave spectacle with heart. A sequel would be heresy; the film is complete.",
+  links:watchLinks("Interstellar"),
+  related:["oppenheimer","dune2","tenet"]},
+ {id:"endgame",title:"Avengers: Endgame",genre:"Action",year:"2019",score:8,
+  ytId:"TcMBFSGVi1c",ytStart:25,ytEnd:115,
+  teaser:"Half of all life is gone. The survivors have one chance, and they will not waste it.",
+  about:"The epic conclusion to the Infinity Saga. The remaining Avengers attempt a time heist to undo the Snap. A three-hour blockbuster that somehow balances spectacle, comedy, and grief.",
+  facts:["It was the highest-grossing film of all time at release, over 2.7 billion dollars.","The final battle featured dozens of heroes and took months of coordination.","The title was kept secret during production to avoid leaks.","The iconic portals scene was kept under wraps until the premiere."],
+  review:{verdict:"A three-hour epic that earns every emotional beat. The time heist is clever, the final battle is glorious, and Cap moment with the hammer still gets cheers. Fan service done with craft.",who:"For MCU fans. If you have not seen the earlier films, much will fly past, but the spectacle holds."},
+  recap:"The time heist does not change the past, it creates a new timeline, and the Stones are returned by Cap, who stays behind to live the life he missed. Tony sacrifice is the arc the whole saga built toward.",
+  spec:"The multiverse era that followed (No Way Home, Doomsday) is the direct consequence of the branches Endgame created. Every phase since is the bill coming due.",
+  links:watchLinks("Avengers Endgame",[{name:"Disney+",url:"https://www.disneyplus.com/search?q=Avengers"}]),
+  related:["spiderman","deadpool3","batman"]},
+ {id:"spiderman",title:"Spider-Man: No Way Home",genre:"Action",year:"2021",score:8,
+  ytId:"JfVOs4VSpmA",ytStart:20,ytEnd:110,
+  teaser:"Peter Parker wants his secret back. Instead, he tears a hole in the multiverse and everything he loves walks through it.",
+  about:"After his identity is revealed, Peter asks Doctor Strange to make the world forget, and the spell goes wrong, pulling villains from other universes into his world. A love letter to twenty years of Spider-Man on screen.",
+  facts:["The film broke pandemic box office records, grossing nearly two billion dollars.","The three Spider-Men were kept secret and their scenes filmed with heavy security.","Tobey Maguire and Andrew Garfield had to sign strict non-disclosure agreements.","The villains all return from their original films with the same actors."],
+  review:{verdict:"A multiverse spectacle with a genuine heart. The fan service is enormous, but the emotional core, Peter losing everyone to save everyone, lands hard. A miracle it holds together.",who:"For anyone who has ever loved Spider-Man. Best watched after the previous Spider-Man films."},
+  recap:"The spell at the end erases Peter from everyone memory, including MJ and Ned. The final scene shows Peter starting over alone in a new apartment, sewing a new suit. The reset is total.",
+  spec:"The door is open for a fourth film with a street-level Peter and a proper Black Cat or Daredevil team-up. The multiverse door also lets any past or future Spider-Man in.",
+  links:watchLinks("Spider-Man No Way Home"),
+  related:["endgame","deadpool3","batman"]},
+ {id:"batman",title:"The Batman",genre:"Action",year:"2022",score:8,
+  ytId:"mqqft2x_Aa4",ytStart:20,ytEnd:115,
+  teaser:"He is vengeance. But Gotham needs more than vengeance, it needs a detective.",
+  about:"A noir take on the Dark Knight in his second year. Batman hunts the Riddler, a serial killer targeting Gotham elite, and uncovers a corruption web that reaches the city foundations. Robert Pattinson broods like never before.",
+  facts:["The Batmobile was built around a real car chassis and can actually drive.","The film is heavily inspired by noir classics and the Long Halloween comic.","The Riddler design was inspired by real serial killers and zodiac letters.","The Batman was filmed almost entirely at night in rainy conditions."],
+  review:{verdict:"The best Batman film since The Dark Knight, and the most detective-focused one ever. The Riddler is genuinely scary, the car chase is spectacular, and Gotham has never felt more alive.",who:"For fans of noir, detective stories, and a Batman who actually investigates."},
+  recap:"The Riddler is not a mastermind, he is a symptom. The corruption he exposes reaches the mayor, the police, and Bruce family. The flood at the end is the city washing away its old lies.",
+  spec:"The Penguin series continues the story, and a sequel is in development. The obvious thread: the flood survivors, the return of the Joker (teased in a deleted scene), and a Batman who learns to be hope, not vengeance.",
+  links:watchLinks("The Batman"),
+  related:["endgame","spiderman","furiosa"]},
+ {id:"avatar2",title:"Avatar: The Way of Water",genre:"Sci-Fi",year:"2022",score:8,
+  ytId:"d9MyW72ELq0",ytStart:20,ytEnd:120,
+  teaser:"The sky people are back. The Sully family must leave the forest and learn to live under the sea.",
+  about:"James Cameron thirteen-year sequel. Jake and Neytiri flee into the oceans of Pandora, where a new clan teaches their children to swim, breathe, and fight. A three-hour water epic that had to invent new technology to film underwater motion capture.",
+  facts:["The cast trained to hold their breath for minutes to film underwater scenes.","Cameron waited over a decade for the technology to film underwater motion capture.","The film grossed over 2.3 billion dollars worldwide.","The water is fully computer generated around real performances."],
+  review:{verdict:"A visual marvel that makes water feel like a character. The story is simple, but the spectacle is overwhelming, and the final hour is the best action filmmaking of the decade.",who:"For fans of spectacle, Cameron, and films best seen on the biggest screen possible."},
+  recap:"The villain is not Quaritch the soldier, but Quaritch the avatar copy, a man with the memories of a monster. The whale-like Tulkun hunt drives the plot, and the ending sets up the war to come.",
+  spec:"Cameron has said the saga is planned for five films. The obvious next chapter: the Sullys return to the forest, unite the clans, and face the sky people final invasion.",
+  links:watchLinks("Avatar Way of Water",[{name:"Disney+",url:"https://www.disneyplus.com/search?q=Avatar"}]),
+  related:["dune2","matrix","furiosa"]},
+ {id:"matrix",title:"The Matrix Resurrections",genre:"Sci-Fi",year:"2021",score:7,
+  ytId:"9ix7TUGVYIo",ytStart:25,ytEnd:115,
+  teaser:"The Matrix is back, and Neo does not know who he is. The truth is still out there, buried in a blue pill.",
+  about:"Lana Wachowski returns alone for a self-aware sequel. A game designer named Thomas Anderson starts having dreams about a world he once saved. Meta, strange, and unmistakably its own thing.",
+  facts:["It is the first Matrix film directed by only one Wachowski.","The film openly makes fun of studio sequels and its own legacy.","Keanu Reeves and Carrie-Anne Moss reprise their roles after two decades.","The film was shot in San Francisco and Berlin."],
+  review:{verdict:"A strange, meta, sometimes messy sequel that is never boring. It treats its own legacy as a story to interrogate rather than worship, and that is exactly why it is worth seeing.",who:"For fans of the original Matrix and of films about stories. Not a straightforward action sequel."},
+  recap:"The Matrix was rebooted by the machines as a video game franchise, and Neo memories are the game code. The Analyst, not the Architect, now runs the system, feeding on people love and pain.",
+  spec:"A sequel was hinted but never confirmed. The obvious thread: a freed Neo and Trinity exploring a world that now knows the simulation is real.",
+  links:watchLinks("Matrix Resurrections"),
+  related:["tenet","interstellar","dune2"]},
+ {id:"barbie",title:"Barbie",genre:"Drama",year:"2023",score:8,
+  ytId:"pBk4NYhWNMM",ytStart:15,ytEnd:110,
+  teaser:"In Barbie Land, every day is perfect. Until Barbie asks: what happens if I think about dying?",
+  about:"Greta Gerwig billion-dollar meditation on womanhood, packaged as a pink comedy. Barbie leaves her perfect world, enters the real one, and brings the patriarchy question back to Barbie Land.",
+  facts:["It grossed over 1.4 billion dollars, the highest for a female-directed film.","The film used so much pink paint that it caused a global shortage of a specific shade.","Margot Robbie and Ryan Gosling both earned Oscar nominations.","America Ferrera monologue became one of the most discussed scenes of the decade."],
+  review:{verdict:"A comedy with real ideas hiding inside its pink shell. The production design is stunning, Gosling steals every scene, and the final monologue hits like a truck. Funny, smart, and strangely moving.",who:"For anyone with a sense of humor and a pulse. Works as pure comedy or as something deeper."},
+  recap:"Barbie journey is about becoming human: choosing imperfection, mortality, and feeling over the comfort of a perfect world. Ken journey is about finding himself without Barbie validation. Both earn their endings.",
+  spec:"A sequel has been announced. The obvious thread: Barbie in the real world as a human, and Ken building something of his own in Barbie Land.",
+  links:watchLinks("Barbie"),
+  related:["oppenheimer","deadpool3","matrix"]},
+ {id:"dune1",title:"Dune",genre:"Sci-Fi",year:"2021",score:8,
+  ytId:"n9xhJrPXop4",ytStart:20,ytEnd:115,
+  teaser:"A desert planet. A spice that rules the galaxy. A young duke who must become something more than a man.",
+  about:"The first half of Villeneuve epic adaptation. House Atreides takes control of Arrakis, the only source of the galaxy most valuable substance, and walks into a trap. The foundation for the masterpiece that followed.",
+  facts:["The sandworm design was refined over a year of concept work.","The film won six Oscars for its technical craft.","The desert scenes were shot in Jordan and the UAE.","The Sardaukar language was constructed specifically for the film."],
+  review:{verdict:"A breathtaking first chapter. The worldbuilding is immaculate, the scale is biblical, and the cast is perfect. It is slower than Part Two, but it builds everything that pays off later.",who:"For fans of worldbuilding and patient epics. Best watched back to back with Part Two."},
+  recap:"The Atreides fall is a trap orchestrated by the Emperor and the Harkonnens. Paul and Jessica survive in the deep desert, where Paul meets the Fremen and begins to accept his place in the prophecy.",
+  spec:"Part Two is already out and is even better. If you have only seen this one, you owe yourself the sequel.",
+  links:watchLinks("Dune 2021"),
+  related:["dune2","interstellar","tenet"]},
+ {id:"bond",title:"No Time to Die",genre:"Action",year:"2021",score:8,
+  ytId:"BIhNsAtPbPI",ytStart:25,ytEnd:125,
+  teaser:"The world is on the edge. Bond is pulled out of retirement for one last mission, and nothing will ever be the same.",
+  about:"Daniel Craig final Bond film. A retired Bond is called back when a scientist goes missing and a new bioweapon threatens the world. A fitting, emotional send-off for the best Bond era in decades.",
+  facts:["It is the longest Bond film ever made, at 163 minutes.","The theme song by Billie Eilish made her the youngest artist to record a Bond theme.","The film had one of the longest delays in cinema history due to the pandemic.","It is the first Bond film to give Bond a child."],
+  review:{verdict:"A proper send-off that balances spectacle and genuine emotion. The action is superb, the villain is chilling, and the ending actually dares to close Bond story. Craig leaves on a high note.",who:"For Bond fans and action lovers. Best after watching the previous Craig films."},
+  recap:"The villain weapon is a DNA-targeted bioweapon, and the true tragedy is personal: Madeleine daughter is Bond child. The ending has Bond staying behind to save his family, a first for the franchise.",
+  spec:"The franchise will continue with a new Bond. The obvious question: who is the next actor, and will the story reboot or continue the Craig era?",
+  links:watchLinks("No Time to Die"),
+  related:["topgun","madmax","furiosa"]},
+ {id:"tenet",title:"Tenet",genre:"Sci-Fi",year:"2020",score:7,
+  ytId:"L3pk_TBkihU",ytStart:20,ytEnd:115,
+  teaser:"Time flows backward. The future is fighting the past. Do not try to understand it, feel it.",
+  about:"Nolan inversion thriller. A secret agent learns to fight through time itself, where bullets un-fire and buildings un-explode. The most ambitious time-travel film ever attempted, and the hardest to follow on purpose.",
+  facts:["The famous plane crash was a real Boeing 747 crashed for the scene.","The film was shot in seven countries including a real 10-minute chase.","Christopher Nolan reportedly wrote the script over several years to make inversion feel physical.","The score by Ludwig Göransson runs partly backwards in places."],
+  review:{verdict:"A puzzle box of a film that rewards rewatching. The action set pieces, especially the inverted car chase, are staggering. The story is cold, but the ideas are thrilling.",who:"For Nolan completists and people who like films that demand attention. Not a casual watch."},
+  recap:"The future is fighting the past through inverted technology. The protagonist and Neil relationship is the heart: Neil has known the end all along and chooses it willingly.",
+  spec:"Nolan has said a sequel is possible. The obvious thread: the algorithm pieces that were buried, and the war between the future and the present continuing.",
+  links:watchLinks("Tenet"),
+  related:["interstellar","matrix","dune2"]},
+ {id:"madmax",title:"Mad Max: Fury Road",genre:"Action",year:"2015",score:9,
+  ytId:"hEJnMQG9ev8",ytStart:15,ytEnd:110,
+  teaser:"The world is ash. The war rig is running. Furiosa is driving, and Max is along for the ride.",
+  about:"George Miller return to the wasteland after thirty years. Furiosa escapes the tyrant Immortan Joe with his five wives, and Max becomes an unwilling ally in a two-hour chase that never lets go.",
+  facts:["Most of the stunts were practical, with real cars and real drivers.","The film won six Oscars including editing and production design.","It was storyboarded in detail years before filming.","The War Rig was built as a real vehicle with multiple camera platforms."],
+  review:{verdict:"Two hours of the best action ever filmed, with a soul underneath. Furiosa is the hero, Max is the witness, and the film never wastes a frame. A masterclass in cinema.",who:"For anyone who loves action films, car chases, or just great filmmaking."},
+  recap:"The chase is the plot: from the Citadel to the Green Place and back. Furiosa learns her home is gone and chooses to free the wives anyway. Max lets her drive off with the prize, a quiet act of faith.",
+  spec:"Furiosa (2024) tells the backstory. A sequel following Max after the events is possible, and George Miller keeps saying he is not done with the wasteland.",
+  links:watchLinks("Mad Max Fury Road"),
+  related:["furiosa","topgun","bond"]},
+ {id:"deadpool3",title:"Deadpool & Wolverine",genre:"Action",year:"2024",score:8,
+  ytId:"73_1biulkYk",ytStart:20,ytEnd:115,
+  teaser:"The merc with a mouth meets the best there is at what he does. One universe, two legends, zero restraint.",
+  about:"Deadpool is pulled into a mission to save his universe and drags a reluctant Wolverine along. A love letter to Fox Marvel movies, full of cameos, chaos, and surprisingly genuine friendship.",
+  facts:["It is the first Deadpool film in the MCU and the only R-rated MCU film.","The film grossed over 1.3 billion dollars.","Hugh Jackman wore the yellow and blue comic suit for the first time.","The cameo list was kept secret and leaked only at release."],
+  review:{verdict:"A hilarious, sweary, surprisingly heartfelt buddy movie. The cameos are engineered for gasps, the fights are brutal, and the Deadpool-Wolverine chemistry is perfect. Pure fan service done right.",who:"For Marvel fans and anyone who likes comedies with heart. Not for kids."},
+  recap:"The TVA is pruning Deadpool universe, and the only way to save it is to find an anchor being, a Wolverine variant. The real villain is a Fearless Leader who has been lying about saving the timeline.",
+  spec:"The MCU multiverse door is now wide open for any Fox character. The obvious thread: Deadpool becomes the MCU unofficial fixer, and a fourth film will follow the Avengers Doomsday event.",
+  links:watchLinks("Deadpool and Wolverine",[{name:"Disney+",url:"https://www.disneyplus.com/search?q=Deadpool"}]),
+  related:["endgame","spiderman","barbie"]},
+ {id:"furiosa",title:"Furiosa: A Mad Max Saga",genre:"Action",year:"2024",score:8,
+  ytId:"XJMuhwVlca4",ytStart:25,ytEnd:120,
+  teaser:"Every legend has an origin. Before the War Rig, before the Citadel, there was a girl taken from the Green Place.",
+  about:"The prequel to Fury Road, told over fifteen years. Young Furiosa is taken from her home, survives warlords, and slowly becomes the warrior who will drive the War Rig to freedom. Anya Taylor-Joy takes over the role.",
+  facts:["Chris Hemsworth shaved his head and gained weight for the villain Dementus.","The film spans fifteen years of Furiosa life in five chapters.","George Miller used a vast miniature landscape for many wide shots.","It was shot on location in Australia over several months."],
+  review:{verdict:"A slower, grander epic than Fury Road, more revenge tale than chase. The middle chapters sag slightly, but the finale is devastating and Anya Taylor-Joy owns the role. A worthy prequel.",who:"For fans of Fury Road and epic revenge stories. Patience required in the middle."},
+  recap:"Furiosa loses her mother, her home, and her arm, and each loss forges her. The final act pays off the promise of Fury Road: the same Furiosa, now complete, takes the War Rig and drives.",
+  spec:"With both chapters out, a third Mad Max film following Max himself, set between or after, remains possible. George Miller has hinted he is not done.",
+  links:watchLinks("Furiosa Mad Max"),
+  related:["madmax","topgun","bond"]},{id:"strangerthings",title:"Stranger Things",genre:"Series",year:"2016",score:9,
+ ytId:"b9EkMc79ZSU",ytStart:20,ytEnd:120,
+ teaser:"A boy vanishes. A girl with a shaved head appears. And something in the Upside Down is waking up.",
+ about:"The Duffer Brothers' love letter to 80s Spielberg cinema. In the small town of Hawkins, a group of kids confronts a parallel dimension called the Upside Down, government conspiracies, and their own growing up. The biggest Netflix series of its era.",
+ facts:["The show is set in the fictional town of Hawkins, Indiana — inspired by the Duffer Brothers' own childhood.","The Demogorgon costume was a real suit worn by actor Mark Steger.","The kids' bike-riding scenes were shot with camera rigs on actual bikes.","Season 1 was written to work as a miniseries — they never planned a second season."],
+ cast:["Millie Bobby Brown auditioned with an American accent — she is British in real life.","The kids' bond off-screen is real: they group-chat constantly and defend each other publicly.","Winona Ryder's 'phone in the wall' scene required her to talk to nobody for hours.","The Duffer Brothers wrote Eleven's eggo waffle obsession after Brown asked for them on set."],
+ review:{verdict:"The definitive nostalgia show — horror, heart, and an ensemble cast with perfect chemistry. Season 1 is a masterpiece; later seasons get bigger but never lose the soul.",who:"For anyone who grew up in the 80s, or wishes they had."},
+ recap:"The Upside Down is a dark mirror of Hawkins, and the Mind Flayer is its predator. Eleven closed the gate at the end of Season 1 — but the finale of Season 4 re-opened it, and the show's final season promises the war for Hawkins.",
+ spec:"Season 5 is the last. The obvious threads: Vecna's full invasion, Eleven's final choice, and the fate of every kid we grew up with.",
+ links:watchLinks("Stranger Things",[{name:"Netflix",url:"https://www.netflix.com/title/80057281"}]),
+ related:["lastofus","squidgame","heron"]},
+{id:"lastofus",title:"The Last of Us",genre:"Series",year:"2023",score:9,
+ ytId:"uLtkt8BonwM",ytStart:25,ytEnd:125,
+ teaser:"Twenty years after the world fell, a smuggler and a girl cross America. What she carries could save it — or end it.",
+ about:"HBO's adaptation of the beloved video game. Joel, a broken smuggler, must escort Ellie, a teenage girl immune to the fungal pandemic, across a ruined America. Craig Mazin (Chernobyl) and the game's creator Neil Druckmann co-wrote it.",
+ facts:["The infected are based on a real fungus that controls ants' brains.","Pedro Pascal and Bella Ramsey barely knew the game before auditioning.","The mushroom tendrils are practical effects, not CGI.","The show cost over $100 million — one of the most expensive TV seasons ever."],
+ cast:["Bella Ramsey refused to be 'fixed' to match the game's Ellie — and the show is better for it.","Pedro Pascal brought his real-life fatherly warmth from The Mandalorian.","Nick Offerman's episode 3 performance won an Emmy.","The game's original voice actors cameo in the show."],
+ review:{verdict:"The gold standard for video-game adaptations — it keeps the game's soul while deepening it. Episode 3 alone is one of the best hours of television ever made.",who:"For game fans, non-game fans, and anyone who loves a great road-trip tragedy."},
+ recap:"Ellie is immune because the fungus grew differently inside her — and her mother was infected before birth. The 'cure' would have killed her, and Joel chose her over humanity. The lie he tells is the heart of the story.",
+ spec:"Season 2 adapts The Last of Us Part II — a story of revenge that divides fans. Expect it darker, longer, and just as devastating.",
+ links:watchLinks("The Last of Us",[{name:"Max (HBO)",url:"https://www.max.com/shows/the-last-of-us"}]),
+ related:["strangerthings","squidgame","tenet"]},
+{id:"squidgame",title:"Squid Game",genre:"Series",year:"2021",score:9,
+ ytId:"oqxAJKy0ii4",ytStart:25,ytEnd:125,
+ teaser:"456 players. 45.6 billion won. Six children's games. One winner. Everyone else dies.",
+ about:"Netflix's biggest series ever. Desperate people accept a mysterious invitation to play childhood games for a fortune — but losing means dying. A brutal satire of capitalism wrapped in pastel playground colors.",
+ facts:["It became Netflix's most-watched show ever, with 1.65 billion hours in its first month.","The giant doll in 'Red Light, Green Light' is based on a real Korean schoolgirl character.","The set design hides the games in plain sight — the playground is a metaphor for the show itself.","The creator, Hwang Dong-hyuk, wrote the script for over a decade, and it was rejected for years."],
+ cast:["Lee Jung-jae won an Emmy for his role as Gi-hun — the first Asian actor to win Best Actor in a drama.","The Front Man's masked identity was hidden even from most of the cast.","Jung Ho-yeon, who plays Sae-byeok, was a fashion model before the show.","The marble episode was written after the creator saw his own mother's financial struggles."],
+ review:{verdict:"A masterpiece of tension — children's games turned into life-or-death economics. It is violent, darkly funny, and devastatingly human. The ending divides people; the journey does not.",who:"For fans of Battle Royale, dystopian thrillers, and social satire."},
+ recap:"The games were never fair — the Front Man's brother won years ago, and the whole thing is entertainment for the ultra-rich. Gi-hun wins, learns the truth, and ends the season choosing to fight the system instead of fleeing.",
+ spec:"Season 3 is the final chapter — Gi-hun's war against the games. The trailers promise the last games will 'shock the world one last time.'",
+ links:watchLinks("Squid Game",[{name:"Netflix",url:"https://www.netflix.com/title/81040344"}]),
+ related:["strangerthings","lastofus","staticcity"]},{id:"parasite",title:"Parasite",genre:"Korean",year:"2019",score:10,
+ ytId:"5xH0HfJHsaY",ytStart:20,ytEnd:120,
+ teaser:"A poor family infiltrates a rich one — one job, one lie, one house at a time. Then the basement door opens.",
+ about:"Bong Joon-ho's Oscar-winning masterpiece. The Kim family, living in a semi-basement, schemes its way into the employment of the wealthy Park family. A pitch-black comedy, a thriller, and a class-war allegory that ends in one of cinema's great gut-punches.",
+ facts:["It became the first non-English film to win the Best Picture Oscar.","The house was built as a full set for the film — every floor was real.","Bong Joon-ho said the film is 'a comedy without clowns and a tragedy without villains.'","The staircase motif runs through the whole film — up is wealth, down is poverty."],
+ cast:["Song Kang-ho, Korea's greatest actor, was Bong Joon-ho's first choice for the father.","Cho Yeo-jeong (the mother) had to learn to act rich while actually being one of the busiest stars in Korea.","The basement scenes were shot in a real, damp underground set to keep the actors cold.","Bong wrote the script with his high-school friend Han Jin-won over two years."],
+ review:{verdict:"A flawless film — funny, terrifying, and devastating in equal measure. Every scene is a setup that pays off, and the ending stays with you for days. One of the greatest films of the century.",who:"For everyone. The less you know, the better."},
+ recap:"The basement reveal changes everything: the Park family was never the only parasite. The ending — Ki-woo's fantasy of buying the house — is the film's cruelest joke: the dream is real, but impossible.",
+ spec:"Bong has said a sequel could follow the son's plan. He also wrote a Parasite TV series for HBO — never made, but the world lives on.",
+ links:watchLinks("Parasite",[{name:"Netflix",url:"https://www.netflix.com/search?q=Parasite"}]),
+ related:["trainbusan","squidgame","getout"]},
+{id:"trainbusan",title:"Train to Busan",genre:"Korean",year:"2016",score:9,
+ ytId:"97bcFB4VnEk",ytStart:25,ytEnd:125,
+ teaser:"A father and daughter board a train to Busan. By the time it arrives, they will have fought through a nation of the dead.",
+ about:"The modern zombie masterpiece. A workaholic father takes his daughter to see her mother in Busan — and the train ride becomes a survival nightmare when a zombie outbreak erupts. A disaster film with a heart the size of Korea.",
+ facts:["It became the highest-grossing Korean film of 2016 and a global phenomenon.","The zombie makeup took 3 to 4 hours per extra — and hundreds of extras were used.","The train set was built as a full working carriage on a gimbal for the crash scenes.","The film's director, Yeon Sang-ho, was known for animation before this live-action debut."],
+ cast:["Gong Yoo, Korea's beloved actor, plays the selfish father — his arc is the film's soul.","Ma Dong-seok (Don Lee), the pregnant woman's husband, became a global action star from this role.","The little girl, Kim Su-an, was 10 and reportedly cried for real in the hardest scenes.","The zombie extras trained for months to move like the infected."],
+ review:{verdict:"The best zombie film since the classics — relentless, brutal, and surprisingly emotional. The father's final scene destroys everyone. A disaster film that never forgets its humans.",who:"For zombie fans, action fans, and anyone who cries on trains."},
+ recap:"The tragedy is not the zombies — it is the people who survive: the selfish businessman who sacrifices others, and the father who gives everything for his daughter. The ending's tunnel scene is Korea's most famous movie moment.",
+ spec:"A sequel, Peninsula, and an animated prequel, Seoul Station, expand the world. A live-action remake was announced — but the original remains untouchable.",
+ links:watchLinks("Train to Busan",[{name:"Netflix",url:"https://www.netflix.com/search?q=Train+to+Busan"}]),
+ related:["parasite","quietplace","mugentrain"]},
+{id:"quietplace",title:"A Quiet Place",genre:"Horror",year:"2018",score:8,
+ ytId:"WR7cc5t7tv8",ytStart:25,ytEnd:125,
+ teaser:"If they hear you, they hunt you. A family survives in total silence — until the baby comes.",
+ about:"John Krasinski's brilliant high-concept horror. Blind monsters hunt by sound, and a family must live in total silence — communicating in sign language, walking on sand paths, and keeping the newborn quiet. A film where a single sneeze is a life-or-death moment.",
+ facts:["The film is almost dialogue-free — the first act has no spoken words at all.","Millicent Simmonds, who plays the deaf daughter, is deaf in real life and taught the family sign language.","Krasinski wrote the father's story after becoming a parent himself.","The monsters' design was inspired by the creatures in Cloverfield, which Krasinski also appeared in."],
+ cast:["Emily Blunt (Krasinski's real-life wife) reportedly shot her childbirth scene with real fear — she was actually pregnant.","The kids' performances were shot in sequence to keep the family bond real.","Blunt and Krasinski rewrote the script together over a weekend.","The famous nail scene took 17 takes to get perfect."],
+ review:{verdict:"A masterclass in tension — a film you hold your breath through. The sound design is the star: every creak is terrifying. Emotional, smart, and genuinely scary.",who:"For horror fans and parents — the family stakes make it hurt more."},
+ recap:"The twist: the monsters are blind and the daughter's hearing aid emits a frequency that disorients them. The final shot — the family loading a gun with the hearing aid amplifier — sets up the sequel's war.",
+ spec:"A Quiet Place Part II continues the war against the monsters, and the franchise keeps expanding. The original's silence remains the gold standard.",
+ links:watchLinks("A Quiet Place",[{name:"Prime Video",url:"https://www.primevideo.com/search?q=A+Quiet+Place"}]),
+ related:["hereditary","getout","annihilation"]},
+{id:"hereditary",title:"Hereditary",genre:"Horror",year:"2018",score:8,
+ ytId:"V6wWKNij_1M",ytStart:20,ytEnd:120,
+ teaser:"A family grieves. A grandmother's death opens a door — and something that was waiting comes through.",
+ about:"Ari Aster's debut is the most talked-about horror film of the decade. After the matriarch dies, the Graham family unravels as dark secrets surface — miniature dioramas, a cult, and a grief that becomes possession. Hereditary is grief as horror.",
+ facts:["Ari Aster wrote the script after his own grandmother's death — the grief is real.","Toni Collette's performance is widely called one of the best horror performances ever.","The miniature houses in the film were built by a professional miniaturist — and mirror the real sets exactly.","The film was shot in sequence so the family's disintegration felt real."],
+ cast:["Toni Collette reportedly stayed in character off-set, exhausting herself for the role.","Alex Wolff (Peter) actually broke his nose during the infamous car scene — the scream is real.","Milly Shapiro, who plays Charlie, had a real condition that made her look otherworldly.","Ari Aster gave the cast a list of grief documentaries to watch before filming."],
+ review:{verdict:"A horror film that feels like a panic attack — slow, precise, and merciless. The car scene is the most shocking 10 minutes of modern horror. Not a jump-scare movie; a dread movie.",who:"For horror fans who want to be genuinely disturbed. Not for casual scares."},
+ recap:"The family was never the point — the cult was. Charlie was the vessel for Paimon, and the entire family tragedy was a centuries-long ritual to bring him into a male host. The ending's dollhouse shot reframes the whole film.",
+ spec:"Ari Aster's follow-ups (Midsommar, Beau Is Afraid) share the same DNA: trauma made literal. No sequel is planned — the film is complete.",
+ links:watchLinks("Hereditary",[{name:"Prime Video",url:"https://www.primevideo.com/search?q=Hereditary"}]),
+ related:["quietplace","getout","nosferatu"]},
+{id:"getout",title:"Get Out",genre:"Horror",year:"2017",score:8,
+ ytId:"DzfpyUB60YY",ytStart:25,ytEnd:125,
+ teaser:"A Black man meets his white girlfriend's family. They're very welcoming. Too welcoming.",
+ about:"Jordan Peele's directorial debut — a horror film about race that became a cultural earthquake. Chris goes to meet his girlfriend's parents, and the weekend turns into a nightmare of hypnosis, stolen bodies, and the Sunken Place. Smart, funny, and terrifying.",
+ facts:["It was Jordan Peele's directorial debut — he wrote the script in one sitting over a weekend.","The film was made for $4.5 million and grossed $255 million.","Peele was inspired by his own experiences meeting white partners' families.","The 'Sunken Place' scene was originally going to be a full dream sequence."],
+ cast:["Daniel Kaluuya was Peele's first and only choice for Chris.","Allison Williams' performance is the film's secret weapon — sweet and monstrous.","Betty Gabriel's 'Georgina' breakdown scene is considered one of the decade's best performances.","Bradley Whitford's character was written for a specific type: the 'I voted for Obama twice' liberal."],
+ review:{verdict:"A genre masterpiece that works as horror, comedy, and social commentary at once. The Sunken Place is an image that will never leave you. One of the most important horror films ever made.",who:"For everyone. It is scary, funny, and painfully smart."},
+ recap:"The 'medical procedure' is the truth: the family transplants white brains into Black bodies, treating Blackness as a vessel. The ending — Chris escaping in a stolen car — was originally a police-brutality ending, changed after the filming of real police shootings.",
+ spec:"Peele's 'social thrillers' continue (Us, Nope). Get Out 2 has been discussed — but Peele says the story is complete.",
+ links:watchLinks("Get Out",[{name:"Netflix",url:"https://www.netflix.com/search?q=Get+Out"}]),
+ related:["parasite","hereditary","quietplace"]},
+{id:"annihilation",title:"Annihilation",genre:"Horror",year:"2018",score:8,
+ ytId:"89OP78l9oF0",ytStart:25,ytEnd:125,
+ teaser:"A shimmer on the horizon. Five women go in. One comes out. And she is not the same.",
+ about:"Alex Garland's cosmic horror masterpiece. A biologist joins an expedition into 'the Shimmer' — a quarantined zone where DNA is being rewritten. Based on Jeff VanderMeer's novel, the film is about self-destruction, mutation, and what we become.",
+ facts:["The film was nearly shelved — Paramount tested it badly and sold overseas rights to Netflix.","The bear creature was made with practical effects and real bear sounds.","The 'Shimmer' light effects were created with real prisms and lenses, not CGI.","The soundtrack's unsettling choral music was composed by Geoff Barrow and Ben Salisbury."],
+ cast:["Natalie Portman did her own weapons training for the soldier scenes.","Jennifer Jason Leigh's shaved-head performance is a highlight.","Oscar Isaac's role was shot in three days.","Tessa Thompson improvised her character's deadpan lines."],
+ review:{verdict:"A trippy, terrifying, philosophical horror film that refuses to explain itself. The lighthouse sequence is the most beautiful nightmare ever filmed. The ending is a masterpiece of ambiguity.",who:"For fans of cosmic horror, Arrival, and films that reward rewatching."},
+ recap:"The Shimmer is a force of mutation and reflection — it doesn't destroy, it remakes. The doppelganger at the lighthouse is the film's thesis: we destroy ourselves from within. Lena's return is ambiguous — is she still her?",
+ spec:"The novel's sequels (Authority, Acceptance) go deeper into Area X. A film adaptation of Authority was announced — Garland may return.",
+ links:watchLinks("Annihilation",[{name:"Netflix",url:"https://www.netflix.com/search?q=Annihilation"}]),
+ related:["quietplace","hereditary","interstellar"]},
+{id:"nosferatu",title:"Nosferatu",genre:"Horror",year:"2024",score:9,
+ ytId:"nulvWqYUM8k",ytStart:30,ytEnd:130,
+ teaser:"A young woman. A vampire. An obsession older than death itself. He is coming — and he will not be refused.",
+ about:"Robert Eggers' gothic masterpiece — the most terrifying Count Orlok ever put on screen. A haunted young woman and the vampire infatuated with her collide in a tale of obsession, plague, and the undead. A 1922 classic reborn in shadows and candlelight.",
+ facts:["Bill Skarsgård's Orlok was created with prosthetic makeup and a voice lowered in post — almost unrecognizable.","Eggers studied 18th-century Romania and consulted historians for the film's authenticity.","The film was shot almost entirely in real candlelight — no digital lighting.","The rat plague scenes used over 5,000 real trained rats."],
+ cast:["Bill Skarsgård disappears completely under the Orlok prosthetics — you never see his face.","Lily-Rose Depp's performance as Ellen required exorcist-level physicality.","Willem Dafoe (a vampire himself in Shadow of the Vampire) plays the occult scholar.","Nicholas Hoult plays the terrified husband Thomas Hutter."],
+ review:{verdict:"A vampire film that feels like a nightmare you cannot wake from. The sound design, the shadows, the rats — Eggers crafts dread with every frame. The scariest Orlok ever, and the most beautiful horror film in years.",who:"For gothic horror fans, Eggers fans, and anyone who loves shadows."},
+ recap:"Orlok is not a romantic vampire — he is plague and obsession personified. Ellen's sacrifice in the final act (keeping him past dawn) is the film's tragic core: love as self-immolation. The castle's closing shot haunts.",
+ spec:"Eggers has said this completes his 'dark trilogy' (The Witch, The Lighthouse). His next: a medieval werewolf film. Nosferatu stands alone.",
+ links:watchLinks("Nosferatu",[{name:"Peacock",url:"https://www.peacocktv.com/search?q=Nosferatu"}]),
+ related:["hereditary","quietplace","annihilation"]},
+{id:"conjuring3",title:"The Conjuring: The Devil Made Me Do It",genre:"Horror",year:"2021",score:7,
+ ytId:"h9Q4zZS2v1k",ytStart:25,ytEnd:125,
+ teaser:"The Warrens take their most dangerous case: a murder trial where the defense is demonic possession.",
+ about:"The third Conjuring film — and the first true story that goes to court. Ed and Lorraine Warren investigate the Arne Johnson case: the first US murder trial where demonic possession was the legal defense. A possession film that becomes a detective story.",
+ facts:["The film is based on the real 1981 'Devil Made Me Do It' murder case — the first time possession was used as a legal defense in the US.","Patrick Wilson and Vera Farmiga are the only actors to appear in every Conjuring film.","The 'conjuring universe' now spans 8+ films and billions in box office.","The real Ed Warren was a demonologist and author; the film tones down his controversial reputation."],
+ cast:["Patrick Wilson and Vera Farmiga's chemistry anchors the entire Conjuring universe.","Ruairi O'Connor plays Arne Johnson, the real man at the center of the case.","The film was directed by Michael Chaves, who took over from James Wan.","John Noble (Lord of the Rings) appears as a former priest."],
+ review:{verdict:"A solid, scary entry that trades the haunted-house formula for a courtroom mystery. The exorcism scenes deliver, even if the middle sags. The Warrens remain cinema's best paranormal couple.",who:"For Conjuring universe fans and possession-horror lovers."},
+ recap:"The curse is a witch's death curse — and the film's villain is a ritualist who killed to transfer the demon. The finale's chase through the catacombs is the series' most ambitious set piece.",
+ spec:"The Conjuring 4 was announced as the final Warrens film. The universe continues with The Nun sequels and spinoffs.",
+ links:watchLinks("The Conjuring The Devil Made Me Do It",[{name:"Max (HBO)",url:"https://www.max.com/search?q=The+Conjuring"}]),
+ related:["nosferatu","hereditary","quietplace"]},{id:"blackpanther",title:"Black Panther",genre:"Superhero",year:2018,score:8,ytId:"xjDjIWPwcPU",ytStart:20,ytEnd:120,teaser:"Wakanda has the most advanced tech on Earth — and a king who must decide whether to share it with the world.",compact:true}
+,{id:"thorragnarok",title:"Thor: Ragnarok",genre:"Superhero",year:2017,score:8,ytId:"v7MGUNV8MxU",ytStart:20,ytEnd:115,teaser:"The end of Asgard is coming. Thor must survive a gladiator planet, a crazy sister, and a friend with a big hammer.",compact:true}
+,{id:"gotg",title:"Guardians of the Galaxy",genre:"Superhero",year:2014,score:8,ytId:"d96cjJhvlMA",ytStart:20,ytEnd:115,teaser:"A thief, two idiots, a raccoon, and a tree. They save the galaxy, and they're as surprised as you are.",compact:true}
+,{id:"shangchi",title:"Shang-Chi and the Legend of the Ten Rings",genre:"Superhero",year:2021,score:8,ytId:"8YjFbMbfXaQ",ytStart:20,ytEnd:115,teaser:"The best fighter in the MCU was hiding in San Francisco — until his father's rings found him.",compact:true}
+,{id:"eternals",title:"Eternals",genre:"Superhero",year:2021,score:7,ytId:"x_me3xsvDgk",ytStart:25,ytEnd:115,teaser:"They've lived among humans for 7,000 years. Now the Deviants are back — and so are they.",compact:true}
+,{id:"captainmarvel",title:"Captain Marvel",genre:"Superhero",year:2019,score:7,ytId:"Z1BCujX3pw8",ytStart:25,ytEnd:115,teaser:"Carol Danvers doesn't remember who she is. She's about to remember — and she's about to be a problem for the Kree.",compact:true}
+,{id:"wonderwoman",title:"Wonder Woman",genre:"Superhero",year:2017,score:8,ytId:"1Q8fG0TtVAY",ytStart:20,ytEnd:115,teaser:"An Amazon princess leaves paradise to end a war — and finds out war isn't that simple.",compact:true}
+,{id:"wonderwoman84",title:"Wonder Woman 1984",genre:"Superhero",year:2020,score:6,ytId:"XW2E2Fnh52w",ytStart:25,ytEnd:115,teaser:"The 80s are back — and so is a stone that grants wishes, at a terrible price.",compact:true}
+,{id:"aquaman",title:"Aquaman",genre:"Superhero",year:2018,score:7,ytId:"WDkg3h8PCVU",ytStart:25,ytEnd:115,teaser:"The king of Atlantis is a half-human outcast who must unite two worlds — or watch them burn.",compact:true}
+,{id:"blackadam",title:"Black Adam",genre:"Superhero",year:2022,score:6,ytId:"mkomfZHG5q4",ytStart:25,ytEnd:115,teaser:"A god with lightning fists wakes up in modern Kahndaq. The Justice Society says hello.",compact:true}
+,{id:"joker",title:"Joker",genre:"Superhero",year:2019,score:9,ytId:"zAGVQLHvwOY",ytStart:20,ytEnd:120,teaser:"Arthur Fleck just wanted to make people laugh. Gotham made him the punchline — and then the nightmare.",compact:true}
+,{id:"venom",title:"Venom",genre:"Superhero",year:2018,score:7,ytId:"u9Mv98Gr5pY",ytStart:25,ytEnd:115,teaser:"A reporter gets bonded with a symbiote that calls itself a 'loser' — together they're kind of a mess. A glorious mess.",compact:true}
+,{id:"venom2",title:"Venom: Let There Be Carnage",genre:"Superhero",year:2021,score:6,ytId:"-FmWuCgJmxo",ytStart:25,ytEnd:115,teaser:"Venom wants to eat brains. Eddie wants to be a reporter again. Then Carnage shows up and ruins everything.",compact:true}
+,{id:"spiderverse",title:"Spider-Man: Into the Spider-Verse",genre:"Superhero",year:2018,score:9,ytId:"g4Hbz2jLxvQ",ytStart:20,ytEnd:120,teaser:"Anyone can wear the mask. Miles Morales proves it in the most beautiful animated film ever made.",compact:true}
+,{id:"lionking",title:"The Lion King",genre:"Animation",year:2019,score:7,ytId:"7TavVZMewpY",ytStart:25,ytEnd:115,teaser:"The circle of life, photoreal. Simba must return to Pride Rock — and face the past that haunts him.",compact:true}
+,{id:"mulan",title:"Mulan",genre:"Animation",year:2020,score:6,ytId:"KK8FHdFluOQ",ytStart:25,ytEnd:115,teaser:"A girl takes her father's place in the army. The emperor's army — and destiny — will never be the same.",compact:true}
+,{id:"raya",title:"Raya and the Last Dragon",genre:"Animation",year:2021,score:7,ytId:"1VIZ89FEjYI",ytStart:25,ytEnd:115,teaser:"A broken world, a lost dragon, and a warrior princess who must trust again to save everyone.",compact:true}
+,{id:"soul",title:"Soul",genre:"Animation",year:2020,score:9,ytId:"xOsLIiBStEs",ytStart:20,ytEnd:120,teaser:"A jazz musician dies before his big break — and must find his way back to life, and to what life means.",compact:true}
+,{id:"moana",title:"Moana",genre:"Animation",year:2016,score:8,ytId:"LKFuXETZUsI",ytStart:20,ytEnd:115,teaser:"The ocean chose Moana. Now she has to convince a demi-god to help her return the heart of Te Fiti.",compact:true}
+,{id:"toy4",title:"Toy Story 4",genre:"Animation",year:2019,score:8,ytId:"wmiIUN-7qhE",ytStart:20,ytEnd:115,teaser:"Woody learns the hardest lesson: sometimes the bravest thing is letting go — and finding a new purpose.",compact:true}
+,{id:"insideout",title:"Inside Out",genre:"Animation",year:2015,score:9,ytId:"yRUAzGQ3nSY",ytStart:20,ytEnd:120,teaser:"Riley's emotions — Joy, Sadness, Anger, Fear, Disgust — run her life. Then Joy and Sadness get lost in her mind.",compact:true}
+,{id:"dory",title:"Finding Dory",genre:"Animation",year:2016,score:7,ytId:"JhvrQeY3doI",ytStart:25,ytEnd:115,teaser:"The fish with no short-term memory remembers she has a family. Cue the greatest ocean road trip ever.",compact:true}
+,{id:"zootopia",title:"Zootopia",genre:"Animation",year:2016,score:8,ytId:"jWM0ct-OLsM",ytStart:20,ytEnd:115,teaser:"A bunny cop and a fox conman solve a city-wide mystery in a world where anyone can be anything.",compact:true}
+,{id:"minions",title:"Minions",genre:"Animation",year:2015,score:6,ytId:"eisKxhjBnZ0",ytStart:25,ytEnd:115,teaser:"The yellow guys search history for a villain to serve. They find one. It goes exactly as badly as you'd expect.",compact:true}
+,{id:"dm3",title:"Despicable Me 3",genre:"Animation",year:2017,score:6,ytId:"6DBi41reeF0",ytStart:25,ytEnd:115,teaser:"Gru finds out he has a twin brother — and that his brother is the villain of the week.",compact:true}
+,{id:"kfp3",title:"Kung Fu Panda 3",genre:"Animation",year:2016,score:7,ytId:"10r9ozshGVE",ytStart:25,ytEnd:115,teaser:"Po meets his biological father — and must train a village of pandas to fight Kai, the collector of chi.",compact:true}
+,{id:"mifallout",title:"Mission: Impossible – Fallout",genre:"Action",year:2018,score:9,ytId:"wb49-oV0F78",ytStart:20,ytEnd:120,teaser:"Ethan Hunt must save the world again — and this time, he may have to sacrifice everything, including himself.",compact:true}
+,{id:"mideadreck",title:"Mission: Impossible – Dead Reckoning",genre:"Action",year:2023,score:8,ytId:"avz06PDqDbM",ytStart:25,ytEnd:115,teaser:"An AI weapon is rewriting the world. Ethan Hunt's final mission: destroy it, no matter the cost.",compact:true}
+,{id:"fastx",title:"Fast X",genre:"Action",year:2023,score:6,ytId:"aOb15GVFZxU",ytStart:25,ytEnd:115,teaser:"Dante is the devil Dom made. He's coming for the family — and he's patient.",compact:true}
+,{id:"f8",title:"The Fate of the Furious",genre:"Action",year:2017,score:7,ytId:"JwMKRevYa_M",ytStart:25,ytEnd:115,teaser:"Dom turns on his own family. The question isn't why — it's who's forcing him to.",compact:true}
+,{id:"pacificrim",title:"Pacific Rim",genre:"Action",year:2013,score:8,ytId:"5guMumPFBag",ytStart:20,ytEnd:115,teaser:"Giant robots vs giant monsters. The last hope of humanity is a Jaeger and the two pilots who sync as one.",compact:true}
+,{id:"deadpool1",title:"Deadpool",genre:"Action",year:2016,score:8,ytId:"9vN6DHB6bJc",ytStart:25,ytEnd:115,teaser:"The merc with a mouth gets his own movie — and he's not going to let the fourth wall stop him.",compact:true}
+,{id:"deadpool2",title:"Deadpool 2",genre:"Action",year:2018,score:8,ytId:"D86Rte8XQ3M",ytStart:25,ytEnd:115,teaser:"Wade Wilson builds a team — X-Force — to protect a kid from a time-traveling cyborg. It goes… exactly like Deadpool.",compact:true}
+,{id:"alita",title:"Alita: Battle Angel",genre:"Action",year:2019,score:7,ytId:"w7pYhpJaJW8",ytStart:25,ytEnd:115,teaser:"A cyborg girl wakes with no memory and a warrior's body. The city of Iron City will never be the same.",compact:true}
+,{id:"ghostshell",title:"Ghost in the Shell",genre:"Action",year:2017,score:6,ytId:"G4VmJcZR0Yg",ytStart:25,ytEnd:115,teaser:"A cyber-enhanced agent hunts a hacker — and discovers the ghost in her own shell.",compact:true}
+,{id:"bladerunner2049",title:"Blade Runner 2049",genre:"Sci-Fi",year:2017,score:9,ytId:"gCcx85zbxz4",ytStart:20,ytEnd:120,teaser:"A new blade runner uncovers a secret that could end civilization — and must find the one person who matters.",compact:true}
+,{id:"arrival",title:"Arrival",genre:"Sci-Fi",year:2016,score:9,ytId:"tFMo3UJ4B4g",ytStart:20,ytEnd:120,teaser:"Twelve alien ships land. A linguist must learn their language — and discovers time itself isn't what she thought.",compact:true}
+,{id:"edgetomorrow",title:"Edge of Tomorrow",genre:"Sci-Fi",year:2014,score:8,ytId:"yUmSVcttXnI",ytStart:20,ytEnd:115,teaser:"A soldier dies and relives the same battle — until he becomes the only one who can win the war.",compact:true}
+,{id:"oblivion",title:"Oblivion",genre:"Sci-Fi",year:2013,score:7,ytId:"XmIIgE7eSak",ytStart:25,ytEnd:115,teaser:"A drone repairman on a dead Earth discovers his whole life is a lie.",compact:true}
+,{id:"readyplayerone",title:"Ready Player One",genre:"Sci-Fi",year:2018,score:7,ytId:"cSp1dM2Vj48",ytStart:25,ytEnd:115,teaser:"The world lives in the OASIS. The key to everything is hidden inside — and everyone wants it.",compact:true}
+,{id:"warcraft",title:"Warcraft",genre:"Sci-Fi",year:2016,score:6,ytId:"2Rxoz13Bthc",ytStart:25,ytEnd:115,teaser:"Orcs and humans face each other across a portal — and both sides have heroes who want peace.",compact:true}
+,{id:"martian",title:"The Martian",genre:"Sci-Fi",year:2015,score:9,ytId:"ej3ioOneTy8",ytStart:20,ytEnd:120,teaser:"Mark Watney is stranded on Mars. His plan: science his way home. His message: 'I'm gonna have to science the s--- out of this.'",compact:true}
+,{id:"gravity",title:"Gravity",genre:"Sci-Fi",year:2013,score:8,ytId:"OiTiKOy59o4",ytStart:20,ytEnd:115,teaser:"Two astronauts, one disaster, zero gravity. The most terrifying space movie ever made.",compact:true}
+,{id:"avatar1",title:"Avatar",genre:"Sci-Fi",year:2009,score:8,ytId:"5PSNL1qE6VY",ytStart:20,ytEnd:120,teaser:"A paraplegic marine gets a new body on Pandora — and finds a world, a people, and a war worth choosing.",compact:true}
+,{id:"revenant",title:"The Revenant",genre:"Drama",year:2015,score:8,ytId:"LoebZZ8K5N0",ytStart:25,ytEnd:120,teaser:"Hugh Glass is left for dead after a bear attack. His revenge journey is the most brutal film of the decade.",compact:true}
+,{id:"1917",title:"1917",genre:"War",year:2019,score:9,ytId:"YqNYrYUiMfg",ytStart:20,ytEnd:120,teaser:"Two soldiers, one message, twelve hours. Shot to look like one continuous take — the great war film of our era.",compact:true}
+,{id:"dunkirk",title:"Dunkirk",genre:"War",year:2017,score:9,ytId:"F-eMt3SrfFU",ytStart:20,ytEnd:120,teaser:"400,000 soldiers trapped on a beach. A miracle of ordinary boats. Nolan's most visceral film.",compact:true}
+,{id:"hacksawridge",title:"Hacksaw Ridge",genre:"War",year:2016,score:8,ytId:"s2-1hz1juBI",ytStart:25,ytEnd:120,teaser:"A medic who refuses to carry a gun saves 75 men on the bloodiest ridge of World War II.",compact:true}
+,{id:"300",title:"300",genre:"War",year:2006,score:7,ytId:"UrIbxk7idYA",ytStart:25,ytEnd:115,teaser:"300 Spartans against a million Persians. The most stylized war film ever made.",compact:true}
+,{id:"lotr1",title:"The Lord of the Rings: The Fellowship of the Ring",genre:"Fantasy",year:2001,score:9,ytId:"V75dMMIW2B4",ytStart:20,ytEnd:120,teaser:"A hobbit inherits the Ring of Power — and nine companions walk into the dark to destroy it.",compact:true}
+,{id:"hobbit",title:"The Hobbit: An Unexpected Journey",genre:"Fantasy",year:2012,score:7,ytId:"SDnYMbYB-nU",ytStart:25,ytEnd:115,teaser:"Bilbo Baggins leaves his hobbit-hole for an adventure he never wanted — and finds a ring.",compact:true}
+,{id:"fantasticbeasts",title:"Fantastic Beasts and Where to Find Them",genre:"Fantasy",year:2016,score:7,ytId:"Vso5o11LuGU",ytStart:25,ytEnd:115,teaser:"A magizoologist's suitcase opens — and magical creatures escape into 1920s New York.",compact:true}
+,{id:"rogueone",title:"Rogue One: A Star Wars Story",genre:"Sci-Fi",year:2016,score:9,ytId:"frdj1zb9sMY",ytStart:20,ytEnd:120,teaser:"The rebels who stole the Death Star plans. The first Star Wars film where everyone dies — and it's beautiful.",compact:true}
+,{id:"lastjedi",title:"Star Wars: The Last Jedi",genre:"Sci-Fi",year:2017,score:7,ytId:"Q0CbN8sfihY",ytStart:25,ytEnd:120,teaser:"Rey finds Luke. The galaxy finds hope. The Force finds a new meaning.",compact:true}
+,{id:"solo",title:"Solo: A Star Wars Story",genre:"Sci-Fi",year:2018,score:7,ytId:"jPEYpryMp2s",ytStart:25,ytEnd:115,teaser:"How Han Solo became Han Solo — smuggler, scoundrel, and the best pilot in the galaxy.",compact:true}
+,{id:"riseofskywalker",title:"Star Wars: The Rise of Skywalker",genre:"Sci-Fi",year:2019,score:6,ytId:"8Qn_spdM5Zg",ytStart:25,ytEnd:115,teaser:"The saga ends. Rey faces Palpatine, Kylo faces his demons, and the Skywalker story closes.",compact:true}
+,{id:"mandalorian",title:"The Mandalorian",genre:"Series",year:2019,score:9,ytId:"aOC8E8z_ifw",ytStart:20,ytEnd:120,teaser:"A lone bounty hunter takes a job that changes everything: protecting a child of unknown origin. This is the way.",compact:true}
+,{id:"it",title:"It",genre:"Horror",year:2017,score:8,ytId:"FnCdOQsX5kc",ytStart:25,ytEnd:120,teaser:"Seven kids face a shapeshifting monster that feeds on fear. 'You'll float too.'",compact:true}
+,{id:"us",title:"Us",genre:"Horror",year:2019,score:7,ytId:"hNCmb-4oXJA",ytStart:25,ytEnd:115,teaser:"A family vacation meets their doppelgangers. They want what the family has — everything.",compact:true}
+,{id:"nope",title:"Nope",genre:"Horror",year:2022,score:7,ytId:"In8fuzj3gck",ytStart:25,ytEnd:115,teaser:"A horse ranch, a UFO, and a question: what do you feed a predator that lives in the sky?",compact:true}
+,{id:"conjuring1",title:"The Conjuring",genre:"Horror",year:2013,score:8,ytId:"k10ETZ41q5o",ytStart:25,ytEnd:120,teaser:"The Warrens' first great case: a farmhouse with a witch in the woods and a wardrobe to nowhere.",compact:true}
+,{id:"midsommar",title:"Midsommar",genre:"Horror",year:2019,score:8,ytId:"1Vnghdsjmd0",ytStart:25,ytEnd:120,teaser:"A grieving woman joins a Swedish midsummer festival. It's bright, it's sunny, and it's the most disturbing film of the year.",compact:true}
+,{id:"menu",title:"The Menu",genre:"Horror",year:2022,score:8,ytId:"C_uTkUGcHv4",ytStart:25,ytEnd:115,teaser:"An exclusive restaurant, a celebrity chef, and a menu no one will leave alive. A satire that bites back.",compact:true}
+,{id:"knivesout",title:"Knives Out",genre:"Thriller",year:2019,score:8,ytId:"qGqiHJTsRkQ",ytStart:25,ytEnd:120,teaser:"A famous novelist dies, and a detective with an accent investigates a family of terrible people. Benoit Blanc's first case.",compact:true}
+,{id:"wandavision",title:"WandaVision",genre:"Series",year:2021,score:8,ytId:"sj9J2ecsSpo",ytStart:25,ytEnd:120,teaser:"Wanda builds a perfect sitcom life — but reality keeps bleeding through. Marvel's strangest, saddest show.",compact:true}
+,{id:"wednesday",title:"Wednesday",genre:"Series",year:2022,score:8,ytId:"Di310WS8zLk",ytStart:25,ytEnd:115,teaser:"Wednesday Addams goes to Nevermore Academy — and becomes a detective, a friend, and a monster's target.",compact:true}
+,{id:"arcane",title:"Arcane",genre:"Series",year:2021,score:9,ytId:"fXmAurh012s",ytStart:20,ytEnd:120,teaser:"The best animated series ever made. Piltover and Zaun, sisters and enemies, magic and machine.",compact:true}
+
+,{id:"inception",title:"Inception",genre:"Sci-Fi",year:2010,score:9,ytId:"YoHD9XEInc0",ytStart:20,ytEnd:120,teaser:"A thief who steals secrets from dreams is offered the impossible: plant an idea instead. Welcome to the dream heist.",compact:true}
+,{id:"matrix1",title:"The Matrix",genre:"Sci-Fi",year:1999,score:9,ytId:"vKQi3bBA1y8",ytStart:20,ytEnd:120,teaser:"Neo takes the red pill and wakes up in a world where reality is a program — and he might be 'The One.'",compact:true}
+,{id:"anewhope",title:"Star Wars: A New Hope",genre:"Sci-Fi",year:1977,score:9,ytId:"vZ734NWnAHA",ytStart:20,ytEnd:120,teaser:"A farm boy, a smuggler, a princess, and a droid. The galaxy far, far away begins here.",compact:true}
+,{id:"darkknight",title:"The Dark Knight",genre:"Superhero",year:2008,score:9,ytId:"EXeTwQWrcwY",ytStart:20,ytEnd:120,teaser:"Batman faces his greatest enemy — a madman who wants to prove that anyone can break. Why so serious?",compact:true}
+,{id:"avengers1",title:"The Avengers",genre:"Superhero",year:2012,score:8,ytId:"eOrNdBpGMv8",ytStart:20,ytEnd:115,teaser:"Earth's mightiest heroes assemble for the first time. Loki has an army. They have a Hulk.",compact:true}
+,{id:"infinitywar",title:"Avengers: Infinity War",genre:"Superhero",year:2018,score:8,ytId:"6ZfuNTqbHE8",ytStart:20,ytEnd:115,teaser:"Thanos collects the Infinity Stones. Half the universe hangs in the balance. The snap changes everything.",compact:true}
+,{id:"ageofultron",title:"Avengers: Age of Ultron",genre:"Superhero",year:2015,score:7,ytId:"tmeOjFno6Do",ytStart:25,ytEnd:115,teaser:"Tony's peacekeeping AI turns on humanity. The Avengers face a villain they built themselves.",compact:true}
+,{id:"manofsteel",title:"Man of Steel",genre:"Superhero",year:2013,score:7,ytId:"T6DJcgm3wNY",ytStart:25,ytEnd:115,teaser:"Kal-El lands on Earth and becomes Superman — just in time for the world to need a god.",compact:true}
+,{id:"bvs",title:"Batman v Superman: Dawn of Justice",genre:"Superhero",year:2016,score:6,ytId:"0WWzgGyAH6Y",ytStart:25,ytEnd:115,teaser:"The world's greatest detective vs the last son of Krypton. Who is really the threat?",compact:true}
+,{id:"wintersoldier",title:"Captain America: The Winter Soldier",genre:"Superhero",year:2014,score:8,ytId:"7SlILk2WMTI",ytStart:20,ytEnd:115,teaser:"Cap discovers SHIELD is hiding Hydra — and his best friend is the assassin hunting him.",compact:true}
+,{id:"thor1",title:"Thor",genre:"Superhero",year:2011,score:7,ytId:"JOddp-nlNvQ",ytStart:25,ytEnd:115,teaser:"The God of Thunder is exiled to Earth without his hammer. The funniest origin story of the MCU.",compact:true}
+,{id:"blackwidow",title:"Black Widow",genre:"Superhero",year:2021,score:7,ytId:"ybji16u608U",ytStart:25,ytEnd:115,teaser:"Natasha faces her past: the Red Room, her 'family,' and the assassin she was trained to be.",compact:true}
+,{id:"johnwick",title:"John Wick",genre:"Action",year:2014,score:8,ytId:"C0BMx-qxsP4",ytStart:20,ytEnd:115,teaser:"They killed his dog. They took his car. They woke the Baba Yaga. The best action film of the decade.",compact:true}
+,{id:"kingsman",title:"Kingsman: The Secret Service",genre:"Action",year:2014,score:8,ytId:"kl8F-8tR8to",ytStart:20,ytEnd:115,teaser:"A street kid becomes a gentleman spy. The church scene changes action cinema forever.",compact:true}
+,{id:"casinoroyale",title:"Casino Royale",genre:"Action",year:2006,score:8,ytId:"36mnx8dBbGE",ytStart:25,ytEnd:120,teaser:"Daniel Craig's Bond is born: brutal, cold, and in love — the greatest 007 origin story.",compact:true}
+,{id:"skyfall",title:"Skyfall",genre:"Action",year:2012,score:8,ytId:"6kw1UVovByw",ytStart:25,ytEnd:120,teaser:"Bond's past comes home. M's loyalty is tested. The best Bond film ever made, arguably.",compact:true}
+,{id:"terminator2",title:"Terminator 2: Judgment Day",genre:"Action",year:1991,score:9,ytId:"CRRlbK5w8AE",ytStart:20,ytEnd:120,teaser:"This time the Terminator protects. 'Come with me if you want to live.' The best sequel ever made.",compact:true}
+,{id:"smile",title:"Smile",genre:"Horror",year:2022,score:7,ytId:"BcDK7lkzzsU",ytStart:25,ytEnd:115,teaser:"A curse passes through smiles. A doctor witnesses it — and now it's watching her.",compact:true}
+,{id:"gonegirl",title:"Gone Girl",genre:"Thriller",year:2014,score:8,ytId:"2-_-1nJf8Vg",ytStart:20,ytEnd:120,teaser:"Amy Dunne is missing. Her husband looks guilty. The truth is worse than either. The twist that broke the internet.",compact:true}
+,{id:"prisoners",title:"Prisoners",genre:"Thriller",year:2013,score:8,ytId:"bpXfcTF6iVk",ytStart:25,ytEnd:120,teaser:"Two girls vanish. One father takes the law into his own hands. A moral nightmare from the director of Arrival.",compact:true}
+,{id:"se7en",title:"Se7en",genre:"Thriller",year:1995,score:9,ytId:"znmZoVkCjpI",ytStart:20,ytEnd:120,teaser:"Two detectives hunt a killer using the seven deadly sins. The box. The head. 'What's in the box?'",compact:true}
+,{id:"drive",title:"Drive",genre:"Thriller",year:2011,score:8,ytId:"KBiOF3y1W0Y",ytStart:25,ytEnd:115,teaser:"A stunt driver, a neon jacket, a getaway gone wrong. The most stylish thriller of the decade.",compact:true}
+,{id:"frozen",title:"Frozen",genre:"Animation",year:2013,score:8,ytId:"TbQm5doF_Uc",ytStart:20,ytEnd:115,teaser:"A queen with ice powers, a sister who loves her, and a song the whole world sang. 'Let it go.'",compact:true}
+,{id:"superbad",title:"Superbad",genre:"Comedy",year:2007,score:8,ytId:"4eaZ_48ZYog",ytStart:20,ytEnd:115,teaser:"Two best friends, one party, and a police car. The greatest high-school comedy ever made.",compact:true}
+,{id:"lalaland",title:"La La Land",genre:"Romance",year:2016,score:8,ytId:"0pdqf4P9MB8",ytStart:20,ytEnd:120,teaser:"A jazz pianist and an actress fall in love in Los Angeles. The most beautiful heartbreak in cinema.",compact:true}
+,{id:"titanic",title:"Titanic",genre:"Romance",year:1997,score:9,ytId:"2e-eXJ6HgkQ",ytStart:25,ytEnd:120,teaser:"Jack and Rose, a ship, an iceberg, and the most famous love story ever filmed. 'I'll never let go.'",compact:true}
+,{id:"notebook",title:"The Notebook",genre:"Romance",year:2004,score:8,ytId:"FC6biTjEyZw",ytStart:20,ytEnd:115,teaser:"A man reads their love story to a woman who forgets him every day. Bring tissues. A lot of them.",compact:true}
+,{id:"mononoke",title:"Princess Mononoke",genre:"Anime",year:1997,score:9,ytId:"4OiMOHRDs14",ytStart:20,ytEnd:120,teaser:"A prince, a wolf-girl, and a war between humans and the forest. Miyazaki's greatest epic.",compact:true}
+
+];;;;;
+
+var CAST = {
+"dune2": ["Timothée Chalamet trained for months with a fight and movement coach to move like a Fremen warrior.","Zendaya's Chani was expanded massively from the book — she is the film's moral compass.","Hans Zimmer composed the score partly on a custom-made instrument built from broken cellos.","The sandworms are rendered with a mix of practical miniature dunes and CGI — no real worm was harmed."],
+"topgun": ["Tom Cruise performed the jet sequences himself, enduring up to 7.5 Gs.","Miles Teller spent months learning to fly so his cockpit scenes look real.","The cast trained in actual F/A-18s with real Top Gun instructors.","Cruise insisted the film use no CGI for flight — everything you see was filmed."],
+"oppenheimer": ["Cillian Murphy lost roughly 20 pounds to play the gaunt physicist.","The Trinity explosion was created practically — no CGI.","Nolan wrote the script in first person so the audience sees through Oppenheimer's eyes.","Robert Downey Jr. wore prosthetics and grey hair to play Lewis Strauss."],
+"godzilla": ["Director Takashi Yamazaki did much of the VFX himself on his home computer.","The film cost about $15 million — a fraction of a Hollywood blockbuster.","Godzilla's design returns to the original 1954 silhouette.","The Oscar win for VFX made it the first Japanese Godzilla film to win an Academy Award."],
+"interstellar": ["Matthew McConaughey insisted on real cornfields — the crew grew 500 acres of corn for the opening.","Hans Zimmer wrote the score before seeing the script, based on one page of notes.","The black hole Gargantua was simulated with real physics equations.","TARS the robot was operated by puppeteers — zero CGI."],
+"endgame": ["Robert Downey Jr.'s final scene was kept secret from most of the cast.","The film was shot almost entirely with code names like 'Mary Lou' to stop leaks.","The final battle features over 60 heroes on screen at once.","At $2.79 billion, it was the highest-grossing film ever until Avatar returned."],
+"spiderman": ["The three Spider-Men were hidden with secret trailers and NDAs.","Tobey Maguire and Andrew Garfield filmed their scenes separately from Tom Holland.","The film's title was kept secret — even the cast didn't know it until the first teaser.","Willem Dafoe wore the original Green Goblin mask from 2002."],
+"batman": ["Robert Pattinson wore a Batsuit that he could barely turn his head in — by design, for the noir feel.","The Batmobile is a real car, built on a 1963 Ford Galaxie chassis.","Paul Dano's Riddler mask was inspired by real serial-killer obsession.","The film was shot almost entirely at night in the rain — 96 nights of filming."],
+"avatar2": ["The cast trained to hold their breath for up to 7 minutes underwater.","Kate Winslet's breath-hold set a record for the production — over 7 minutes.","Cameron waited 13 years for underwater motion-capture tech to be invented.","The water in the film is 100% computer-generated around real performances."],
+"matrix": ["Keanu Reeves did most of his own stunts, including the famous rooftop jump.","The film was Lana Wachowski's first directed alone — Lilly sat it out.","The 'bullet time' was achieved with 120 still cameras in a circle.","Carrie-Anne Moss did her own motorcycle stunt work."],
+"barbie": ["The production used so much pink paint that it depleted the world supply of a specific brand.","Ryan Gosling's Ken was written for him — Greta Gerwig had him in mind from page one.","Margot Robbie did her own rollerblading and dance scenes.","America Ferrera's monologue was shot in one long take."],
+"dune1": ["The Sardaukar battle language was invented by linguist David Peterson.","The sandworm's inner teeth were inspired by a whale's mouth.","Oscar Isaac and Jason Momoa improvised several of their buddy scenes.","The stillsuit design went through over 50 iterations."],
+"bond": ["Daniel Craig performed the stairwell fight scene himself, breaking ribs twice.","The opening gun-barrel sequence took 400 takes to get right.","Billie Eilish was the youngest artist ever to record a Bond theme.","The film gives Bond a daughter — a franchise first."],
+"tenet": ["The famous plane crash was a real Boeing 747 — Nolan bought and crashed it.","John David Washington trained with Olympic sprinters for his running style.","The film's soundtrack plays backwards in places, matching the inversion.","Nolan wrote the script over 5 years to make time inversion feel physical."],
+"madmax": ["Charlize Theron lost her arm prosthetic in the desert and had to shoot on without it for a scene.","Tom Hardy barely spoke to Theron on set — the tension made the film better.","The War Rig is a real vehicle built from a custom chassis with 44-inch wheels.","Most stunts were practical, including a real pole-vaulting rig at 60 mph."],
+"deadpool3": ["Hugh Jackman wore the yellow-and-blue comic suit for the first time ever.","Ryan Reynolds and Jackman improvised much of their banter.","The cameo cast signed ironclad NDAs — one leaked and got fired from the project.","The film is the first R-rated movie in the MCU."],
+"furiosa": ["Chris Hemsworth gained 30 pounds and shaved his head for Dementus.","Anya Taylor-Joy did 90% of her own driving stunts.","George Miller storyboarded the whole film years before shooting.","The desert scenes were shot in real Australian outback locations."]
+};
+
+var ANIME = [
+{id:"yourname",title:"Your Name",genre:"Anime",year:"2016",score:9,
+ ytId:"xU47nhruN-Q",ytStart:20,ytEnd:120,
+ teaser:"Two strangers swap bodies across time. One comet, one fate, and a name they cannot remember.",
+ about:"Makoto Shinkai's masterpiece. A rural girl and a Tokyo boy begin swapping bodies — and then, suddenly, it stops. A story about time, distance, and the red thread of fate, with some of the most beautiful animation ever drawn.",
+ facts:["It became the highest-grossing anime film ever at release, beating Spirited Away's record.","Director Makoto Shinkai based the town scenes on real locations in Hida, Japan.","The film's train-crossing scene was drawn from Shinkai's own childhood memory.","It took over a year to fully hand-draw the comet sequences."],
+ cast:["Radwimps, the rock band, wrote songs that literally appear in the script — the lyrics are plot points.","Mone Kamishiraishi and Ryunosuke Kamiki, the two leads, recorded body-swap scenes separately and never met until premiere.","Shinkai wrote the ending 100 times before choosing the final version."],
+ review:{verdict:"A time-travel romance that hits like a meteor. The body-swap comedy gives way to genuine heartbreak, and the final act is flawless. Animation as pure emotion.",who:"For anyone who loves romance, anime, or stories about fate. Bring tissues."},
+ recap:"The body swaps are not a prank — Taki is reaching into the past, three years before Mitsuha dies in the comet disaster. He saves her by rewriting history, and the red thread of fate brings them together in the end.",
+ spec:"Shinkai's follow-ups (Weathering With You, Suzume) exist in the same emotional universe. A Your Name sequel was teased with a 10th-anniversary short — but the story is complete.",
+ links:watchLinks("Your Name"),
+ related:["spiritedaway","heron","barbie"]},
+{id:"spiritedaway",title:"Spirited Away",genre:"Anime",year:"2001",score:10,
+ ytId:"ByXuk9QqQkk",ytStart:25,ytEnd:125,
+ teaser:"A girl wanders into a spirit world and must work in a bathhouse to save her parents — and herself.",
+ about:"Hayao Miyazaki's masterpiece and the only anime film ever to win the Oscar for Best Animated Feature. Ten-year-old Chihiro enters a world of gods and spirits, loses her name, and must find her way home.",
+ facts:["It is the only non-English-language film ever to win the Best Animated Feature Oscar.","Miyazaki wrote the script after meeting his friend's 10-year-old daughter.","The bathhouse was inspired by an actual bathhouse in Tokyo that Miyazaki visited as a child.","Studio Ghibli drew the entire film by hand — over 1,400 animation cels."],
+ cast:["Miyazaki personally redrew the final scene to make it more hopeful — he wasn't satisfied with the original ending.","The voice of No-Face was inspired by Miyazaki's own sense of loneliness.","Chihiro's name in Japanese, Sen, means 'one-thousandth' — her identity stripped to a fraction."],
+ review:{verdict:"The greatest animated film ever made, and the greatest coming-of-age story in any medium. Every frame is hand-drawn perfection, every spirit has a soul, and the ending never fails to wreck you.",who:"For absolutely everyone. Children see adventure; adults see loss, identity, and love."},
+ recap:"Chihiro never wins by fighting — she wins by remembering her name, her kindness, and her courage. The dragon Haku was a river spirit all along, and her love saves both of them.",
+ spec:"No sequel needed — Miyazaki refuses them. But his later films (Howl's Moving Castle, The Boy and the Heron) share the same handmade soul.",
+ links:watchLinks("Spirited Away",[{name:"Netflix (region)",url:"https://www.netflix.com/search?q=Spirited+Away"}]),
+ related:["yourname","heron","barbie"]},
+{id:"heron",title:"The Boy and the Heron",genre:"Anime",year:"2023",score:9,
+ ytId:"t5khm-VjEu4",ytStart:25,ytEnd:125,
+ teaser:"A boy, a grey heron that talks, and a tower that leads to the land of the dead. Miyazaki returns.",
+ about:"Hayao Miyazaki's final film (he keeps retiring). A boy in wartime Japan follows a strange heron into a magical tower and a world between life and death. Loosely inspired by Miyazaki's own childhood.",
+ facts:["It won the Oscar for Best Animated Feature in 2024 — Miyazaki's second.","The film took seven years to make, with Ghibli drawing by hand as always.","The grey heron was inspired by a real bird that visited Miyazaki's studio.","It is Miyazaki's most personal film — based on his wartime childhood."],
+ cast:["The English dub features Robert Pattinson as the heron — unrecognizable.","Christian Bale, Gemma Chan, and Florence Pugh voice key roles.","Miyazaki drew the heron's dance scenes by hand over 60 versions."],
+ review:{verdict:"Miyazaki at his most personal and strangest — a dream-logic masterpiece about grief, memory, and letting go. It doesn't explain itself, and that is the point.",who:"For Ghibli fans and anyone who loves films that feel like dreams."},
+ recap:"The tower is a limbo built by the boy's granduncle, who offers him the role of successor. The boy refuses — he chooses the messy, painful real world, flaws and all. That choice is the whole film.",
+ spec:"Miyazaki has announced one more film in development. Ghibli itself continues under his son, Goro.",
+ links:watchLinks("The Boy and the Heron"),
+ related:["spiritedaway","yourname","dune2"]},
+{id:"mugentrain",title:"Demon Slayer: Mugen Train",genre:"Anime",year:"2020",score:9,
+ ytId:"ATJYac_dORw",ytStart:20,ytEnd:120,
+ teaser:"Forty souls board a train. None of them will wake up the same — if they wake up at all.",
+ about:"The highest-grossing anime film of all time. Tanjiro and his friends board a train to hunt a demon — and fall into a dream world where the demon feeds on their deepest desires. Rengoku, the Flame Hashira, joins them for the fight of his life.",
+ facts:["It grossed over $500 million worldwide — the highest for any anime film ever.","The film continues the anime series exactly where season 1 ends — it is episode 27 in disguise.","Rengoku's battle took the animation team over a year to complete.","The dream sequences let each character meet their lost loved ones."],
+ cast:["Tanjuro, Tanjiro's father, appears in the dreams — a character never fully shown in the series.","Rengoku's voice actor, Satoshi Hino, cried during the final recording session.","The demon Enmu was drawn to be deliberately unsettling — even his smile is off."],
+ review:{verdict:"A film that is pure emotion wrapped in spectacular sword fights. Rengoku's final stand is one of the most heartbreaking scenes in anime history. Bring tissues and a big screen.",who:"For anime fans and anyone who loves emotional action. Watch the series first for maximum impact."},
+ recap:"The demon Enmu traps everyone in dreams and attacks their sleep cores. Tanjiro wakes himself by remembering his family — and Rengoku's sacrifice against Akaza seals the film's legacy: 'Set your heart ablaze.'",
+ spec:"The series continues with the Entertainment District arc, then the Swordsmith Village. Mugen Train remains the emotional peak.",
+ links:watchLinks("Demon Slayer Mugen Train",[{name:"Crunchyroll",url:"https://www.crunchyroll.com/search?q=Mugen+Train"}]),
+ related:["heron","yourname","spiderman"]}
+];
+
+var ALL = LIB.concat(ANIME);
+var GENRE_TAGS = {"Sci-Fi": ["sci-fi", "mind-bender", "epic", "blockbuster"], "Action": ["action", "epic", "blockbuster"], "Drama": ["drama", "emotional"], "Series": ["series", "binge", "epic"], "Korean": ["korean", "drama", "thriller"], "Horror": ["horror", "dark", "thriller"], "Superhero": ["action", "blockbuster", "fantasy"], "Animation": ["animation", "feel-good", "fun", "family"], "War": ["war", "historical", "epic", "dark"], "Fantasy": ["fantasy", "epic", "adventure"], "Thriller": ["thriller", "dark", "mind-bender"], "Anime": ["anime", "emotional", "action", "epic"], "Comedy": ["comedy", "feel-good", "fun"], "Romance": ["romance", "emotional", "feel-good"], "Crime": ["crime", "dark", "thriller"], "Adventure": ["adventure", "epic", "fun"], "Family": ["family", "feel-good", "fun"]};
+
+function getTags(m){ return TAGS[m.id] || GENRE_TAGS[m.genre] || ["any"]; }
+
+var ARTICLES = [{"id": "broke-internet", "title": "5 Movies That Broke the Internet", "emoji": "💥", "genre": "Article", "tags": ["blockbuster", "fun", "epic"], "intro": "Every few years, a movie doesn't just succeed — it crashes websites, floods timelines, and becomes the only thing anyone talks about. These are the films that broke the internet.", "items": [{"h": "Avengers: Endgame (2019)", "p": "Ticket presales crashed theater websites worldwide in minutes. At release, it became the most-tweeted film ever, and 'I love you 3000' trended for months. The portals scene alone caused mass theater chaos — people screamed, cried, and recorded each other instead of the screen."}, {"h": "Spider-Man: No Way Home (2021)", "p": "The multiverse reveal broke fan sites and sent leaks into overdrive for a full year. When Tobey and Andrew finally appeared, cinemas erupted like a stadium crowd. It also broke pandemic-era box office records, proving the internet's favorite rumor could sell a billion dollars."}, {"h": "Squid Game (2021)", "p": "Netflix's servers strained as 1.65 billion hours were streamed in a month. The dalgona candy challenge flooded TikTok, green tracksuits became a global costume, and 'Red Light, Green Light' became the most recreated scene of the decade. A Korean show broke the internet worldwide."}, {"h": "Barbenheimer (2023)", "p": "Barbie and Oppenheimer released on the same day, and the internet turned it into a double-feature religion. The meme war produced merch, group costumes, and a combined $2.4 billion. No studio planned it — the internet made it happen."}, {"h": "Deadpool & Wolverine (2024)", "p": "The 'Bye Bye Bye' dance opened a thousand TikToks, cameo leaks broke fan sites for months, and the R-rated Marvel film became the highest-grossing R-rated movie ever. Ryan Reynolds and Hugh Jackman's banter owned every platform for a full summer."}], "outro": "The pattern is always the same: a movie that feels like an event, not just a release. The next one is already being made — and the internet is already waiting."}, {"id": "never-end", "title": "7 Movies We Wished Never Ended", "emoji": "🥲", "genre": "Article", "tags": ["emotional", "feel-good", "epic"], "intro": "Some movies end and the credits feel like a loss. These are the films we never wanted to leave.", "items": [{"h": "Interstellar", "p": "The tesseract, the ghost, the fifth dimension — and then Cooper and Murph finally reunite. The film ends, and you're left wanting just one more scene with them on the porch."}, {"h": "Spirited Away", "p": "Chihiro leaves the spirit world, and the grass tunnel swallows her — and us. The ache of leaving that world is the whole point, and we'd walk back through the tunnel in a second."}, {"h": "Top Gun: Maverick", "p": "The sunset flight, the F-14, the smile between two pilots who became brothers. You want to stay in the sky with them forever."}, {"h": "Your Name", "p": "The stairs. The question. The tears. Mitsuha and Taki finally meet, and the credits roll — but we want to see their next hundred meetings."}, {"h": "Dune: Part Two", "p": "The sandworm ride, the war drums, the black-and-white arena. When it ends on Paul's war, you feel the movie is only halfway — and you'd gladly watch another four hours."}, {"h": "Barbie", "p": "'I'm here to see my gynecologist.' The perfect final line — and then it's over. You want to stay in Barbie Land (or at least watch Ken learn about patriarchy for another hour)."}, {"h": "Squid Game", "p": "Gi-hun turns back at the airport, and the season ends on his choice. You need the next season immediately — and the wait makes it hurt more."}], "outro": "The best films leave you wanting more — that ache is the sign of a masterpiece. Sequels rarely capture it, which is why these endings stay perfect."}, {"id": "agent-kim", "title": "10 Facts About Agent Kim — Squid Game Season 3", "emoji": "🩷", "genre": "Article", "tags": ["series", "dark", "thriller"], "intro": "She's the pink-suit soldier everyone can't stop talking about. Here's what we actually know about the character fans call Agent Kim — aka Kang No-eul, aka Soldier 011 — going into the final season.", "items": [{"h": "She's played by Park Gyu-young", "p": "The actress, a rising K-drama star (Celebrity, Sweet Home), takes the role to a new level in Season 3 — she's listed as a main character."}, {"h": "Her real name is Kang No-eul", "p": "The character is a North Korean defector who joins the soldier ranks to earn money — her backstory is one of the show's most tragic."}, {"h": "She's 'Soldier 011'", "p": "That's her designation among the masked staff — a number that hides her identity but not her story."}, {"h": "She was the soldier who fed people", "p": "In Season 2, she's the masked soldier who brings food to the players — a tiny act of humanity inside the machine, which fans latched onto."}, {"h": "She defected from North Korea", "p": "Her motivation: the money to secure a future for her child. Everything she does in the games is for that one goal."}, {"h": "Season 3 'reactivates' her", "p": "The final season brings her back to the front lines — and trailers show her holding a gun, not a tray. Her arc is about to collide with Gi-hun's rebellion."}, {"h": "She barely speaks", "p": "Park Gyu-young's performance is mostly masked — eyes and body language only. Fans call it some of the most expressive acting in the series."}, {"h": "She's connected to the Front Man's world", "p": "Her scenes intercut with the staff's inner workings — she's our window into the people who run the games."}, {"h": "Theories are everywhere", "p": "Fans debate everything: will she switch sides? Is her child dead? Will she face Gi-hun in the finale? The showrunners have confirmed the ending 'will shock the world one last time.'"}, {"h": "Her story is the show's heart", "p": "Squid Game has always been about people driven to extremes by poverty. No-eul is the mirror of the players — a woman who chose the other side of the same desperation."}], "outro": "The final season is out, and Kang No-eul's arc is one of the reasons to watch. Whether she redeems or breaks, hers is the story to follow."}, {"id": "korean-movies", "title": "10 Korean Movies Everyone Should Watch", "emoji": "🇰🇷", "genre": "Article", "tags": ["korean", "epic", "emotional"], "intro": "Korean cinema is the best-kept secret that isn't a secret anymore. From Oscar winners to zombie trains, here are ten films that prove Korea makes the best movies on Earth.", "items": [{"h": "Parasite (2019)", "p": "The first non-English Best Picture Oscar winner. A class-war masterpiece that's funny, terrifying, and perfect."}, {"h": "Train to Busan (2016)", "p": "The modern zombie classic — a train ride through hell with the biggest heart in horror."}, {"h": "Oldboy (2003)", "p": "Park Chan-wook's revenge masterpiece. The corridor fight scene changed action cinema forever."}, {"h": "Memories of Murder (2003)", "p": "Bong Joon-ho's serial-killer film — the one that made his name. Haunting, funny, and unbearably sad."}, {"h": "The Handmaiden (2016)", "p": "A con, a heiress, and a twist you won't see coming. Park Chan-wook's most beautiful film."}, {"h": "Snowpiercer (2013)", "p": "The last train of humanity — a class war in one carriage at a time. Bong Joon-ho's English-language debut."}, {"h": "Decision to Leave (2022)", "p": "A detective falls for his suspect. The most romantic thriller of the decade — and a Cannes winner."}, {"h": "Burning (2018)", "p": "A slow-burn mystery that ends on one of cinema's great unanswered questions. Steven Yeun is terrifying."}, {"h": "A Taxi Driver (2017)", "p": "The true story of a cabbie who drove a journalist into the Gwangju Uprising. The most emotional film on this list."}, {"h": "The Host (2006)", "p": "Bong Joon-ho's monster movie — a creature feature about family, government failure, and ramen."}], "outro": "Start with Parasite and Train to Busan (both on this site!), then dive into the deep cuts. Korean cinema doesn't miss."}, {"id": "vampire-horror", "title": "5 Vampire Movies That Changed Horror", "emoji": "🧛", "genre": "Article", "tags": ["horror", "vampire", "dark"], "intro": "Vampires are horror's oldest monsters — and every generation reinvents them. These five films changed the rules.", "items": [{"h": "Nosferatu (1922)", "p": "The original. F.W. Murnau's unauthorized Dracula adaptation created the vampire as we know him — rat-faced, shadow-soaked, death itself. A century later, it still terrifies."}, {"h": "Dracula (1931)", "p": "Bela Lugosi made the vampire a gentleman — cape, accent, hypnotic charm. The image that launched a thousand imitations, and the film that made Universal's horror empire."}, {"h": "Interview with the Vampire (1994)", "p": "Tom Cruise and Brad Pitt turned vampires into tragic, gorgeous, philosophizing rock stars. The gothic romance era begins here."}, {"h": "Let the Right One In (2008)", "p": "The Swedish masterpiece that made vampires children — lonely, desperate, and heartbreaking. The most human vampire film ever made."}, {"h": "Nosferatu (2024)", "p": "Robert Eggers' reimagining brings Orlok back as pure nightmare — plague, obsession, and rats. The scariest vampire ever put on screen, and proof the monster still works."}], "outro": "From shadow to suave to sorrowful — the vampire keeps evolving. The next reinvention is already being written."}];
+
+var MATCHUPS = [{"id": "jinwoo-kaido", "charA": "Sung Jinwoo", "charB": "Kaido", "genre": "VS Battle", "year": "2026", "tagline": "The Shadow Monarch vs the King of Beasts. Solo Leveling's strongest hunter takes on One Piece's strongest creature.", "contendersA": "Sung Jinwoo — the Shadow Monarch. Starts as the weakest hunter (E-rank), becomes the strongest being in the Solo Leveling universe. His powers: Shadow Extraction (raising the dead as soldiers), Ruler's Authority (telekinesis), and the ability to level up without limit. By endgame he has an army of millions and has killed gods.", "contendersB": "Kaido — the King of Beasts and one of the Four Emperors of the Sea. The strongest creature alive, by his own claim. His powers: the Uo Uo no Mi (fish-fish fruit) model Azure Dragon, insane durability (survived 18 falls from sky islands), and drunk fighting that makes him unpredictable. He can one-shot most of the world's strongest fighters.", "arena": "An endless battlefield at dusk — Jinwoo's shadow army rising from the ground on one side, Kaido's Beasts Pirates and his dragon form on the other. No rules, no allies, no escape.", "fight": ["Round 1 — Openers. Kaido opens in human form with a Thunder Bagua, hoping to end it in one hit. Jinwoo, who has survived far stronger by tanking and healing, takes it and counters with his daggers. Neither lands a decisive blow.", "Round 2 — The army vs the island. Jinwoo summons the shadow army — millions of soldiers, including the giants and the dragons he collected. Kaido responds by lifting the entire island with his flame clouds, turning the battlefield into a sky duel where his mobility shines.", "Round 3 — The dragon vs the monarch. Kaido goes full Azure Dragon and unleashes Boro Breath, which carves a canyon through the battlefield. Jinwoo uses Ruler's Authority to deflect the blast, then extracts shadows from the destruction — every fallen soldier fights on his side now.", "Final Round — The verdict of power. Kaido's stamina is legendary, but Jinwoo's is infinite — he does not tire, does not bleed out, and every wound makes him stronger. Kaido eventually falls not to a single blow but to attrition against an endless army, and his dying breath is extracted as the Shadow Monarch's new dragon."], "verdict": "Sung Jinwoo wins, with high difficulty. Kaido is a top-tier powerhouse — arguably stronger in raw physical stats — but Jinwoo's win condition is simpler: he cannot die permanently, he outlasts anything, and he turns every fallen enemy into an ally. Kaido's greatest strength (endurance) is Jinwoo's home turf. The Shadow Monarch grinds down the King of Beasts — and adds a dragon to the army.", "links": [{"name": "Watch Solo Leveling", "url": "https://www.netflix.com/search?q=Solo+Leveling"}, {"name": "Watch One Piece", "url": "https://www.crunchyroll.com/search?q=One+Piece"}]}, {"id": "goku-superman", "charA": "Goku", "charB": "Superman", "genre": "VS Battle", "year": "2026", "tagline": "The eternal debate: the Saiyan who breaks his limits vs the Kryptonian who is the limit.", "contendersA": "Goku — the Saiyan raised on Earth. His powers: Ki (energy that multiplies his strength), Ultra Instinct (a state where his body fights without thought), and the Zenkai boost that makes him stronger after every near-death. His ceiling: literally nothing — he keeps finding higher forms.", "contendersB": "Superman — the last son of Krypton. His powers: solar-powered strength, heat vision, freeze breath, flight at impossible speeds, and a durability that has survived everything from nukes to gods. His weakness: magic and Kryptonite — neither of which Goku has.", "arena": "A neutral void dimension, because both of them would destroy any real planet in minutes. The fight itself becomes the arena.", "fight": ["Round 1 — Physics break. Superman opens at full speed; Goku matches with instant transmission. Every punch shatters the void around them. Both realize early: this is a war of forms, not blows.", "Round 2 — Power scaling. Goku goes Super Saiyan Blue, then Ultra Instinct. Superman counters with his own ceiling — the Solar Flare absorption that makes him stronger the longer the fight goes. The sun is not here, but the void is full of energy.", "Round 3 — The breaking point. Goku's Ultra Instinct dodges everything Superman throws — for a while. But Superman's strength grows with every minute of sun exposure, and this fight is lit by a star they both accidentally create.", "Final Round — The philosophical finish. This is not a fight Goku can win by force: Superman's powers have no limit in a sunlit void, and Goku's body eventually hits a ceiling the Zenkai cannot push past. But Goku smiles — because the fight itself was the point."], "verdict": "Superman wins in a sunlit arena, with extreme difficulty. Goku is the better martial artist and the better learner, but Superman's solar scaling outpaces even Ultra Instinct over a long fight. In a neutral, sunless void it could go either way — give Goku a Zenkai and it becomes the greatest rematch in fiction.", "links": [{"name": "Watch Dragon Ball", "url": "https://www.crunchyroll.com/search?q=Dragon+Ball"}, {"name": "Watch Superman", "url": "https://www.max.com/search?q=Superman"}]}, {"id": "voldemort-sauron", "charA": "Voldemort", "charB": "Sauron", "genre": "VS Battle", "year": "2026", "tagline": "The Dark Lord of magic vs the Dark Lord of the Ring. Two tyrants, one question: whose darkness wins?", "contendersA": "Voldemort — the most powerful dark wizard of his age. His powers: apparition (instant teleport), the Killing Curse, Horcruxes (seven anchors that make him effectively immortal), and Legilimency (mind reading). His weakness: arrogance and a fragile ego.", "contendersB": "Sauron — the Maia, a near-angelic being older than Middle-earth. His powers: the One Ring (absolute domination of wills), the ability to shape his form at will, mastery of deception and craft, and a spirit that cannot truly be destroyed — only diminished.", "arena": "A ruined fortress at twilight — part Hogwarts, part Barad-dûr. Both armies wait outside, but this is a duel of dark lords.", "fight": ["Round 1 — Magic vs craft. Voldemort opens with spells Sauron has never seen; Sauron counters with the Ring's will — a pressure that makes Voldemort's own Horcrux-riddled soul scream. Neither lands a kill.", "Round 2 — The Horcruxes. Voldemort's immortality is real — but Sauron understands souls better than any wizard. He begins unraveling the Horcrux bindings with pure will, turning Voldemort's safety net into a weakness.", "Round 3 — The final duel. Voldemort, desperate, throws everything: the Killing Curse meets the Ring's full force. The curse is magic, and magic is Sauron's ancient craft. It does not fall — it is absorbed.", "Final Round — The verdict of souls. Sauron does not kill Voldemort — he dominates him. The Ring wraps around the broken Horcrux soul, and the Dark Lord becomes another servant of the Dark Lord."], "verdict": "Sauron wins, with medium difficulty. Voldemort's magic is powerful but mortal; Sauron is a primordial spirit who has fought elves, men, and gods. The Horcruxes buy Voldemort time, but Sauron's will is older than the concept of death. Voldemort does not die — he is claimed.", "links": [{"name": "Watch Harry Potter", "url": "https://www.max.com/search?q=Harry+Potter"}, {"name": "Watch LOTR", "url": "https://www.primevideo.com/search?q=Lord+of+the+Rings"}]}];
+
+var TAGS = {"dune2": ["epic", "sci-fi", "fantasy", "mind-bender"], "topgun": ["epic", "action", "blockbuster", "feel-good"], "oppenheimer": ["drama", "mind-bender", "historical", "epic"], "godzilla": ["epic", "action", "blockbuster", "dark"], "interstellar": ["sci-fi", "mind-bender", "epic", "emotional"], "endgame": ["epic", "action", "blockbuster", "fantasy"], "spiderman": ["action", "blockbuster", "feel-good", "fantasy"], "batman": ["action", "dark", "blockbuster", "gritty"], "avatar2": ["epic", "sci-fi", "blockbuster", "feel-good"], "matrix": ["sci-fi", "mind-bender", "action", "underrated"], "barbie": ["feel-good", "comedy", "blockbuster"], "dune1": ["epic", "sci-fi", "fantasy", "mind-bender"], "bond": ["action", "blockbuster", "gritty", "classic"], "tenet": ["sci-fi", "mind-bender", "action", "underrated"], "madmax": ["action", "epic", "dark", "gritty"], "deadpool3": ["action", "comedy", "blockbuster"], "furiosa": ["action", "epic", "dark", "gritty"], "yourname": ["anime", "emotional", "romance", "feel-good"], "spiritedaway": ["anime", "fantasy", "classic", "feel-good"], "heron": ["anime", "fantasy", "mind-bender", "emotional"], "mugentrain": ["anime", "action", "emotional", "epic"], "strangerthings": ["series", "sci-fi", "horror", "nostalgia"], "lastofus": ["series", "drama", "emotional"], "squidgame": ["series", "thriller", "dark"],
+  "parasite": ["korean", "thriller", "dark", "mind-bender"],
+  "trainbusan": ["korean", "horror", "action", "emotional"],
+  "quietplace": ["horror", "thriller", "emotional"],
+  "hereditary": ["horror", "dark", "mind-bender"],
+  "getout": ["horror", "thriller", "mind-bender"],
+  "annihilation": ["horror", "cosmic", "sci-fi", "mind-bender"],
+  "nosferatu": ["horror", "vampire", "dark", "gothic"],
+  "conjuring3": ["horror", "supernatural"]};
+
+var GENRES = ["All"];
+ALL.forEach(function(m){ if(GENRES.indexOf(m.genre)===-1) GENRES.push(m.genre); });
+
+/* ============ HELPERS ============ */
+function esc(s){ return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+function toast(msg){
+  var d=document.createElement("div"); d.className="toast"; d.textContent=msg;
+  document.body.appendChild(d);
+  setTimeout(function(){ d.classList.add("out"); setTimeout(function(){ d.remove(); },450); },2200);
+}
+function posterSVG(m, wide){
+  var g = m.genre==="Anime"?"#3a0f2a":m.genre==="Horror"?"#5c0f1a":m.genre==="Action"?"#4a0f16":m.genre==="Sci-Fi"?"#0f2a3a":m.genre==="Drama"?"#3a2a14":"#241a35";
+  var W = wide?960:400, H = wide?540:600;
+  var svg = "<svg xmlns='http://www.w3.org/2000/svg' width='"+W+"' height='"+H+"'>"+
+    "<defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='"+g+"'/><stop offset='100%' stop-color='#0a0a0a'/></linearGradient></defs>"+
+    "<rect width='"+W+"' height='"+H+"' fill='url(#g)'/>"+
+    "<text x='"+W/2+"' y='"+H*0.42+"' font-family='sans-serif' font-size='"+(wide?52:30)+"' font-weight='900' fill='#ffffff' text-anchor='middle'>"+esc(m.title)+"</text>"+
+    "<text x='"+W/2+"' y='"+H*0.5+"' font-family='sans-serif' font-size='"+(wide?20:13)+"' fill='rgba(255,255,255,.7)' text-anchor='middle'>"+esc(m.genre)+" · "+m.year+"</text>"+
+    "<rect x='"+W/2+"' y='"+H*0.6+"' width='"+(wide?90:54)+"' height='"+(wide?5:4)+"' fill='#e50914' rx='2'/>"+
+    "<text x='"+W/2+"' y='"+H*0.9+"' font-family='sans-serif' font-size='"+(wide?13:9)+"' fill='rgba(255,255,255,.35)' text-anchor='middle'>BRYME</text>"+
+    "</svg>";
+  return "data:image/svg+xml;utf8,"+encodeURIComponent(svg);
+}
+
+function posterURL(m){
+  if(m.ytId && m.ytId.length>0){
+    return "https://i.ytimg.com/vi/"+m.ytId+"/maxresdefault.jpg";
+  }
+  return posterSVG(m);
+}
+
+function ytEmbed(id,start,end,autoplay,mute){
+  var p="?start="+(start||0)+"&rel=0&modestbranding=1&playsinline=1";
+  if(end&&end>0) p+="&end="+end;
+  if(autoplay) p+="&autoplay=1";
+  if(mute) p+="&mute=1";
+  return "https://www.youtube.com/embed/"+id+p;
+}
+function getMovie(id){ return ALL.find(function(x){return x.id===id;}); }
+function banner(label){
+  return '<div class="bannerad">📢 Banner ad — '+label+' · AdSense slot</div>';
+}
+
+/* ============ WATCHLIST ============ */
+function getList(){ try{ return JSON.parse(sget("nc_list")||"[]"); }catch(e){ return []; } }
+function inList(id){ return getList().indexOf(id)>-1; }
+function toggleList(id){
+  var l=getList();
+  if(l.indexOf(id)>-1){ l=l.filter(function(x){return x!==id;}); toast("Removed from My List"); }
+  else { l.push(id); toast("Added to My List ♥"); }
+  sset("nc_list", JSON.stringify(l));
+  return l;
+}
+
+/* ============ ROUTER ============ */
+function parseRoute(){
+  var h=window.location.hash||"#/";
+  var parts=h.replace(/^#\//,"").split("/");
+  var name=parts[0]||"home";
+  if(name==="") name="home";
+  return {name:name, id:parts[1]};
+}
+function navigate(){
+  var r=parseRoute();
+  var views=["home","browse","picks","anime","movie","about","contact","vs","matchup","box","article","disclaimer"];
+  views.forEach(function(v){
+    var el=document.getElementById("view-"+v);
+    if(el) el.classList.toggle("on", v===r.name);
+  });
+  document.querySelectorAll(".navbtn").forEach(function(b){
+    b.classList.toggle("on", b.getAttribute("data-route")==="#/"+r.name);
+  });
+  document.getElementById("topSearch").value="";
+  if(r.name==="home") renderHome();
+  else if(r.name==="browse") renderBrowse();
+  else if(r.name==="picks") renderPicks();
+  else if(r.name==="anime") renderAnime();
+  else if(r.name==="movie") renderMovie(r.id);
+  else if(r.name==="about") renderAbout();
+  else if(r.name==="contact") renderContact();
+  else if(r.name==="vs") renderVS();
+  else if(r.name==="matchup") renderMatchup(r.id);
+  else if(r.name==="box") renderBox();
+  else if(r.name==="article") renderArticle(r.id);
+  else if(r.name==="disclaimer") renderDisclaimer();
+  var v=document.getElementById("view-"+r.name);
+  if(v){ var hasF=v.querySelector(".sitefooter"); if(!hasF) v.insertAdjacentHTML("beforeend", siteFooter()); }
+  window.scrollTo(0,0);
+}
+
+/* ============ HOME ============ */
+function renderHome(){
+  var el=document.getElementById("view-home");
+  var trending=ALL.slice().sort(function(a,b){return b.score-a.score;});
+  var latest=ALL.slice().reverse();
+  var list=getList().map(getMovie).filter(Boolean);
+  var h='';
+  var feat=trending[0];
+  if(feat){
+    h+='<div class="hero"><img class="back" loading="lazy" src="'+posterURL(feat)+'" alt="" onerror="this.onerror=null;this.src=posterSVG(feat,true)" decoding="async"><div class="ovl"></div><div class="meta">';
+    h+='<div class="tag">🔥 Featured — the best 90 seconds</div><div class="t">'+esc(feat.title)+'</div><div class="line">'+esc(feat.teaser)+'</div>';
+    h+='<div class="btns"><button class="hbtn red" data-open="'+feat.id+'">▶ Watch</button><button class="hbtn" data-open="'+feat.id+'">📖 Full story</button></div>';
+    h+='</div></div>';
+  }
+  h+=banner("top");
+  h+='<h2>⭐ Trending now</h2><div class="row">';
+  trending.slice(0,10).forEach(function(m){ h+=posterCard(m); });
+  h+='</div>';
+  h+=banner("mid");
+  h+='<h2>🆕 Latest drops</h2><div class="row">';
+  latest.slice(0,10).forEach(function(m){ h+=posterCard(m); });
+  h+='</div>';
+  if(list.length){
+    h+='<h2>♥ My list <span class="count">'+list.length+'</span></h2><div class="row">';
+    list.forEach(function(m){ h+=posterCard(m); });
+    h+='</div>';
+  }
+  
+  
+  h+='<h2>📰 Movie Box</h2><div class="row">';
+  ARTICLES.forEach(function(a){ h+='<button class="poster" data-open="art:'+a.id+'"><div class="pimg" style="background:linear-gradient(135deg,#2a1c4a,#0a0a0a);display:flex;align-items:center;justify-content:center"><span style="font-size:26px">'+a.emoji+'</span></div><div class="pt">'+esc(a.title.length>24?a.title.slice(0,24)+"…":a.title)+'</div></button>'; });
+  h+='</div>';
+  var horror=ALL.filter(function(m){return m.genre==="Horror";});
+  if(horror.length){
+    h+='<h2>🧛 Horror & vampires</h2><div class="row">';
+    horror.slice(0,8).forEach(function(m){ h+=posterCard(m); });
+    h+='</div>';
+  }
+  var korean=ALL.filter(function(m){return m.genre==="Korean";});
+  if(korean.length){
+    h+='<h2>🇰🇷 Korean cinema</h2><div class="row">';
+    korean.slice(0,8).forEach(function(m){ h+=posterCard(m); });
+    h+='</div>';
+  }
+
+  h+='<h2>⚔️ Battle Arena</h2><div class="row">';
+  MATCHUPS.forEach(function(v){ h+='<button class="poster" data-open="vs:'+v.id+'"><div class="pimg" style="background:linear-gradient(135deg,#4a0f16,#0a0a0a);display:flex;align-items:center;justify-content:center"><span style="font-size:11px;font-weight:900;color:#fff;text-align:center;padding:8px">'+esc(v.charA)+'\nvs\n'+esc(v.charB)+'</span></div><div class="pt">'+esc(v.charA)+' vs '+esc(v.charB)+'</div></button>'; });
+  h+='</div>';
+
+  h+='<h2>🎯 Not sure? Try Picks for You</h2>';
+  h+='<div class="note" style="cursor:pointer" data-route="#/picks"><b>Picks for You →</b> choose a genre, era and mood and get recommendations built for you.</div>';
+  el.innerHTML=h;
+}
+function posterCard(m){
+  return '<button class="poster" data-open="'+m.id+'"><div class="pimg"><img loading="lazy" src="'+posterURL(m)+'" alt="'+esc(m.title)+'" onerror="this.onerror=null;this.src=posterSVG(m)" decoding="async"><span class="gen">'+esc(m.genre)+'</span><span class="sc">'+m.score+'</span></div><div class="pt">'+esc(m.title)+'</div><div class="py">'+m.year+'</div></button>';
+}
+
+/* ============ BROWSE ============ */
+var genreFilter="All";
+var browseQuery="";
+function renderBrowse(){
+  var el=document.getElementById("view-browse");
+  var h='<h2>🎬 Browse <span class="count">'+ALL.length+' titles</span></h2>';
+  h+=banner("top");
+  h+='<div class="chips">';
+  GENRES.forEach(function(g){ h+='<button class="chip'+(genreFilter===g?" on":"")+'" data-genre="'+esc(g)+'">'+esc(g)+'</button>'; });
+  h+='</div>';
+  var list=ALL.filter(function(m){
+    if(genreFilter!=="All" && m.genre!==genreFilter) return false;
+    if(browseQuery && (m.title+" "+m.genre).toLowerCase().indexOf(browseQuery.toLowerCase())===-1) return false;
+    return true;
+  });
+  if(!list.length) h+='<div class="wide">Nothing here — try another genre.</div>';
+  h+='<div class="grid">';
+  list.forEach(function(m){ h+=posterCard(m); });
+  h+='</div>';
+  h+=banner("bottom");
+  el.innerHTML=h;
+}
+
+/* ============ PICKS FOR YOU ============ */
+function renderPicks(){
+  var el=document.getElementById("view-picks");
+  var h='<h2>🎯 Picks for You</h2>';
+  h+='<div class="quiz" id="quizBox"><div class="qh" id="qTitle"></div><div class="qs" id="qSub"></div><div class="qrow" id="qOpts"></div></div>';
+  h+='<div id="picksResults"></div>';
+  el.innerHTML=h;
+  pickStep=0; pickAnswers={};
+  renderPickStep();
+}
+var pickStep=0, pickAnswers={};
+function renderPickStep(){
+  var steps=[
+    {q:"What do you feel like?", sub:"Choose the vibe that matches your mood.", opts:[
+      {t:"Epic & blockbuster", v:"epic"},{t:"Mind-bender", v:"mind-bender"},
+      {t:"Dark & gritty", v:"dark"},{t:"Feel-good", v:"feel-good"},
+      {t:"Chill & emotional", v:"emotional"},{t:"Horror & thrill", v:"horror"},{t:"Adventure & fun", v:"adventure"},
+      {t:"War & history", v:"war"},{t:"Crime & mystery", v:"crime"}]},
+    {q:"How much time do you have?", sub:"A movie or a whole series?", opts:[
+      {t:"90 minutes — a movie", v:"movie"},{t:"Hours — a series", v:"series"},
+      {t:"Any length", v:"any"}]},
+    {q:"Old or new?", sub:"Classics or fresh drops?", opts:[
+      {t:"Classics (before 2010)", v:"classic"},{t:"Recent (2020s)", v:"recent"},
+      {t:"Any era", v:"any"}]},
+    {q:"Any flavor you can't resist?", sub:"Last one — pick or skip.", opts:[
+      {t:"Sci-fi & fantasy", v:"sci-fi"},{t:"Horror & vampires", v:"horror"},
+      {t:"Anime", v:"anime"},{t:"Action", v:"action"},
+      {t:"Korean cinema", v:"korean"},{t:"Comedy", v:"comedy"},
+      {t:"Romance & drama", v:"romance"},{t:"Fantasy & adventure", v:"fantasy"},
+      {t:"Crime & mystery", v:"crime"},{t:"War & history", v:"war"},
+      {t:"Animation & family", v:"animation"},{t:"Surprise me", v:"any"}]}
+  ];
+  var s=steps[pickStep];
+  if(!s){ showPicks(); return; }
+  document.getElementById("qTitle").textContent=s.q;
+  document.getElementById("qSub").textContent=s.sub;
+  var o=document.getElementById("qOpts");
+  var h="";
+  s.opts.forEach(function(op){ h+='<button class="chip" data-pickopt="'+op.v+'">'+op.t+'</button>'; });
+  o.innerHTML=h;
+}
+function showPicks(){
+  var box=document.getElementById("picksResults");
+  var g=pickAnswers[0], len=pickAnswers[1], era=pickAnswers[2], fl=pickAnswers[3];
+  var scored=ALL.map(function(m){
+    var score=0;
+    var tags=getTags(m);
+    if(g&&g!=="any"){ if(tags.indexOf(g)>-1) score+=3; if(g==="horror"&&m.genre==="Horror") score+=2; }
+    if(fl&&fl==="korean"&&(m.genre==="Korean"||tags.indexOf("korean")>-1)) score+=4;
+    if(fl&&fl==="horror"&&(m.genre==="Horror"||tags.indexOf("horror")>-1)) score+=3;
+    if(fl&&fl==="comedy"&&tags.indexOf("comedy")>-1) score+=3;
+    if(fl&&fl==="romance"&&tags.indexOf("romance")>-1) score+=3;
+    if(len&&len!=="any"){ if(len==="series"&&m.genre==="Series") score+=3; if(len==="movie"&&m.genre!=="Series") score+=2; }
+    if(era&&era!=="any"){ if(era==="classic"&&m.year<2010) score+=2; if(era==="recent"&&m.year>=2020) score+=2; }
+    if(fl&&fl!=="any"){ if(tags.indexOf(fl)>-1) score+=3; }
+    return {m:m, score:score};
+  }).sort(function(a,b){ return b.score-a.score; });
+  var picks=scored.filter(function(x){ return x.score>0; }).slice(0,6);
+  var h='<h2>Your picks <span class="count">'+(picks.length||ALL.length)+'</span></h2>';
+  if(!picks.length){ picks=scored.slice(0,6); h+='<div class="note"><b>No perfect match — closest bets below.</b></div>'; }
+  else h+='<div class="note"><b>Scored by your answers — higher match = better fit.</b></div>';
+  picks.forEach(function(p){
+    var m=p.m;
+    h+='<div class="pickcard" data-open="'+m.id+'"><div class="pcimg"><img loading="lazy" src="'+posterURL(m)+'" alt="" decoding="async"></div><div class="pci"><div class="pct">'+esc(m.title)+'</div><div class="pcm">'+esc(m.genre)+' · '+m.year+' · '+m.score+'/10 · match '+p.score+'</div><div class="pcw">'+esc(m.teaser)+'</div></div></div>';
+  });
+  box.innerHTML=h;
+}
+/* ============ ANIME ============ */
+function renderAnime(){
+  var el=document.getElementById("view-anime");
+  var anime=ALL.filter(function(m){return m.genre==="Anime";});
+  var h='<h2>🌸 Anime</h2>';
+  h+=banner("top");
+  var top=anime.slice().sort(function(a,b){return b.score-a.score;})[0];
+  if(top){
+    h+='<div class="hero"><img class="back" src="'+posterSVG(top,true)+'" alt="" decoding="async"><div class="ovl"></div><div class="meta">';
+    h+='<div class="tag">🌸 Top anime</div><div class="t">'+esc(top.title)+'</div><div class="line">'+esc(top.teaser)+'</div>';
+    h+='<div class="btns"><button class="hbtn red" data-open="'+top.id+'">▶ Watch</button><button class="hbtn" data-open="'+top.id+'">📖 Full story</button></div>';
+    h+='</div></div>';
+  }
+  h+='<div class="grid">';
+  anime.forEach(function(m){ h+=posterCard(m); });
+  h+='</div>';
+  h+='<div class="note"><b>More anime coming soon —</b> tell me which films to add next and I will bring them in.</div>';
+  el.innerHTML=h;
+}
+
+/* ============ MOVIE PAGE ============ */
+var curMovie=null;
+var queue=[], qIdx=0, playing=false, simTimer=null, simPos=0;
+function renderMovie(id){
+  var m=getMovie(id);
+  if(!m){ location.hash="#/"; return; }
+  curMovie=m;
+  queue=buildQueue(id);
+  qIdx=0;
+  var el=document.getElementById("view-movie");
+  var h='<button class="backbtn" data-route="#/browse">← Back</button>';
+  h+='<div class="mvhead"><img class="back" loading="lazy" src="'+posterURL(m)+'" alt="" onerror="this.onerror=null;this.src=posterSVG(m,true)" decoding="async"><div class="ovl"></div><div class="meta">';
+  h+='<div class="pills"><span class="pill">'+esc(m.genre)+'</span><span class="pill">'+m.year+'</span><span class="pill sc">'+m.score+'/10</span></div>';
+  h+='<div class="t">'+esc(m.title)+'</div><div class="tagline">'+esc(m.teaser)+'</div>';
+  h+='</div></div>';
+  h+='<div class="mvactions"><button class="hbtn red" data-play="1">▶ Watch trailer</button><button class="heartbtn'+(inList(m.id)?" on":"")+'" data-list="'+m.id+'">♥ '+(inList(m.id)?"In My List":"My List")+'</button><button class="share" data-share="'+m.id+'">📤 Share</button></div>';
+  h+='<div id="playerHost"></div>';
+  h+=banner("mid");
+  if(m.compact){
+    h+='<div class="sec"><div class="h">🎬 About</div><p>'+esc(m.teaser)+' — the full story page for this title is coming soon. Watch the official trailer highlight for now, and check back for the review, facts and ending explained.</p></div>';
+    h+='<div class="sec"><div class="h">📺 Watch &amp; download — legally</div><p style="font-size:13px;color:var(--dim);margin-bottom:8px">Official platforms only.</p><div class="watch">';
+    (m.links||watchLinks(m.title)).forEach(function(l){ h+='<a href="'+esc(l.url)+'" target="_blank" rel="noopener">'+esc(l.name)+' ↗</a>'; });
+    h+='</div></div>';
+  } else {
+  h+='<div class="sec"><div class="h">🎬 About</div><p>'+esc(m.about)+'</p></div>';
+  h+='<div class="sec"><div class="h">👥 Cast &amp; characters</div><ul class="facts">';
+  (CAST[m.id]||["Cast facts coming soon."]).forEach(function(f){ h+='<li>'+esc(f)+'</li>'; });
+  h+='</ul></div>';
+  h+='<div class="sec"><div class="h">✨ Did you know</div><ul class="facts">';
+  m.facts.forEach(function(f){ h+='<li>'+esc(f)+'</li>'; });
+  h+='</ul></div>';
+  h+='<div class="sec"><div class="h">⭐ Review <span class="aibadge">AI-assisted</span></div><div class="score"><div class="num">'+m.score+'</div><div class="meta">/10 · '+esc(m.genre)+' · '+m.year+'</div></div><div class="verdict">'+esc(m.review.verdict)+'</div><div class="who">'+esc(m.review.who)+'</div></div>';
+  h+='<div class="sec"><div class="h">🧠 Ending explained</div><p>'+esc(m.recap)+'</p></div>';
+  h+='<div class="sec"><div class="h">🔮 What might come next</div><p>'+esc(m.spec)+'</p></div>';
+  h+='<div class="sec"><div class="h">📺 Watch &amp; download — legally</div><p style="font-size:13px;color:var(--dim);margin-bottom:8px">Official platforms only.</p><div class="watch">';
+  m.links.forEach(function(l){ h+='<a href="'+esc(l.url)+'" target="_blank" rel="noopener">'+esc(l.name)+' ↗</a>'; });
+  h+='</div></div>';
+  }
+  h+='<div class="sec"><div class="h">🗳 Rate it</div><div class="stars" id="starRow"></div><div class="ratenote" id="rateNote"></div></div>';
+  h+=banner("bottom");
+  h+='<h2>🎯 More like this</h2><div class="row">';
+  var rel=ALL.filter(function(x){return x.id!==m.id&&x.genre===m.genre;}).concat(ALL.filter(function(x){return x.id!==m.id&&x.genre!==m.genre;})).slice(0,8);
+  rel.forEach(function(r){ h+=posterCard(r); });
+  h+='</div>';
+  el.innerHTML=h;
+  renderStars(m.id);
+  renderPlayer(m);
+}
+
+function buildQueue(startId){
+  var q=[], m=getMovie(startId);
+  q.push({m:m});
+  var rest=ALL.filter(function(x){return x.id!==startId;});
+  for(var j=rest.length-1;j>0;j--){ var k=Math.floor(Math.random()*(j+1)); var tmp=rest[j]; rest[j]=rest[k]; rest[k]=tmp; }
+  var diff=rest.filter(function(x){return x.genre!==m.genre;});
+  var same=rest.filter(function(x){return x.genre===m.genre;});
+  rest=diff.concat(same);
+  rest.slice(0,6).forEach(function(nm){ q.push({m:nm}); });
+  return q;
+}
+function renderStars(id){
+  var row=document.getElementById("starRow"); if(!row) return;
+  var saved=parseInt(sget("rate_"+id)||"0",10);
+  var h="";
+  for(var i=1;i<=5;i++) h+='<span class="'+(i<=saved?"on":"")+'" data-star="'+i+'">★</span>';
+  row.innerHTML=h;
+  var note=document.getElementById("rateNote");
+  note.textContent=saved?("You rated it "+saved+"/5 — saved on this device."):"Tap to rate (saved on this device).";
+}
+function renderPlayer(m){
+  var host=document.getElementById("playerHost"); if(!host) return;
+  var item=queue[qIdx];
+  var mm=item.m;
+  var next=queue[qIdx+1]?queue[qIdx+1].m:null;
+  var hasYt=mm.ytId&&mm.ytId.length>0;
+  var h='<div class="playerwrap">';
+  h+='<div class="plmeta"><span class="plbadge">Trailer highlight</span>'+(next?'<span class="plnext">next: '+esc(next.title)+'</span>':'')+'</div>';
+  h+='<div class="posterfill" id="videoBox"><img src="'+posterSVG(mm)+'" alt="" decoding="async"><div class="playlay" id="playLay"><div class="big">▶</div><div class="lbl">Tap to play the best 90 seconds</div></div></div>';
+  if(hasYt) h+='<button class="soundbtn" id="plSound" style="display:none">🔇 Tap for sound</button>';
+
+  h+='</div>';
+  h+='<div class="cliptitle"><div class="ct">'+esc(mm.title)+'</div><div class="cp">'+(hasYt?'Official trailer — best moment':'Demo clip')+'</div></div>';
+  host.innerHTML=h;
+  playing=false; simPos=0;
+  var lay=document.getElementById("playLay");
+  if(lay) lay.addEventListener("click",function(){ startPlay(); });
+
+  if(hasYt){ setTimeout(function(){ startPlay(); },300); }
+}
+function startPlay(){
+  if(playing) return;
+  playing=true;
+  var item=queue[qIdx], m=item.m;
+  var lay=document.getElementById("playLay");
+  var box=document.getElementById("videoBox");
+  if(lay) lay.style.display="none";
+  if(m.ytId&&m.ytId.length>0){
+    var ifr=document.createElement("iframe");
+    ifr.id="plFrame";
+    ifr.src=ytEmbed(m.ytId,m.ytStart,m.ytEnd,true,true);
+    ifr.setAttribute("title",esc(m.title)+" trailer");
+    ifr.setAttribute("allow","accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share");
+    ifr.setAttribute("allowfullscreen","");
+    ifr.style.position="absolute"; ifr.style.inset="0"; ifr.style.width="100%"; ifr.style.height="100%"; ifr.style.border="0";
+    box.innerHTML="";
+    box.appendChild(ifr);
+    var sndBtn=document.getElementById("plSound");
+    if(sndBtn) sndBtn.style.display="block";
+    var dur=(m.ytEnd&&m.ytEnd>0)?(m.ytEnd-m.ytStart):45;
+    simPos=0;
+    clearInterval(simTimer);
+    simTimer=setInterval(function(){
+      simPos+=0.2;
+      if(simPos>=dur){ clearInterval(simTimer); advance(); }
+    },200);
+  } else {
+    simPos=0;
+    clearInterval(simTimer);
+    simTimer=setInterval(function(){
+      simPos+=0.1;
+      if(simPos>=20){ clearInterval(simTimer); advance(); }
+    },100);
+  }
+}
+function advance(){
+  clearInterval(simTimer);
+  playing=false;
+  if(qIdx<queue.length-1){ qIdx++; renderPlayer(curMovie); startPlay(); }
+  else toast("🎉 End of the feed — explore the library!");
+}
+
+
+
+/* ============ MOVIE BOX ============ */
+function renderBox(){
+  var el=document.getElementById("view-box");
+  var h='<h2>📰 Movie Box <span class="count">'+ARTICLES.length+' stories</span></h2>';
+  h+='<div class="note"><b>Read, don\'t just watch.</b> Lists, facts, and deep dives — the stuff you argue about with friends.</div>';
+  h+=banner("top");
+  ARTICLES.forEach(function(a){
+    h+='<div class="pickcard" data-open="art:'+a.id+'"><div class="pci"><div class="pct">'+a.emoji+' '+esc(a.title)+'</div><div class="pcm">'+esc(a.intro.length>110?a.intro.slice(0,110)+"…":a.intro)+'</div><div class="pcw">Read the full story →</div></div></div>';
+  });
+  h+=banner("bottom");
+  el.innerHTML=h;
+}
+function renderArticle(id){
+  var a=ARTICLES.find(function(x){return x.id===id;});
+  if(!a){ location.hash="#/box"; return; }
+  var el=document.getElementById("view-article");
+  var h='<button class="backbtn" data-route="#/box">← Back to Movie Box</button>';
+  h+='<div class="mvhead" style="padding:16px"><div class="pills"><span class="pill">📰 Movie Box</span><span class="pill sc">'+a.emoji+'</span></div><div class="t" style="font-size:22px;margin-top:8px">'+esc(a.title)+'</div><div class="tagline">'+esc(a.intro)+'</div></div>';
+  h+=banner("top");
+  a.items.forEach(function(it,i){
+    h+='<div class="sec"><div class="h">'+(i+1)+'. '+esc(it.h)+'</div><p>'+esc(it.p)+'</p></div>';
+  });
+  h+='<div class="sec"><div class="h">🏁 The takeaway</div><p>'+esc(a.outro)+'</p></div>';
+  h+=banner("bottom");
+  // related movies by tag
+  var rel=ALL.filter(function(m){ var tags=getTags(m); return tags.some(function(t){ return a.tags.indexOf(t)>-1; }); }).slice(0,6);
+  if(rel.length){
+    h+='<h2>🎬 Related on BRYME</h2><div class="row">';
+    rel.forEach(function(m){ h+=posterCard(m); });
+    h+='</div>';
+  }
+  el.innerHTML=h;
+}
+
+
+/* ============ DISCLAIMER ============ */
+function renderDisclaimer(){
+  var el=document.getElementById("view-disclaimer");
+  var h='<h2>⚖️ Disclaimer</h2>';
+  h+='<div class="sec"><div class="h">About the content</div><p>BRYME is an editorial and commentary website. We do not host, stream, or distribute copyrighted movies or series. All video content on this site is embedded from official YouTube channels — primarily studio-released trailers and promotional material — via YouTube\'s official embed feature.</p></div>';
+  h+='<div class="sec"><div class="h">Trademarks &amp; copyright</div><p>All movie titles, characters, posters, trailers and related material are the property of their respective owners (studios, publishers, and rights holders). They are used here for commentary, criticism, and informational purposes. We claim no ownership of any third-party content shown on this site.</p></div>';
+  h+='<div class="sec"><div class="h">No piracy</div><p>We never link to pirate, torrent, or illegal streaming sites. The "Watch &amp; download" links on each title page point only to official platforms (Netflix, Prime Video, Apple TV, Disney+, Max, etc.). If you believe anything on this site infringes your rights, contact us and we will remove it promptly.</p></div>';
+  h+='<div class="sec"><div class="h">AI-assisted content</div><p>Written content on this site (reviews, recaps, facts, articles) may be AI-assisted. All AI-assisted work is labeled as such. Video content is never AI-generated — only official trailers are used.</p></div>';
+  h+='<div class="sec"><div class="h">Affiliate &amp; ads</div><p>This site displays advertising (AdSense) to cover hosting costs. Banner ad slots are placeholders until approved. Some watch links may become affiliate links in the future — any affiliate relationships will be disclosed.</p></div>';
+  h+='<div class="sec"><div class="h">Contact</div><p>For takedown requests or questions: <b>Sodiqibrahim03@gmail.com</b> or WhatsApp <b>0815 643 0614</b>.</p></div>';
+  el.innerHTML=h;
+}
+
+/* ============ VS BATTLES ============ */
+function renderVS(){
+  var el=document.getElementById("view-vs");
+  var h='<h2>⚔️ Battle Arena</h2>';
+  h+='<div class="note"><b>Who wins?</b> The internet’s oldest question, settled (subjectively) with receipts. Every matchup breaks down the contenders, the arena, the fight round by round, and the verdict.</div>';
+  MATCHUPS.forEach(function(v){
+    h+='<div class="pickcard" data-open="vs:'+v.id+'"><div class="pci"><div class="pct">'+esc(v.charA)+' vs '+esc(v.charB)+'</div><div class="pcm">'+esc(v.tagline)+'</div><div class="pcw">Read the full breakdown →</div></div></div>';
+  });
+  h+='<div class="adslot">📢 Banner ad — Battle Arena</div>';
+  h+='<div class="note"><b>Want a matchup?</b> Tell me who should fight next and I will write it.</div>';
+  el.innerHTML=h;
+}
+function renderMatchup(id){
+  var v=MATCHUPS.find(function(x){return x.id===id;});
+  if(!v){ location.hash="#/vs"; return; }
+  var el=document.getElementById("view-matchup");
+  var h='<button class="backbtn" data-route="#/vs">← Back to Battle Arena</button>';
+  h+='<div class="mvhead" style="padding:16px"><div class="pills"><span class="pill">⚔️ Clash</span></div><div class="t" style="font-size:24px;margin-top:8px">'+esc(v.charA)+' vs '+esc(v.charB)+'</div><div class="tagline">'+esc(v.tagline)+'</div></div>';
+  h+='<div class="sec"><div class="h">🛡️ '+esc(v.charA)+'</div><p>'+esc(v.contendersA)+'</p></div>';
+  h+='<div class="sec"><div class="h">🐉 '+esc(v.charB)+'</div><p>'+esc(v.contendersB)+'</p></div>';
+  h+='<div class="sec"><div class="h">🏟️ The arena</div><p>'+esc(v.arena)+'</p></div>';
+  h+='<div class="sec"><div class="h">⚔️ The fight</div>';
+  v.fight.forEach(function(f){ h+='<p style="margin-bottom:10px">'+esc(f)+'</p>'; });
+  h+='</div>';
+  h+='<div class="sec"><div class="h">🏁 The verdict</div><p>'+esc(v.verdict)+'</p></div>';
+  h+='<div class="sec"><div class="h">📺 Watch them</div><div class="watch">';
+  v.links.forEach(function(l){ h+='<a href="'+esc(l.url)+'" target="_blank" rel="noopener">'+esc(l.name)+' ↗</a>'; });
+  h+='</div></div>';
+  h+=banner("bottom");
+  h+='<h2>More battles</h2>';
+  MATCHUPS.filter(function(x){return x.id!==id;}).forEach(function(x){
+    h+='<div class="pickcard" data-open="vs:'+x.id+'"><div class="pci"><div class="pct">'+esc(x.charA)+' vs '+esc(x.charB)+'</div></div></div>';
+  });
+  el.innerHTML=h;
+}
+
+
+function siteFooter(){
+  return '<div class="sitefooter"><div class="frow"><a data-route="#/about">About</a><a data-route="#/contact">Contact</a><a data-route="#/disclaimer">Disclaimer</a></div><div class="fcopy">BRYME © 2026 · v9 Ibrahim Sodiq · Official trailers only · AI-assisted content disclosed</div></div>';
+}
+
+/* ============ ABOUT ============ */
+function renderAbout(){
+  var el=document.getElementById("view-about");
+  var h='<div class="center" style="margin-top:8px"><div class="avatar">IS</div><div class="name">Ibrahim Sodiq</div><div class="role">Writer · Builder · Dreamer</div>';
+  h+='<div class="tags"><span>✍️ Essayist</span><span>🐉 Fantasy writer</span><span>📱 Builds on a phone</span><span>🤖 AI-assisted</span><span>🇳🇬 Lagos, Nigeria</span></div></div>';
+  h+='<div class="aboutbody">';
+  h+='<p><b>I am Ibrahim Sodiq</b> — a writer and self-taught builder from Lagos, Nigeria. I write essays about AI, education and opportunity in Africa, I write dark fantasy, and I build things on my phone that most people say need a laptop.</p>';
+  h+='<p>I have pitched across African and international publications, built my own writing-pipeline tracker, and now I am building <b>BRYME</b> — a place where every trailer highlight leads to a full story: about the movie, the cast, the facts, the review, the ending explained, and where to watch it legally.</p>';
+  h+='<p>My story is the backbone of my writing: gambling taught me what shortcuts cost, and programming taught me what the long road is worth. I believe technology is transformation, not magic — and that persistence beats hype every single time.</p>';
+  h+='<p><b>Why BRYME?</b> Because movies and anime deserve more than a scroll. Every clip here has a story page behind it, and every story page is written to make you stay a little longer and learn a little more.</p>';
+  h+='</div>';
+  el.innerHTML=h;
+}
+
+/* ============ CONTACT ============ */
+function renderContact(){
+  var el=document.getElementById("view-contact");
+  var h='<h2>✉️ Contact</h2>';
+  h+='<div class="contactlist">';
+  h+='<a class="citem" href="mailto:Sodiqibrahim03@gmail.com"><span class="ic">📧</span><div><div class="lbl">Email</div><div class="sub">Sodiqibrahim03@gmail.com</div></div></a>';
+  h+='<a class="citem" href="https://wa.me/2348156430614" target="_blank" rel="noopener"><span class="ic">💬</span><div><div class="lbl">WhatsApp</div><div class="sub">0815 643 0614 — fastest reply</div></div></a>';
+  h+='<a class="citem" href="https://github.com/ojeology" target="_blank" rel="noopener"><span class="ic">🐙</span><div><div class="lbl">GitHub</div><div class="sub">github.com/ojeology — my projects</div></div></a>';
+
+  h+='</div>';
+  h+='<div class="formwrap"><h3>Send a message</h3>';
+  h+='<div class="field"><label>Your name</label><input id="cName" placeholder="Your name"></div>';
+  h+='<div class="field"><label>Your email</label><input id="cEmail" placeholder="you@example.com"></div>';
+  h+='<div class="field"><label>Message</label><textarea id="cMsg" placeholder="Write your message…"></textarea></div>';
+  h+='<button class="sendbtn" data-sendmsg="1">Send message ✈️</button>';
+  h+='<div class="ratenote" style="margin-top:8px">Opens your email app pre-filled — nothing leaves your phone.</div>';
+  h+='</div>';
+  el.innerHTML=h;
+}
+
+/* ============ SHARE ============ */
+function shareItem(id){
+  var m=getMovie(id); if(!m) return;
+  var text=m.title+" ("+m.genre+") — the best 90 seconds\n\n"+m.teaser+"\n\n👉 Full highlight + review + ending explained on BRYME: "+location.origin+location.pathname+"#/movie/"+id;
+  if(navigator.share){
+    navigator.share({title:m.title, text:text, url:location.href}).catch(function(){});
+    return;
+  }
+  function fb(){ var ta=document.createElement("textarea"); ta.value=text; document.body.appendChild(ta); ta.select(); try{document.execCommand("copy");toast("Link copied ✓");}catch(err){toast("Copy failed");} ta.remove(); }
+  if(navigator.clipboard&&navigator.clipboard.writeText){ navigator.clipboard.writeText(text).then(function(){toast("Link copied ✓");},fb); } else fb();
+}
+
+/* ============ EVENTS ============ */
+document.addEventListener("click",function(e){
+  var t=e.target;
+  while(t && t!==document.body){
+    var open=t.getAttribute&&t.getAttribute("data-open");
+    if(open){ if(open.indexOf("vs:")===0){ location.hash="#/matchup/"+open.slice(3); } else if(open.indexOf("art:")===0){ location.hash="#/article/"+open.slice(4); } else { location.hash="#/movie/"+open; } return; }
+    var route=t.getAttribute&&t.getAttribute("data-route");
+    if(route){ location.hash=route; return; }
+    var play=t.getAttribute&&t.getAttribute("data-play");
+    if(play){ var ph=document.getElementById("playerHost"); if(ph) ph.scrollIntoView({behavior:"smooth"}); return; }
+    var list=t.getAttribute&&t.getAttribute("data-list");
+    if(list){ toggleList(list); var btn=document.querySelector('[data-list="'+list+'"]'); if(btn){ btn.classList.toggle("on",inList(list)); btn.textContent=inList(list)?"♥ In My List":"♥ My List"; } return; }
+    var genre=t.getAttribute&&t.getAttribute("data-genre");
+    if(genre!==null){ genreFilter=genre; renderBrowse(); return; }
+    var star=t.getAttribute&&t.getAttribute("data-star");
+    if(star!==null&&curMovie){ sset("rate_"+curMovie.id,star); renderStars(curMovie.id); toast("Rated "+star+"/5 ⭐"); return; }
+    var share=t.getAttribute&&t.getAttribute("data-share");
+    if(share){ shareItem(share); return; }
+    var popt=t.getAttribute&&t.getAttribute("data-pickopt");
+    if(popt!==null){ pickAnswers[pickStep]=popt; pickStep++; renderPickStep(); return; }
+    var go=t.getAttribute&&t.getAttribute("data-picksgo");
+    if(go){ getPicks(); return; }
+    var snd=t.getAttribute&&t.getAttribute("id");
+    if(snd==="plSound"){
+      var pframe=document.getElementById("plFrame"), pbtn=document.getElementById("plSound");
+      if(pframe&&pbtn){
+        var psrc=pframe.getAttribute("src").replace("&mute=1","").replace("?mute=1","?");
+        var pnew=document.createElement("iframe");
+        pnew.id="plFrame";
+        pnew.setAttribute("src",psrc+"&autoplay=1");
+        pnew.setAttribute("title",pframe.getAttribute("title"));
+        pnew.setAttribute("allow","accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share");
+        pnew.setAttribute("allowfullscreen","");
+        pnew.style.position="absolute"; pnew.style.inset="0"; pnew.style.width="100%"; pnew.style.height="100%"; pnew.style.border="0";
+        var pbox=document.getElementById("videoBox");
+        if(pbox){ pbox.innerHTML=""; pbox.appendChild(pnew); }
+        pbtn.remove();
+        toast("🔊 Sound on!");
+      }
+      return;
+    }
+    var send=t.getAttribute&&t.getAttribute("data-sendmsg");
+    if(send){
+      var n=document.getElementById("cName").value||"";
+      var em=document.getElementById("cEmail").value||"";
+      var msg=document.getElementById("cMsg").value||"";
+      if(!msg){ toast("Write a message first ✍️"); return; }
+      var body=encodeURIComponent("Name: "+n+"\nEmail: "+em+"\n\n"+msg);
+      window.location.href="mailto:Sodiqibrahim03@gmail.com?subject="+encodeURIComponent("Message from BRYME")+"&body="+body;
+      toast("Opening your email app… ✈️");
+      return;
+    }
+    t=t.parentElement;
+  }
+});
+document.addEventListener("input",function(e){
+  if(e.target.id==="topSearch"){
+    var q=e.target.value.trim().toLowerCase();
+    browseQuery=q;
+    if(q){
+      var found=ALL.filter(function(m){return (m.title+" "+m.genre).toLowerCase().indexOf(q)>-1;});
+      if(found.length && parseRoute().name!=="browse") location.hash="#/browse";
+    }
+    if(parseRoute().name==="browse") renderBrowse();
+  }
+});
+window.addEventListener("hashchange",navigate);
+
+/* ============ BOOT ============ */
+if(!window.location.hash) window.location.hash="#/";
+navigate();
+</script>
+<footer class="footer media-footer"><div class="shell"><div class="footer-grid"><div class="footer-brand"><a class="brand" href="/">BRY<b>ME</b> MEDIA</a><p>Independent sports and entertainment pages preserved outside BRYME's work-and-opportunities publication.</p></div><div class="footer-col"><h4>Explore</h4><a href="/sports/">Sports</a><a href="/movies/">Movies</a><a href="/series/">Series</a><a href="/anime/">Anime</a></div><div class="footer-col"><h4>Editorial</h4><a href="/articles/">Original articles</a><a href="/editorial-policy/">Editorial policy</a><a href="/author/ibrahim-sodiq/">Author</a></div><div class="footer-col"><h4>Trust</h4><a href="/about/">About</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/contact/">Contact</a></div></div><p class="footer-note">Sports data is archived and must not be treated as current until its source and update process are approved.</p><small>© 2026 BRYME Media · Advertising and analytics are disabled.</small></div></footer></body>
+</html>
