@@ -6,7 +6,8 @@
   "scripts": {
     "build": "python3 scripts/build-v3-upgrade.py && python3 scripts/apply-media-brand.py",
     "start": "node server/server.js",
-    "test": "node scripts/validate-media.js && node scripts/validate-upgrade.js && node scripts/validate-http.js"
+    "test": "node scripts/validate-media.js && node scripts/validate-upgrade.js && node scripts/validate-http.js",
+    "niche:status": "node scripts/audit-niche-readiness.js all"
   },
   "engines": {
     "node": ">=20"

@@ -1,0 +1,35 @@
+{
+  "updated": "2026-10-01",
+  "rule": "Work lands in bryme-media (staging). A niche moves to nextclip (live) only when it is FULL (its approved rebuild set complete) and has NO THIN pages.",
+  "floors_words": { "rec": 350, "explainer": 320, "title": 280 },
+  "floors_note": "Single source of truth: scripts/validate-upgrade.js reads these floors, so the sample gate and the migration gate can never drift apart.",
+  "niches": {
+    "entertainment": {
+      "label": "Entertainment — Watch Next lists + upgraded title pages",
+      "hub": "/entertainment/",
+      "rebuild_set": "4 recommendation lists under /watch-next/ + every title page referenced by a published list + the hub",
+      "targets": {
+        "rec_lists": { "value": 12, "status": "proposed — owner to confirm the number" }
+      },
+      "full_rule": "rec-list count at target AND every title referenced by a published list has an upgraded v3 title page AND both hub levels link every list",
+      "remaining_work_seen_at_ship": "sample has 4 lists; referenced-but-legacy title pages (Sweet Home, Kingdom, Yellowjackets, All of Us Are Dead, Money Heist, Blade Runner 2049, Interstellar, Arrival, Mad Max: Fury Road, Jujutsu Kaisen, Demon Slayer, One-Punch Man, Attack on Titan, Naruto, …) still need upgrading"
+    },
+    "sports": {
+      "label": "Sports — football explainers",
+      "hub": "/sports/explainers/",
+      "rebuild_set": "8 explainers under /sports/explainers/ + the explainer index",
+      "targets": {
+        "explainers": { "value": 16, "status": "proposed — owner to confirm the number" }
+      },
+      "full_rule": "explainer count at target AND every explainer carries the answer block, ≥2 concept links that resolve, and the index links all of them",
+      "remaining_work_seen_at_ship": "8 of the proposed 16 explainers live in the staging sample"
+    }
+  },
+  "migration_checklist": [
+    "audit green for the niche (full + no thin + links)",
+    "owner sign-off on the built niche",
+    "live changes are unfrozen (after the AdSense verdict)",
+    "nextclip-side pre-flight: URL map, canonicals to thebryme.com, sitemap/robots/allowlist entries, redirects for any retired paths",
+    "rollback plan recorded before the flip"
+  ]
+}

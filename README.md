@@ -41,6 +41,21 @@ Indexing safeguards (house rule: staging must never become an accidental Google 
 
 The preview exists for visual and functional QA of the Sports & Entertainment rebuild — it is not an SEO surface. Search-engine verification token files are deliberately not published (the stale copies were removed from the repo root on 2026-10-01; the live domain keeps its own).
 
+## Landing & migration rule (owner directive)
+
+**Work lands in bryme-media. A niche moves to nextclip (live) only when it is FULL and has NO
+THIN pages.** Approval of a sample does not trigger migration — the gate below does.
+
+- `npm run niche:status` audits each rebuilt niche against `content/niche-manifests.json`:
+  **FULL** (rebuild set at target, every referenced title upgraded, hubs fully linked),
+  **NO THIN** (every rebuild-set page clears its authored-copy floor) and **link integrity**
+  (every root-relative link resolves). `--strict` exits non-zero until the gate is green.
+- The floors live in `content/niche-manifests.json` and are read by the sample validator too,
+  so the two gates can never drift apart.
+- Migration additionally requires owner sign-off, an unfrozen live window (after the AdSense
+  verdict) and the nextclip-side pre-flight (URL map, canonicals, sitemap/robots/allowlist,
+  rollback plan) — tracked in the manifest's `migration_checklist`.
+
 ## Mass upgrade (v3 "Watch Next")
 
 The archive is being rebuilt inside this repo — see `docs/UPGRADE-PROGRAM-BRYME-MEDIA.md`.

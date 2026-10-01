@@ -16,6 +16,18 @@ const ROOT = path.resolve(__dirname, "..");
 const failures = [];
 const fail = (m) => failures.push(m);
 
+/* Authored-copy floors: single source of truth is content/niche-manifests.json
+ * so the sample gate and the migration gate (scripts/audit-niche-readiness.js)
+ * can never drift apart. Falls back to the same numbers if the manifest is
+ * unreadable, so the gate still runs. */
+let FLOORS = { rec: 350, explainer: 320, title: 280 };
+try {
+  const manifest = JSON.parse(fs.readFileSync(path.join(ROOT, "content", "niche-manifests.json"), "utf8"));
+  if (manifest && manifest.floors_words) FLOORS = manifest.floors_words;
+} catch (e) {
+  fail(`content/niche-manifests.json unreadable (${e.message}) — using fallback floors`);
+}
+
 const recs = [
   "shows-like-alice-in-borderland",
   "shows-like-squid-game",
@@ -98,17 +110,17 @@ summary["/sports/explainers/"] = checkSample("sports/explainers/index.html", { f
 /* recommendation pages */
 for (const slug of recs) {
   const rel = `watch-next/${slug}/index.html`;
-  summary[`/watch-next/${slug}/`] = checkSample(rel, { floor: 350, require: ["v3-rec", "v3-trailer", "data-v3-play"], minLinks: 8 });
+  summary[`/watch-next/${slug}/`] = checkSample(rel, { floor: FLOORS.rec, require: ["v3-rec", "v3-trailer", "data-v3-play"], minLinks: 8 });
 }
 /* explainers */
 for (const slug of explainers) {
   const rel = `sports/explainers/${slug}/index.html`;
-  summary[`/sports/explainers/${slug}/`] = checkSample(rel, { floor: 320, require: ["v3-answer", "v3-myths", "v3-faq"], minLinks: 5 });
+  summary[`/sports/explainers/${slug}/`] = checkSample(rel, { floor: FLOORS.explainer, require: ["v3-answer", "v3-myths", "v3-faq"], minLinks: 5 });
 }
 /* upgraded title pages */
 for (const rel of titlePages) {
   const file = `${rel}/index.html`;
-  summary[`/${rel}/`] = checkSample(file, { floor: 280, require: ["v3-title-poster", "v3-factlist"], minLinks: 5 });
+  summary[`/${rel}/`] = checkSample(file, { floor: FLOORS.title, require: ["v3-title-poster", "v3-factlist"], minLinks: 5 });
   if (!/data-v3-play/.test(read(file) || "")) fail(`${file}: trailer facade missing`);
 }
 

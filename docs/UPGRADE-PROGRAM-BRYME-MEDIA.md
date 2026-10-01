@@ -21,6 +21,28 @@ This program implements Parts 13–15 of the approved sitewide roadmap inside th
 environment. Nothing here touches the live publication until the sample is reviewed and
 approved for migration (Part 18, step 11).
 
+## Landing & migration rule (owner directive, 2026-10-01) — supersedes the old "sample review" gate
+
+**Work lands in bryme-media. A niche moves to nextclip (live) only when it is FULL and has NO
+THIN pages.** Structural approval of a sample is necessary but no longer sufficient: the niche
+must be genuinely complete, and every page that would migrate must clear its authored-copy
+floor.
+
+Operationalised as `npm run niche:status` (`scripts/audit-niche-readiness.js`), configured by
+`content/niche-manifests.json`:
+
+| Dimension | Measured as | Today (sample) |
+| --- | --- | --- |
+| FULL — entertainment | rec-list count at target + every referenced title upgraded + hubs fully linked | 4/12 lists (target proposed, owner to confirm); 5/19 referenced titles upgraded |
+| FULL — sports | explainer count at target + concept network intact + index fully linked | 8/16 (target proposed, owner to confirm) |
+| NO THIN | every rebuild-set page clears its floor (rec 350 / explainer 320 / title 280 words; single source of truth in the manifest) | 0 thin ✓ on both desks |
+| LINKS | every root-relative link resolves | 0 issues ✓ |
+
+Verdict today: **migration BLOCKED — both niches not yet full.** That is the expected state;
+the gate exists to make the "full and no thin" condition measurable rather than a judgement
+call. Migration also requires owner sign-off, an unfrozen live window (AdSense verdict), and
+the nextclip-side pre-flight in the manifest's `migration_checklist`.
+
 ## Why this exists
 
 The approved roadmap splits BRYME's identity:
