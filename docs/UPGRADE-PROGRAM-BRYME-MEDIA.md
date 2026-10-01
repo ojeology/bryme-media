@@ -21,6 +21,46 @@ This program implements Parts 13–15 of the approved sitewide roadmap inside th
 environment. Nothing here touches the live publication until the sample is reviewed and
 approved for migration (Part 18, step 11).
 
+## Drop 2 — the football rules library (2026-10-01)
+
+Owner directive: **add lots of evergreen sports content, and show how the ideas connect** — the
+offside page must not stop at the definition, it has to cover how a player is offside and what
+happens next. Football first, because it covers the most ground; other sports after it. And the
+positioning is now explicit: **BRYME is not a livescore or a news desk — it breaks down the rules.**
+
+**19 new explainers** (8 → 27), each one question, answered straight, then explained properly:
+
+| Theme | Questions | Count |
+| --- | --- | --- |
+| Football laws | offside (rebuilt), handball, fouls, advantage, direct vs indirect free kicks, when a goal is a goal, VAR, red cards | 8 |
+| Knockout football | aggregate score, away goals, how a tie is decided, extra time, shootouts | 5 |
+| League rules | goal difference, teams level on points, points needed to stay up, promotion & relegation | 4 |
+| Governance & competitions | what UEFA is, who writes the laws, why the World Cup is every four years, Champions League seeding | 4 |
+| Tactics & data | the offside trap, xG | 2 |
+| Transfers & money | transfer windows, financial fair play | 2 |
+| Match mechanics | stoppage time, substitutions | 2 |
+
+**The offside page was rebuilt to answer the whole question** — the three conditions, how a player
+actually gets into an offside position, the moment of judgement, the three ways of "getting
+involved", what happens next (indirect free kick from where the player stood, no card), the
+deliberate-play vs deflection distinction, and the restart exceptions. It is now the deepest page
+in the library at ~1,480 words, up from ~650.
+
+**It is a network, not a list.** The hub groups all 27 by theme, and every page links to the
+concepts it depends on: offside → the trap → VAR → when a goal is a goal; tied points → goal
+difference → survival maths → relegation. Every one of those links is verified by the build, which
+exits non-zero on a single unresolved internal link.
+
+- Word counts: 648–1,485 per page (floor 320). Zero thin pages.
+- The sports desk now reads **READY** on the migration gate (27/27, 0 thin, links clean); the
+  entertainment desk is still short, so migration stays blocked overall.
+- Scale limits now live in `content/niche-manifests.json` instead of hardcoded numbers: a desk may
+  grow to its approved target, and the gate fails only if it goes beyond what was signed off.
+- Authoring is split into batch files (`upgrade-sports.json`, `…-batch2a.json`, `…-batch2b.json`)
+  so each drop stays reviewable; the generator merges them and rejects duplicate slugs.
+- **Phase 2** (after football is full and approved): basketball, athletics, combat sports, tennis,
+  cricket, American football — same page anatomy, one question per page.
+
 ## Landing & migration rule (owner directive, 2026-10-01) — supersedes the old "sample review" gate
 
 **Work lands in bryme-media. A niche moves to nextclip (live) only when it is FULL and has NO

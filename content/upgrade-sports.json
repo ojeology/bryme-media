@@ -5,32 +5,84 @@
       "question": "What does offside mean in football?",
       "short": "Offside, explained",
       "kicker": "Football laws",
-      "answer": "A player is offside when they are in the opponent's half, beyond the second-last defender, and then get involved in active play at the moment a teammate plays the ball. Standing in an offside position is not an offence by itself — only the involvement turns it into one.",
+      "answer": "A player is offside when they are in the opponent's half, beyond the second-last defender, and then get involved in active play at the moment a teammate plays the ball. Standing in an offside position is not an offence by itself — only the involvement turns it into one. The punishment is an indirect free kick to the other team, taken from where the offending player was.",
       "explain": [
         "The law has three parts, and all three have to be true at the same instant. First, the player must be in the opponents' half. Second, they must be nearer to the goal line than both the ball and the second-last opponent. Third, they must be involved in active play — receiving the pass, challenging for it, blocking a defender, or gaining an advantage from a rebound.",
-        "Because the decision is frozen at the moment the ball is played by a teammate, a striker can sprint past the defence a second later and still be onside. The reverse is the famous heartbreak: a perfectly timed run flagged because the passer waited a fraction too long. This is why offside is described as a timing law, not a positioning law.",
-        "The hands and arms do not count for offside — only the head, body and feet. A player who is level with the second-last defender is onside; the old idea of needing to be clearly behind the defender ended in 1990. There is also no offside directly from a throw-in, a corner or a goal kick."
+        "So how does a player actually become offside? He moves into a position where his head, body or feet — hands and arms do not count — are beyond the second-last opponent while the ball is still in the opponent's half, and then a teammate plays the ball forward to him. The 'second-last opponent' is usually the last outfield defender, because the goalkeeper is typically the last one. Being level with that defender is onside: the old rule that you had to be clearly behind him was scrapped in 1990, and today a player level with the line is playing on.",
+        "The instant that matters is the moment the ball is touched or played by a teammate — not the moment the receiver gets it. This is why offside is a timing law rather than a positioning law. A striker can start his run a fraction early and be flagged, or wait a fraction longer from exactly the same spot and be clean through. The assistant referee is watching the line at the moment of contact on the ball, which is the single hardest judgement in football.",
+        "Getting involved is what converts a position into an offence. The law lists three ways: interfering with play (touching or playing the ball), interfering with an opponent (blocking a defender's line of vision or movement, or challenging him for the ball), and gaining an advantage (collecting the ball after it rebounds off the woodwork, a defender or the goalkeeper). A player standing in an offside position doing none of those three things has committed no offence at all — which is why you see attackers camped behind the last defender with the flag staying down, then sprint back to become active only once the ball is played to someone else.",
+        "What happens when offside is given? The referee stops play and awards an indirect free kick to the opposing team, taken from the place where the offending player was at the moment the ball was played — including inside his own half, if that is where he had wandered. The ball must be touched by a second player before a goal can be scored from it, and there is no card: offside is not misconduct, so nobody is booked for being offside alone. A player can, however, be cautioned for deliberately delaying the restart or for leaving the field to engineer an offside trap.",
+        "Two technical points settle most arguments. First, a deliberate play by a defender resets offside — if a defender controls the ball and passes or clears it, an attacker in front of him is onside. But a deflection, a block or a save does not reset it: the attacker who was offside when the shot was taken is still offside if the ball rebounds to him. Second, there is no offside offence from a goal kick, a corner kick or a throw-in.",
+        "Video review changed how the closest calls are made. In competitions using VAR, the attacking phase is checked with calibrated offside lines: attackers beyond the line by a few centimetres are flagged, and the assistant referees are instructed to keep the flag down on marginal decisions so a goal is not wrongly disallowed and can be awarded on review. The law itself has not changed — only the precision with which the moment is judged."
       ],
-      "example": "Picture a through-ball played toward a striker making a diagonal run between centre-back and full-back. The assistant referee watches the line at the instant of the pass: if the striker's shoulder or knee is beyond the centre-back when the ball leaves the passer's foot, the flag goes up when the striker touches the ball. If the same run is started half a stride later, everything about the move stays legal.",
+      "example": "Picture a through-ball played toward a striker making a diagonal run between centre-back and full-back. The assistant referee watches the line at the instant of the pass: if the striker's shoulder or knee is beyond the centre-back when the ball leaves the passer's foot, and he then touches the ball, the flag goes up. The referee stops play and awards an indirect free kick from where the striker was standing when the pass was played — not where he touched the ball. If the same run starts half a stride later, everything about the move is legal.",
       "myths": [
-        {"belief": "\"Offside means being ahead of the last defender.\"", "reality": "It is the second-last defender — usually the goalkeeper is the last, so the outfield line is what matters."},
-        {"belief": "\"You can be offside from a corner or a throw-in.\"", "reality": "You cannot. Corners, throw-ins and goal kicks are explicit exceptions in the law."},
-        {"belief": "\"If any part of the body is past the line, it is offside.\"", "reality": "Arms and hands are excluded, and the player still has to be involved in active play before anything is given."}
+        {
+          "belief": "Offside means being ahead of the last defender.",
+          "reality": "It is the second-last defender — usually the goalkeeper is the last, so the outfield line is what matters. And being level with that defender is onside."
+        },
+        {
+          "belief": "You can be offside from a corner, throw-in or goal kick.",
+          "reality": "You cannot. All three are explicit exceptions in the law — there is no offside offence directly from a restart where the ball is delivered into play from a dead-ball situation like these."
+        },
+        {
+          "belief": "If any part of the body is past the line, it is offside.",
+          "reality": "Arms and hands are excluded entirely, and the player still has to be involved in active play before anything is given — being in an offside position on its own is not an offence."
+        },
+        {
+          "belief": "You can be offside in your own half.",
+          "reality": "No. The offence can only happen in the opponents' half, which is why the halfway line appears in every offside graphic."
+        },
+        {
+          "belief": "Offside is a foul, so the player gets a yellow card.",
+          "reality": "Offside is not misconduct. It is punished with an indirect free kick only, and nobody is cautioned for it — a card comes only for things like delaying the restart."
+        },
+        {
+          "belief": "If the ball touches a defender, the attacker is onside.",
+          "reality": "Only a deliberate play by the defender resets offside. A deflection, a block or a goalkeeper's save does not — the attacker who was offside at the moment of the pass stays offside if the rebound reaches him."
+        }
       ],
       "concepts": [
-        {"href": "/sports/explainers/how-does-var-work/", "label": "How VAR works", "note": "offside is the review category fans argue about most"},
-        {"href": "/sports/champions-league-format-explained/", "label": "How the Champions League format works", "note": "where offside drama and knockout margins meet"}
+        {
+          "href": "/sports/explainers/how-do-teams-use-the-offside-trap/",
+          "label": "How teams use the offside trap",
+          "note": "the tactic built entirely on this law"
+        },
+        {
+          "href": "/sports/explainers/how-does-var-work/",
+          "label": "How VAR reviews offside",
+          "note": "calibrated lines and why the flag sometimes stays down"
+        },
+        {
+          "href": "/sports/explainers/when-is-a-goal-a-goal/",
+          "label": "When a goal is a goal",
+          "note": "the other reason a celebrated goal gets chalked off"
+        }
       ],
       "faq": [
-        {"q": "When exactly is the offside line judged?", "a": "At the moment the ball is last played by a teammate. Everything after that — where the attacker runs, where the defender steps — is irrelevant to the position itself."},
-        {"q": "Who counts as the second-last opponent?", "a": "The second-closest opponent to their own goal line at the moment of the pass. Usually that means the last outfield defender, with the goalkeeper behind them."}
+        {
+          "q": "What happens when a player is caught offside?",
+          "a": "The referee stops play and awards an indirect free kick to the opposing team, taken from where the offending player was when the ball was played. Nobody is cautioned — offside is not a card offence."
+        },
+        {
+          "q": "Where is the free kick taken from?",
+          "a": "From the position of the offside player at the moment the ball was played by his teammate — which can be in the opponents' half or, if he had strayed back, in his own."
+        },
+        {
+          "q": "Can a player be offside if he does not touch the ball?",
+          "a": "Yes. Interfering with an opponent — blocking a defender's line of vision or movement — or gaining an advantage from a rebound counts, even if he never touches the ball."
+        },
+        {
+          "q": "Why is the flag sometimes delayed?",
+          "a": "In competitions with VAR, assistant referees keep the flag down on marginal decisions so a legitimate goal is not wrongly disallowed; the review then confirms whether the player was offside."
+        }
       ]
     },
     {
       "slug": "how-does-var-work",
       "question": "How does VAR actually work?",
       "short": "VAR, explained",
-      "kicker": "Football technology",
+      "kicker": "Football laws",
       "answer": "VAR is a video referee who can look again at four match-changing situations — goals, penalty decisions, direct red cards and mistaken identity — and recommend a review only for a clear and obvious error or a serious missed incident. The on-field referee always makes the final call.",
       "explain": [
         "The video team watches the match live with the same broadcast pictures, plus calibrated offside cameras. When something in one of the four reviewable categories looks wrong, they tell the referee — but they do not decide the outcome. The referee can accept a factual correction, or walk to the pitchside monitor and judge for themselves.",
@@ -39,23 +91,43 @@
       ],
       "example": "A goal is scored, the stadium celebrates — then the referee signals that the buildup is being checked. If the video team finds the scorer's teammate was fractionally offside in the build-up, the goal is disallowed and play restarts with a free kick. The crowd sees the same replay lines seconds later, which is why broadcast graphics matter as much as the decision itself.",
       "myths": [
-        {"belief": "\"VAR can review anything that looks wrong.\"", "reality": "Only four categories: goals, penalties, direct red cards and mistaken identity. Everything else is off-limits."},
-        {"belief": "\"The VAR referee overrules the on-field referee.\"", "reality": "They can only recommend a review. The referee in the middle keeps the final decision — unless the correction is purely factual, like offside."}
+        {
+          "belief": "\"VAR can review anything that looks wrong.\"",
+          "reality": "Only four categories: goals, penalties, direct red cards and mistaken identity. Everything else is off-limits."
+        },
+        {
+          "belief": "\"The VAR referee overrules the on-field referee.\"",
+          "reality": "They can only recommend a review. The referee in the middle keeps the final decision — unless the correction is purely factual, like offside."
+        }
       ],
       "concepts": [
-        {"href": "/sports/explainers/what-does-offside-mean/", "label": "What offside means", "note": "the decision VAR checks most often"},
-        {"href": "/sports/explainers/how-is-a-knockout-tie-decided/", "label": "How knockout ties are decided", "note": "where a single review can end a season"}
+        {
+          "href": "/sports/explainers/what-does-offside-mean/",
+          "label": "What offside means",
+          "note": "the decision VAR checks most often"
+        },
+        {
+          "href": "/sports/explainers/how-is-a-knockout-tie-decided/",
+          "label": "How knockout ties are decided",
+          "note": "where a single review can end a season"
+        }
       ],
       "faq": [
-        {"q": "Can VAR award a penalty for something the referee missed?", "a": "Yes — a serious missed incident inside one of the four categories can be reviewed, including a penalty that was not given."},
-        {"q": "Why do we sometimes see no replay on the big screen?", "a": "In-stadium rules differ by competition and some leagues restrict which replays can be shown. The referee's final signal is the binding one either way."}
+        {
+          "q": "Can VAR award a penalty for something the referee missed?",
+          "a": "Yes — a serious missed incident inside one of the four categories can be reviewed, including a penalty that was not given."
+        },
+        {
+          "q": "Why do we sometimes see no replay on the big screen?",
+          "a": "In-stadium rules differ by competition and some leagues restrict which replays can be shown. The referee's final signal is the binding one either way."
+        }
       ]
     },
     {
       "slug": "what-is-xg",
       "question": "What is xG (expected goals)?",
       "short": "xG, explained",
-      "kicker": "Football numbers",
+      "kicker": "Tactics & data",
       "answer": "Expected goals (xG) measures the quality of a chance: every shot is given a probability between 0 and 1 based on how likely it is to be scored, and those probabilities are added up to compare how good each team's chances were.",
       "explain": [
         "A shot's value comes from its circumstances — distance, angle, whether it was struck with the foot or a header, how much pressure the shooter was under, and how the chance was created. A tap-in from six yards might be worth 0.9 xG; a hopeful effort from 30 yards, 0.03. Add every shot together and you get a team's match total.",
@@ -64,16 +136,36 @@
       ],
       "example": "A side has 18 shots and loses. The shots were mostly long-range efforts under pressure — total xG, 0.8. The winner had four shots but two of them were close-range, unmarked headers — total xG, 1.6. The scoreline says 0-1, but the xG line says the winner did not create more; they just created better.",
       "myths": [
-        {"belief": "\"The team with more xG deserved to win.\"", "reality": "xG describes chance quality, not deserts. Finishing, goalkeeping and game state are all outside the number."},
-        {"belief": "\"xG is a prediction of the score.\"", "reality": "It is a retrospective measure of the chances that were created — some models are used in forecasting, but the match number itself is a description."}
+        {
+          "belief": "\"The team with more xG deserved to win.\"",
+          "reality": "xG describes chance quality, not deserts. Finishing, goalkeeping and game state are all outside the number."
+        },
+        {
+          "belief": "\"xG is a prediction of the score.\"",
+          "reality": "It is a retrospective measure of the chances that were created — some models are used in forecasting, but the match number itself is a description."
+        }
       ],
       "concepts": [
-        {"href": "/sports/champions-league/", "label": "Champions League coverage", "note": "where chance quality decides ties"},
-        {"href": "/sports/fpl/", "label": "Fantasy Premier League", "note": "how managers use xG to pick attackers"}
+        {
+          "href": "/sports/champions-league/",
+          "label": "Champions League coverage",
+          "note": "where chance quality decides ties"
+        },
+        {
+          "href": "/sports/fpl/",
+          "label": "Fantasy Premier League",
+          "note": "how managers use xG to pick attackers"
+        }
       ],
       "faq": [
-        {"q": "What is a good xG total?", "a": "Roughly one goal is an average team's match total, so anything above two means a side created a stream of genuinely dangerous chances. A total below 0.5 usually means the goalkeeper had a quiet day."},
-        {"q": "Why do two sites disagree about the same shot?", "a": "Each provider tunes its own model — different data, different weightings. Treat small differences as noise and look at the season-long picture."}
+        {
+          "q": "What is a good xG total?",
+          "a": "Roughly one goal is an average team's match total, so anything above two means a side created a stream of genuinely dangerous chances. A total below 0.5 usually means the goalkeeper had a quiet day."
+        },
+        {
+          "q": "Why do two sites disagree about the same shot?",
+          "a": "Each provider tunes its own model — different data, different weightings. Treat small differences as noise and look at the season-long picture."
+        }
       ]
     },
     {
@@ -89,23 +181,43 @@
       ],
       "example": "In a Champions League semi-final, a team wins the home leg 1-0, then goes 2-0 down away. At that moment the aggregate is 2-1 to the opponents — the trailing side needs one goal to force extra time and two to win the tie outright. Every goal in the second leg swings both the match and the aggregate at the same time, which is what makes two-legged football so tense.",
       "myths": [
-        {"belief": "\"Winning both legs is the only way to be comfortable.\"", "reality": "Squads routinely advance with a loss in one leg. The only number that matters is the combined score."},
-        {"belief": "\"Away goals still decide level ties in Europe.\"", "reality": "Not since 2021-22. UEFA replaced them with extra time and penalties at the end of the second leg."}
+        {
+          "belief": "\"Winning both legs is the only way to be comfortable.\"",
+          "reality": "Squads routinely advance with a loss in one leg. The only number that matters is the combined score."
+        },
+        {
+          "belief": "\"Away goals still decide level ties in Europe.\"",
+          "reality": "Not since 2021-22. UEFA replaced them with extra time and penalties at the end of the second leg."
+        }
       ],
       "concepts": [
-        {"href": "/sports/explainers/why-was-the-away-goals-rule-scrapped/", "label": "Why the away goals rule was scrapped", "note": "the tiebreak that used to decide these ties"},
-        {"href": "/sports/explainers/how-is-a-knockout-tie-decided/", "label": "How a knockout tie is decided", "note": "extra time, penalties and replays"}
+        {
+          "href": "/sports/explainers/why-was-the-away-goals-rule-scrapped/",
+          "label": "Why the away goals rule was scrapped",
+          "note": "the tiebreak that used to decide these ties"
+        },
+        {
+          "href": "/sports/explainers/how-is-a-knockout-tie-decided/",
+          "label": "How a knockout tie is decided",
+          "note": "extra time, penalties and replays"
+        }
       ],
       "faq": [
-        {"q": "Does away goals apply in the first leg?", "a": "No. The away goals rule only ever mattered when the aggregate was level after both legs — and it no longer applies in UEFA club competitions at all."},
-        {"q": "Which competitions still use two-legged ties?", "a": "UEFA club competitions through the semi-finals, many World Cup and Euro qualifying play-offs, and domestic playoff rounds. Tournament knockout finals are single matches."}
+        {
+          "q": "Does away goals apply in the first leg?",
+          "a": "No. The away goals rule only ever mattered when the aggregate was level after both legs — and it no longer applies in UEFA club competitions at all."
+        },
+        {
+          "q": "Which competitions still use two-legged ties?",
+          "a": "UEFA club competitions through the semi-finals, many World Cup and Euro qualifying play-offs, and domestic playoff rounds. Tournament knockout finals are single matches."
+        }
       ]
     },
     {
       "slug": "why-was-the-away-goals-rule-scrapped",
       "question": "Why was the away goals rule scrapped?",
       "short": "Away goals rule, explained",
-      "kicker": "Football history",
+      "kicker": "Knockout football",
       "answer": "UEFA abolished the away goals rule from the 2021-22 season because it had stopped doing its job: instead of encouraging away teams to attack, it increasingly pushed home teams in the second leg to play cautiously, and the statistical edge it once created had faded.",
       "explain": [
         "The rule, used in European competitions from 1965, said that if a two-legged tie finished level on aggregate, the team that scored more goals away from home advanced. It was introduced when long away trips were genuinely hostile and scoring on the road was rare, so an away goal was treated as worth more than one scored at home.",
@@ -114,23 +226,43 @@
       ],
       "example": "The classic away-goals scenario: first leg finishes 1-0 to the home side, and in the second leg the visitors equalise the tie. Under the old rule, that away goal meant the hosts needed two more; under the current rules, the tie simply goes to extra time. The scoreboard reads the same, but the incentives on the pitch are completely different.",
       "myths": [
-        {"belief": "\"Away goals still applies in the Champions League.\"", "reality": "It was removed from all UEFA club competitions from 2021-22. Level ties go to extra time and penalties."},
-        {"belief": "\"The rule was scrapped because it was unfair to big clubs.\"", "reality": "The official reasoning was about behaviour and declining home advantage — the rule was reshaping how teams attacked rather than rewarding ambition."}
+        {
+          "belief": "\"Away goals still applies in the Champions League.\"",
+          "reality": "It was removed from all UEFA club competitions from 2021-22. Level ties go to extra time and penalties."
+        },
+        {
+          "belief": "\"The rule was scrapped because it was unfair to big clubs.\"",
+          "reality": "The official reasoning was about behaviour and declining home advantage — the rule was reshaping how teams attacked rather than rewarding ambition."
+        }
       ],
       "concepts": [
-        {"href": "/sports/explainers/what-is-an-aggregate-score/", "label": "Aggregate scores", "note": "the scoreline the away goals rule acted on"},
-        {"href": "/sports/champions-league/", "label": "Champions League coverage", "note": "the competition where the rule became famous"}
+        {
+          "href": "/sports/explainers/what-is-an-aggregate-score/",
+          "label": "Aggregate scores",
+          "note": "the scoreline the away goals rule acted on"
+        },
+        {
+          "href": "/sports/champions-league/",
+          "label": "Champions League coverage",
+          "note": "the competition where the rule became famous"
+        }
       ],
       "faq": [
-        {"q": "Is the away goals rule used anywhere today?", "a": "A small number of competitions kept it for a while — mostly outside UEFA — but the major European competitions no longer use it in any round."},
-        {"q": "What replaced it?", "a": "Extra time and a penalty shootout at the end of the second leg if the aggregate score is level after 180 minutes."}
+        {
+          "q": "Is the away goals rule used anywhere today?",
+          "a": "A small number of competitions kept it for a while — mostly outside UEFA — but the major European competitions no longer use it in any round."
+        },
+        {
+          "q": "What replaced it?",
+          "a": "Extra time and a penalty shootout at the end of the second leg if the aggregate score is level after 180 minutes."
+        }
       ]
     },
     {
       "slug": "how-does-the-transfer-window-work",
       "question": "How does the transfer window work?",
       "short": "Transfer windows, explained",
-      "kicker": "Football business",
+      "kicker": "Transfers & money",
       "answer": "A transfer window is a registration period. Clubs can only register new players during the two windows most leagues run each year — a long summer window and a short mid-season one in January — even though deals can be negotiated at any time.",
       "explain": [
         "The key word is registration, not negotiation. Two clubs can agree a deal in March; the player still cannot play for his new team until the next window opens and the registration is processed. That is why January is full of pre-agreements for summer moves, and why 'he signed in March' almost always means 'the move was agreed in March and completed in June'.",
@@ -139,16 +271,36 @@
       ],
       "example": "A club signs a defender on 30 January. The league registration goes through, so he can play domestically — but the Champions League registration deadline passed days earlier, so he watches the knockout tie from the stands. Nothing about his transfer was late; only one of the competitions he joined has a closed list.",
       "myths": [
-        {"belief": "\"No transfers happen outside the window.\"", "reality": "Deals are negotiated year-round. Only the registration is windowed — which is why transfer news never stops."},
-        {"belief": "\"Every league's window opens and closes on the same day.\"", "reality": "Dates differ by country, and occasionally by a few days. That gap is how late-deadline moves between leagues stay possible."}
+        {
+          "belief": "\"No transfers happen outside the window.\"",
+          "reality": "Deals are negotiated year-round. Only the registration is windowed — which is why transfer news never stops."
+        },
+        {
+          "belief": "\"Every league's window opens and closes on the same day.\"",
+          "reality": "Dates differ by country, and occasionally by a few days. That gap is how late-deadline moves between leagues stay possible."
+        }
       ],
       "concepts": [
-        {"href": "/sports/champions-league/", "label": "Champions League coverage", "note": "registration lists and cup-tied players"},
-        {"href": "/sports/explainers/how-is-a-knockout-tie-decided/", "label": "How knockout ties are decided", "note": "the rounds a January signing might miss"}
+        {
+          "href": "/sports/champions-league/",
+          "label": "Champions League coverage",
+          "note": "registration lists and cup-tied players"
+        },
+        {
+          "href": "/sports/explainers/how-is-a-knockout-tie-decided/",
+          "label": "How knockout ties are decided",
+          "note": "the rounds a January signing might miss"
+        }
       ],
       "faq": [
-        {"q": "Can a free agent sign after the window closes?", "a": "Yes. A player without a club can normally be registered outside the window, subject to league rules on when he can actually play."},
-        {"q": "What is deadline day?", "a": "The final day of a window, when most leagues process registrations until a published cut-off time. Deals are often agreed on the day and confirmed in the final hours."}
+        {
+          "q": "Can a free agent sign after the window closes?",
+          "a": "Yes. A player without a club can normally be registered outside the window, subject to league rules on when he can actually play."
+        },
+        {
+          "q": "What is deadline day?",
+          "a": "The final day of a window, when most leagues process registrations until a published cut-off time. Deals are often agreed on the day and confirmed in the final hours."
+        }
       ]
     },
     {
@@ -164,23 +316,43 @@
       ],
       "example": "A cup final finishes 1-1. Extra time produces no goals, so it goes to penalties. Each side scores three of its first five, then the sixth round begins: one miss and one conversion later, the tie is over. The team that 'won' is the one that held its nerve in a contest the regulation scoreline never recorded.",
       "myths": [
-        {"belief": "\"The golden goal still decides close matches.\"", "reality": "It was abolished in 2004. Extra time is played in full, with penalties as the final tiebreak."},
-        {"belief": "\"Only the five best penalty takers matter.\"", "reality": "Shootouts can run to sudden death, and every eligible player may be needed — squads practise far deeper than five."}
+        {
+          "belief": "\"The golden goal still decides close matches.\"",
+          "reality": "It was abolished in 2004. Extra time is played in full, with penalties as the final tiebreak."
+        },
+        {
+          "belief": "\"Only the five best penalty takers matter.\"",
+          "reality": "Shootouts can run to sudden death, and every eligible player may be needed — squads practise far deeper than five."
+        }
       ],
       "concepts": [
-        {"href": "/sports/explainers/what-is-an-aggregate-score/", "label": "Aggregate scores", "note": "the first tiebreak in a two-legged tie"},
-        {"href": "/sports/explainers/why-was-the-away-goals-rule-scrapped/", "label": "Why away goals went", "note": "the rule that used to settle ties before penalties"}
+        {
+          "href": "/sports/explainers/what-is-an-aggregate-score/",
+          "label": "Aggregate scores",
+          "note": "the first tiebreak in a two-legged tie"
+        },
+        {
+          "href": "/sports/explainers/why-was-the-away-goals-rule-scrapped/",
+          "label": "Why away goals went",
+          "note": "the rule that used to settle ties before penalties"
+        }
       ],
       "faq": [
-        {"q": "How long is extra time?", "a": "Two halves of 15 minutes. If the tie is still level after 120 minutes, it goes to a penalty shootout."},
-        {"q": "Do all competitions use replays?", "a": "No. Replays are still possible in some domestic cup competitions, but the major European and international tournaments use extra time and penalties instead."}
+        {
+          "q": "How long is extra time?",
+          "a": "Two halves of 15 minutes. If the tie is still level after 120 minutes, it goes to a penalty shootout."
+        },
+        {
+          "q": "Do all competitions use replays?",
+          "a": "No. Replays are still possible in some domestic cup competitions, but the major European and international tournaments use extra time and penalties instead."
+        }
       ]
     },
     {
       "slug": "what-is-promotion-and-relegation",
       "question": "What is promotion and relegation?",
       "short": "Promotion & relegation",
-      "kicker": "League football",
+      "kicker": "League rules",
       "answer": "At the end of a season, the teams at the bottom of a division are relegated — moved down a level — and the best teams from the division below are promoted in their place. Playoffs often decide the final promotion places.",
       "explain": [
         "League football is organised as a pyramid. Each division feeds the one above it: win enough matches over a season and you move up; finish near the bottom and you move down. Relegation is usually the bottom three clubs in a 20-team top division, while the second tier typically promotes two clubs automatically with a playoff tournament deciding the third.",
@@ -189,16 +361,36 @@
       ],
       "example": "A club finishes third in the second tier and enters the playoffs instead of going up automatically. Three knockout matches later it wins the final and is promoted, while the side that finished second has already been up for weeks. The league table decided most of the story; the playoffs decided the ending.",
       "myths": [
-        {"belief": "\"Every league promotes and relegates exactly three clubs.\"", "reality": "The numbers differ by country and division — some promote two, some four, and playoff places vary."},
-        {"belief": "\"Only results on the pitch decide relegation.\"", "reality": "Points deductions and licensing decisions can also change who goes down or up."}
+        {
+          "belief": "\"Every league promotes and relegates exactly three clubs.\"",
+          "reality": "The numbers differ by country and division — some promote two, some four, and playoff places vary."
+        },
+        {
+          "belief": "\"Only results on the pitch decide relegation.\"",
+          "reality": "Points deductions and licensing decisions can also change who goes down or up."
+        }
       ],
       "concepts": [
-        {"href": "/sports/english-champions-since-1888/", "label": "English champions since 1888", "note": "the pyramid's long history in one list"},
-        {"href": "/sports/clubs/", "label": "Club pages on BRYME", "note": "follow the clubs chasing promotion"}
+        {
+          "href": "/sports/english-champions-since-1888/",
+          "label": "English champions since 1888",
+          "note": "the pyramid's long history in one list"
+        },
+        {
+          "href": "/sports/clubs/",
+          "label": "Club pages on BRYME",
+          "note": "follow the clubs chasing promotion"
+        }
       ],
       "faq": [
-        {"q": "How many teams go down from the Premier League?", "a": "Three clubs are relegated at the end of each season, and they are replaced by three promoted clubs from the Championship."},
-        {"q": "Can a promoted team refuse promotion?", "a": "Occasionally, if licensing or stadium criteria are not met, a club can be denied entry to a higher division — the place passes to another club under the league's rules."}
+        {
+          "q": "How many teams go down from the Premier League?",
+          "a": "Three clubs are relegated at the end of each season, and they are replaced by three promoted clubs from the Championship."
+        },
+        {
+          "q": "Can a promoted team refuse promotion?",
+          "a": "Occasionally, if licensing or stadium criteria are not met, a club can be denied entry to a higher division — the place passes to another club under the league's rules."
+        }
       ]
     }
   ]

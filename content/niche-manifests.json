@@ -1,7 +1,11 @@
 {
   "updated": "2026-10-01",
   "rule": "Work lands in bryme-media (staging). A niche moves to nextclip (live) only when it is FULL (its approved rebuild set complete) and has NO THIN pages.",
-  "floors_words": { "rec": 350, "explainer": 320, "title": 280 },
+  "floors_words": {
+    "rec": 350,
+    "explainer": 320,
+    "title": 280
+  },
   "floors_note": "Single source of truth: scripts/validate-upgrade.js reads these floors, so the sample gate and the migration gate can never drift apart.",
   "niches": {
     "entertainment": {
@@ -9,20 +13,38 @@
       "hub": "/entertainment/",
       "rebuild_set": "4 recommendation lists under /watch-next/ + every title page referenced by a published list + the hub",
       "targets": {
-        "rec_lists": { "value": 12, "status": "proposed — owner to confirm the number" }
+        "rec_lists": {
+          "value": 12,
+          "status": "proposed — owner to confirm the number"
+        }
       },
       "full_rule": "rec-list count at target AND every title referenced by a published list has an upgraded v3 title page AND both hub levels link every list",
       "remaining_work_seen_at_ship": "sample has 4 lists; referenced-but-legacy title pages (Sweet Home, Kingdom, Yellowjackets, All of Us Are Dead, Money Heist, Blade Runner 2049, Interstellar, Arrival, Mad Max: Fury Road, Jujutsu Kaisen, Demon Slayer, One-Punch Man, Attack on Titan, Naruto, …) still need upgrading"
     },
     "sports": {
-      "label": "Sports — football explainers",
+      "label": "Sports — football rules library (phase 1), then other sports",
       "hub": "/sports/explainers/",
-      "rebuild_set": "8 explainers under /sports/explainers/ + the explainer index",
+      "rebuild_set": "the evergreen football rules library under /sports/explainers/ + the explainer index",
       "targets": {
-        "explainers": { "value": 16, "status": "proposed — owner to confirm the number" }
+        "explainers": {
+          "value": 27,
+          "status": "proposed — football phase 1; owner to confirm"
+        }
       },
       "full_rule": "explainer count at target AND every explainer carries the answer block, ≥2 concept links that resolve, and the index links all of them",
-      "remaining_work_seen_at_ship": "8 of the proposed 16 explainers live in the staging sample"
+      "positioning": "BRYME is not a livescore or news desk — it breaks down the rules. Every page is evergreen: it answers the same question years from now.",
+      "themes": [
+        "Football laws",
+        "Match mechanics",
+        "Football governance",
+        "League rules",
+        "Knockout football",
+        "European football",
+        "World football",
+        "Football tactics"
+      ],
+      "phase_2": "After football is full: basketball, athletics (track & field), combat sports, tennis, cricket, American football — same page anatomy, one question per page.",
+      "remaining_work_seen_at_ship": "8 explainers in drop 1; 19 more authored in batch 2 (tied points, UEFA, IFAB, World Cup cadence, handball, red cards, shootouts, stoppage time, goals, goal difference, survival maths, draw seeding, free kicks, substitutions, advantage, extra time, fouls, offside trap, financial fair play)"
     }
   },
   "migration_checklist": [

@@ -130,13 +130,24 @@ for (const slug of recs) if (!wn.includes(`/watch-next/${slug}/`)) fail(`watch-n
 const ex = read("sports/explainers/index.html") || "";
 for (const slug of explainers) if (!ex.includes(`/sports/explainers/${slug}/`)) fail(`explainers hub does not link ${slug}`);
 
-/* the sample must stay flat: no accidental mass generation beyond the approved sample */
+/* Scale limits now come from content/niche-manifests.json rather than hardcoded
+ * numbers: the owner approves a target per niche, and the gate fails only when
+ * a desk grows beyond what was signed off. (Owner authorised scaling the
+ * football rules library on 2026-10-01.) */
+let CAPS = { rec: 12, explainers: 16 };
+try {
+  const m = JSON.parse(fs.readFileSync(path.join(ROOT, "content", "niche-manifests.json"), "utf8"));
+  CAPS.rec = m.niches.entertainment.targets.rec_lists.value;
+  CAPS.explainers = m.niches.sports.targets.explainers.value;
+} catch (e) {
+  fail(`content/niche-manifests.json unreadable (${e.message}) — using fallback caps`);
+}
 const wnPages = fs.readdirSync(path.join(ROOT, "watch-next"), { withFileTypes: true })
   .filter((e) => e.isDirectory() && fs.existsSync(path.join(ROOT, "watch-next", e.name, "index.html"))).length;
-if (wnPages > 12) fail(`watch-next has ${wnPages} pages — the approved sample is 4; get sign-off before scaling`);
+if (wnPages > CAPS.rec) fail(`watch-next has ${wnPages} pages — approved target is ${CAPS.rec}; get sign-off before scaling past it`);
 const exPages = fs.readdirSync(path.join(ROOT, "sports", "explainers"), { withFileTypes: true })
   .filter((e) => e.isDirectory() && fs.existsSync(path.join(ROOT, "sports", "explainers", e.name, "index.html"))).length;
-if (exPages > 16) fail(`sports/explainers has ${exPages} pages — the approved sample is 8; get sign-off before scaling`);
+if (exPages > CAPS.explainers) fail(`sports/explainers has ${exPages} pages — approved target is ${CAPS.explainers}; get sign-off before scaling past it`);
 
 if (failures.length) {
   console.error(`FAIL (${failures.length})`);

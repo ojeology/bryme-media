@@ -1,0 +1,554 @@
+{
+  "explainers": [
+    {
+      "slug": "what-is-goal-difference",
+      "question": "What is goal difference?",
+      "short": "Goal difference, explained",
+      "kicker": "League rules",
+      "answer": "Goal difference is goals scored minus goals conceded across a season. It is the most common first tiebreaker when teams finish level on points, and it is why teams chase extra goals in matches they are already winning.",
+      "explain": [
+        "The arithmetic is simple: score 60, concede 40, and the goal difference is +20. Concede 60 and score 40 and it is −20. Because it is a running total across the whole season, every goal in every match changes it — which is the reason a 4-0 win is worth more than four 1-0 wins in the tiebreaker column, even though both give you twelve points.",
+        "Goal difference became the standard tiebreaker in England in 1976-77, replacing goal average (goals scored divided by goals conceded). The old system quietly rewarded defensive football: under goal average, scoring more goals could actually lower your standing if you also conceded more. Goal difference fixed that by measuring the margin, and it has been the first tiebreaker in most European leagues ever since.",
+        "It is not universal, though. Several competitions — Spain's La Liga among them — put head-to-head results ahead of goal difference, and UEFA competitions have used head-to-head before goal difference in group phases. So a team can finish above a rival on identical points and a worse goal difference purely because of what happened in the two matches between them. Always check the competition's rulebook before assuming goal difference decides it.",
+        "For the teams themselves, goal difference is a live strategic object. A club in a relegation fight with a terrible goal difference effectively starts every match a goal down in the table, which is why managers in that position talk about needing to 'make up' ground. At the other end, title races have been decided by a single goal of difference accumulated across thirty-eight matches."
+      ],
+      "example": "In 2011-12 Manchester City and Manchester United both finished the Premier League on 89 points. City's goal difference was +64, United's +56 — eight goals spread across a season, built partly in a 6-1 win at Old Trafford. Those eight goals were the title. Nothing else separated the two teams.",
+      "myths": [
+        {
+          "belief": "Goals scored is the first tiebreaker.",
+          "reality": "Goal difference usually is. Goals scored is typically the next line in the queue, used only when difference is also level — as it was in 1988-89, when Arsenal won the title on goals scored."
+        },
+        {
+          "belief": "Goal difference and goal average are the same thing.",
+          "reality": "No — goal average divided goals scored by goals conceded. England used it until 1976-77, when goal difference replaced it."
+        },
+        {
+          "belief": "Only big wins matter for goal difference.",
+          "reality": "Every goal counts the same, including the consolation one you concede in the 89th minute of a match you are already winning 3-0."
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/sports/explainers/what-happens-if-teams-finish-on-equal-points/",
+          "label": "Teams level on points",
+          "note": "where goal difference does its main job"
+        },
+        {
+          "href": "/sports/explainers/how-many-points-are-needed-to-stay-up/",
+          "label": "Points needed for safety",
+          "note": "why a bad goal difference is a season-long handicap"
+        },
+        {
+          "href": "/sports/explainers/what-is-promotion-and-relegation/",
+          "label": "Promotion and relegation",
+          "note": "the outcome at the bottom of the table"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is goal difference used in the World Cup or Champions League?",
+          "a": "In group phases, yes — but often behind head-to-head results. UEFA group tables have used head-to-head as the first tiebreaker, then overall goal difference, so check the specific competition's regulations."
+        },
+        {
+          "q": "Can goal difference decide a title?",
+          "a": "Yes. The 2011-12 Premier League is the modern reference point, and title races and relegation battles have been settled on it repeatedly across Europe."
+        }
+      ]
+    },
+    {
+      "slug": "how-many-points-are-needed-to-stay-up",
+      "question": "How many points are needed to stay up?",
+      "short": "Survival maths",
+      "kicker": "League rules",
+      "answer": "Forty points is the traditional safety target in a 38-game league, but it is a rule of thumb rather than a guarantee — the real number is whatever the third-from-bottom team finishes with, and teams have both survived and been relegated on 40.",
+      "explain": [
+        "The 'forty points' idea comes from simple arithmetic: roughly 1.05 points per game across a season. In a 38-match league that usually puts a team clear of the bottom three, because the relegation places are normally decided by who collapses rather than who merely struggles. Managers repeat it because it gives a frightened dressing room a target that feels achievable.",
+        "But the actual threshold moves every season with the strength of the bottom of the table. In seasons where three teams are dreadful, the safety line drops into the mid-thirties. In seasons where the bottom half is tight — every team beating the others consistently — the line rises, and 40 has not been enough. This is why the number is best read as 'beat the third-worst team', not 'reach 40'.",
+        "Goal difference is the tiebreaker waiting underneath all of it, and it acts as a hidden points handicap. A team whose goal difference is twenty worse than a rival effectively needs an extra win to be level. That is why teams in deep trouble often prioritise stopping the bleeding over chasing unlikely wins, and why a heavy defeat in March can feel like relegation even though the points column barely moves.",
+        "The maths of survival are also the maths of timing: the points needed are not the points already banked but the projected finish of the teams below. A good way to read the run-in is to look at the fixtures of the team in eighteenth, not your own — survival is relative, which is the part that makes the end of a season so strange."
+      ],
+      "example": "A team on 34 points with five matches left looks doomed on paper. But if the team in eighteenth is on 30 with a brutal run of fixtures against the top four, and the nineteenth is eight points adrift with no wins in two months, 36 might be enough — the target is not a number, it is the team below you failing to reach it.",
+      "myths": [
+        {
+          "belief": "Forty points guarantees survival.",
+          "reality": "It is a strong rule of thumb, not a guarantee — teams have gone down on 40 or more when the bottom of the table was unusually competitive."
+        },
+        {
+          "belief": "The relegation places are decided only on the final day.",
+          "reality": "They are usually decided by a season of accumulated goal difference and points; the final day only confirms it."
+        },
+        {
+          "belief": "Winning the last few matches is all that matters.",
+          "reality": "What matters is what the teams below you do in the same matches — survival is relative, not absolute."
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/sports/explainers/what-is-goal-difference/",
+          "label": "What goal difference is",
+          "note": "the hidden handicap in every survival race"
+        },
+        {
+          "href": "/sports/explainers/what-happens-if-teams-finish-on-equal-points/",
+          "label": "Teams level on points",
+          "note": "how a survival tie gets broken"
+        },
+        {
+          "href": "/sports/explainers/what-is-promotion-and-relegation/",
+          "label": "Promotion and relegation",
+          "note": "what the bottom three actually lose"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Have teams survived with fewer than 40 points?",
+          "a": "Yes. When the bottom of the table is weak, the safety line regularly falls into the mid-thirties; the record for the lowest survival total in the Premier League era is well below 40."
+        },
+        {
+          "q": "Why do pundits still say forty points then?",
+          "a": "Because it is a useful psychological target that historically works in the overwhelming majority of seasons — it is just not a mathematical guarantee."
+        }
+      ]
+    },
+    {
+      "slug": "how-are-champions-league-draws-seeded",
+      "question": "How are Champions League draws seeded?",
+      "short": "Draw seeding, explained",
+      "kicker": "Governance & competitions",
+      "answer": "UEFA seeds its draws using club coefficients — a rolling five-year points system built from results in UEFA competitions plus bonuses for reaching certain rounds. Clubs are grouped into pots by coefficient, and the draw takes one team from each pot per group, with country-protection rules preventing clubs from the same nation meeting.",
+      "explain": [
+        "A coefficient is a five-year rolling score: clubs earn two points for a win and one for a draw in UEFA competition matches, plus bonus points for reaching the group stage, the knockout rounds and the final. Domestic league results do not count towards the coefficient — only European ones. That is why a club can have a poor domestic season and still be a dangerous seed the following year.",
+        "The league-phase draw sorts the participating clubs into pots by that coefficient, then draws opponents so each club faces a fixed number of teams from each pot, with the constraint that no club plays another from its own national association in that phase. Knockout draws are seeded differently: in the old format, group winners were seeded against runners-up and could not face a club from their own group or country.",
+        "The point of seeding is twofold — sporting fairness and commercial balance. Rewarding sustained European performance means a club cannot buy its way into a favourable draw overnight, and separating the strongest clubs in the early rounds keeps the marquee ties for later. It also creates a feedback loop: doing well in Europe makes future draws kinder, which is part of why the same clubs keep going deep.",
+        "The system is frequently criticised because it entrenches the established elite — a club's coefficient reflects its past five years, so a newcomer has to overperform for several seasons before it gets seeded. UEFA has repeatedly adjusted the bonus structure and access lists in response, but the basic five-year principle has been stable for decades."
+      ],
+      "example": "A club that reaches the Champions League semi-final banks a large coefficient haul for that season. Five years later that run is still inside the rolling window, lifting its pot placement even if its domestic form has collapsed. Conversely, a club that wins its league from nowhere enters the competition with a thin coefficient and lands in a lower pot — which is how newly qualified champions end up in brutal groups.",
+      "myths": [
+        {
+          "belief": "Seeding is based on domestic league position.",
+          "reality": "It is based on European results over five years. Winning your domestic league gets you into the competition; it does not seed you well."
+        },
+        {
+          "belief": "The draw is completely random.",
+          "reality": "It is constrained: pots by coefficient, country-protection rules, and restrictions on rematches of certain pairings within a season."
+        },
+        {
+          "belief": "Two teams from the same country can meet any time.",
+          "reality": "Country protection applies in the league phase — clubs from the same association are kept apart in that draw, and the restriction also applied to the old group stage."
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/sports/champions-league-format-explained/",
+          "label": "How the Champions League format works",
+          "note": "the competition these draws are for"
+        },
+        {
+          "href": "/sports/explainers/what-is-uefa/",
+          "label": "What UEFA is",
+          "note": "the body that runs and seeds the draw"
+        },
+        {
+          "href": "/sports/explainers/how-is-a-knockout-tie-decided/",
+          "label": "How knockout ties are decided",
+          "note": "what happens after the draw"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How long does a coefficient result stay on a club's record?",
+          "a": "Five seasons. Points from a season drop out of the calculation once they are more than five years old, which is why coefficients rise and fall gradually rather than jumping."
+        },
+        {
+          "q": "Do Europa League results affect Champions League seeding?",
+          "a": "They feed the same UEFA coefficient system, so strong Europa League runs do contribute to a club's overall coefficient, though the bonuses are smaller."
+        }
+      ]
+    },
+    {
+      "slug": "direct-and-indirect-free-kicks",
+      "question": "What is the difference between direct and indirect free kicks?",
+      "short": "Direct vs indirect free kicks",
+      "kicker": "Football laws",
+      "answer": "A direct free kick can be scored from directly — it is awarded for fouls like tripping, pushing or handball. An indirect free kick must touch a second player before a goal counts; it is awarded for technical offences like offside, obstruction, dangerous play or a backpass picked up by the keeper.",
+      "explain": [
+        "The distinction is about whether the offence warranted a shot at goal. Fouls that involve contact or a handball are punished with a direct free kick: the offended team can shoot and score straight from it, which is why a foul twenty-five yards out is such a dangerous moment. Referees signal nothing special — the arm goes out horizontally and the kick is live.",
+        "Indirect free kicks punish offences about procedure and danger rather than contact: offside, obstruction without contact, playing in a dangerous manner, preventing the goalkeeper from releasing the ball, and the classic backpass offence where a keeper handles a ball deliberately kicked to him by a teammate. The referee signals it by raising one arm straight up and holding it there until the ball touches a second player or goes out of play — that raised arm is the tell every fan should learn.",
+        "Scoring rules separate them completely. From an indirect free kick, the ball must be touched by a second player before it enters the goal; if it goes straight in, the restart is a goal kick to the defending team. That is why indirect free kicks near goal produce the famous routine of one player stepping over the ball and a teammate blasting it — the touch is not gamesmanship, it is the law. A direct free kick needs no such touch.",
+        "Defenders are bound by the same geometry at both: they must retreat ten yards (9.15 metres) from the ball until it is in play, and the attacking team cannot use the wall's position to manufacture a new offence. Encroachment can be punished with a card, and a quick free kick taken before the wall is set is legal — the attacking team does not have to wait for the referee's whistle unless he has decided to hold the restart for a card or a substitution."
+      ],
+      "example": "An indirect free kick eight yards from goal with the entire defensive line standing on the line: one attacker rolls it sideways, a second one thumps it through the gap. Without that sideways touch the goal is disallowed and the defending team restarts with a goal kick. The wall-jumping, the decoy runs and the little square pass are all in service of one sentence in the law — the ball must touch someone else.",
+      "myths": [
+        {
+          "belief": "A goal from an indirect free kick counts if the keeper touches it.",
+          "reality": "It counts if any second player touches it — teammate, opponent, even the keeper. But if it goes in untouched, it is a goal kick, not a goal."
+        },
+        {
+          "belief": "The referee's straight-up arm is just a delayed signal.",
+          "reality": "It is the indirect signal, and it stays up until the ball touches a second player or leaves play. It is the clearest way to tell the two kicks apart at a glance."
+        },
+        {
+          "belief": "All fouls are direct free kicks.",
+          "reality": "Contact fouls and handball are; technical offences like offside, obstruction and the backpass rule are indirect."
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/sports/explainers/what-counts-as-a-foul/",
+          "label": "What counts as a foul",
+          "note": "which offences give which kick"
+        },
+        {
+          "href": "/sports/explainers/what-is-the-advantage-rule/",
+          "label": "The advantage rule",
+          "note": "why some fouls produce no whistle at all"
+        },
+        {
+          "href": "/sports/explainers/when-is-a-goal-a-goal/",
+          "label": "When a goal is a goal",
+          "note": "why direct kicks cannot be scored from an indirect restart"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can you score an own goal directly from an indirect free kick?",
+          "a": "If the ball goes into the kicking team's own goal without touching anyone else, the restart is a corner to the opposing team rather than a goal — the same principle applied in reverse."
+        },
+        {
+          "q": "What is the ten-yard rule?",
+          "a": "Opponents must be at least 9.15 metres (10 yards) from the ball at a free kick until it is in play. Referees enforce it, and deliberate encroachment can be cautioned."
+        }
+      ]
+    },
+    {
+      "slug": "how-do-substitutions-work",
+      "question": "How do substitutions work?",
+      "short": "Substitutions, explained",
+      "kicker": "Match mechanics",
+      "answer": "Most competitions allow five substitutes from a matchday squad of a larger bench, made in up to three separate stoppages (plus half-time). A substituted player cannot return, the substitute must enter at the halfway line during a stoppage, and the ball must be out of play.",
+      "explain": [
+        "The modern standard is five substitutions from nine named on the bench, introduced permanently in 2020 and retained afterwards. Those five have to be used within a maximum of three substitution windows, with half-time counting separately — so a manager cannot make five changes at five different stoppages. Competitions set their own exact numbers, so lower leagues and older competitions still run on three.",
+        "The mechanics are strict. The ball must be out of play, the referee must be notified and signal, the player leaving must go off at the nearest point on the boundary (or the halfway line, if the referee allows), and the incoming player cannot enter until the outgoing one has left the field. Coming on before your teammate leaves the pitch is a bookable offence, and it happens more often than you would expect in the chaos of a late change.",
+        "There are three specialist cases. A goalkeeper can be substituted like anyone else, but a team must always have a keeper — if no keeper remains, an outfield player changes shirt and takes the gloves. A substitute who comes on cannot be substituted off again (except in some youth and amateur competitions with return substitutions). And a player substituted before kick-off is simply replaced on the team sheet, with no substitution counted.",
+        "The fifth substitute changed tactics more than any law change of the last decade. Five changes let a manager field an entirely new front three for the last half-hour, which favours squads with depth — the reason 'the bench won that game' became a real analysis rather than a cliché. It also produced the tactical foul-by-committee approach: fresh legs every fifteen minutes to press a tired opponent."
+      ],
+      "example": "A manager makes a double change in the 60th minute (window one), a triple change in the 78th (window two), and uses the interval for nothing at all. That is five substitutions across three windows — legal. Make the same five in five separate stoppages and the fourth and fifth are refused by the fourth official, however loudly the bench protests.",
+      "myths": [
+        {
+          "belief": "You can make five substitutions at any five stoppages.",
+          "reality": "Five changes must fit into at most three windows, with half-time separate. The stoppage count is the limit people forget."
+        },
+        {
+          "belief": "A substituted player can come back on if someone gets injured.",
+          "reality": "No — once substituted, a player's involvement in the match is over, with narrow exceptions only in youth and amateur football."
+        },
+        {
+          "belief": "Substitutions can be made while the ball is in play.",
+          "reality": "The ball must be out of play and the referee must signal before the change is completed."
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/sports/explainers/what-happens-when-a-player-is-sent-off/",
+          "label": "Red cards",
+          "note": "why a dismissal is not a substitution"
+        },
+        {
+          "href": "/sports/explainers/what-is-stoppage-time/",
+          "label": "Stoppage time",
+          "note": "why every change adds to the clock"
+        },
+        {
+          "href": "/sports/explainers/how-does-the-transfer-window-work/",
+          "label": "Transfer windows",
+          "note": "the other kind of squad change"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many substitutes are named on the bench?",
+          "a": "It varies by competition; the Premier League names nine, and five of those can be used. Older competitions and some leagues still name seven and allow three."
+        },
+        {
+          "q": "Can a substitute take a penalty in a shootout?",
+          "a": "Yes — any player on the field at the final whistle is eligible, including substitutes who came on during the match."
+        }
+      ]
+    },
+    {
+      "slug": "what-is-the-advantage-rule",
+      "question": "What is the advantage rule?",
+      "short": "Advantage, explained",
+      "kicker": "Football laws",
+      "answer": "Advantage lets the referee delay the whistle when the team that was fouled still has the ball in a promising position — playing on is better for them than a free kick. If the advantage does not materialise within a few seconds, the referee can still bring play back for the original offence.",
+      "explain": [
+        "The rule exists because football's most natural instinct — blow the whistle the instant a foul happens — would reward fouling. If a winger is clipped but stays on his feet and runs clear on goal, stopping play to give a free kick at the original spot would punish the attacking team and reward the foul. Advantage inverts that: the referee keeps the game flowing and gives the foul's benefit to the team that earned it.",
+        "Referees signal it with both arms swept forward, shouting 'play on', and then judge the next few seconds. If the fouled team keeps the ball and the attack continues, the advantage has materialised and nothing further happens. If they lose the ball immediately, the referee blows and awards the original free kick — and this is the part fans misread: the whistle seconds later is not a change of mind, it is the delayed decision being completed.",
+        "Cards do not disappear with advantage. A foul that deserved a yellow card is still cautioned at the next stoppage, even though play continued, because the sanction belongs to the offence rather than the restart. Equally, an advantage played on a defender's foul inside the penalty area is rare — referees almost always stop for a penalty, because the value of a penalty kick is far higher than any advantage that could follow.",
+        "Advantage is also why some of football's best goals happen: a team survives a tackle, plays on and scores, and the foul that started the move is simply absorbed into the flow of the match. The law is one of the clearest examples of the Laws of the Game being written to protect the attacking team rather than the rulebook's tidiness."
+      ],
+      "example": "A midfielder is hacked down thirty yards out but the ball breaks to a teammate running at the back four. The referee sweeps both arms forward and shouts 'advantage'. The move ends with a shot over the bar — nothing given, nothing needed. Had the teammate's first touch been heavy and the ball gone straight back to the fouling side, the whistle would have gone and the free kick would have been awarded at the original spot.",
+      "myths": [
+        {
+          "belief": "Playing advantage means the foul is forgotten.",
+          "reality": "It means the whistle is delayed. If the advantage does not materialise, the referee awards the original free kick; a bookable offence is still punished at the next stoppage."
+        },
+        {
+          "belief": "Referees must decide instantly and cannot go back.",
+          "reality": "They have a few seconds to judge whether the advantage worked, and can bring play back for the original offence within that window."
+        },
+        {
+          "belief": "Advantage is played for penalty-area fouls.",
+          "reality": "Rarely. A penalty kick is worth far more than any advantage, so referees almost always stop play."
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/sports/explainers/what-counts-as-a-foul/",
+          "label": "What counts as a foul",
+          "note": "the offences advantage applies to"
+        },
+        {
+          "href": "/sports/explainers/direct-and-indirect-free-kicks/",
+          "label": "Direct vs indirect free kicks",
+          "note": "what the referee awards if the advantage fails"
+        },
+        {
+          "href": "/sports/explainers/what-happens-when-a-player-is-sent-off/",
+          "label": "Red cards",
+          "note": "why a card still follows the delayed whistle"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How long does a referee have to bring play back?",
+          "a": "A few seconds — long enough to see whether the advantage materialised. There is no fixed number; once the attacking move clearly ends, the window closes."
+        },
+        {
+          "q": "Can advantage be played for a handball?",
+          "a": "Yes, in the same way as any other offence. The sight of a handball waved on with a team breaking is the clearest example of the rule working."
+        }
+      ]
+    },
+    {
+      "slug": "what-is-extra-time",
+      "question": "What is extra time?",
+      "short": "Extra time, explained",
+      "kicker": "Knockout football",
+      "answer": "Extra time is two additional halves of fifteen minutes played when a knockout match must produce a winner and the score is level after ninety minutes. If it is still level, the tie goes to penalties — and unlike league football, extra time is not played unless the competition requires a winner.",
+      "explain": [
+        "Extra time exists only in matches that cannot end level: cup ties, knockout rounds and tournament finals. Its structure is two fifteen-minute periods with a short break between them, and teams swap ends before the first begins. There is no 'sudden death' in the modern game — both periods are always played in full, because the golden goal and silver goal experiments were both abandoned.",
+        "Golden goal ended matches the moment anyone scored, and it produced some famously anticlimactic endings; silver goal allowed a team to win at the end of the first extra period if ahead. UEFA used both in the late 1990s and early 2000s and scrapped them, returning to a full thirty minutes. The law now allows competitions to permit an extra substitution in extra time, which most do — an acknowledgement that thirty more minutes on tired legs changes the maths of the bench.",
+        "Tactically, extra time is its own match. Teams who have defended for ninety minutes to reach it often discover that a further thirty is exactly the opposite of what they wanted: the fitter side, and the side with a deeper bench, usually wins. This is why managers talk about 'winning it in ninety' — reaching extra time is not a neutral outcome, it is a shift in who the match favours.",
+        "The relationship with penalties is the reason the whole thing feels tense. Every minute of extra time is a minute spent avoiding a shootout, which produces the strange spectacle of two exhausted teams attacking cautiously — neither willing to lose the match outright, both aware that a goal saves them from the lottery."
+      ],
+      "example": "A cup final is 1-1 at ninety minutes. Thirty more minutes follow, both teams now onto their fourth and fifth substitutes, legs gone, space appearing where there was none all evening. A substitute — on for a tiring full-back — scores in the 110th minute. If nobody scores, the match is officially recorded as a draw and the tie is decided from twelve yards.",
+      "myths": [
+        {
+          "belief": "Extra time is sudden death.",
+          "reality": "No — both fifteen-minute periods are played in full. Golden goal and silver goal were tried and abandoned."
+        },
+        {
+          "belief": "League matches go to extra time when drawn.",
+          "reality": "They do not. Extra time only appears where a competition must produce a winner."
+        },
+        {
+          "belief": "You cannot make further substitutions in extra time.",
+          "reality": "Most competitions allow one additional substitution in extra time, even if the team has used all its normal windows."
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/sports/explainers/how-is-a-knockout-tie-decided/",
+          "label": "How knockout ties are decided",
+          "note": "where extra time sits in the ladder"
+        },
+        {
+          "href": "/sports/explainers/how-do-penalty-shootouts-work/",
+          "label": "Penalty shootouts",
+          "note": "what happens if extra time does not settle it"
+        },
+        {
+          "href": "/sports/explainers/what-is-stoppage-time/",
+          "label": "Stoppage time",
+          "note": "the other way matches get longer"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How long is the break before extra time?",
+          "a": "A short interval — usually around five minutes — before teams change ends and the first extra period begins."
+        },
+        {
+          "q": "Is the result recorded as a draw if it goes to penalties?",
+          "a": "Yes. The official match result is a draw; the shootout decides who advances and is recorded separately."
+        }
+      ]
+    },
+    {
+      "slug": "what-counts-as-a-foul",
+      "question": "What counts as a foul in football?",
+      "short": "Fouls, explained",
+      "kicker": "Football laws",
+      "answer": "A foul is an unfair act by a player against an opponent — kicking, tripping, jumping at, charging, striking, pushing or tackling unfairly — or a handball. The referee judges whether it was careless, reckless or used excessive force, and that judgement decides whether it is no offence, a free kick, a yellow card or a red card.",
+      "explain": [
+        "The law lists the offending actions, but the real decision is the manner: careless, reckless or excessive force. Careless means the player showed a lack of attention — a free kick. Reckless means they acted with complete disregard for the danger to an opponent — a yellow card. Excessive force means they endangered the opponent's safety — a red card. Three identical tackles can produce three different outcomes purely on that scale.",
+        "Winning the ball is not a defence by itself. A player can take the ball cleanly and still commit a foul if they went through the opponent to get it, and a player can miss the ball entirely without committing a foul if the challenge was fair. Referees are taught to judge the action, not the outcome, which is why the phrase 'he got the ball' settles so few arguments among fans.",
+        "Some offences are technical rather than physical: impeding an opponent without contact, preventing a goalkeeper from releasing the ball, or dissent and delaying the restart. These are punished with indirect free kicks or cautions rather than the direct-kick catalogue. And a foul is only a foul against an opponent — the same list applies to contact with teammates, match officials and substitutes, each with its own restart.",
+        "Three sanction levels sit on top of the free kick itself. A yellow card is a caution; two in a match become a red. A straight red removes the player entirely. Some fouls carry a heavier tariff still: a professional foul that denies an obvious goal-scoring opportunity is a red card, but a genuine attempt to play the ball inside the penalty area that results in a penalty is now only a caution — a change introduced specifically to stop a single mistake ending a match."
+      ],
+      "example": "A defender slides in from behind and catches an attacker on the ankle, taking the ball a fraction later. Whether that is a yellow, a red or nothing depends entirely on the manner: was the studs-up lunge reckless (yellow), did it endanger the ankle with excessive force (red), or was it a clumsy but controlled attempt (free kick only)? Same contact, three verdicts — the referee is judging the danger, not the bruise.",
+      "myths": [
+        {
+          "belief": "If you win the ball, it cannot be a foul.",
+          "reality": "Winning the ball is not the test. A challenge that goes through an opponent can be a foul even when the ball is taken cleanly."
+        },
+        {
+          "belief": "Any foul deserves a card.",
+          "reality": "Most fouls are careless and produce only a free kick. Cards are for recklessness, excessive force, and specific offences like denying a goal-scoring opportunity."
+        },
+        {
+          "belief": "Denying a goal-scoring opportunity is always a red card.",
+          "reality": "Inside the penalty area, a genuine attempt to play the ball that results in a penalty is now only a caution. Holding, pulling or pushing without a attempt to play the ball is still a red."
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/sports/explainers/direct-and-indirect-free-kicks/",
+          "label": "Direct vs indirect free kicks",
+          "note": "what each foul produces"
+        },
+        {
+          "href": "/sports/explainers/what-is-the-advantage-rule/",
+          "label": "The advantage rule",
+          "note": "why some fouls are waved on"
+        },
+        {
+          "href": "/sports/explainers/what-happens-when-a-player-is-sent-off/",
+          "label": "Red cards",
+          "note": "the sanction at the top of the scale"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the difference between a foul and misconduct?",
+          "a": "A foul is an unfair act against an opponent punished with a free kick or penalty; misconduct covers offences like dissent, delaying the restart and unsporting behaviour, punished with cards and an indirect free kick."
+        },
+        {
+          "q": "Can the referee play on after a foul?",
+          "a": "Yes — that is the advantage rule, and the card for the offence is still shown at the next stoppage."
+        }
+      ]
+    },
+    {
+      "slug": "how-do-teams-use-the-offside-trap",
+      "question": "How do teams use the offside trap?",
+      "short": "The offside trap",
+      "kicker": "Tactics & data",
+      "answer": "The offside trap is a coordinated defensive move: the back line steps forward in unison at the instant the ball is played, leaving an attacker beyond them and therefore offside. It works because offside is judged at the moment of the pass — but one player failing to step up turns it into a one-on-one.",
+      "explain": [
+        "Offside is decided the instant a teammate plays the ball, not when the attacker receives it. The trap exploits exactly that: if every defender moves up together a fraction before the pass, the attacker who was level a moment ago is suddenly behind the line, and the flag goes up. It is a timing weapon, not a positional one — which is why the phrase 'step up' matters more than 'drop off'.",
+        "The execution requires total synchronisation. The defensive line usually takes its cue from the nearest defender to the ball and from a shouted call, often from the goalkeeper or the organising centre-back. Everyone moves, including the full-backs, and everyone holds the same line. A single player who hesitates — or who is a yard deeper because he was recovering — plays the attacker onside and converts a clever trap into the worst situation in football: a striker running at a defence that is already beaten.",
+        "Teams use it for two different reasons. A high line compressing the pitch keeps the ball in the opponent's half and supports a pressing game, which is why possession-dominant sides use the trap almost constantly without calling it that. A deliberate, occasional trap is more of a weapon: a defence under pressure invites a through-ball and then springs it, killing attacks with the offside flag instead of a tackle.",
+        "The counter is well known: run from deep, time the run to the pass rather than the defender, and use players who start from midfield so they are not marked by the line. Attackers also exploit the blind side by starting level and letting the ball travel. Video review has made the trap riskier — VAR can overturn a marginal onside flag — but the core maths have not changed: a fraction of a second either way decides everything."
+      ],
+      "example": "A striker makes a run timed to the pass, but the centre-back reads it and steps up with the full-back a split second before the ball is played. The striker is now two yards behind the line, the flag goes up, and the move is dead. Replay shows the difference between success and a certain goal is about a metre of movement and a tenth of a second of timing.",
+      "myths": [
+        {
+          "belief": "The offside trap is when defenders drop deeper.",
+          "reality": "It is the opposite — the line steps up together, catching the attacker beyond the second-last defender."
+        },
+        {
+          "belief": "The attacker's position when he receives the ball is what matters.",
+          "reality": "Offside is judged at the moment the pass is played, which is precisely why the trap works."
+        },
+        {
+          "belief": "VAR has made the offside trap useless.",
+          "reality": "It has made marginal calls reviewable, but the trap still works — timing still decides the flag, and review only corrects the closest calls."
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/sports/explainers/what-does-offside-mean/",
+          "label": "What offside means",
+          "note": "the law the trap depends on"
+        },
+        {
+          "href": "/sports/explainers/how-does-var-work/",
+          "label": "How VAR works",
+          "note": "how marginal trap decisions get reviewed"
+        },
+        {
+          "href": "/sports/explainers/what-is-the-advantage-rule/",
+          "label": "The advantage rule",
+          "note": "why an attacker is sometimes waved on after a mistimed flag"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why is the offside trap considered risky?",
+          "a": "Because it only works if every defender moves together. One player out of sync plays the attacker onside and usually creates a clear chance, which is worse than the original danger."
+        },
+        {
+          "q": "Do teams still use it in the VAR era?",
+          "a": "Yes. VAR checks the closest calls, but the trap still wins the majority of decisions, and a high line remains central to how pressing teams defend."
+        }
+      ]
+    },
+    {
+      "slug": "what-is-financial-fair-play",
+      "question": "What is financial fair play?",
+      "short": "Financial fair play",
+      "kicker": "Transfers & money",
+      "answer": "Financial fair play is UEFA's framework for stopping clubs spending money they have not earned: clubs in UEFA competitions must keep their football-related spending within the revenue they generate, and breaches are punished with fines, squad restrictions and exclusion from European competition.",
+      "explain": [
+        "The original idea, introduced in 2011, was a break-even requirement: a club could not lose more than a set amount over a rolling period, with allowances for spending on infrastructure, youth development and women's football. The mechanism was administrative rather than sporting — UEFA's club licensing bodies assessed the accounts, and the punishment for failure was a settlement, a fine or European exclusion rather than a points deduction in domestic football.",
+        "Enforcement is where it got controversial. Early cases produced headline punishments, including European bans and the exclusion of clubs that had qualified, but the system was widely criticised as too slow, too political and too easy for wealthy owners to route around through sponsorship deals with related companies. Related-party sponsorships became the central loophole: if the owner's other business pays far above market rate for shirt sponsorship, is that revenue or a hidden subsidy?",
+        "UEFA reformed the framework in the 2020s, shifting towards squad-cost rules that cap spending on wages, transfers and agent fees as a proportion of revenue, alongside a sustainability requirement on overdue payables. The targets moved from 'do not lose more than X' to 'do not spend more than Y per cent of what you earn' — a direct attempt to control wage inflation rather than only accounting losses.",
+        "Domestic leagues have their own versions, and they are not the same thing: England's Profitability and Sustainability Rules run through the Premier League and can produce points deductions within the league, which is a different and often more immediate punishment than anything UEFA imposes. So a club can be punished by its domestic league and by UEFA for the same underlying financial problem, under two separate rulebooks with two separate sanctions."
+      ],
+      "example": "A club qualifies for the Champions League, then breaches UEFA's spending rules. UEFA's adjudicatory chamber can fine it, restrict the size of its European squad, and in serious cases exclude it from the competition it qualified for — while the domestic league, applying its own profitability rules over the same accounts, deducts points in the league table. Two processes, two punishments, one set of accounts.",
+      "myths": [
+        {
+          "belief": "Financial fair play stops rich owners investing.",
+          "reality": "It limits spending relative to earned revenue, not equity investment in infrastructure, youth or women's football, all of which are largely exempted."
+        },
+        {
+          "belief": "Breaking the rules means a points deduction.",
+          "reality": "UEFA's punishments are fines, squad restrictions and European exclusion. Points deductions come from domestic league rules, which are a separate framework."
+        },
+        {
+          "belief": "It is the same rules everywhere.",
+          "reality": "UEFA's rules govern European competition; domestic leagues run their own profitability and sustainability systems with different thresholds and different sanctions."
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/sports/explainers/what-is-uefa/",
+          "label": "What UEFA is",
+          "note": "the body that writes and enforces these rules"
+        },
+        {
+          "href": "/sports/explainers/how-does-the-transfer-window-work/",
+          "label": "Transfer windows",
+          "note": "where most of the spending happens"
+        },
+        {
+          "href": "/sports/explainers/how-are-champions-league-draws-seeded/",
+          "label": "Draw seeding",
+          "note": "why European exclusion is such a heavy sanction"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can a club be banned from the Champions League for breaking it?",
+          "a": "Yes — exclusion from UEFA competitions is the most severe sanction available, and it has been used on clubs that had already qualified."
+        },
+        {
+          "q": "Is financial fair play still called FFP?",
+          "a": "The branding has shifted towards financial sustainability and squad-cost control, but the term financial fair play is still widely used to describe the whole framework."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,478 @@
+{
+  "explainers": [
+    {
+      "slug": "what-happens-if-teams-finish-on-equal-points",
+      "question": "What happens if teams finish on equal points?",
+      "short": "Level on points, explained",
+      "kicker": "League rules",
+      "answer": "When two teams finish level on points, the competition applies a fixed order of tiebreakers — usually goal difference first, then goals scored, with head-to-head records, fair-play points and a play-off further down the list. The order differs between competitions, which is why the same finish can decide different outcomes in different leagues.",
+      "explain": [
+        "Being level on points is not actually a tie in the table — it is a tie in the first column, and every competition writes a fixed queue of tiebreakers for exactly this moment. The teams are never simply declared joint winners: the queue always produces an order, even if it has to reach its very last line.",
+        "In most leagues the first tiebreaker is goal difference — goals scored minus goals conceded across the season. England adopted it in 1976-77, replacing goal average (goals scored divided by goals conceded), because the average system punished teams for attacking. The 2011-12 Premier League title is the famous modern case: Manchester City and Manchester United both finished on 89 points, and City took the title on goal difference, +64 to +56.",
+        "Some competitions put head-to-head results first instead. Spain's La Liga, Italy's Serie A (for two-team ties) and the group phases of UEFA competitions have all used head-to-head outcomes before goal difference at various points, so a team that took four points off a rival can finish above them even with a worse goal difference. This is the single biggest reason two leagues can order identical records differently.",
+        "If the first tiebreakers are still identical, the queue goes deeper: goals scored is the common second test, then away goals in some historical formats, then fair-play points (based on cards received), and finally — if the position decides the title, relegation or qualification — a play-off at a neutral venue. If nothing important hangs on the position, some competitions leave it decided by the deeper administrative criteria and the table simply records an order."
+      ],
+      "example": "English football has produced the perfect pair of examples. In 1988-89 Arsenal and Liverpool finished level on points AND level on goal difference — Arsenal won the title on goals scored, 73 to 65, with the decisive goal coming in the last minute of the season at Anfield. Twenty-three years later City and United finished level on points with different goal differences, and City won on that margin. Same league, same tie in the first column, two completely different tiebreakers deciding the title.",
+      "myths": [
+        {
+          "belief": "Teams that finish level on points share the title or the position.",
+          "reality": "No — the competition's tiebreaker queue always produces a single order, and a play-off is used as the last resort when something is at stake."
+        },
+        {
+          "belief": "Goal difference is always the first tiebreaker.",
+          "reality": "It is the most common, but several major leagues and every UEFA group phase have used head-to-head results first."
+        },
+        {
+          "belief": "The tiebreakers only matter on the final day.",
+          "reality": "They are live all season — the table is ordered by them after every match, and they shape late-season incentives, like chasing a fourth goal instead of settling for 2-0."
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/sports/explainers/what-is-goal-difference/",
+          "label": "What goal difference is",
+          "note": "the tiebreaker that decides most tied finishes"
+        },
+        {
+          "href": "/sports/explainers/how-many-points-are-needed-to-stay-up/",
+          "label": "Points needed for safety",
+          "note": "why the tiebreakers matter most at the bottom"
+        },
+        {
+          "href": "/sports/explainers/what-is-promotion-and-relegation/",
+          "label": "Promotion and relegation",
+          "note": "the outcomes these rules decide"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What happens if teams are level on points AND goal difference?",
+          "a": "The queue continues: usually goals scored next, then head-to-head, then fair-play points, and finally a play-off at a neutral ground if the position decides something important."
+        },
+        {
+          "q": "Can two teams be declared joint champions?",
+          "a": "In practice no. Even competitions with the deepest queues finish with a defined order; a play-off is the catch-all when every listed criterion is equal."
+        }
+      ]
+    },
+    {
+      "slug": "what-is-uefa",
+      "question": "What is UEFA — and what does it actually do?",
+      "short": "What is UEFA?",
+      "kicker": "Governance & competitions",
+      "answer": "UEFA is European football's governing body: a confederation of 55 national associations that runs the Champions League, Europa League, Conference League and the European Championship, licenses clubs, sets financial rules for its competitions, and represents European football inside FIFA. It does not write the Laws of the Game — that is IFAB's job.",
+      "explain": [
+        "UEFA was founded in 1954 and is based in Nyon, Switzerland. Its members are national associations — England's FA, Spain's RFEF, Nigeria's NFF is NOT a member (that is CAF territory) — each of which runs its own domestic football. UEFA sits one level above them: everything that involves clubs or countries from different European nations falls under its competitions, regulations and disciplinary system.",
+        "That layer covers a huge amount. UEFA admits clubs to its competitions and seeds the draws using its own coefficient system, appoints referees for its matches, runs the disciplinary process when something goes wrong, distributes the prize money, and enforces financial rules — the framework fans know as financial fair play, now folded into squad-cost and sustainability rules. When a club is thrown out of Europe for breaching those rules, it is a UEFA decision.",
+        "UEFA also runs the European Championship (the Euros) for national teams, the Nations League and youth and women's tournaments, and it certifies stadiums through its licensing system. For national teams, its members' results feed FIFA's world ranking; for clubs, its competitions are where most European prize money is made.",
+        "What UEFA does not do is set the rules of the sport itself. Offside, handball, cards and the rest are written by IFAB, and FIFA governs the global game. Think of the layers as: IFAB writes the laws, each national association runs its own league, UEFA governs the European competitions and regulations, and FIFA sits at the top for the world game."
+      ],
+      "example": "When a club wins its domestic league and enters the Champions League, three different bodies touch the journey. The national league confirms it qualified; UEFA admits it, seeds it into a pot and pays its prize money; and if the club then breaks UEFA's financial rules, a UEFA judicial body — not the domestic league — handles the case. The domestic league still controls the club's own competition, its fixtures and its points.",
+      "myths": [
+        {
+          "belief": "UEFA makes the rules of football.",
+          "reality": "IFAB writes the Laws of the Game. UEFA applies them and writes the regulations for its own competitions."
+        },
+        {
+          "belief": "UEFA and FIFA are the same thing at different sizes.",
+          "reality": "They are separate bodies with separate memberships: FIFA governs the world game and the World Cup; UEFA is the European confederation inside FIFA, running European competitions like the Champions League and Euros."
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/sports/champions-league-format-explained/",
+          "label": "How the Champions League format works",
+          "note": "UEFA's flagship competition"
+        },
+        {
+          "href": "/sports/explainers/how-are-champions-league-draws-seeded/",
+          "label": "How UEFA seeds its draws",
+          "note": "one of UEFA's most consequential jobs"
+        },
+        {
+          "href": "/sports/explainers/who-makes-the-rules-of-football/",
+          "label": "Who writes football's laws",
+          "note": "the body people confuse UEFA with"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many countries are in UEFA?",
+          "a": "55 member associations, covering the whole European region — from the giants like England, Spain and Germany to small states like Gibraltar and San Marino, plus Israel and Kazakhstan, which compete in European football by choice."
+        },
+        {
+          "q": "Does UEFA run domestic leagues like the Premier League?",
+          "a": "No. Domestic leagues are run by each country's own association. UEFA governs European club competitions, national-team tournaments and the regulations that apply across its region."
+        }
+      ]
+    },
+    {
+      "slug": "who-makes-the-rules-of-football",
+      "question": "Who actually makes the rules of football?",
+      "short": "Who writes the rules?",
+      "kicker": "Governance & competitions",
+      "answer": "The Laws of the Game are written by IFAB — the International Football Association Board — founded in 1886 and made up of the four British associations (England, Scotland, Wales, Northern Ireland) plus FIFA. It is the only body in the world that can change football's rules.",
+      "explain": [
+        "IFAB exists because the rules were born in Britain: the four home associations codified the game in the 19th century and, when FIFA arrived in 1904, it joined their rule-making board rather than creating its own. Each of the four associations holds one vote; FIFA holds four votes. A law change needs a supermajority, which is why no single body — not FIFA, not England — can rewrite football alone.",
+        "IFAB meets once a year at its Annual General Meeting, and changes traditionally take effect from 1 June so that competitions around the world start their seasons under the same text. Between AGMs, it runs trials: goal-line technology and VAR were both trialled in live competitions before the board wrote them into the laws, and experiments like concussion substitutes have followed the same path.",
+        "The board's decisions shape the game fans argue about every week. The handball rewrites of recent years, the introduction of five substitutions, the added-time clampdown that pushed matches past 100 minutes, and the drawn-out debate about a stop-clock were all IFAB decisions or IFAB-sanctioned trials. Referees do not invent rules, and neither do leagues: they apply the laws IFAB publishes and, where the laws allow, competitions choose options within them."
+      ],
+      "example": "Take the addition of video review. The idea was trialled by national federations, tested in live competitions, evaluated by IFAB's technical panels, then written into the Laws of the Game at an AGM. Only after that could the Premier League, La Liga or the AFCON adopt it. Every step in that chain — trial, evaluation, law change, competition adoption — belongs to a different body, which is why rule changes feel slow: they are designed to be.",
+      "myths": [
+        {
+          "belief": "FIFA writes the rules of football.",
+          "reality": "FIFA sits on IFAB with its four votes, but the laws are the board's — and the four British associations each hold a vote that no one can override."
+        },
+        {
+          "belief": "Leagues can change rules that suit them.",
+          "reality": "Competitions can choose options the laws allow, like the number of substitutes, but they cannot rewrite the laws themselves. Only IFAB can."
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/sports/explainers/what-is-uefa/",
+          "label": "What UEFA is",
+          "note": "the governing body people mix up with the rule-makers"
+        },
+        {
+          "href": "/sports/explainers/how-does-var-work/",
+          "label": "How VAR works",
+          "note": "an IFAB law change now standard in top competitions"
+        },
+        {
+          "href": "/sports/explainers/when-is-a-goal-a-goal/",
+          "label": "When a goal is a goal",
+          "note": "a law area IFAB keeps refining"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why do the four British associations get permanent votes?",
+          "a": "Because the modern rules were codified in Britain — IFAB is a 19th-century institution that FIFA joined rather than replaced, and the founding associations kept their seats."
+        },
+        {
+          "q": "How often do the laws actually change?",
+          "a": "There is an AGM every year, but most years bring small clarifications rather than big changes. Structural changes like VAR go through multi-year trials first."
+        }
+      ]
+    },
+    {
+      "slug": "why-is-the-world-cup-every-four-years",
+      "question": "Why is the World Cup every four years?",
+      "short": "Why every four years?",
+      "kicker": "Governance & competitions",
+      "answer": "The four-year cycle is a calendar decision, not a law: FIFA spreads the World Cup across a rhythm that leaves room for long qualifying campaigns, continental tournaments like the Euros and Copa América, and the players' club seasons — and the scarcity is exactly what makes the tournament feel like the biggest event in the sport.",
+      "explain": [
+        "The first World Cup was held in 1930 in Uruguay, and every edition since has followed the four-year pattern — with the planned 1942 and 1946 tournaments lost to the Second World War. Four years is long enough for a full qualifying campaign (two years in most confederations), for continental championships to take their own slots, and for the club game to have undisturbed seasons in between.",
+        "Scarcity is part of the design. Because a World Cup comes around only four times a decade, careers are measured in them — most players get one or two, the greats perhaps three or four. That reality is what makes qualification agonising and the tournament unmissable, and it is precisely what critics of a two-year cycle pointed to when FIFA floated the idea in the 2020s: playing it more often would risk devaluing the thing itself, on top of overloading players.",
+        "The cycle is shared with the other big tournaments, deliberately spread out: the European Championship also runs every four years, the Africa Cup of Nations has settled into a two-year rhythm, and the Copa América has used various cadences but never the World Cup's exact slot on a permanent basis. FIFA's international match calendar — which sets when clubs must release players — is built around these anchors.",
+        "Even the format has changed without touching the rhythm: the tournament grew from 16 teams to 32 in 1998 and to 48 for 2026 in North America. So the answer to the question is partly tradition, partly logistics and partly economics — but the pieces (qualification time, continental calendars, player rest, the value of rarity) all point the same way, which is why the four-year cycle has survived a century of change."
+      ],
+      "example": "Think through a single player's career arc. He breaks through at 19, plays his first qualifying campaign across two years, reaches his first World Cup at 21. If he lasts into his early thirties, he gets maybe three tournaments — four is legendary territory. Every match of every qualifying campaign carries the weight of that scarcity, which is why a group-stage draw in October can feel like a cup final.",
+      "myths": [
+        {
+          "belief": "The four-year rule is written into football's laws.",
+          "reality": "It is FIFA's calendar and tradition, not a law — the gap has simply never been changed, and the cancelled wartime editions are the only breaks."
+        },
+        {
+          "belief": "A biennial World Cup was ruled out because of tradition alone.",
+          "reality": "The objections were practical too: player workload, clashes with continental tournaments and leagues, and the risk of diluting the tournament's value."
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/sports/explainers/what-is-uefa/",
+          "label": "What UEFA is",
+          "note": "the confederation whose Euros share the same rhythm"
+        },
+        {
+          "href": "/sports/explainers/how-does-the-transfer-window-work/",
+          "label": "Transfer windows",
+          "note": "how club calendars absorb international breaks"
+        },
+        {
+          "href": "/sports/champions-league-format-explained/",
+          "label": "Champions League formats",
+          "note": "the club game's competing calendar"
+        }
+      ],
+      "faq": [
+        {
+          "q": "When is the next World Cup?",
+          "a": "2026, hosted by the United States, Canada and Mexico — the first edition with 48 teams. After that the cycle continues in 2030, with the centenary edition spanning multiple continents."
+        },
+        {
+          "q": "Has the World Cup ever been held more or less often than every four years?",
+          "a": "No — 1930 to 1938 ran every four years (skipping 1942 due to the war), and from 1950 onward the pattern has been unbroken."
+        }
+      ]
+    },
+    {
+      "slug": "what-is-handball-in-football",
+      "question": "What counts as handball in football?",
+      "short": "Handball, explained",
+      "kicker": "Football laws",
+      "answer": "A handball is given when a player touches the ball with the hand or arm in a way the law treats as an offence — most clearly when the touch is deliberate, or when the arm makes the body unnaturally bigger or reaches above shoulder height. The arm starts at the bottom of the armpit; the shoulder is not part of it.",
+      "explain": [
+        "The law has two ideas inside it. The first is deliberate touching — the old-school idea of a player clearly handling the ball. The second is arm position: if a player's arm is extended away from the body or raised overhead, it has made the body unnaturally bigger, and contact is usually punished even if the player did not mean it. Between those two ideas sits almost every handball argument you have ever heard.",
+        "IFAB has adjusted this wording repeatedly over the years, which is why the rule seems to change every season. The constant is the refereeing logic: arms by the side and close to the body are normally fine; arms out to block, arms above shoulder level, or a clear movement of the hand towards the ball are normally punished. A deflection off a player's own body onto an arm close to the torso is usually not an offence.",
+        "Location changes the punishment, not the offence. A handball by an outfield defender inside the penalty area is a penalty kick; the same offence outside the box is a direct free kick. There is also a separate rule for scorers: if the ball goes into the goal off a player's hand or arm — even accidentally — the goal is disallowed for that player, and the ball is treated as a handball offence. A goal cannot be scored directly off a hand or arm, by anyone, in either direction.",
+        "Video review makes the rule visible every weekend. Referees are expected to judge arm position and movement with the benefit of replays, and VAR can recommend a review for penalty-area handballs in the build-up to goals. The rule will keep evolving — it is the law IFAB edits most often — but the core test has been stable: deliberate touch, or an arm making the body unnaturally bigger."
+      ],
+      "example": "Two identical crosses, two different outcomes. In the first, a defender jumps with his arms pinned to his sides and the ball strikes his forearm — almost never given. In the second, he jumps with his arms raised above his head for balance and the ball hits the same forearm — almost always given, because the arm is beyond shoulder height. Same player, same touch, different verdict: the arm's position is doing the work, not intent.",
+      "myths": [
+        {
+          "belief": "Any contact between ball and arm is handball.",
+          "reality": "No — contact alone decides nothing. The law asks whether the touch was deliberate or the arm made the body unnaturally bigger, and an arm tight to the body is usually ignored."
+        },
+        {
+          "belief": "Handball is decided purely by intent.",
+          "reality": "Intent matters, but arm position can be enough on its own — a raised or extended arm is penalised whether or not the player meant it."
+        },
+        {
+          "belief": "The scorer rule only applies to attackers going forward.",
+          "reality": "A goal can never be scored directly off a hand or arm at either end, and an attacking handball in the build-up can also wipe out a goal through video review."
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/sports/explainers/how-does-var-work/",
+          "label": "How VAR works",
+          "note": "how penalty-area handballs are reviewed"
+        },
+        {
+          "href": "/sports/explainers/direct-and-indirect-free-kicks/",
+          "label": "Direct vs indirect free kicks",
+          "note": "how the offence is punished outside the box"
+        },
+        {
+          "href": "/sports/explainers/when-is-a-goal-a-goal/",
+          "label": "When a goal is a goal",
+          "note": "where the scorer handball rule lives"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is handball in the penalty area always a penalty?",
+          "a": "A handball offence by a defending player inside their own penalty area results in a penalty kick. If the defending team committed no offence recognised by the law — for example an arm tight to the body with no movement — there is no handball and no penalty."
+        },
+        {
+          "q": "Why does the handball rule seem to change so often?",
+          "a": "Because IFAB keeps refining the boundary between deliberate and accidental. It is the law most frequently edited in the entire rulebook, and each rewrite is an attempt to make the threshold clearer for referees."
+        }
+      ]
+    },
+    {
+      "slug": "what-happens-when-a-player-is-sent-off",
+      "question": "What happens when a player is sent off?",
+      "short": "Red cards, explained",
+      "kicker": "Football laws",
+      "answer": "A sent-off player leaves the field immediately and his team plays the rest of the match a player short — he cannot be replaced. He is also automatically suspended, usually for at least one match, with longer bans for serious offences, and a team that drops below seven players forfeits the game.",
+      "explain": [
+        "A red card arrives in one of two ways: a straight red for a serious offence — violent conduct, a denial of a goal-scoring opportunity, serious foul play, spitting, or abusive language — or two yellow cards in the same match, which add up to one dismissal. The two routes carry the same immediate consequence: the player goes off, his team continues with ten, and the manager has to reorganise on the spot.",
+        "The tactical maths change everything. Playing a man down for twenty minutes is survivable; playing most of a match a man short usually decides it, so managers sacrifice an attacker, drop everyone deeper and try to defend set pieces. A red card for the goalkeeper forces a different scramble: either a substitute keeper comes on — if the team still has substitution slots available — or an outfield player pulls on the gloves for the rest of the game.",
+        "The suspension lasts longer than the heat of the moment. Every competition writes its own tariffs: a straight red for violent conduct typically brings a longer ban than a professional foul, two yellow cards typically bring a one-match ban, and repeat offences escalate. Yellow cards also accumulate across a season in most leagues, so a player can be suspended without ever being sent off. Clubs can appeal wrongful dismissals, and bans served in one competition sometimes carry over to others.",
+        "There are hard floors in the law, too. A team reduced below seven players must abandon the match and forfeits it — the referee has no discretion to continue. And in a penalty shootout, a player sent off cannot take part: the shootout list only includes players eligible at the final whistle, so a red card in extra time can shrink the shootout pool in a way that only becomes obvious when the takers are chosen."
+      ],
+      "example": "A centre-back collects a second yellow in the 70th minute for a late tackle. Ten-man club defends a 1-0 lead: the manager removes a winger for a replacement centre-back, the whole team drops ten metres deeper, and every set piece becomes a siege. The centre-back misses the next match automatically, and the club also loses him for the season's remaining matchdays if the accumulation rules bite. One tackle, three consequences — the match, the next fixture, and a reshuffled defence for a month.",
+      "myths": [
+        {
+          "belief": "A sent-off player can be replaced by a substitute.",
+          "reality": "No — a dismissal reduces the team permanently for that match, which is exactly why the punishment is so heavy."
+        },
+        {
+          "belief": "Only straight reds carry suspensions.",
+          "reality": "Two yellows in one match also mean a ban, and leagues add suspensions for accumulating yellow cards across a season."
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/sports/explainers/how-do-substitutions-work/",
+          "label": "How substitutions work",
+          "note": "the scramble after a keeper is sent off"
+        },
+        {
+          "href": "/sports/explainers/how-do-penalty-shootouts-work/",
+          "label": "Penalty shootouts",
+          "note": "why a sent-off player cannot take one"
+        },
+        {
+          "href": "/sports/explainers/what-is-the-advantage-rule/",
+          "label": "The advantage rule",
+          "note": "how cards get shown at the next stoppage"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What happens if the goalkeeper is sent off?",
+          "a": "If the team still has substitution windows available, a substitute goalkeeper comes on and an outfield player is removed. If no substitution is available, an outfield player finishes the match in goal."
+        },
+        {
+          "q": "Can a red card be overturned?",
+          "a": "Yes — clubs can appeal wrongful dismissals to a disciplinary panel, which can rescind the card and the suspension. Success rate is low, because the panel must find a clear error rather than merely disagree."
+        }
+      ]
+    },
+    {
+      "slug": "how-do-penalty-shootouts-work",
+      "question": "How do penalty shootouts work?",
+      "short": "Penalty shootouts",
+      "kicker": "Knockout football",
+      "answer": "Five kickers from each team take penalties alternately, and the team that scores more from its five wins. If they are still level it goes to sudden death — one pair at a time until one team scores and the other misses — and only players eligible at the final whistle can take part.",
+      "explain": [
+        "A shootout is its own mini-competition with its own rules. The referee tosses a coin and the winner chooses whether to kick first; each manager submits an ordered list of takers; and the kicks alternate — first team, second team, five each. If one side is already uncatchable before all five are taken, the shootout ends there. Order is strategic, not fixed: your best taker often goes first or last, and coaches study who handles pressure best.",
+        "The goalkeeper's obligations are strict. He must stay on his line until the ball is kicked — at least part of one foot on, in line with, or behind the goal line at the moment of contact — and he cannot touch the kicker or the ball beyond the permitted dive. The kicker cannot touch the ball twice, and the ball must be kicked forward. Encroachment by either side leads to a retake, and a keeper who moves early and saves will have the save wiped out by a retake.",
+        "The biggest misconception about shootouts is the rebound. In open play a saved penalty stays live and a striker can follow up — in a shootout, nobody else is allowed near the box and the kicker cannot play the ball twice, so a follow-up tap-in is impossible. The only way a rebound counts is when the ball goes in off the goalkeeper or the woodwork without anyone else touching it. Rebounds, deflections and keepers wandering up for a header are open-play luxuries: the shootout is stripped to its purest form.",
+        "There is one fairness rule people rarely notice: if the teams have unequal numbers of eligible players — for instance after a red card — both teams reduce to equal numbers before the shootout begins. The shootout is officially recorded as a draw in the match record, with the tie decided by the shootout result — which is why the history books say a final finished 1-1 and was won 'on penalties'."
+      ],
+      "example": "A shootout is level at 3-3 after five kicks each. Sudden death begins with round six: the first taker scores, the second must score to survive. He strikes it low to the keeper's right, the keeper gets a fingertip to it — save. The shootout ends there, but the match record shows a 1-1 draw with a shootout win, and the keeper, who never touched the ball in normal time, is the story of the night.",
+      "myths": [
+        {
+          "belief": "You can score from the rebound of a saved shootout penalty.",
+          "reality": "No — in a shootout nobody else may touch the ball, and the kicker cannot touch it twice. The kick ends once it is saved or stops; only a deflection in off the keeper or the woodwork counts as a goal."
+        },
+        {
+          "belief": "The best five takers must take the first five penalties in order.",
+          "reality": "Any eligible player can be listed in any order. Managers often split the best takers across the five rounds rather than fielding them consecutively."
+        },
+        {
+          "belief": "The shootout result counts in the match score.",
+          "reality": "The match is officially recorded as a draw; the shootout decides who advances and is recorded separately."
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/sports/explainers/how-is-a-knockout-tie-decided/",
+          "label": "How knockout ties are decided",
+          "note": "where shootouts sit in the ladder of tiebreaks"
+        },
+        {
+          "href": "/sports/explainers/what-happens-when-a-player-is-sent-off/",
+          "label": "Red cards",
+          "note": "why dismissed players cannot take part"
+        },
+        {
+          "href": "/sports/explainers/why-was-the-away-goals-rule-scrapped/",
+          "label": "Why away goals went",
+          "note": "the change that made shootouts even more common"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can a goalkeeper take a penalty in a shootout?",
+          "a": "Yes — any eligible player can be listed, including the goalkeeper, though managers rarely do it because the list must include enough takers to reach sudden death."
+        },
+        {
+          "q": "Who picks the order of takers?",
+          "a": "The manager, usually with the captain, submits a numbered list before the shootout begins. The list can be reordered only before the shootout starts, not mid-shootout."
+        }
+      ]
+    },
+    {
+      "slug": "what-is-stoppage-time",
+      "question": "What is stoppage time — and why is it getting longer?",
+      "short": "Stoppage time, explained",
+      "kicker": "Match mechanics",
+      "answer": "Stoppage time — also called added time — is the period the referee adds to the end of each half to account for time lost to substitutions, injuries, celebrations, video reviews and time-wasting. The number on the board is a minimum: the referee can play longer, and recent clampdowns mean added time is now routinely five to ten minutes a half.",
+      "explain": [
+        "It is the referee's calculation, not a fourth official's. The referee keeps track of stoppages across each half, decides how much to add, and the fourth official displays that number on the board in the final minute — but the number shown is a minimum the referee has decided to play, not a limit. If more time is lost after the board goes up, the referee simply plays on beyond it.",
+        "The lengths jumped for a reason. From the 2022-23 season, IFAB and the major leagues pushed referees to count time precisely rather than approximating: every substitution, every goal celebration, every injury treatment, every VAR check and every deliberate delay now goes into the arithmetic. The result is the era of the 100-minute match — matches that used to finish at 93 minutes now finishing at 98 or 102, with the ball in play for perhaps 55 to 60 of them.",
+        "That last figure is the deeper story. Studies consistently find the ball is in play for only about 55-60 minutes of a 90-minute match, which is why the phrase 'ball in play time' has become part of the sport's vocabulary. IFAB has discussed more radical fixes — a stop-clock that pauses during dead time, as rugby and basketball use — and some competitions have trialled shorter matches with stopped clocks, but nothing has replaced the referee's judgement at the top of the game yet.",
+        "For teams, added time is strategy. A side protecting a lead wants the ball in play; the team chasing wants every second to count. Long added times generally reward the chasing team, which is why the clampdown produced a wave of late goals — and why commentators now watch the board with genuine suspense."
+      ],
+      "example": "A tense cup tie has eight substitutions, three goals with long celebrations, a four-minute video review and a goalkeeper who takes the scenic route on every goal kick. The board shows nine minutes. In the tenth added minute a substitute scores the winner, and the debate about where those nine minutes came from runs for a week — subs, celebrations, the review, and forty seconds of walking on every dead ball.",
+      "myths": [
+        {
+          "belief": "The fourth official decides how long to add.",
+          "reality": "The referee decides. The fourth official displays the referee's decision on the board."
+        },
+        {
+          "belief": "When the board's time expires, the half ends immediately.",
+          "reality": "The board shows a minimum. Play continues until the referee decides the added period is complete — which is why goals in the tenth minute of three added sometimes stand."
+        },
+        {
+          "belief": "Added time only covers injuries.",
+          "reality": "It covers all lost time: substitutions, celebrations, reviews, cooling breaks and deliberate time-wasting."
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/sports/explainers/how-does-var-work/",
+          "label": "How VAR works",
+          "note": "reviews are a major source of added time"
+        },
+        {
+          "href": "/sports/explainers/how-do-substitutions-work/",
+          "label": "How substitutions work",
+          "note": "the clock rules managers game"
+        },
+        {
+          "href": "/sports/explainers/how-is-a-knockout-tie-decided/",
+          "label": "Knockout ties",
+          "note": "where late goals change everything"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why do some matches last more than 100 minutes now?",
+          "a": "Because referees were instructed to count lost time strictly instead of rounding it down. The clampdown, in force since 2022-23, routinely pushes matches past 100 minutes total."
+        },
+        {
+          "q": "Can a goal be scored directly from a corner after added time expires?",
+          "a": "Yes — if a corner is awarded before the added period ends, it is taken and the half continues until the attack is complete, which is why keepers sometimes rush forward for one last corner."
+        }
+      ]
+    },
+    {
+      "slug": "when-is-a-goal-a-goal",
+      "question": "When is a goal actually a goal?",
+      "short": "When is a goal a goal?",
+      "kicker": "Football laws",
+      "answer": "A goal counts when the whole of the ball crosses the whole of the goal line, between the posts and under the crossbar — and the scoring team committed no offence in the build-up. Offside, handball by the scorer, a foul by an attacker or the ball earlier going out of play can all wipe a goal out after it has been celebrated.",
+      "explain": [
+        "The physical test is the strictest thing in the sport: the entire ball must be past the entire goal line. In practice that means millimetre calls are invisible to the naked eye — a ball can straddle the line with a crescent visible to the camera and still be no goal, or be fractionally over and billions of viewers will swear it was not. That ambiguity is exactly why goal-line technology exists.",
+        "Goal-line technology, approved by IFAB in 2012 and used by the Premier League since 2013-14, puts a vibration and a visual signal on the referee's watch within a second of the ball crossing the line. It was introduced after the notorious 2010 World Cup case where a shot rebounded off the crossbar, clearly crossed the line, and was not given — the most famous goal that never was. The technology's sole job is the line: it says nothing about offside, fouls or anything else.",
+        "The rest of the decision belongs to the referee and video review. VAR can check the build-up to any goal for offside, handball by the scorer, a foul by the attacking team, or the ball going out of play before the goal. Because a goal is a match-defining moment, it is one of the two reviewable 'stoppage' categories with the widest checks — and this is why a goal six passes and forty seconds after a fractional handball can still be disallowed.",
+        "Two supporting laws complete the picture. A goal cannot be scored directly off a hand or arm by anyone — the scorer's version of the handball rule — and it cannot be scored directly from an indirect free kick, a throw-in, a goal kick or a kick-off. Everything else — distance, keeper's touch, a deflection off a defender — is a legal goal, which is why deflected winners count exactly the same as thirty-yard screamers in the record books."
+      ],
+      "example": "A striker lashes the ball goalwards, the goalkeeper spills it across the line, and the stadium erupts. Three things then get checked off-screen in seconds: did the whole ball cross the whole line (goal-line technology, no debate); was anyone offside in the build-up (VAR, calibrated lines); and did the scorer handle the ball (VAR, slow motion). When all three clear, the goal stands and the technology that made it possible vanishes from the story entirely.",
+      "myths": [
+        {
+          "belief": "It is a goal if the ball touches or rolls along the line.",
+          "reality": "Only when the whole of the ball crosses the whole of the line. A ball on the line is still in play."
+        },
+        {
+          "belief": "Goal-line technology also checks offsides and fouls.",
+          "reality": "It checks one thing only: whether the ball crossed the line. Offside and build-up fouls are VAR's department, using different cameras and different rules."
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/sports/explainers/what-does-offside-mean/",
+          "label": "What offside means",
+          "note": "the most common reason a celebrated goal is chalked off"
+        },
+        {
+          "href": "/sports/explainers/what-is-handball-in-football/",
+          "label": "Handball, explained",
+          "note": "the scorer rule that wiped out the goal"
+        },
+        {
+          "href": "/sports/explainers/how-does-var-work/",
+          "label": "How VAR works",
+          "note": "how the build-up gets reviewed"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why do some leagues not have goal-line technology?",
+          "a": "Cost. The systems require cameras, calibration and licensing fees per stadium, and smaller leagues and lower divisions often cannot justify the expense, leaving decisions to the referee's eyes."
+        },
+        {
+          "q": "Can VAR award a goal the referee missed?",
+          "a": "Yes for the specific reviewable situations. The unusual case is goal-line calls: those are resolved by goal-line technology, not VAR, because the technology gives a definitive answer instantly."
+        }
+      ]
+    }
+  ]
+}

@@ -45,7 +45,23 @@ REC_DATA = load_json("data/rec-data.json")
 REC_ITEMS = {i["s"]: i for i in REC_DATA.get("items", [])}
 
 ENT = load_json("content/upgrade-entertainment.json")
-SPORTS = load_json("content/upgrade-sports.json")
+
+# The sports library is authored in batches so each drop stays reviewable.
+# Merge them into one ordered list; slugs must stay unique across batches.
+SPORTS_BATCHES = [
+    "content/upgrade-sports.json",
+    "content/upgrade-sports-batch2a.json",
+    "content/upgrade-sports-batch2b.json",
+]
+_EXPLAINERS: list = []
+_seen_slugs: set[str] = set()
+for _batch in SPORTS_BATCHES:
+    for _pack in load_json(_batch)["explainers"]:
+        if _pack["slug"] in _seen_slugs:
+            raise SystemExit(f"duplicate explainer slug across batches: {_pack['slug']}")
+        _seen_slugs.add(_pack["slug"])
+        _EXPLAINERS.append(_pack)
+SPORTS = {"explainers": _EXPLAINERS}
 
 GENERATED_ROUTES: set[str] = set()
 LINK_ERRORS: list[str] = []
@@ -345,15 +361,28 @@ def watch_next_hub() -> str:
     ])
 
 def explainers_hub() -> str:
-    posts = "".join(
-        f'''<a class="v3-postcard" href="/sports/explainers/{esc(p["slug"])}/"><span class="v3-postcard-art plain"></span><span class="v3-postcard-copy"><span class="v3-tag lime">Explainer</span><h3>{esc(p["question"])}</h3><p>{esc(clip(p["answer"], 200))}</p><span class="v3-postcard-meta">{esc(p["kicker"])}</span></span></a>'''
-        for p in SPORTS["explainers"]
-    )
+    # Group the library by theme so a visitor browsing for a rule lands in the
+    # right neighbourhood instead of scrolling one long alphabetical list.
+    groups: dict[str, list] = {}
+    for p in SPORTS["explainers"]:
+        groups.setdefault(p["kicker"], []).append(p)
+
+    sections = []
+    for group, packs in groups.items():
+        posts = "".join(
+            f'''<a class="v3-postcard" href="/sports/explainers/{esc(p["slug"])}/"><span class="v3-postcard-art plain"></span><span class="v3-postcard-copy"><span class="v3-tag lime">{esc(group)}</span><h3>{esc(p["question"])}</h3><p>{esc(clip(p["answer"], 200))}</p><span class="v3-postcard-meta">{esc(p["short"])}</span></span></a>'''
+            for p in packs
+        )
+        sections.append(
+            f'<div class="v3-sec-head" style="margin-top:30px"><h2>{esc(group)}</h2><span class="v3-count">{len(packs)} question{"s" if len(packs) != 1 else ""}</span></div><div class="v3-collection">{posts}</div>'
+        )
+
+    total = len(SPORTS["explainers"])
     return "".join([
-        head(title="Football explainers — what the rules actually mean", description="Question-led football explainers: straight answers, worked examples and the misunderstandings that cause most arguments.", route="/sports/explainers/", nav="sports"),
-        '''<section class="v3-hero"><div class="wrap">''' + crumbs([("Home", "/"), ("Sports", "/sports/"), ("Explainers", None)]) + '''<p class="v3-kicker"><i></i>Sports desk · Explained</p><h1 class="v3-display">What does it actually mean? <em>Football, answered.</em></h1><p class="v3-lede">One question per page, answered immediately, then explained properly — with worked examples and the myths that cause most arguments on the group chat.</p></div></section>''',
-        '<section class="v3-sec"><div class="wrap"><div class="v3-collection">' + posts + "</div>",
-        '<div class="v3-callout" style="margin-top:28px"><h3>A network, not a list</h3><p>Each explainer links to the concepts it depends on, so reading one question naturally leads to the next. If you want a specific question answered next, it belongs on this desk — the format is built to scale.</p></div>',
+        head(title="Football rules explained — the complete question library", description="BRYME's football rules library: every question answered straight, then explained properly with worked examples and the myths that cause most arguments.", route="/sports/explainers/", nav="sports"),
+        '''<section class="v3-hero"><div class="wrap">''' + crumbs([("Home", "/"), ("Sports", "/sports/"), ("Explainers", None)]) + f'''<p class="v3-kicker"><i></i>Sports desk · Rules library</p><h1 class="v3-display">We are not a livescore. <em>We break down the rules.</em></h1><p class="v3-lede">{total} evergreen football questions answered — offside, handball, cards, tiebreakers, how competitions actually work. Straight answer first, then the full explanation.</p></div></section>''',
+        '<section class="v3-sec"><div class="wrap">' + "".join(sections),
+        '<div class="v3-callout" style="margin-top:28px"><h3>A network, not a list</h3><p>Each explainer links to the concepts it depends on, so one question naturally leads to the next — offside leads to VAR, VAR leads to when a goal is a goal, and so on. Every page here is evergreen: it answers the same question in 2026 as it will in 2036.</p></div>',
         "</div></section>",
         FOOT,
     ])
@@ -436,7 +465,11 @@ def main() -> None:
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(body, encoding="utf-8")
         written += 1
-    print(f"v3 upgrade sample: {written} pages written (4 rec lists, 8 explainers, 5 title pages, 3 hubs)")
+    print(
+        f"v3 upgrade sample: {written} pages written "
+        f"({len(ENT['recommendations'])} rec lists, {len(SPORTS['explainers'])} explainers, "
+        f"{len(ENT['titles'])} title pages, 3 hubs)"
+    )
 
 if __name__ == "__main__":
     main()
