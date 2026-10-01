@@ -24,6 +24,23 @@ Every page is deliberately `noindex,follow` until a final host is deployed and t
 
 Do not remove `noindex` in bulk.
 
+## Staging preview (GitHub Pages)
+
+The archive is published as a QA preview at:
+
+**https://ojeology.github.io/bryme-media/**
+
+`.github/workflows/pages.yml` rebuilds and redeploys it on every push to `main`. The publish step runs `scripts/build-gh-pages.py`, which copies the static tree into `dist/` and rewrites absolute paths (`/assets/…`, `fetch("/content/…")`, canonicals) for the Pages URL prefix — the source tree is never modified, and the dead `bryme-media.onrender.com` canonical host is repointed to the preview URL.
+
+Indexing safeguards (house rule: staging must never become an accidental Google index):
+
+- every page carries `<meta name="robots" content="noindex,follow">` — the build script fails if any published page lacks it;
+- the published copy ships a `Disallow: /` robots.txt as a secondary signal;
+- no sitemap is published;
+- do not submit this URL to Search Console or link to it from indexed pages.
+
+The preview exists for visual and functional QA of the Sports & Entertainment rebuild — it is not an SEO surface. Search-engine verification token files are deliberately not published (the stale copies were removed from the repo root on 2026-10-01; the live domain keeps its own).
+
 ## Build
 
 ```bash

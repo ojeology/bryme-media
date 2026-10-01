@@ -1,0 +1,42 @@
+name: Publish staging preview (GitHub Pages)
+
+# Builds the path-prefixed, noindex-enforced copy of the archive and deploys
+# it to https://ojeology.github.io/bryme-media/ — the visual/functional QA
+# preview for the Sports & Entertainment rebuild. This preview must never be
+# submitted to Search Console, referenced in a sitemap, or linked from indexed
+# pages (house rule: staging must not become an accidental Google index).
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build Pages-safe copy (prefixed paths, noindex enforced)
+        run: python3 scripts/build-gh-pages.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - id: deployment
+        uses: actions/deploy-pages@v4
