@@ -1,0 +1,284 @@
+{
+  "explainers": [
+    {
+      "slug": "what-is-a-drop-ball",
+      "question": "What is a drop ball?",
+      "short": "Drop balls, explained",
+      "kicker": "Match mechanics",
+      "answer": "A drop ball is how play restarts after a stoppage with no foul and no clear possession — usually an injury, a referee accidentally interfering, or the ball becoming defective. The referee drops it for one player of the team that last touched it, and everyone else must be four metres away.",
+      "explain": [
+        "The drop ball exists for the awkward moments: play has stopped, nobody has offended, and there is no restart in the law that obviously fits. The referee stops the match, then restarts it by dropping the ball to a player of the team that last touched it before the stoppage. If that contact happened inside the penalty area, the ball is dropped for that team's goalkeeper; anywhere else, it goes to one of that team's outfield players at the spot of the last touch.",
+        "The modern version is deliberately simple, and it was not always this way. The old law allowed a contested drop ball between one player from each side — which is exactly why you occasionally saw two players fighting over the ball while everyone else stood around. That also produced the familiar courtesy: the team awarded the drop ball would kick it long towards the opposition goal, and the opposition would let it run out or give it back. IFAB replaced the contest with an uncontested drop to one player, removing both the scuffle and the charade.",
+        "Every other player must be at least four metres (about 4.5 yards) away until the ball touches the ground, and the ball is in play the moment it hits the turf — not when it is dropped, and not when someone kicks it. If it goes out of play without anyone touching it, the drop is retaken. If the player who receives it touches it twice before anyone else does, the restart is an indirect free kick to the other team.",
+        "Two nuances matter in practice. A goal cannot be scored directly from a drop ball — it must touch a second player first, which is why a player who wins a drop ball and shoots straight at goal will see it disallowed. And a drop ball cannot be used to restart a match after a foul; that is what free kicks are for. Its job is specifically the stoppages that are nobody's fault."
+      ],
+      "example": "A player goes down injured with his team in possession near the halfway line. The referee stops play, and on the restart he drops the ball for a player of the team that last touched it; the opposition retreats four metres, the ball bounces once, and play resumes. In the old law the two captains would have contested the drop — and the receiving team would then have hoofed it upfield as a courtesy.",
+      "myths": [
+        {"belief": "A drop ball is contested by two players.", "reality": "Not any more. The law was changed so the referee drops it for a single player of the team that last touched the ball; the contest was removed."},
+        {"belief": "You can score directly from a drop ball.", "reality": "No — the ball must touch a second player before a goal can be scored, otherwise it is disallowed."},
+        {"belief": "It is used to restart play after a foul.", "reality": "Fouls are restarted with free kicks or penalties. A drop ball is for stoppages that are nobody's fault — injuries, outside interference, a defective ball."}
+      ],
+      "concepts": [
+        {"href": "/sports/explainers/when-is-a-goal-a-goal/", "label": "When a goal is a goal", "note": "why a drop-ball strike cannot count"},
+        {"href": "/sports/explainers/what-is-the-advantage-rule/", "label": "The advantage rule", "note": "why play sometimes is not stopped at all"},
+        {"href": "/sports/explainers/what-is-stoppage-time/", "label": "Stoppage time", "note": "what happens to the clock after a stoppage"}
+      ],
+      "faq": [
+        {"q": "Where is the drop ball taken?", "a": "At the place where the ball was last touched before play stopped. If that was inside the penalty area, it is dropped for the goalkeeper of the team that last touched it."},
+        {"q": "When is the ball actually in play?", "a": "The moment it touches the ground after being dropped — not when it leaves the referee's hand, and not when a player kicks it."}
+      ]
+    },
+    {
+      "slug": "what-is-a-professional-foul",
+      "question": "What is a professional foul?",
+      "short": "Professional fouls",
+      "kicker": "Football laws",
+      "answer": "A professional foul is a deliberate offence committed to stop a dangerous attack — usually hauling down a player through on goal. It is punished with a red card when it denies an obvious goal-scoring opportunity, unless the offender was genuinely trying to play the ball inside the penalty area, in which case the punishment is a penalty and a yellow card.",
+      "explain": [
+        "The concept is a calculation, not a specific action. A defender decides that conceding a free kick and taking a card is a better outcome than conceding a certain goal, so he commits the offence deliberately. It is cynical but rational, which is why the law has been rewritten repeatedly to make the calculation less attractive — the whole history of this rule is an attempt to make the punishment roughly match the crime.",
+        "The modern test turns on whether an obvious goal-scoring opportunity was denied. The referee weighs four things: the distance to goal, the direction of play, the likelihood of the attacker keeping or gaining control, and the position and number of defenders. If the offence denied an obvious chance, the offender is sent off — that is the 'last man' red card fans know well. It applies to handball as well as to fouls: a deliberate handball that stops a certain goal is a professional foul too.",
+        "The penalty-area exception is the part that surprises people. If the offence happens inside the penalty area and the defender was making a genuine attempt to play the ball, the punishment is a penalty kick plus a yellow card rather than a red — the so-called double jeopardy rule, changed around 2016. The logic is that a penalty is already a very high-value punishment, and sending the player off as well meant one mistake ended the match twice over. Holding, pulling, pushing or a handball that stops the ball — anything that is not a genuine attempt to play it — is still a red.",
+        "Few decisions in football are as consequential. A professional foul in the tenth minute shapes the next eighty: the opposition plays against ten men, the manager restructures, and the offender serves a suspension. That is why players are coached on where to make the challenge, and why some defenders deliberately foul outside the box rather than inside it — the maths change completely depending on which side of the line it happens."
+      ],
+      "example": "A striker breaks clear with only the keeper to beat. The last defender grabs his shirt and pulls him down thirty yards out: obvious goal-scoring opportunity denied, straight red card. Now imagine the same incident inside the penalty area, with the defender genuinely lunging for the ball and catching the attacker instead — penalty kick and a yellow card. Same cynicism, same denial, two completely different outcomes determined by eighteen yards of grass.",
+      "myths": [
+        {"belief": "Any last-man foul is a red card.", "reality": "Inside the penalty area a genuine attempt to play the ball that results in a penalty is only a caution. Outside the box, or for holding, pulling or handball, denying an obvious chance is a red."},
+        {"belief": "The double jeopardy rule removed red cards for professional fouls entirely.", "reality": "It only softened them for genuine attempts to play the ball inside the penalty area. Deliberate holding, pulling or a handball that stops the ball is still a sending-off."},
+        {"belief": "A professional foul only means tripping someone.", "reality": "Handball counts too — a deliberate hand that stops a certain goal is a professional foul and is punished the same way."}
+      ],
+      "concepts": [
+        {"href": "/sports/explainers/what-counts-as-a-foul/", "label": "What counts as a foul", "note": "careless, reckless, excessive force"},
+        {"href": "/sports/explainers/what-happens-when-a-player-is-sent-off/", "label": "Red cards", "note": "what follows the dismissal"},
+        {"href": "/sports/explainers/direct-and-indirect-free-kicks/", "label": "Direct vs indirect free kicks", "note": "the restart when the foul happens outside the box"}
+      ],
+      "faq": [
+        {"q": "What counts as an obvious goal-scoring opportunity?", "a": "The referee weighs distance to goal, general direction of play, the likelihood of keeping or gaining control of the ball, and the position and number of defenders."},
+        {"q": "Is a professional foul punished differently in a shootout?", "a": "Yes — during a shootout a player who commits an offence can be cautioned, but the shootout continues with the kicking team's kick recorded as missed if the foul prevented a goal."}
+      ]
+    },
+    {
+      "slug": "what-is-an-own-goal",
+      "question": "What is an own goal?",
+      "short": "Own goals, explained",
+      "kicker": "Football laws",
+      "answer": "An own goal is scored when a player puts the ball into his own team's net. It counts for the opposition — but the credit and the statistics depend on whether the ball was already heading towards the goal: a deflection is usually credited to the attacker's shot, while a genuinely misplaced clearance becomes an own goal.",
+      "explain": [
+        "The basic case is simple: the ball crosses the line, it went in off a defending player, and the goal is awarded to the attacking team. The law does not care whose foot it came off or whether the defender meant it — what matters is that the whole ball crossed the whole line without any attacking offence in the build-up.",
+        "The interesting part is attribution, because it decides statistics and occasionally arguments about a player's record. If a shot was already on target and a defender's touch merely deflects it past his own keeper, most competitions credit the goal to the attacker — the shot was going in anyway. If a defender miscontrols a pass, slices a clearance or heads a cross into his own net from an angle where the ball was never going in, it is an own goal. The distinction is judgement, and the two official bodies that track such things sometimes disagree on the same incident.",
+        "Own goals have their own restart: the game resumes with a kick-off to the team that conceded, exactly as it would after any other goal. There are also two edge cases worth knowing. A goal cannot be scored directly into a team's own net from a throw-in, a goal kick or a corner — those situations produce a corner to the opposition instead. And an own goal can be disallowed for the same reasons any goal can: an offside or a foul in the build-up wipes it out just as it would at the other end.",
+        "Video review has made one aspect cleaner and another murkier. It is now easier to see whether a touch came off the attacker or the defender, and whether the shot was on target; but the judgement about whether the ball would have gone in regardless remains a matter of interpretation. Either way, the match is decided the same — the goal stands, and it counts against the team that put it there."
+      ],
+      "example": "A low cross flashes across the six-yard box. A defender slides in and turns it past his own keeper from two yards: own goal, no debate — the ball was never going in on its own. Now take the same cross deflected by the defender off a striker's shot that was already beating the keeper: most competitions give the goal to the striker, because the shot was on target before the touch.",
+      "myths": [
+        {"belief": "Any goal that goes in off a defender is an own goal.", "reality": "A touch that merely deflects an already on-target shot is usually credited to the attacker. Own goals are for genuinely misplaced clearances and touches where the ball was not going in."},
+        {"belief": "The defender is punished or booked.", "reality": "There is no sanction. An own goal is simply a goal for the opposition, and the game restarts with a kick-off."},
+        {"belief": "You can score an own goal directly from a corner or throw-in.", "reality": "No — from those restarts the result is a corner to the opposition rather than a goal."}
+      ],
+      "concepts": [
+        {"href": "/sports/explainers/when-is-a-goal-a-goal/", "label": "When a goal is a goal", "note": "the whole-ball-over-the-line test"},
+        {"href": "/sports/explainers/what-does-offside-mean/", "label": "What offside means", "note": "why an own goal can still be disallowed"},
+        {"href": "/sports/explainers/how-do-throw-ins-goal-kicks-and-corners-work/", "label": "Restarts explained", "note": "why some own goals become corners"}
+      ],
+      "faq": [
+        {"q": "Can an own goal be disallowed?", "a": "Yes — for exactly the same reasons as any other goal: offside, a foul or a handball by an attacking player in the build-up."},
+        {"q": "Does an own goal affect a player's goal statistics?", "a": "It is recorded separately and does not count as a goal for the player who scored it, which is why goal tallies sometimes differ between sources after a deflected finish."}
+      ]
+    },
+    {
+      "slug": "how-big-is-a-football-pitch",
+      "question": "How big is a football pitch?",
+      "short": "Pitch dimensions",
+      "kicker": "Match mechanics",
+      "answer": "A full-size pitch is roughly 105 by 68 metres, but the laws allow a range: 90–120 metres long and 45–90 metres wide, with 100–110 by 64–75 recommended for international matches. The markings inside it — the penalty area, the six-yard box and the ten-yard arc — are fixed in every stadium.",
+      "explain": [
+        "Football is unusual in that it does not insist on a single pitch size. The Laws of the Game give a range for competitive matches: 90 to 120 metres long and 45 to 90 metres wide, with the pitch required to be longer than it is wide. For international matches the range tightens to 100–110 metres by 64–75 metres, which is why the top grounds all feel similar without being identical.",
+        "That flexibility is deliberate and tactical. A wide pitch suits a team that wants to stretch the play and use its wingers; a narrow, compact one suits a team that defends in a block and wants to squeeze space. Clubs are allowed to set their dimensions anywhere inside the legal range, and some have been openly accused of narrowing the pitch to suit a style. It is one of the few entirely legal home advantages in the sport.",
+        "Inside the boundary, the markings are the same everywhere. The penalty area extends 16.5 metres (18 yards) from each goal post and the same distance into the pitch, and it is where the goalkeeper may handle the ball — the single most important rectangle on the field. Inside it sits the six-yard box, 5.5 metres out, which is the goal-kick zone. The penalty spot is 11 metres from goal, and the arc at the top of the area marks the ten-yard exclusion zone around it.",
+        "Everything else is standard too: the centre circle is 9.15 metres in radius — the same ten yards as the free-kick distance — and the goal itself is 7.32 metres wide by 2.44 metres high, dimensions that have barely changed since the laws were codified. The touchlines and goal lines are part of the field of play, which is why a ball resting on the line is still in play, a detail that decides offside and goal-line decisions constantly."
+      ],
+      "example": "A club with two flying wingers sets its pitch at the maximum legal width, giving them more room to isolate a full-back one-on-one. A rival that defends narrow and counters quickly sets its pitch at the minimum, compressing the same eleven players into less space. Both are entirely within the laws — the dimensions are a home-club choice inside the permitted range.",
+      "myths": [
+        {"belief": "Every professional pitch is the same size.", "reality": "The laws permit a range of lengths and widths, and clubs choose where inside it to sit. Only international matches have a tight recommended band."},
+        {"belief": "If the ball is on the line, it is out.", "reality": "Lines are part of the area they enclose, so a ball resting on the touchline is still in play and a ball on the goal line is not a goal."},
+        {"belief": "The penalty arc is just decoration.", "reality": "It marks the ten-yard zone around the penalty spot — players must be outside it when a penalty is taken."}
+      ],
+      "concepts": [
+        {"href": "/sports/explainers/how-many-players-are-on-a-football-team/", "label": "How many players on a team", "note": "eleven players in whatever space the pitch allows"},
+        {"href": "/sports/explainers/what-do-football-formations-mean/", "label": "Formations", "note": "how shapes change with the space available"},
+        {"href": "/sports/explainers/how-long-is-a-football-match/", "label": "Match length", "note": "the other dimension clubs cannot vary"}
+      ],
+      "faq": [
+        {"q": "How big is the goal?", "a": "7.32 metres wide by 2.44 metres high (8 yards by 8 feet) — dimensions that have been standard since the laws were codified."},
+        {"q": "Why is the centre circle 9.15 metres?", "a": "Because that is ten yards — the same distance opponents must retreat at a free kick. At kick-off it keeps the opposition out of the centre."}
+      ]
+    },
+    {
+      "slug": "football-terms-explained",
+      "question": "Football terms explained — hat-trick, clean sheet, parking the bus and more",
+      "short": "Football terms",
+      "kicker": "Football language",
+      "answer": "A hat-trick is three goals by one player in a match; a clean sheet is a match without conceding; parking the bus is defending with everyone behind the ball. Most football slang describes either a milestone, a tactical choice, or a piece of skill — and knowing which is which makes commentary far easier to follow.",
+      "explain": [
+        "Start with the milestones. A brace is two goals in a match, a hat-trick is three, and a 'perfect' hat-trick is one scored with the left foot, the right foot and the head. A clean sheet is a match in which a team (or a goalkeeper) concedes nothing — the term comes from the days when journalists recorded a shut-out on a blank sheet of paper. A goalkeeper's clean-sheet record is one of the few defensive statistics with real currency in the game.",
+        "Then there are the tactical terms. Parking the bus describes a team abandoning attack to put every player behind the ball, usually to protect a lead or to frustrate a stronger opponent — the phrase was popularised by José Mourinho and has stuck ever since. Gegenpressing is the opposite instinct: winning the ball back immediately after losing it, before the opponent can organise. A false nine is a nominal centre-forward who drops deep into midfield, dragging defenders out of position and leaving space for others to run into.",
+        "Skill terms are the ones that travel fastest. A nutmeg is playing the ball through an opponent's legs; a rabona is a cross-legged kick behind the standing leg; a panenka is a penalty chipped nonchalantly down the middle, named after Antonín Panenka's 1976 European Championship final. A bicycle kick is an overhead strike with the player's back to goal, and a volley is simply striking the ball before it touches the ground.",
+        "Finally, the competitive vocabulary. A double is winning the league and the domestic cup in one season; a treble adds a third trophy, usually the Champions League. A golden boot is the award for a competition's top scorer. And 'squeaky-bum time' — Sir Alex Ferguson's phrase for the run-in — is the one term on this list you will hear from managers rather than commentators, describing the weeks when the table is decided."
+      ],
+      "example": "One sentence, five terms: 'They parked the bus for an hour, the keeper took a clean sheet into squeaky-bum time, and the substitute won it with a volley from a false nine's flick — their first double in twenty years.' Every phrase in that report describes something specific about how the match was played and what it meant, which is exactly why football's vocabulary survives.",
+      "myths": [
+        {"belief": "A hat-trick means three goals in a row.", "reality": "It is three goals by one player in a single match, in any order. A 'perfect' hat-trick is the variation — one with each foot plus a header."},
+        {"belief": "A clean sheet is a goalkeeper statistic only.", "reality": "It belongs to the team as much as the keeper — no goals conceded in the match — though it is most often quoted for goalkeepers."},
+        {"belief": "Parking the bus and defending deeply are the same thing.", "reality": "Defending deep can be a tactical choice within a game plan; parking the bus specifically means abandoning attacking intent to protect a result."}
+      ],
+      "concepts": [
+        {"href": "/sports/explainers/what-is-xg/", "label": "What xG is", "note": "the modern way to measure whether chances were taken"},
+        {"href": "/sports/explainers/what-do-football-formations-mean/", "label": "Formations", "note": "the shapes behind the tactical terms"},
+        {"href": "/sports/explainers/what-is-an-own-goal/", "label": "Own goals", "note": "the goal that ends a clean sheet"}
+      ],
+      "faq": [
+        {"q": "What is a brace?", "a": "Two goals by one player in a single match. Three is a hat-trick, and four in one game is sometimes called a haul."},
+        {"q": "What is a double or a treble?", "a": "A double is winning two major trophies in one season — in England, typically the league and the FA Cup. A treble is three, most famously league plus domestic cup plus the Champions League."}
+      ]
+    },
+    {
+      "slug": "what-is-the-club-world-cup",
+      "question": "What is the Club World Cup?",
+      "short": "Club World Cup",
+      "kicker": "Governance & competitions",
+      "answer": "The Club World Cup is FIFA's global club tournament, contested by the champion clubs of each continental confederation — Europe's Champions League winners, South America's Copa Libertadores winners and the rest. It has existed in various forms since 1960 and expanded to 32 teams for a new edition in 2025.",
+      "explain": [
+        "The idea is older than most fans realise. The Intercontinental Cup, played from 1960, matched Europe's champion against South America's champion over one or two legs; FIFA absorbed it into a broader Club World Championship in 2000 and settled on the annual Club World Cup format in 2005. Its status has always been uneven — taken extremely seriously in South America, and often treated as an obligation by European clubs with a fixture list already at capacity.",
+        "Who plays is decided by winning your continent. The Champions League winners take Europe's place, the Copa Libertadores winners take South America's, and the champions of Africa, Asia, North America and Oceania fill the remaining berths, with a place for the host nation's champion in the older format. That structure is what made the competition interesting: it is one of very few places where the best club in Europe meets the best club in Africa or Asia in a competitive match.",
+        "The 2025 edition changed the scale entirely — 32 clubs, played over roughly a month in the summer, with the previous annual tournament replaced by a quadrennial event in the same slot the World Cup occupies for national teams. Qualification for the expanded version is based on winning continental titles across a four-year cycle plus a ranking pathway, which means a club's performances over several seasons feed into whether it is invited.",
+        "The controversy has followed the ambition. Expanding the tournament added fixtures to an already crowded calendar, and players' unions and leagues raised workload objections; it also redistributes a large prize pool towards the clubs that are already richest. Supporters of the expansion argue it finally gives club football a genuine world championship with real stakes, rather than a short December sideshow."
+      ],
+      "example": "A club wins the Champions League in May, then travels to the Club World Cup expecting a relaxed week. Instead it faces the Copa Libertadores winners in front of a full stadium of supporters who have waited decades for the fixture — a match that is a friendly in name for one side and the biggest game in the club's history for the other. That imbalance of meaning is what the expanded format was designed to fix.",
+      "myths": [
+        {"belief": "The Club World Cup and the Intercontinental Cup are unrelated.", "reality": "The Club World Cup grew directly out of the Intercontinental Cup, which matched Europe against South America from 1960 and is recognised as its predecessor."},
+        {"belief": "Any club can qualify.", "reality": "Entry comes from winning a continental competition or through a ranking pathway; it is not open to all clubs."},
+        {"belief": "It is a friendly tournament.", "reality": "It is a FIFA-organised official competition with a trophy, prize money and, under the expanded format, far greater scale."}
+      ],
+      "concepts": [
+        {"href": "/sports/explainers/what-is-uefa/", "label": "What UEFA is", "note": "the confederation whose champion takes Europe's place"},
+        {"href": "/sports/explainers/what-is-the-difference-between-the-champions-league-europa-and-conference-league/", "label": "Europe's three competitions", "note": "how the European berth is earned"},
+        {"href": "/sports/explainers/why-is-the-world-cup-every-four-years/", "label": "Why the World Cup is every four years", "note": "the national-team equivalent"}
+      ],
+      "faq": [
+        {"q": "How often is the Club World Cup played?", "a": "The older format was annual. The expanded 32-team version is designed as a quadrennial summer tournament, with the first of the new era staged in 2025."},
+        {"q": "Who has won it most often?", "a": "European clubs have dominated the modern era, with South American clubs — particularly from Brazil and Argentina — historically the most serious challengers."}
+      ]
+    },
+    {
+      "slug": "how-does-a-team-qualify-for-the-champions-league",
+      "question": "How does a team qualify for the Champions League?",
+      "short": "Champions League qualification",
+      "kicker": "Governance & competitions",
+      "answer": "Clubs qualify through their domestic league position — and, in some countries, by winning a domestic cup or the previous European competition. UEFA allocates a fixed number of places per country using a coefficient ranking, so finishing fourth in England can be worth more than finishing second somewhere else.",
+      "explain": [
+        "The basic route is league position. Each season, UEFA's access list tells every national association how many of its clubs may enter the Champions League, and the league table decides which ones they are. The strongest leagues get four places; mid-ranked leagues get two or three; the smallest get one, often through a qualifying round rather than direct entry.",
+        "How many places a country gets is decided by its coefficient — a rolling five-year score built from how its clubs perform in Europe. Countries that do well earn more places; countries that do badly lose them. This is why the distribution shifts slowly over the years, and why a league's overall health in Europe matters to every club in it, not just the ones competing.",
+        "There are other doors. Winning the previous season's Champions League guarantees a place regardless of domestic position, and winning the Europa League does the same for its competition — which is how a club having a poor domestic season can still appear in the Champions League. Some associations also route their domestic cup winners into Europe, though usually into the Europa League or Conference League rather than the Champions League itself.",
+        "The distinction between entering and being in matters. Clubs from smaller leagues must survive qualifying rounds played in the summer before the competition proper begins; clubs from the top leagues enter directly into the league phase, which is why the phrase 'direct qualification' carries so much financial weight. Every round survived is prize money earned, and the gap between a club that reaches the league phase and one that exits in qualifying can be tens of millions in revenue."
+      ],
+      "example": "Two clubs finish third. One plays in a league ranked in UEFA's top four and goes straight into the Champions League league phase. The other plays in a league ranked twelfth and must win two qualifying ties in July and August just to reach the same starting point — with the same prize money on the line and far less preparation time. Same finishing position, entirely different routes.",
+      "myths": [
+        {"belief": "The league champion of every country qualifies automatically.", "reality": "Most do, but clubs from smaller associations often have to come through qualifying rounds, and the number of places per country varies with its coefficient."},
+        {"belief": "Only league position counts.", "reality": "Winning the previous Champions League or Europa League also grants entry, regardless of where the club finished domestically."},
+        {"belief": "The number of places per country is fixed.", "reality": "It changes with that country's five-year coefficient — strong collective performances earn more berths, poor ones lose them."}
+      ],
+      "concepts": [
+        {"href": "/sports/champions-league-format-explained/", "label": "How the Champions League format works", "note": "what qualification leads into"},
+        {"href": "/sports/explainers/what-is-promotion-and-relegation/", "label": "Promotion and relegation", "note": "how clubs reach a league high enough to qualify"},
+        {"href": "/sports/explainers/how-are-champions-league-draws-seeded/", "label": "How draws are seeded", "note": "what happens once a club is in"}
+      ],
+      "faq": [
+        {"q": "Can a cup win get a club into the Champions League?", "a": "Usually the domestic cup leads to the Europa League or Conference League. The exceptions are winning the Champions League or Europa League itself, both of which grant entry to the following season's Champions League."},
+        {"q": "What are qualifying rounds?", "a": "Summer knockout ties that clubs from lower-ranked associations must win to reach the league phase. Each round carries prize money and can make a significant difference to a club's finances."}
+      ]
+    },
+    {
+      "slug": "what-is-a-free-agent-and-release-clause",
+      "question": "What is a free agent and what is a release clause?",
+      "short": "Free agents & release clauses",
+      "kicker": "Transfers & money",
+      "answer": "A free agent is a player not under contract, free to sign for any club without a transfer fee. A release clause is a figure written into an existing contract that allows a player to leave for that amount, usually triggering a move whether or not his club wants to sell.",
+      "explain": [
+        "Free agency is the simplest state in football: a player's contract has expired or been terminated, and no club holds his registration. He can sign for anyone, and the buying club pays no transfer fee — which is why free agents command higher wages and larger signing-on fees. The most famous mechanism behind it is the Bosman ruling of 1995, which stopped clubs from demanding a fee for a player whose contract had ended and transformed how players plan the final year of a deal.",
+        "That final year is where the leverage sits. A player entering the last twelve months of his contract can sign a pre-contract with a foreign club six months before it expires, leaving his current club watching an asset walk out for nothing. Clubs respond by selling a year early, by offering a renewal with a big wage rise, or by simply losing the player — one of the most consequential decisions in squad management, and one that is made entirely on arithmetic.",
+        "A release clause works differently: it is a number inside a live contract. If another club offers that amount, the selling club is contractually obliged to allow the player to talk to them. Spanish football made this famous, because La Liga rules require a mandatory release clause in every contract; elsewhere they are negotiated. A clause does not mean a player wants to leave — it sets the price at which his club loses the power to refuse.",
+        "There are variations worth knowing. A buy-out clause must be paid by the player himself in some jurisdictions, which in practice means the buying club funds it. A minimum-fee release clause only applies to certain clubs, sometimes excluding domestic rivals — these have been challenged and restricted for breaching competition rules. And clauses are often set deliberately high, not to facilitate a move but to signal that a club does not want to sell at all."
+      ],
+      "example": "A striker has eighteen months left on his deal. His club offers a renewal he declines; six months later he is free to negotiate with clubs abroad, and the following summer he joins one of them for a fee of zero, with the money that would have been a transfer fee paid to him in wages instead. Compare that with a midfielder whose contract contains a release clause: his club never wanted to sell, but when a rival pays the clause, refusal is no longer an option.",
+      "myths": [
+        {"belief": "A free agent is a player who was released for being unwanted.", "reality": "Many free agents are high-value players who simply ran their contracts down. Expiry, not quality, creates the status — and it usually increases the player's wage demands."},
+        {"belief": "A release clause means the player is leaving.", "reality": "It sets a price at which the club cannot refuse. Many clauses are set far above market value precisely to deter bids."},
+        {"belief": "The buying club triggers the clause directly.", "reality": "Not always — in some jurisdictions the clause is exercised by the player depositing the fee, with the buying club funding it in practice."}
+      ],
+      "concepts": [
+        {"href": "/sports/explainers/how-does-the-transfer-window-work/", "label": "How transfer windows work", "note": "when a free agent can be registered"},
+        {"href": "/sports/explainers/what-is-a-loan-deal/", "label": "Loan deals", "note": "the other way a player moves without a permanent fee"},
+        {"href": "/sports/explainers/what-is-financial-fair-play/", "label": "Financial fair play", "note": "the rules shaping whether a club can afford the wages"}
+      ],
+      "faq": [
+        {"q": "Can a free agent sign outside a transfer window?", "a": "Generally yes, provided he was not under contract when the window closed and the relevant league's registration rules allow it — free agents are the main exception to window timing."},
+        {"q": "Why do some contracts have no release clause?", "a": "They are a negotiated term. Clubs often refuse them to keep control of the fee, and players with leverage demand them to guarantee an exit route."}
+      ]
+    },
+    {
+      "slug": "what-is-a-play-off",
+      "question": "What is a play-off?",
+      "short": "Play-offs, explained",
+      "kicker": "League rules",
+      "answer": "A play-off is a mini-tournament or a one-off match used to settle something the regular season could not — usually promotion, relegation or a qualification place. It is decided by knockout football rather than league position, which means the team that finished lower can still go up.",
+      "explain": [
+        "Play-offs exist where a league table ends without answering the question. If a division has one automatic promotion place, the clubs finishing second to fifth may enter a play-off for the second; if two teams finish level on points for a title or a relegation place, the competition may order a one-off decider. Either way, the principle is the same: the league phase has done what it can, and the rest is settled by knockout.",
+        "The classic structure is the promotion play-off. Four teams contest semi-finals played over two legs — the higher finisher usually at home in the second leg — and the winners meet in a single final at a neutral venue, often a national stadium. Whoever wins the final goes up, regardless of whether they finished third or sixth. This is why the play-off final is routinely described as the most valuable single match in football: the financial difference between divisions is enormous.",
+        "Play-offs are also the last resort in tiebreaker queues. When two teams are level on points and every other criterion — goal difference, goals scored, head-to-head — is also identical, some competitions order a play-off at a neutral ground to decide a title, a relegation place or qualification. It is rare precisely because the criteria above it usually resolve the tie, but it is the final line in the queue for a reason: something has to decide it.",
+        "The criticism of play-offs is fairness, and it is not easily dismissed. A team that finished third, twelve points clear of the sixth-placed side, can lose one match and miss promotion entirely — the regular season's work is devalued by ninety minutes. The defence is spectacle and stakes: a play-off final is a genuinely dramatic event, and it keeps the end of a season meaningful for far more clubs than automatic promotion ever could."
+      ],
+      "example": "A club finishes sixth, thirteen points behind third, and wins three matches in ten days to go up. The third-placed club, beaten in a semi-final, watches from the stands. In the table, they were the better team by a distance; in the only competition that mattered at that moment, they lost over two legs. That tension — season-long merit versus one-off drama — is the argument about play-offs in miniature.",
+      "myths": [
+        {"belief": "The team that finished highest always wins.", "reality": "No — that is the point. Form, momentum and a single bad afternoon decide it, which is why lower finishers regularly win promotion."},
+        {"belief": "All play-offs are one match.", "reality": "Many are two-legged semi-finals followed by a single final. The format is set by each competition."},
+        {"belief": "Play-offs only decide promotion.", "reality": "They also settle relegation places, qualification spots, and occasionally a title when every other tiebreaker has failed."}
+      ],
+      "concepts": [
+        {"href": "/sports/explainers/what-is-promotion-and-relegation/", "label": "Promotion and relegation", "note": "what the play-off winners earn"},
+        {"href": "/sports/explainers/what-happens-if-teams-finish-on-equal-points/", "label": "Teams level on points", "note": "the play-off as the last tiebreaker"},
+        {"href": "/sports/explainers/how-is-a-knockout-tie-decided/", "label": "How knockout ties are decided", "note": "the mechanics of a two-legged tie"}
+      ],
+      "faq": [
+        {"q": "Is the play-off final at a neutral ground?", "a": "Usually yes — most leagues stage it at a national stadium, though the semi-finals are typically two-legged and played at the clubs' own grounds."},
+        {"q": "Can a play-off decide a relegation place?", "a": "Yes. Some leagues use play-offs for the final relegation spot, and some use them between a top-flight club and a second-tier club at the end of a season."}
+      ]
+    },
+    {
+      "slug": "what-does-the-coin-toss-decide",
+      "question": "What does the coin toss decide?",
+      "short": "The coin toss",
+      "kicker": "Match mechanics",
+      "answer": "Before kick-off the referee tosses a coin and the winning captain chooses which goal to attack in the first half or takes the kick-off. The other team gets whichever he does not pick. If the match goes to penalties, a second toss decides who kicks first and which end the shootout is taken at.",
+      "explain": [
+        "The pre-match toss decides two things. The captain who wins it chooses either which end his team attacks in the first half, or the right to take the kick-off; the losing captain takes whatever is left. The teams swap ends at half-time, so the choice is really about which half a team wants the wind, the sun or the slope behind them — a decision that can matter enormously in an exposed stadium and not at all in a modern bowl.",
+        "The second toss, before a penalty shootout, is far more consequential. The winning captain chooses whether his team kicks first or second, and the referee may also decide which goal is used — often the one in front of the noisier end, to give the shootout atmosphere, with both teams shooting at it. Kicking first means setting the pace; kicking second means always knowing exactly what you need. Research and convention both suggest kicking first is a slight advantage, because the chasing team faces repeated must-score moments.",
+        "The other side of the coin is the kick-off itself. The team that kicks off starts with the ball but does not get to choose ends; the other team chooses ends and receives the ball for the second half. A kick-off must be taken forwards, everyone must be in their own half, and the ball is in play once it is kicked and clearly moves — and a goal can in principle be scored directly from it, though nobody has ever done it from the centre circle in a top-level match.",
+        "There is a tactical layer people miss: the choice of ends is often about the second half, not the first. A team that expects to be defending a lead late, or attacking towards its own supporters in the closing minutes, will pick its end accordingly. Captains are coached on this, and some consult the bench before the toss rather than making the obvious choice."
+      ],
+      "example": "A captain wins the toss in a stadium with a strong wind behind one goal and chooses to attack that end in the second half, when his team's fitter bench and tiring opponents should tell. At 1-1 in the 88th minute, the wind is at his forwards' backs for a final assault. Ninety minutes later the same captain wins the shootout toss and elects to kick first — a decision that will be called inspired or foolish depending on how the first five kicks go.",
+      "myths": [
+        {"belief": "The toss decides who gets the ball in both halves.", "reality": "It decides ends or the kick-off. The team that does not kick off takes the ball for the second half, so both teams get one restart."},
+        {"belief": "The shootout toss only decides who kicks first.", "reality": "It can also decide which goal the shootout is taken at, and the referee may select the end to put the shootout in front of the louder support."},
+        {"belief": "You cannot score directly from a kick-off.", "reality": "The laws allow it — the ball is in play once kicked and clearly moving. It is simply never attempted from the centre circle."}
+      ],
+      "concepts": [
+        {"href": "/sports/explainers/how-long-is-a-football-match/", "label": "How long a match is", "note": "why teams swap ends at the interval"},
+        {"href": "/sports/explainers/how-do-penalty-shootouts-work/", "label": "Penalty shootouts", "note": "the toss that matters most"},
+        {"href": "/sports/explainers/how-do-substitutions-work/", "label": "Substitutions", "note": "how the second-half advantage is built"}
+      ],
+      "faq": [
+        {"q": "Who makes the choice at the toss?", "a": "The captain of the team that wins it. He may pick which end to attack in the first half, or take the kick-off — not both."},
+        {"q": "Is kicking first in a shootout an advantage?", "a": "Most analysis suggests a modest edge to going first, because it forces the opponent into repeated must-score situations — though many managers and players prefer second."}
+      ]
+    }
+  ]
+}
