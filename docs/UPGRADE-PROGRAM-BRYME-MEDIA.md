@@ -1,6 +1,22 @@
 # BRYME Media — Mass Upgrade Program (v3 "Watch Next")
 
-Status: **drop 1 in progress** · Owner: BRYME · Scope: staging repo only (`ojeology/bryme-media`)
+Status: **drop 1 SHIPPED (2026-10-01, `28a686c`)** — CI green, preview live. Awaiting owner review
+of the sample before any scale-up. · Owner: BRYME · Scope: staging repo only (`ojeology/bryme-media`)
+
+## Review the drop (owner)
+
+| What | URL |
+| --- | --- |
+| New front door | https://ojeology.github.io/bryme-media/ |
+| Entertainment hub (new) | https://ojeology.github.io/bryme-media/entertainment/ |
+| Entertainment hub (old, for comparison) | https://ojeology.github.io/bryme-media/entertainment/classic/ |
+| Recommendation lists | https://ojeology.github.io/bryme-media/watch-next/ |
+| Football explainers | https://ojeology.github.io/bryme-media/sports/explainers/ |
+| Title page example (upgraded) | https://ojeology.github.io/bryme-media/movie/dune-part-two/ |
+
+Verification on ship: quality gate + Pages publish both green; consecutive builds
+byte-identical (fixpoint); all sample pages noindex with v3 theme; 0 iframes in source;
+internal links resolve; live URLs 200 (10/10 checked).
 This program implements Parts 13–15 of the approved sitewide roadmap inside the staging
 environment. Nothing here touches the live publication until the sample is reviewed and
 approved for migration (Part 18, step 11).
