@@ -244,7 +244,7 @@ const PUBLIC_HTML_DIRS = new Set([
   "copyright", "corrections", "disclaimer", "editorial-policy", "entertainment",
   "genre", "genres", "jobs", "make-money", "memes", "movie", "movies", "now",
   "privacy", "search", "series", "sports", "tech", "terms", "topic", "topics",
-  "trending", "year", "years"
+  "trending", "watch-next", "year", "years"
 ]);
 const PUBLIC_ROOT_FILES = new Set([
   "index.html", "404.html", "robots.txt", "sitemap.xml", "news-sitemap.xml",

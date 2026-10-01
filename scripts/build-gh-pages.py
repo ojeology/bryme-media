@@ -43,7 +43,7 @@ COPY_DIRS = [
     "contact", "content", "copyright", "data", "disclaimer", "editorial-policy",
     "entertainment", "genre", "genres", "legacy", "movie", "movies", "now",
     "privacy", "search", "series", "sports", "terms", "topic", "topics",
-    "trailers", "trending", "year", "years",
+    "trailers", "trending", "watch-next", "year", "years",
 ]
 # Root files that are part of the published static site.
 COPY_FILES = ["404.html", "index.html", "favicon.ico", "manifest.webmanifest", "feed.xml"]

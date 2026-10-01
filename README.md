@@ -41,6 +41,22 @@ Indexing safeguards (house rule: staging must never become an accidental Google 
 
 The preview exists for visual and functional QA of the Sports & Entertainment rebuild — it is not an SEO surface. Search-engine verification token files are deliberately not published (the stale copies were removed from the repo root on 2026-10-01; the live domain keeps its own).
 
+## Mass upgrade (v3 "Watch Next")
+
+The archive is being rebuilt inside this repo — see `docs/UPGRADE-PROGRAM-BRYME-MEDIA.md`.
+The upgrade is deliberately two-layered:
+
+- **the system is mass:** `assets/media-v3.css` + the v3 shell (header, footer, mobile
+  navigation, homepage) are applied to every page by `npm run build` — one build step
+  upgrades the chrome of the whole archive without touching archived article bodies;
+- **the content is a sample:** the new architectures ship as a reviewed sample only —
+  4 recommendation lists (`/watch-next/…`), 8 sports explainers (`/sports/explainers/…`),
+  5 upgraded title pages, and 3 hubs. Scale-up happens only after owner sign-off
+  (roadmap Part 15).
+
+Trailer facades mean pages ship **no iframes at all**; the privacy-enhanced player is
+created by `assets/media-v3.js` only on an explicit play action.
+
 ## Build
 
 ```bash
@@ -49,7 +65,15 @@ npm test
 npm start
 ```
 
-`npm run build` applies the media navigation and forest-green compatibility layer without rewriting article bodies.
+`npm run build` regenerates the v3 architecture sample (`scripts/build-v3-upgrade.py`),
+then applies the v3 shell and rebuilds the homepage without rewriting article bodies
+(`scripts/apply-media-brand.py`). The build must be a fixed point: running it twice
+changes nothing (CI enforces `git diff --exit-code`).
+
+`npm test` runs three gates: the media-shell validator (every page noindex + v3 theme +
+bottom navigation), the upgrade validator (sample integrity, thin-content floor,
+facade-only embeds, link resolution) and the HTTP validator (routes 200, containment
+404s, security headers).
 
 ## Relationship to BRYME
 

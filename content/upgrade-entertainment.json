@@ -1,0 +1,165 @@
+{
+  "recommendations": [
+    {
+      "slug": "shows-like-alice-in-borderland",
+      "subject": "alice-in-borderland",
+      "title": "Shows Like Alice in Borderland",
+      "subtitle": "Five survival dramas to queue next — and why each one fits",
+      "lede": "Alice in Borderland drops a group of Tokyo friends into an emptied city where survival is a series of brutal games, and leaves you with a very specific craving: more stories where ordinary people are forced to think their way out of impossible rules.",
+      "intro": [
+        "The show works because it respects its own game design. Cards set the difficulty, teams form and fracture, and the tension comes less from monsters than from the arithmetic of who survives. When it ends, the feeling you want more of is not gore — it is that particular blend of strategy, dread and uneasy teamwork.",
+        "So the five shows below are not simply 'foreign survival series'. Each one is here for a specific reason: the same engine of rules and stakes, the same pressure on a group, or the same willingness to kill characters you had just started to like. Every pick links to its full BRYME title page, so you can check the facts before you commit an evening."
+      ],
+      "audience": "This list is for viewers who liked the game logic more than the body count — people who enjoyed working out the wins alongside Arisu more than they enjoyed the shocks. If you want pure horror instead, two of the picks below (Sweet Home, Kingdom) push further in that direction; the others stay closer to thriller.",
+      "recs": [
+        {"slug": "squid-game", "reason": "The obvious cousin, and still the sharpest one. Debt-ridden strangers play childhood games for survival, with the same escalating dread and the same question underneath: what is a human life worth to the people running the show? It trades Borderland's manga surrealism for class-war satire, and the second season widens the world rather than resetting it.", "bryme": "Squid Game on BRYME — trailer, cast and where to watch"},
+        {"slug": "all-of-us-are-dead", "reason": "A zombie outbreak confined to a single Korean high school. Where Alice spreads its cast across a whole city, this one compresses the disaster into corridors, classrooms and rooftops, so the social hierarchy of the school becomes part of the survival problem. It is the most claustrophobic pick on this list.", "bryme": "All of Us Are Dead on BRYME — the school outbreak, explained"},
+        {"slug": "sweet-home", "reason": "Residents of an apartment block turn into monsters that embody their private desires — and the show's best trick is making you unsure which survivors are still people. If the part of Borderland you loved was the creeping suspicion of your own group, this is that feeling with better monsters.", "bryme": "Sweet Home on BRYME — monsters, rules and seasons"},
+        {"slug": "kingdom", "reason": "Zombies in Joseon-era Korea, wrapped inside a political thriller. The plague is real, but the more dangerous enemy is the court. It is the most 'adult' show here — slower, more strategic, and structured like a conspiracy story that happens to be overrun by the dead.", "bryme": "Kingdom on BRYME — the Joseon outbreak"},
+        {"slug": "yellowjackets", "reason": "The Western entry: a girls' football team survives a plane crash in the wilderness, and the story runs on two timelines — the teenagers then, the damaged adults now. It replaces games and monsters with something colder: the slow realisation that the group is inventing its own rules to survive.", "bryme": "Yellowjackets on BRYME — crash, cult and aftermath", "note": "US series · Showtime / Paramount+"}
+      ],
+      "viewing": "Availability follows rights, so it changes country by country and month by month — the four Korean shows here stream on Netflix in most regions, while Yellowjackets sits on Showtime in the US and Paramount+ in several other markets. Check the title page on BRYME for the trailer and a rights-neutral 'where to watch' starting point rather than relying on a list like this one staying current.",
+      "related": ["shows-like-squid-game"],
+      "faq": [
+        {"q": "Is Alice in Borderland finished?", "a": "The first two seasons resolve their central arc, and Netflix has continued the franchise since. Check your region's catalogue for the current season list — announcements outrun availability constantly."},
+        {"q": "Which of these is closest to Alice in Borderland season 1?", "a": "Squid Game. It has the same death-game structure and the same fascination with what desperation does to group dynamics — just without the manga logic."},
+        {"q": "Any of these for younger viewers?", "a": "None of them are family viewing. Sweet Home, All of Us Are Dead and Kingdom all carry strong violence ratings, and Yellowjackets deals with darker material than the others."}
+      ]
+    },
+    {
+      "slug": "shows-like-squid-game",
+      "subject": "squid-game",
+      "title": "Shows Like Squid Game",
+      "subtitle": "Five pressure-cooker dramas where the real game is the group",
+      "lede": "Squid Game built its reputation on one irresistible idea: childhood games, adult stakes, 456 strangers, and a system designed so that the players eliminate each other. The shows below all put a group under that kind of pressure — some with actual games, some with a heist, some with nothing but wilderness.",
+      "intro": [
+        "What people remember about Squid Game is rarely a single death. It is the machinery: the pink guards, the voting, the way hope itself became a resource. The best companion viewing keeps that focus on systems and group psychology rather than simply copying the arena.",
+        "Each recommendation below is here for a reason — one shares the game architecture, one the apocalyptic pressure, one the team-under-impossible-odds thrill — and every one links to its own BRYME title page so you can check cast, trailer and availability before you start."
+      ],
+      "audience": "These suit viewers who liked the social experiment of Squid Game more than its shocks — the episodes where the characters argue about whether to continue are, for this list's purposes, the best ones. All five are adult dramas with heavy content; none is casual background viewing.",
+      "recs": [
+        {"slug": "alice-in-borderland", "reason": "The nearest neighbour in spirit: strangers in an emptied Tokyo forced through games whose rules they must reverse-engineer to live. Where Squid Game's games are children's playgrounds turned lethal, Borderland's are puzzles with difficulty cards — but the group dynamics rot in exactly the same way.", "bryme": "Alice in Borderland on BRYME — games, cast and seasons"},
+        {"slug": "all-of-us-are-dead", "reason": "A zombie outbreak traps a school, and survival becomes a matter of alliances, barricades and leadership — the same questions of who is worth saving, compressed into one building. It is Squid Game's human arithmetic with a faster clock.", "bryme": "All of Us Are Dead on BRYME — the outbreak, explained"},
+        {"slug": "sweet-home", "reason": "Apartment residents versus monsters born from their own desires. The show's engine is distrust: every survivor might be turning, and the rules for staying human keep shifting. If Squid Game's voting scenes were your favourite part, this is an entire series of them.", "bryme": "Sweet Home on BRYME — monsters and seasons"},
+        {"slug": "money-heist", "reason": "The last pick swaps the death game for a heist: eight strangers, one Professor, and a plan that assumes the group will try to out-think the police for days. It is the warmest show on this list — until it is not — and the closest any of these comes to a team you actually root for.", "bryme": "Money Heist on BRYME — the Professor's plan"},
+        {"slug": "yellowjackets", "reason": "A team survives a plane crash and slowly invents its own society, and the series shows the results decades later in the survivors' wrecked adult lives. No games, no guards — just the long-term cost of what a group does to stay alive, which is Squid Game's real subject.", "bryme": "Yellowjackets on BRYME — the wilderness and after", "note": "US series · Showtime / Paramount+"}
+      ],
+      "viewing": "Four of these are Netflix originals in most regions; Yellowjackets is a US cable series that streams on Paramount+ in many markets and Showtime in the US. Since rights move, use the linked BRYME title pages for a current availability check rather than trusting any list — including this one.",
+      "related": ["shows-like-alice-in-borderland"],
+      "faq": [
+        {"q": "Is any of these lighter than Squid Game?", "a": "Not really — but Money Heist is the closest to 'fun'. It is a thriller first, with far less on-screen death than the others."},
+        {"q": "Where should I start if I want more actual games?", "a": "Alice in Borderland. It is the only show here built around the same death-game architecture as Squid Game."},
+        {"q": "Do I need to watch these in any order?", "a": "No. They are independent series; this list is ordered by closeness to Squid Game's core premise, not chronology."}
+      ]
+    },
+    {
+      "slug": "movies-like-dune-part-two",
+      "subject": "dune-part-two",
+      "title": "Movies Like Dune: Part Two",
+      "subtitle": "Five films for the scale, the patience and the sound",
+      "lede": "Dune: Part Two is not just a sequel — it is a statement about size: deserts that take minutes to cross on screen, a score you feel in your chest, and a plot that trades comfort for inevitability. These five films scratch different parts of that same itch.",
+      "intro": [
+        "What makes the Dune films unusual is their confidence in slowness. Whole sequences play out with almost no dialogue; the politics is carried by faces and landscapes. Audiences who love that usually know exactly what they are chasing: films where production design is a language, not decoration.",
+        "So this list mixes three kinds of pick — the same director's thinking sci-fi, epics built on practical spectacle, and one film included purely for its filmmaking method. Every recommendation links to its BRYME title page for trailer, cast and viewing details."
+      ],
+      "audience": "For viewers who left Part Two wanting weight rather than speed: big-canvas science fiction, deliberate pacing, and craft you can point at. If you mainly loved the sandworms and action, Mad Max: Fury Road is your first stop on the list.",
+      "recs": [
+        {"slug": "blade-runner-2049", "reason": "Villeneuve's other future. A two-hour-and-forty-minute meditation on identity that is also the most beautiful film on this list — same patience, same faith that a long silent shot of a landscape can do more than a monologue. If Dune's visual language was what held you, start here.", "bryme": "Blade Runner 2049 on BRYME — trailer and details"},
+        {"slug": "interstellar", "reason": "The emotional version of the Dune formula: enormous science-fiction concepts — time, gravity, survival — anchored to a father and daughter. Where Dune goes mythic, Interstellar goes sentimental, and the combination of practical effects and Zimmer-scale sound is the direct ancestor of Villeneuve's desert.", "bryme": "Interstellar on BRYME — cast, trailer and where to watch"},
+        {"slug": "arrival", "reason": "Also Villeneuve, also science fiction, and the film most likely to convert a Dune fan into a Villeneuve completionist. A first-contact story told through language and grief, it proves his scale does not depend on desert planets — just on patience and a devastating final act.", "bryme": "Arrival on BRYME — the thinking viewer's first contact"},
+        {"slug": "mad-max-fury-road", "reason": "The other desert. Nearly all practical stunts, almost no dialogue for its first act, and a chase that never really stops — this is what maximalist immersion looks like when the restraint comes off. Pair it with Dune: Part Two and you have both poles of modern epic cinema.", "bryme": "Mad Max: Fury Road on BRYME — the practical-effects epic"},
+        {"slug": "1917", "reason": "Included for method rather than genre. Sam Mendes and Roger Deakins staged an entire war film to look like a single continuous take, so the audience never gets permission to look away. Different subject, same goal as Dune's best sequences: pinning you to the screen and refusing to cut.", "bryme": "1917 on BRYME — the one-take war film"}
+      ],
+      "viewing": "Blade Runner 2049, Interstellar, Arrival, 1917 and Dune: Part Two are all widely available on major streaming rentals and several subscription libraries; availability rotates constantly, so check the BRYME title pages for trailer and current streaming options. Fury Road is the same — rentable everywhere, and worth seeking out in the best picture quality you can find, since all five films here are, frankly, half about image and sound.",
+      "related": ["shows-like-squid-game"],
+      "faq": [
+        {"q": "Which one is most like Dune: Part Two in style?", "a": "Blade Runner 2049 — same director, same pacing philosophy, same obsession with scale and silhouette."},
+        {"q": "Do I need to watch these in order?", "a": "No. They are unrelated films. If you want a sequence, start with Arrival and Blade Runner 2049, then save Fury Road for when you want the version without the patience."},
+        {"q": "Any lighter options for the same feeling?", "a": "The Martian trades awe for problem-solving, but this list is deliberately built around films that take their own time."}
+      ]
+    },
+    {
+      "slug": "anime-like-solo-leveling",
+      "subject": "solo-leveling",
+      "title": "Anime Like Solo Leveling",
+      "subtitle": "Five series for the leveling, the escalation and the power fantasy done right",
+      "lede": "Solo Leveling gives its audience the purest version of a beloved fantasy: the weakest man in the world gets a system that only he can see, and every episode he climbs. These five anime deliver different flavours of that same climb.",
+      "intro": [
+        "The show's appeal is structure as much as spectacle. The 'system' turns growth into a visible scoreboard — levels, stats, dungeons — and viewers feel every increase. The best companion anime either share that sense of measured escalation, or go the other way and parody it with total sincerity.",
+        "Each pick below is here for a specific reason, from absurd power ceilings to escalating stakes told over a decade, and each links to a BRYME title page with trailer, studio facts and viewing details."
+      ],
+      "audience": "For viewers who enjoy watching a protagonist earn power on a curve they can feel — and who care more about satisfying escalation, world-building and fight design than about intricate romance or slice-of-life. All five are action-led, and several are long commitments.",
+      "recs": [
+        {"slug": "jujutsu-kaisen", "reason": "The closest modern cousin: a secret system of curses and rankings, an overpowered mentor, and fights where rules matter as much as strength. Its animation escalates the way Solo Leveling's does — each major fight tries to outdo the last, and the power system keeps finding new corners.", "bryme": "Jujutsu Kaisen on BRYME — curses, ranks and trailer"},
+        {"slug": "demon-slayer", "reason": "If the part of Solo Leveling you loved was the feeling of a hunter training through the ranks, Demon Slayer weaponises it: breathing styles instead of spells, and a hero whose growth you track breath by breath. The animation is the current gold standard for fight choreography.", "bryme": "Demon Slayer on BRYME — breathing styles, explained"},
+        {"slug": "one-punch-man", "reason": "The joke version of the power fantasy, and that is the recommendation. Saitama is what Jinwoo is becoming: a man so far past every threat that the drama has to come from the world around him. Watch it after Solo Leveling and the comedy lands much harder.", "bryme": "One-Punch Man on BRYME — the max-level parody"},
+        {"slug": "attack-on-titan", "reason": "The escalation epic. Where Solo Leveling climbs a dungeon, this climbs the entire logic of its world — each answer rewriting the stakes of the last. If the addictive part of the 'system' for you was the slow reveal of how the world actually works, this is the deepest well on the list.", "bryme": "Attack on Titan on BRYME — the escalation epic"},
+        {"slug": "naruto", "reason": "The origin of the modern leveling fantasy, and still the one that shows its seams most affectionately: an outcast, a forbidden power inside him, and hundreds of episodes of measurable growth. A long commitment, but the template Solo Leveling's manhwa generation grew up on.", "bryme": "Naruto on BRYME — the original underdog climb"}
+      ],
+      "viewing": "All five are on major streamers in most regions — Jujutsu Kaisen, Demon Slayer and Attack on Titan on Crunchyroll and Netflix in many markets, One-Punch Man split across services, Naruto widely available. Rights differ region by region and season by season; the linked title pages carry the trailer and a viewing starting point.",
+      "related": ["shows-like-squid-game"],
+      "faq": [
+        {"q": "What should I watch first after Solo Leveling?", "a": "Jujutsu Kaisen. It shares the modern visual language, the ranked power structure and the escalating fight design almost exactly."},
+        {"q": "Any of these short enough for a weekend?", "a": "One-Punch Man is the shortest with twelve episodes in its first season. Jujutsu Kaisen's first season is 24. The rest are much longer commitments."},
+        {"q": "Is Solo Leveling based on a manga?", "a": "On a Korean web novel and webtoon by Chugong — a manhwa, not a manga — which is part of why its system-heavy fantasy feels different from the Japanese shonen template it grew up alongside."}
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "slug": "alice-in-borderland", "dir": "series", "title": "Alice in Borderland",
+      "intro": [
+        "Based on Haro Aso's manga and directed across its run by Shinsuke Sato, Alice in Borderland introduces Arisu — a bored gamer with no particular ambition — and drops him, along with two friends, into a version of Tokyo that has been emptied of everyone else. The city still works. The people are gone. Every crossing at Shibuya is silent.",
+        "The premise arrives quickly: to stay alive in this Tokyo you must win games, and to win you must first work out what game you are actually playing. Cards set the difficulty, new arrivals complicate the groups, and the borderland turns out to have rules — and managers — of its own."
+      ],
+      "why": "It is one of the cleanest examples of a show built on game design rather than monsters: every episode hands the audience the same information the characters have and lets you do the maths alongside them. The performances — Kento Yamazaki's cautious Arisu against Tao Tsuchiya's practical Usagi — carry the quieter stretches, and the visual idea of a crowded city drained of people remains the show's signature.",
+      "relatedTitles": ["squid-game", "all-of-us-are-dead", "sweet-home"],
+      "backlink": "shows-like-alice-in-borderland",
+      "viewing": "A Netflix original in most regions. The first two seasons tell a complete arc; the franchise has continued since, so check your regional catalogue for the current season list. Subtitles are the standard way to watch, with dubs available in several languages."
+    },
+    {
+      "slug": "squid-game", "dir": "series", "title": "Squid Game",
+      "intro": [
+        "Hwang Dong-hyeok's Squid Game took a Korean childhood game called squid — where one team defends a shape against another — and turned it into the structure of a global hit. Four hundred and fifty-six players, all in ruinous debt, are invited to compete in a series of playground games. Winners advance. Losers are eliminated in the most literal sense.",
+        "The show's true subject is not the games but the queue: who joins, why they stay, and how the outside world's debts make a death match look rational. The masked organisers are rarely on screen, and never needed to be — the players eliminate each other perfectly well themselves."
+      ],
+      "why": "Its iconography did the heavy lifting — the guard colours, the outfits, the doll — but the reason it holds up is structure: a clear premise, episodic games, and a cast large enough that any character can leave at any moment. The later seasons widen the question of who is running the games rather than simply replaying them, which is a rarer move than it sounds.",
+      "relatedTitles": ["alice-in-borderland", "all-of-us-are-dead", "money-heist"],
+      "backlink": "shows-like-squid-game",
+      "viewing": "Netflix original worldwide. Korean-language production with subtitles; dubbed audio is available in many regions. Strong violence and mature themes throughout — this is not family viewing despite the playground imagery."
+    },
+    {
+      "slug": "solo-leveling", "dir": "anime", "title": "Solo Leveling",
+      "intro": [
+        "Sung Jinwoo is the weakest hunter alive — a man with a minimum-wage body in a world where gate-born monsters reward the strong. Then a lethal dungeon hands him a private system only he can see: quests, levels, stats, and a daily workout notification that mocks him into survival. By the end of its first arc, the premise is set and there is no going back.",
+        "Produced by A-1 Pictures and adapted from Chugong's Korean web novel and webtoon, the series is part power fantasy, part video-game logic made literal. The 'system' is not a metaphor here; it is a character, and its prompts frame every episode."
+      ],
+      "why": "What makes the show work is that it treats leveling as narrative structure, not decoration. Viewers always know Jinwoo's curve — what he was, what he now is — and the fights escalate on that visible scoreboard. It is also a clean gateway between anime and Korean webtoon storytelling: same animation craftsmanship as shonen, different instincts about how fast a story should climb.",
+      "relatedTitles": ["jujutsu-kaisen", "demon-slayer", "one-punch-man"],
+      "backlink": "anime-like-solo-leveling",
+      "viewing": "Streaming on Crunchyroll and Netflix in most regions, with a second season continuing the story. Japanese anime adaptation of material originally written in Korean — the manhwa is widely translated, including officially, if you want to read ahead."
+    },
+    {
+      "slug": "dune-part-two", "dir": "movie", "title": "Dune: Part Two",
+      "intro": [
+        "Denis Villeneuve's second Dune film picks up exactly where the first ended: Paul Atreides alive among the Fremen, his house destroyed, and a desert war waiting to be lit. What follows is not a rise-and-fall story so much as a study of inevitability — the audience sees the Holy War coming long before Paul lets himself admit he is the one carrying it.",
+        "At 166 minutes it earns its patience: sequence after sequence is carried by image, sound and silence rather than exposition. Hans Zimmer's score does as much world-building as the production design, and the film treats the desert itself as the antagonist."
+      ],
+      "why": "It is blockbuster filmmaking with an unusual level of conviction — Villeneuve refuses the easy catharsis at almost every turn, and the result is a film that feels bigger on a second viewing, not smaller. Timothée Chalamet's performance holds the centre while Zendaya, Rebecca Ferguson and Austin Butler define what kind of movie this is around him.",
+      "relatedTitles": ["blade-runner-2049", "interstellar", "1917"],
+      "backlink": "movies-like-dune-part-two",
+      "viewing": "Rentable or streaming on major services depending on your region; streaming rights move regularly, so check current listings. Watch the first Dune beforehand — Part Two starts mid-story and never recaps."
+    },
+    {
+      "slug": "1917", "dir": "movie", "title": "1917",
+      "intro": [
+        "Sam Mendes' 1917 follows two young British soldiers sent across no man's land to deliver orders that will stop 1,600 men from walking into a trap. The film was staged and edited to look like one continuous take, so the audience stays with them — through trenches, farmhouse ruins and a night-time river — without ever cutting away.",
+        "Roger Deakins' cinematography won the film its reputation: the illusion is never broken, and the camera's refusal to blink turns a familiar war-story errand into something closer to a survival game at ground level."
+      ],
+      "why": "The technique is the point, and it serves emotion rather than showing off. Because there are no cuts, small moments — a soldier checking a watch, a field of cherry blossoms — land with a weight that cutting would dissolve. It is the best recent argument that form itself can be the protagonist.",
+      "relatedTitles": ["dune-part-two", "interstellar", "mad-max-fury-road"],
+      "backlink": "movies-like-dune-part-two",
+      "viewing": "Rentable on major digital stores and streaming on rotating services. Rated for intense war violence and some distressing scenes; the single-take style makes it unusually immersive, which is worth knowing before a late-night watch."
+    }
+  ]
+}

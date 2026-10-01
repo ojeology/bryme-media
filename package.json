@@ -4,9 +4,9 @@
   "private": true,
   "description": "BRYME sports and entertainment migration archive.",
   "scripts": {
-    "build": "python3 scripts/apply-media-brand.py",
+    "build": "python3 scripts/build-v3-upgrade.py && python3 scripts/apply-media-brand.py",
     "start": "node server/server.js",
-    "test": "node scripts/validate-media.js && node scripts/validate-http.js"
+    "test": "node scripts/validate-media.js && node scripts/validate-upgrade.js && node scripts/validate-http.js"
   },
   "engines": {
     "node": ">=20"

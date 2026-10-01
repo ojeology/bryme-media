@@ -20,14 +20,14 @@ function check(file) {
   const rel = path.relative(ROOT,file).replace(/\\/g,"/");
   if (/^google[^/]*\.html$/i.test(rel)) return;
   if (!/name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(s) && !/content=["'][^"']*noindex[^"']*["'][^>]*name=["']robots/i.test(s)) failures.push(`${rel}: not noindex`);
-  if (!/assets\/media-v2\.css/.test(s)) failures.push(`${rel}: media theme missing`);
+  if (!/assets\/media-v3\.css/.test(s)) failures.push(`${rel}: v3 media theme missing`);
   if (!/class=["'][^"']*media-bottom/.test(s)) failures.push(`${rel}: media bottom navigation missing`);
   if (!/\bid=["']main["']/.test(s)) failures.push(`${rel}: skip target missing`);
   if (/analytics\.js|n6wxm\.com|profitableratecpm|highperformanceformat/i.test(s)) failures.push(`${rel}: tracking or advertising reference`);
   if (/href=["']\/(?:jobs|make-money|tech)(?:\/|["'])/i.test(s)) failures.push(`${rel}: broken local link to main BRYME vertical`);
 }
 walk(ROOT);
-for (const d of ["sports","movie","series","anime","article","assets","content","data","server"]) if (!fs.existsSync(path.join(ROOT,d))) failures.push(`required family missing: ${d}`);
+for (const d of ["sports","movie","series","anime","article","assets","content","data","server","watch-next","entertainment"]) if (!fs.existsSync(path.join(ROOT,d))) failures.push(`required family missing: ${d}`);
 for (const d of ["jobs","make-money","tech","miniapp"]) if (fs.existsSync(path.join(ROOT,d))) failures.push(`work-publication family leaked into media repo: ${d}`);
 if (count < 3000) failures.push(`unexpectedly small archive: ${count} HTML files`);
 const pkg = JSON.parse(fs.readFileSync(path.join(ROOT,"package.json"),"utf8"));
@@ -35,4 +35,4 @@ if (!pkg.scripts || !pkg.scripts.start) failures.push("start script missing");
 if (failures.length) {
   console.error(`FAIL (${failures.length})`); failures.slice(0,100).forEach(x=>console.error("  - "+x)); process.exit(1);
 }
-console.log(JSON.stringify({ok:true, htmlFiles:count, indexable:0, theme:"forest-green", bottomNavigation:true},null,2));
+console.log(JSON.stringify({ok:true, htmlFiles:count, indexable:0, theme:"media-v3 watch-next", bottomNavigation:true},null,2));
