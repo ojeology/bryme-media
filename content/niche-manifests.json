@@ -27,7 +27,7 @@
       "rebuild_set": "the evergreen football rules library under /sports/explainers/ + the explainer index",
       "targets": {
         "explainers": {
-          "value": 37,
+          "value": 47,
           "status": "proposed — football phase 1 extended; owner to confirm"
         }
       },
@@ -39,9 +39,12 @@
         "Football governance",
         "League rules",
         "Knockout football",
+        "Governance & competitions",
         "European football",
         "World football",
-        "Football tactics"
+        "Football tactics",
+        "Transfers & money",
+        "Football language"
       ],
       "phase_2": "After football is full: basketball, athletics (track & field), combat sports, tennis, cricket, American football — same page anatomy, one question per page.",
       "remaining_work_seen_at_ship": "8 explainers in drop 1; 19 more authored in batch 2 (tied points, UEFA, IFAB, World Cup cadence, handball, red cards, shootouts, stoppage time, goals, goal difference, survival maths, draw seeding, free kicks, substitutions, advantage, extra time, fouls, offside trap, financial fair play)"
