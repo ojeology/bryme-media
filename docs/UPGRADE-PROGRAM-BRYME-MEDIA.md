@@ -41,6 +41,37 @@ as a browsable library: seven themes, per-section counts, and every page linking
 penalties → shootouts → what counts as a foul; yellow cards → red cards → who writes the laws;
 throw-ins → offside (no offside from a restart) → when a goal is a goal.
 
+## Drop 4 — ten more evergreen questions (2026-10-01)
+
+Continuing the directive: cover **all** the evergreen football questions in detail, each wired into
+the ones it depends on. Library now **47 explainers** (8 → 27 → 37 → 47) across eight themes.
+
+| Theme | New questions | Count now |
+| --- | --- | --- |
+| Football laws | the drop ball, professional fouls (denying an obvious goal-scoring opportunity), own goals | 14 |
+| Match mechanics | pitch dimensions, what the coin toss decides, the drop ball | 7 |
+| Governance & competitions | the Club World Cup, how clubs qualify for the Champions League | 8 |
+| League rules | play-offs — promotion, relegation and last-resort deciders | 5 |
+| Transfers & money | free agents, the Bosman ruling, release clauses | 4 |
+| Football language | football terms explained — hat-trick, clean sheet, parking the bus, false nine | 1 |
+
+All ten run 830–936 words (floor 320); the desk stays **zero thin**, and the migration gate reads
+**sports READY 47/47**.
+
+New connections in this drop: the drop ball → when a goal is a goal → stoppage time; professional
+fouls → what counts as a foul → red cards → direct and indirect free kicks; own goals → offside →
+restarts; pitch dimensions → formations → match length; free agents → transfer windows → loans →
+financial fair play; play-offs → promotion and relegation → tied-on-points → knockout ties.
+
+### Process note (worth keeping)
+
+The first attempt at this commit shipped the new pages without the wiring: a blanket
+`git restore .` — used to recover asset files the workspace snapshot drops between turns — also
+silently reverted the manifest target and the generator's batch list, and CI caught it because
+`validate-upgrade` read the old target against the new page count. Fixed in `90897f6`. From now on
+dropped files are recovered with a targeted `git checkout HEAD -- <deleted paths>`; a blanket
+restore is never safe once edits are in the tree.
+
 ## Drop 2 — the football rules library (2026-10-01)
 
 Owner directive: **add lots of evergreen sports content, and show how the ideas connect** — the
