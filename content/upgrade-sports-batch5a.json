@@ -1,0 +1,120 @@
+{
+  "explainers": [
+    {
+      "slug": "what-do-referee-signals-mean",
+      "sport": "football",
+      "question": "What do referee signals mean?",
+      "short": "Referee signals",
+      "kicker": "Football laws",
+      "answer": "Referees use a small set of standard signals so decisions are understood across language barriers: a horizontal arm for a direct free kick, one arm straight up for an indirect one, a pointed arm for a goal kick, corner or throw-in, and cards for cautions and dismissals. Assistant flags add the rest — angle tells you which restart, height tells you who gets it.",
+      "explain": [
+        "The lingua franca of football is body language, and it is standardised. A direct free kick is signalled with one arm held out horizontally in the direction of the kick, because the ball can go straight in from it. An indirect free kick is signalled with one arm raised vertically and held there until the ball touches a second player or goes out of play — that vertical arm is the single most useful signal for a fan to know, because it tells you the kick cannot score directly.",
+        "Restarts each have their own gesture. A goal kick is a horizontal arm pointing at the goal area; a corner is the same arm pointing at the corner arc; a throw-in is an arm raised at an angle, then swung in the direction of the throw — with the raised arm indicating the thrower's team, which is why the signal looks like a pointing motion after a stoppage. Advantage is two arms swept forward with a shout of 'play on', and a penalty is a single arm pointing at the spot.",
+        "Assistant referees complete the picture with the flag. The angle of the flag tells you which restart: up at 45 degrees for a throw-in to the attacking team, down at 45 degrees for one to the defending team, horizontal for a goal kick, and low and pointed at the corner flag for a corner. The height of the flag at an offside tells you where it happened — level with the hip for near, at 45 degrees for the middle, and high for the far side of the pitch. A flag waved in the centre, rather than held, signals a foul the referee did not see.",
+        "The referee's cards are the part everyone knows — yellow for a caution, red for a dismissal, two yellows then a red for a second bookable offence. But referees also note who committed the offence before showing anything, and at free kicks they will often hold up the number of the player who must be spoken to. Watch the referee's other hand at a set piece and you can usually tell whether a card is coming before it appears."
+      ],
+      "example": "A free kick is given thirty yards out and the referee's arm goes straight up and stays there. Every defender knows the ball has to touch someone else before a goal can count, which is why eleven players line up on the goal line and one attacker taps the ball sideways instead of shooting. Drop the arm instead, and the same free kick produces a shooting gallery and a wall of players ten yards away.",
+      "myths": [
+        {"belief": "The vertical arm is just a delayed free-kick signal.", "reality": "It is specifically the indirect free-kick signal, held up until the ball touches a second player or goes out of play."},
+        {"belief": "The assistant's flag direction is arbitrary.", "reality": "The angle encodes the restart — 45 degrees up for an attacking throw, down for a defensive one, level for a goal kick, down at the corner for a corner."},
+        {"belief": "Referees invent their own signals.", "reality": "The signals are standardised in the Laws of the Game precisely so a referee and players who share no language can still understand each other."}
+      ],
+      "concepts": [
+        {"href": "/sports/explainers/direct-and-indirect-free-kicks/", "label": "Direct vs indirect free kicks", "note": "the difference the arm signal encodes"},
+        {"href": "/sports/explainers/how-do-throw-ins-goal-kicks-and-corners-work/", "label": "Restarts explained", "note": "the decisions the flag angles point to"},
+        {"href": "/sports/explainers/what-is-the-advantage-rule/", "label": "The advantage rule", "note": "the two-armed 'play on' signal"}
+      ],
+      "faq": [
+        {"q": "Why does the referee keep his arm up after an indirect free kick?", "a": "To show the kick is still indirect. The arm comes down once the ball has touched a second player or has gone out of play."},
+        {"q": "What does it mean when the assistant waves the flag in the middle of the pitch?", "a": "He is signalling an offence the referee may not have seen — usually a foul or handball away from the referee's position."}
+      ]
+    },
+    {
+      "slug": "what-does-a-captain-do",
+      "sport": "football",
+      "question": "What does a captain actually do?",
+      "short": "Captains, explained",
+      "kicker": "Football language",
+      "answer": "The captain is the team's on-field representative: he takes part in the coin toss, is the player the referee addresses about conduct, and is expected to manage his team-mates' behaviour. The armband carries no extra authority in the laws — the referee does not have to speak to him, and he cannot appeal decisions on anyone else's behalf.",
+      "explain": [
+        "The laws give the captain almost no formal power, which surprises most people. He has no right to demand an explanation, no right to see a card overturned, and no special status when he commits an offence — a captain who fouls is punished exactly like anyone else. What he does have is a responsibility: the referee will often use him to calm a situation, and persistent misbehaviour by his team-mates reflects on him.",
+        "His visible duties are few but symbolic. He takes part in the coin toss before kick-off and before a penalty shootout, choosing ends or taking the kick-off, and later choosing whether his team shoots first. He wears the armband, which is why the role is described as an honour rather than a job — and why the armband is passed on so conspicuously when a captain is substituted.",
+        "The real work is invisible. A captain organises the defensive line, relays instructions from the bench, settles a young player who has just made a mistake, and decides when to complain — and when to pull his team-mates away from a referee. This is why the armband usually goes to a player who is respected rather than the most talented one, and why some of the game's most influential captains have been defenders and holding midfielders rather than star forwards.",
+        "Clubs handle the role differently. Some appoint a permanent captain and a vice-captain; others rotate it; a few have a council of senior players with one wearing the armband. At international level the armband is often a statement of standing in the squad — the player who will lead the team through a tournament — and removing it from someone is one of the most consequential decisions a manager can make."
+      ],
+      "example": "A defender is sent off and his team-mates surround the referee. The captain arrives, takes the player by the arm and walks him towards the touchline while saying something to the referee that de-escalates rather than inflames. Nothing in the laws required him to do that — it is the job the armband implies, and doing it well is the difference between finishing with ten men and finishing with nine.",
+      "myths": [
+        {"belief": "Captains can ask the referee to explain or reverse decisions.", "reality": "They have no formal right to do so. Referees may choose to speak to the captain, but nothing in the laws compels it."},
+        {"belief": "A captain cannot be booked or sent off like other players.", "reality": "He is subject to exactly the same laws. A captain who dissents can be cautioned, and a captain can be dismissed."},
+        {"belief": "The captain is always the best player.", "reality": "Clubs usually pick a leader — often a defender or midfielder — because the role is about organising and representing rather than scoring."}
+      ],
+      "concepts": [
+        {"href": "/sports/explainers/what-does-the-coin-toss-decide/", "label": "The coin toss", "note": "the captain's most visible duty"},
+        {"href": "/sports/explainers/what-is-a-yellow-card/", "label": "Yellow cards", "note": "dissent is how captains get booked"},
+        {"href": "/sports/explainers/football-terms-explained/", "label": "Football terms explained", "note": "the language around the role"}
+      ],
+      "faq": [
+        {"q": "What happens to the armband if the captain is substituted?", "a": "He hands it to another player — usually the vice-captain. There is no requirement to do so, but convention is universal."},
+        {"q": "Can a goalkeeper be captain?", "a": "Yes. Goalkeepers are common captains because they see the whole pitch and organise the defence in front of them."}
+      ]
+    },
+    {
+      "slug": "how-are-injuries-and-head-injuries-handled",
+      "sport": "football",
+      "question": "How are injuries — and head injuries — handled in football?",
+      "short": "Injuries and concussion",
+      "kicker": "Match mechanics",
+      "answer": "Treatment happens on the pitch and play usually continues around it, with the referee stopping only when he judges the injury serious, when the head is involved, or when the player needs to leave the field. A player who receives treatment for a head injury must leave the pitch, and a concussion substitute may be used in competitions that have adopted the protocol.",
+      "explain": [
+        "The default is to keep play going. Physios treat minor injuries on the pitch while the game continues, and the referee stops play only when he decides the injury is serious, when the player is on the ground and the ball is near him, or when a head injury is suspected. Once he does stop, the player is usually required to leave the field of play and cannot return until the referee gives permission — which is why a player treated on the touchline jogs back on and waits for a wave.",
+        "There is no requirement to stop the clock, which is the source of most of the controversy: the minutes lost are supposed to be added back at the end of the half. That is also why you see players going down to run the clock down, and why referees and, increasingly, video review look closely at whether an injury is genuine. Deliberately faking one to waste time is unsporting behaviour and can be cautioned.",
+        "Head injuries are handled under a stricter protocol. If a player is suspected of a concussion or a head injury, play is stopped, the player is assessed by the team doctor, and if a concussion is confirmed or suspected he takes no further part in the match. A player with a suspected concussion must be substituted — he cannot return, even if the assessment later clears him. This is the one area where football's rules have changed most in recent years, driven by evidence about repeated head impacts and the long-term health of players.",
+        "To make that safe, IFAB introduced additional concussion substitutes: a team may make an extra substitution specifically for a player with a suspected concussion, and the opposition gets an additional substitution in return, so neither side is disadvantaged. Where a competition has adopted it, the injured player is permanently substituted and the change does not count against the team's normal allocation. Alongside it sit the standard return-to-play protocols — a graduated, medically supervised process over days rather than minutes."
+      ],
+      "example": "Two players clash heads and one stays down. The referee stops immediately, the doctor comes on, and after an assessment the player is helped off and takes no further part — even if he is pleading to continue. His team brings on a replacement without using one of its normal substitution windows, and the opposition is granted an extra change too. The whole sequence can take three or four minutes, all of which is added back on at the end.",
+      "myths": [
+        {"belief": "A player who is treated must leave the pitch.", "reality": "Usually yes — if the referee has stopped play for treatment, the player normally has to leave and can return only with permission. Minor treatment during live play is different."},
+        {"belief": "A player can carry on if he passes a sideline concussion test.", "reality": "No. If concussion is confirmed or suspected, he takes no further part — the assessment does not license a return to the same match."},
+        {"belief": "Head injuries are treated like any other injury.", "reality": "They trigger a specific protocol: stop play, assess, remove the player permanently, and allow an additional concussion substitution where the competition has adopted it."}
+      ],
+      "concepts": [
+        {"href": "/sports/explainers/what-is-stoppage-time/", "label": "Stoppage time", "note": "how the minutes lost to treatment are added back"},
+        {"href": "/sports/explainers/how-do-substitutions-work/", "label": "Substitutions", "note": "the extra concussion substitution"},
+        {"href": "/sports/explainers/who-makes-the-rules-of-football/", "label": "Who writes the laws", "note": "the body that adopted concussion substitutes"}
+      ],
+      "faq": [
+        {"q": "Does the opposition get an extra substitution too?", "a": "Where the concussion substitute protocol is in use, yes — the opposing team is granted an additional substitution so neither side gains an advantage."},
+        {"q": "Can a player return after treatment?", "a": "If play was stopped for his treatment he usually has to leave the field and can only re-enter with the referee's permission, given during a stoppage."}
+      ]
+    },
+    {
+      "slug": "why-do-teams-wear-home-and-away-kits",
+      "sport": "football",
+      "question": "Why do teams have home and away kits?",
+      "short": "Kits and colours",
+      "kicker": "Football language",
+      "answer": "Home and away kits exist so the two teams can be told apart on the pitch. The home team wears its first-choice colours and, if the referee decides they clash with the visitors', the away team changes — which is why away shirts exist at all, and why some of football's most famous designs were born from a conflict.",
+      "explain": [
+        "The rule is simple and older than professionalism: the two teams must wear colours that distinguish them, and the goalkeepers must wear colours that distinguish them from everyone else. In practice the home club picks its kit first, and if the referee judges there to be a clash, the away club changes. It is the referee's decision, not the clubs', and it is taken before kick-off.",
+        "Why the away team changes is convention rather than law — a courtesy to the hosts, and a practical one when you consider that away kits used to be carried in a bag on the morning of the match rather than chosen weeks ahead. Most leagues now require clubs to register three kits a season — first, second and third — precisely so any combination can be resolved without argument on the day.",
+        "This is where some of the most loved shirts in football come from. A club forced to change invents a colour it would never have chosen, the team wins, and the design becomes part of its identity — a famous example being England's 1990s away shirts and the many clubs whose second kits are more popular than their first. Third kits exist for the same reason: two away options mean a club can solve a clash whatever its opponent registers.",
+        "The details are regulated too. Shirts must have sleeves, numbers must be visible and of a contrasting colour, and competition rules govern the size and placement of badges, sponsors and player names. Undershirts and tape have to match the sleeve colour, and a player who comes on as a substitute must be numbered correctly in the referee's record. Kit rules also cover jewellery and equipment — which is why players are routinely told to remove necklaces before kick-off."
+      ],
+      "example": "A club with navy home shirts hosts a team that also plays in blue. The away club registers a yellow second kit, wears it, and wins 3-0 in a match where the shirt is remembered as much as the scoreline. Ten years later the club reissues the same design as a retro shirt, and a colour chosen purely to avoid a clash becomes one of the most successful kits it has ever sold.",
+      "myths": [
+        {"belief": "The away team always changes.", "reality": "Convention says the away team changes when there is a clash, but the referee makes the call and either side can be asked to change."},
+        {"belief": "Third kits are purely commercial.", "reality": "They solve clashes that the first two kits cannot — a club needs options for every combination its opponents might register."},
+        {"belief": "Goalkeepers can wear the same colours as their team-mates.", "reality": "Keepers must be distinguishable from both teams and from the match officials, which is why their kits are almost always a different colour entirely."}
+      ],
+      "concepts": [
+        {"href": "/sports/explainers/football-terms-explained/", "label": "Football terms explained", "note": "the vocabulary of the game"},
+        {"href": "/sports/explainers/how-many-players-are-on-a-football-team/", "label": "How many players on a team", "note": "why shirts need numbers"},
+        {"href": "/sports/explainers/who-makes-the-rules-of-football/", "label": "Who writes the laws", "note": "the body that regulates equipment"}
+      ],
+      "faq": [
+        {"q": "Can a team wear shorts and socks from different kits?", "a": "Yes, provided the overall combination distinguishes the teams and the referee is satisfied. Mixed combinations are common when only one element clashes."},
+        {"q": "Why are goalkeeper kits so different?", "a": "The laws require the keeper to be distinguishable from both teams and the officials, so keepers wear colours no outfield player is wearing."}
+      ]
+    }
+  ]
+}

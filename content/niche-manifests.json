@@ -22,16 +22,20 @@
       "remaining_work_seen_at_ship": "sample has 4 lists; referenced-but-legacy title pages (Sweet Home, Kingdom, Yellowjackets, All of Us Are Dead, Money Heist, Blade Runner 2049, Interstellar, Arrival, Mad Max: Fury Road, Jujutsu Kaisen, Demon Slayer, One-Punch Man, Attack on Titan, Naruto, …) still need upgrading"
     },
     "sports": {
-      "label": "Sports — football rules library (phase 1), then other sports",
+      "label": "Sports — rules library: football (phase 1), then other sports",
       "hub": "/sports/explainers/",
       "rebuild_set": "the evergreen football rules library under /sports/explainers/ + the explainer index",
       "targets": {
         "explainers": {
-          "value": 47,
+          "value": 59,
           "status": "proposed — football phase 1 extended; owner to confirm"
+        },
+        "by_sport": {
+          "football": 51,
+          "basketball": 8
         }
       },
-      "full_rule": "explainer count at target AND every explainer carries the answer block, ≥2 concept links that resolve, and the index links all of them",
+      "full_rule": "every sport meets its by_sport target AND every explainer carries the answer block, >=2 concept links that resolve, and the index links all of them",
       "positioning": "BRYME is not a livescore or news desk — it breaks down the rules. Every page is evergreen: it answers the same question years from now.",
       "themes": [
         "Football laws",
@@ -46,8 +50,8 @@
         "Transfers & money",
         "Football language"
       ],
-      "phase_2": "After football is full: basketball, athletics (track & field), combat sports, tennis, cricket, American football — same page anatomy, one question per page.",
-      "remaining_work_seen_at_ship": "8 explainers in drop 1; 19 more authored in batch 2 (tied points, UEFA, IFAB, World Cup cadence, handball, red cards, shootouts, stoppage time, goals, goal difference, survival maths, draw seeding, free kicks, substitutions, advantage, extra time, fouls, offside trap, financial fair play)"
+      "phase_2": "Football is complete at 51. Basketball opened with 8 rules questions. Next: athletics (track & field), combat sports, tennis, cricket, American football — same page anatomy, one question per page.",
+      "remaining_work_seen_at_ship": "47 football + 4 more football (referee signals, captains, injuries/concussion, kits) + 8 basketball (shot clock, travelling, double dribble, fouls & free throws, three seconds, goaltending, overtime, technical fouls) = 59"
     }
   },
   "migration_checklist": [

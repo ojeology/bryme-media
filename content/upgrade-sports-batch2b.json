@@ -53,7 +53,8 @@
           "q": "Can goal difference decide a title?",
           "a": "Yes. The 2011-12 Premier League is the modern reference point, and title races and relegation battles have been settled on it repeatedly across Europe."
         }
-      ]
+      ],
+      "sport": "football"
     },
     {
       "slug": "how-many-points-are-needed-to-stay-up",
@@ -108,7 +109,8 @@
           "q": "Why do pundits still say forty points then?",
           "a": "Because it is a useful psychological target that historically works in the overwhelming majority of seasons — it is just not a mathematical guarantee."
         }
-      ]
+      ],
+      "sport": "football"
     },
     {
       "slug": "how-are-champions-league-draws-seeded",
@@ -163,7 +165,8 @@
           "q": "Do Europa League results affect Champions League seeding?",
           "a": "They feed the same UEFA coefficient system, so strong Europa League runs do contribute to a club's overall coefficient, though the bonuses are smaller."
         }
-      ]
+      ],
+      "sport": "football"
     },
     {
       "slug": "direct-and-indirect-free-kicks",
@@ -218,7 +221,8 @@
           "q": "What is the ten-yard rule?",
           "a": "Opponents must be at least 9.15 metres (10 yards) from the ball at a free kick until it is in play. Referees enforce it, and deliberate encroachment can be cautioned."
         }
-      ]
+      ],
+      "sport": "football"
     },
     {
       "slug": "how-do-substitutions-work",
@@ -273,7 +277,8 @@
           "q": "Can a substitute take a penalty in a shootout?",
           "a": "Yes — any player on the field at the final whistle is eligible, including substitutes who came on during the match."
         }
-      ]
+      ],
+      "sport": "football"
     },
     {
       "slug": "what-is-the-advantage-rule",
@@ -328,7 +333,8 @@
           "q": "Can advantage be played for a handball?",
           "a": "Yes, in the same way as any other offence. The sight of a handball waved on with a team breaking is the clearest example of the rule working."
         }
-      ]
+      ],
+      "sport": "football"
     },
     {
       "slug": "what-is-extra-time",
@@ -383,7 +389,8 @@
           "q": "Is the result recorded as a draw if it goes to penalties?",
           "a": "Yes. The official match result is a draw; the shootout decides who advances and is recorded separately."
         }
-      ]
+      ],
+      "sport": "football"
     },
     {
       "slug": "what-counts-as-a-foul",
@@ -438,7 +445,8 @@
           "q": "Can the referee play on after a foul?",
           "a": "Yes — that is the advantage rule, and the card for the offence is still shown at the next stoppage."
         }
-      ]
+      ],
+      "sport": "football"
     },
     {
       "slug": "how-do-teams-use-the-offside-trap",
@@ -493,7 +501,8 @@
           "q": "Do teams still use it in the VAR era?",
           "a": "Yes. VAR checks the closest calls, but the trap still wins the majority of decisions, and a high line remains central to how pressing teams defend."
         }
-      ]
+      ],
+      "sport": "football"
     },
     {
       "slug": "what-is-financial-fair-play",
@@ -548,7 +557,8 @@
           "q": "Is financial fair play still called FFP?",
           "a": "The branding has shifted towards financial sustainability and squad-cost control, but the term financial fair play is still widely used to describe the whole framework."
         }
-      ]
+      ],
+      "sport": "football"
     }
   ]
 }

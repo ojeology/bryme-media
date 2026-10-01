@@ -1,0 +1,236 @@
+{
+  "explainers": [
+    {
+      "slug": "how-does-the-shot-clock-work",
+      "sport": "basketball",
+      "question": "How does the shot clock work in basketball?",
+      "short": "Shot clock, explained",
+      "kicker": "Basketball rules",
+      "answer": "The shot clock gives the attacking team a limited time to attempt a shot — 24 seconds in the NBA and FIBA, 30 in college basketball. It resets when the ball hits the rim, when possession changes, or after certain fouls, and an offensive rebound resets it to 14 seconds rather than the full 24.",
+      "explain": [
+        "The shot clock exists to stop teams simply holding the ball. Before it was introduced in 1954, a leading team could stall effectively forever, and games became so slow that the rules had to change. The clock starts when a team gains possession and runs down to zero unless the ball is released and touches the rim — a shot that airballs or misses everything completely is still a violation unless it hits the rim, which is the detail most newcomers miss.",
+        "The length depends on the competition: 24 seconds in the NBA and under FIBA rules, and 30 seconds in men's and women's college basketball. The same eight-second rule applies in all of them for advancing the ball past the halfway line — take longer and it is a backcourt violation and a turnover. Together, the two clocks are what give basketball its pace: you have eight seconds to get up the floor and roughly twenty-four to get a shot off.",
+        "Resets are where the rule gets interesting. A shot that hits the rim restarts the clock; a missed shot that does not hit anything is a violation. If the offence grabs its own rebound, the clock resets to 14 seconds rather than the full 24 — a change introduced so second-chance opportunities do not restart an entire possession. And when there are fewer than 14 seconds left on the clock, the reset does not extend it.",
+        "Violations are punished simply: the shot-clock buzzer sounds, the offence loses the ball, and the other team inbounds it from the sideline. There is no free throw and no penalty beyond the turnover, but losing a possession in a close game is punishment enough. Officials watch the clock, an operator runs it, and the reset after a deflection or a jump ball is one of the most argued-about seconds in the sport — which is why modern arenas display it on the backboard as well as above it."
+      ],
+      "example": "A team grabs an offensive rebound with nine seconds left on the shot clock. Under the old rules the clock would have gone back to a full 24, giving them a completely fresh possession; today it stays at nine, because the reset to 14 seconds never extends a clock that is already shorter. The result is a hurried shot, which is exactly the pressure the rule was designed to create.",
+      "myths": [
+        {"belief": "Any shot beats the shot clock.", "reality": "The ball must be released AND hit the rim. An airball is a violation even if it left the shooter's hand in time."},
+        {"belief": "The shot clock always resets to 24.", "reality": "An offensive rebound resets it to 14 seconds in the NBA and under FIBA rules — and never extends a clock that is already shorter."},
+        {"belief": "The shot clock is the same everywhere.", "reality": "It is 24 seconds in the NBA and FIBA, and 30 seconds in college basketball."}
+      ],
+      "concepts": [
+        {"href": "/sports/explainers/what-is-travelling-in-basketball/", "label": "Travelling, explained", "note": "the other violation that ends a possession"},
+        {"href": "/sports/explainers/how-do-fouls-and-free-throws-work-in-basketball/", "label": "Fouls and free throws", "note": "what a foul does to the shot clock"},
+        {"href": "/sports/explainers/how-does-overtime-work-in-basketball/", "label": "Overtime in basketball", "note": "what happens when the clock runs out level"}
+      ],
+      "faq": [
+        {"q": "How long is the shot clock?", "a": "24 seconds in the NBA and under FIBA rules; 30 seconds in college basketball. Teams must also advance the ball past half court within eight seconds."},
+        {"q": "What happens if the shot clock expires?", "a": "It is a violation, not a foul. The offence loses possession and the other team inbounds the ball from the sideline."}
+      ]
+    },
+    {
+      "slug": "what-is-travelling-in-basketball",
+      "sport": "basketball",
+      "question": "What is travelling in basketball?",
+      "short": "Travelling, explained",
+      "kicker": "Basketball rules",
+      "answer": "Travelling is moving illegally without dribbling — taking more steps than the rules allow while holding the ball. In simple terms a player may take two steps after gathering the ball, and a player holding the ball in the post may not move his pivot foot before releasing it.",
+      "explain": [
+        "The rule exists to stop a player from walking with the ball, and the whole law turns on the pivot foot. When a player catches the ball with both feet on the floor, either foot may become the pivot. Once he lifts one, the other is established as the pivot, and it must stay in place until he dribbles, passes or shoots. Move it and the whistle goes.",
+        "On the move, the standard is two steps. A player gathering the ball while running or after a dribble may take two steps before he must pass, shoot or dribble again — and both the NBA and FIBA now recognise a 'gather step', the step taken while the player is still securing the ball, which does not count against the two. This is why a driving player appears to take three steps legally: the gather, then two.",
+        "The common infractions follow from that. Catching the ball and taking three steps is travelling. Sliding the pivot foot along the floor — the infamous 'shuffle' in the post — is travelling. Falling to the floor while holding the ball and then sliding is travelling. And lifting the pivot foot and putting it back down before releasing the ball is travelling, which is why post players are so careful to keep one foot nailed to the floor until they jump.",
+        "The punishment is simply loss of possession: it is a violation rather than a personal foul, so no free throws and no foul count. Officials judge travelling more loosely at speed than in the post, because a player moving at full pace is harder to read — and because the modern game's step-back and euro-step moves sit deliberately close to the line. Footwork is a skill precisely because that line exists."
+      ],
+      "example": "A forward catches the ball on the wing, jabs right, then drives past his defender with a long gather and two long strides to the rim — legal, because the gather step is not counted and he took two after it. Now take the same player in the post: he establishes his right foot as the pivot, then slides it six inches to get a better angle before shooting. That is travelling, even though he moved far less.",
+      "myths": [
+        {"belief": "You can never take more than two steps, ever.", "reality": "You may take two steps after the gather, and the NBA and FIBA both recognise a gather step that is not counted against the two."},
+        {"belief": "Travelling is a foul.", "reality": "It is a violation — the offence loses the ball, but no free throws are awarded and no foul is recorded against anyone."},
+        {"belief": "Sliding your pivot foot is fine if you keep it on the floor.", "reality": "Dragging or sliding the pivot foot is travelling. It must stay in place until the ball is released."}
+      ],
+      "concepts": [
+        {"href": "/sports/explainers/what-is-a-double-dribble/", "label": "Double dribble", "note": "the other violation that ends a possession"},
+        {"href": "/sports/explainers/how-does-the-shot-clock-work/", "label": "The shot clock", "note": "what a turnover does to the clock"},
+        {"href": "/sports/explainers/what-is-the-three-second-rule/", "label": "The three-second rule", "note": "the restriction that applies in the post"}
+      ],
+      "faq": [
+        {"q": "What is a gather step?", "a": "The step a player takes while still securing the ball. Both the NBA and FIBA allow it, so a driving player effectively gets the gather plus two steps."},
+        {"q": "Can a player fall to the floor with the ball?", "a": "He may not then slide or roll to gain an advantage. Falling is not itself travelling, but moving along the floor while holding the ball is."}
+      ]
+    },
+    {
+      "slug": "what-is-a-double-dribble",
+      "sport": "basketball",
+      "question": "What is a double dribble?",
+      "short": "Double dribble, explained",
+      "kicker": "Basketball rules",
+      "answer": "A double dribble is dribbling the ball with both hands at the same time, or stopping your dribble — by holding the ball — and then starting to dribble again. Once the dribble has ended, the player must pass or shoot.",
+      "explain": [
+        "A dribble is a single continuous action: the player taps, pushes or throws the ball to the floor and it comes back to his hand. The dribble ends when he touches the ball with both hands simultaneously, when he permits it to come to rest in one or both hands, or when he catches it. At that instant, the option to dribble again is gone — he has to pass or shoot, and starting a new dribble is the violation everyone calls a double dribble.",
+        "Dribbling with two hands at once is the other half of the rule. A player may use either hand and may switch between them, but he cannot push the ball down with both hands together, which is why a 'two-handed dribble' is whistled immediately. A related violation is carrying, or palming — letting the ball come to rest in the hand and turning it over, so the dribble becomes a cradle rather than a tap. Both are judged on whether the hand got underneath the ball.",
+        "Why the rule matters is tactical. A player who has picked up his dribble is a committed player: he cannot drive, he cannot create his own space, and the defence knows it. That is exactly why defences trap ball-handlers and why the phrase 'pick up your dribble' is coaching shorthand for a mistake. Once the dribble is gone, the player has to make a decision with defenders converging.",
+        "The punishment is loss of possession, like travelling — a violation rather than a personal foul, so no free throws and nothing recorded against the player. The exception is that a team in the bonus does not shoot free throws for a violation; they simply inbound the ball. Officials judge the hand position closely, which is why high, lazy dribbles attract whistles and low, hard ones do not."
+      ],
+      "example": "A guard picks up his dribble in the corner, realises he is trapped, panics and throws the ball at the floor to escape. Whistle — double dribble, turnover. Had he kept the ball in one hand and pivoted, he could have passed out of the trap legally. The violation is not the movement; it is restarting a dribble that had already ended.",
+      "myths": [
+        {"belief": "You can dribble again as long as nobody touched the ball.", "reality": "No — once you end your dribble by holding or catching the ball, dribbling again is a violation regardless of whether anyone else touched it."},
+        {"belief": "Switching hands mid-dribble is a double dribble.", "reality": "Switching hands is legal. It is only illegal to dribble with both hands simultaneously, or to stop and restart."},
+        {"belief": "A double dribble sends the other team to the free-throw line.", "reality": "It is a violation, not a foul — the defence simply inbounds the ball from the sideline."}
+      ],
+      "concepts": [
+        {"href": "/sports/explainers/what-is-travelling-in-basketball/", "label": "Travelling, explained", "note": "the violation it is most often confused with"},
+        {"href": "/sports/explainers/how-do-fouls-and-free-throws-work-in-basketball/", "label": "Fouls and free throws", "note": "what does send a team to the line"},
+        {"href": "/sports/explainers/how-does-the-shot-clock-work/", "label": "The shot clock", "note": "why a turnover is costly"}
+      ],
+      "faq": [
+        {"q": "What is carrying or palming?", "a": "Letting the ball rest in your hand and turning it over during a dribble, so the hand is underneath rather than on top of the ball. It is a violation in the same family as the double dribble."},
+        {"q": "Can you dribble again after a defender knocks the ball away?", "a": "Yes — if the defender's touch caused you to lose control, the dribble has not ended by your own action, so you may dribble again once you regain it."}
+      ]
+    },
+    {
+      "slug": "how-do-fouls-and-free-throws-work-in-basketball",
+      "sport": "basketball",
+      "question": "How do fouls and free throws work in basketball?",
+      "short": "Fouls and free throws",
+      "kicker": "Basketball rules",
+      "answer": "A foul is illegal contact with an opponent; the penalty depends on what the player was doing. Foul a shooter and he gets free throws; foul a non-shooter once your team is over the foul limit and he shoots too. Players foul out after six personal fouls in the NBA, or five under FIBA and college rules.",
+      "explain": [
+        "The distinction that matters is whether the player was shooting. Foul a player in the act of shooting and he goes to the line: two free throws for a two-point attempt, three for a three-point attempt. If the shot still goes in despite the foul, he gets one extra free throw — the 'and-one' that turns a good play into a three- or four-point possession. Foul a player who was not shooting and, below the team foul limit, the penalty is only a sideline inbound.",
+        "Team fouls change that calculation. Each quarter, once a team passes the limit — five fouls in an NBA quarter, four under FIBA and college rules — every subsequent defensive foul sends the opponent to the free-throw line even when nobody was shooting. This is the 'bonus', and it is why teams become cautious late in a quarter: the fifth foul in the last two minutes of an NBA quarter can put the other side on the line immediately, possession after possession.",
+        "Individual fouls accumulate as well. A player is disqualified after six personal fouls in the NBA and five under FIBA and college rules — 'fouling out' — and that limit is why stars in foul trouble sit on the bench in the first half of big games. Coaches manage it deliberately: a player with two early fouls is a liability, and protecting him is one of the most consequential decisions in a half.",
+        "Not all fouls are ordinary personal fouls. A technical foul is a non-contact offence — dissent, delay of game, too many timeouts, hanging on the rim — punished with a free throw and possession. A flagrant foul in the NBA, or an unsportsmanlike foul under FIBA, is unnecessary or excessive contact, punished with free throws plus possession, and a flagrant two brings an ejection. The escalation matches the intent behind the contact, which is what separates a hard foul from a dangerous one."
+      ],
+      "example": "A defender reaches in on a drive and catches the shooter's arm — two free throws. Same defender, same contact, but the shot drops anyway — one free throw for the and-one. Now take the identical reach-in on a player who was not shooting, with the team already over the foul limit: two shots again. And if the contact is a deliberate shove to the head on a fast break, it becomes a flagrant foul, with free throws, possession and possibly an ejection.",
+      "myths": [
+        {"belief": "Every foul sends the fouled player to the free-throw line.", "reality": "Only shooting fouls, fouls by a team over the limit, and technical or flagrant fouls do. Most fouls in a game are punished with a sideline inbound."},
+        {"belief": "Players foul out after five fouls everywhere.", "reality": "Six in the NBA, five under FIBA and college rules. The team foul limits differ as well."},
+        {"belief": "A technical foul is just a warning.", "reality": "It carries a free throw for the opposition plus possession — one of the most expensive mistakes a player can make in a close game."}
+      ],
+      "concepts": [
+        {"href": "/sports/explainers/what-is-a-technical-foul/", "label": "Technical fouls", "note": "the non-contact foul that costs the most"},
+        {"href": "/sports/explainers/what-is-the-three-second-rule/", "label": "The three-second rule", "note": "a violation, not a foul — the difference matters"},
+        {"href": "/sports/explainers/how-does-overtime-work-in-basketball/", "label": "Overtime", "note": "why foul trouble decides overtime"}
+      ],
+      "faq": [
+        {"q": "What is the bonus?", "a": "Once a team passes the foul limit for the period, every defensive foul sends the opponent to the line — even non-shooting fouls. The limit is five in an NBA quarter and four under FIBA and college rules."},
+        {"q": "What is an and-one?", "a": "A shooting foul where the shot still goes in. The basket counts and the player takes one additional free throw — a three- or four-point possession depending on the shot."}
+      ]
+    },
+    {
+      "slug": "what-is-the-three-second-rule",
+      "sport": "basketball",
+      "question": "What is the three-second rule?",
+      "short": "Three-second rule",
+      "kicker": "Basketball rules",
+      "answer": "The three-second rule stops an attacking player from standing in the painted area under the basket for more than three seconds while his team has the ball. There is also a defensive version in the NBA, which stops defenders from camping in the lane without guarding anyone.",
+      "explain": [
+        "The offensive rule is the one most people know. While his team has possession, an attacking player may not remain in the painted rectangle — the lane, or 'the key' — for more than three consecutive seconds. He can dip in and out, and the count restarts each time he leaves, but he cannot plant himself next to the rim waiting for a pass. The purpose is to stop a big man from parking under the basket and making the game unplayable for everyone else.",
+        "The count only runs while the team has the ball, and it does not start while the player is actively shooting or while the ball is in the air on a shot. This is why offensive players drift in and out of the lane rather than standing in it — they are resetting the count. Referees count visibly, and the violation is called more often than most fans expect precisely because it is so easy to lose track.",
+        "The defensive three-second rule exists only in the NBA. It prohibits a defender from staying in the lane for more than three seconds unless he is actively guarding an opponent within arm's length — which stops teams from hiding a weak defender near the rim and clogging the paint. The penalty is a technical foul: one free throw and possession. Under FIBA rules there is no defensive three-second violation, which is one of the reasons international defence looks so different from NBA defence.",
+        "The two rules together shape the modern game. Without them, the area under the basket would be permanently occupied by the tallest player on each team, and the sport would collapse into a series of post-ups. With them, the lane has to be vacated and re-entered constantly, which is what creates the cutting, spacing and pick-and-roll movement that defines basketball now."
+      ],
+      "example": "A centre sets up camp on the block, five feet from the basket, while his team swings the ball around the perimeter. The referee raises a hand and counts: three seconds, whistle, turnover. Had he stepped out to the free-throw line and back in again each time, he could have stayed involved legally — the rule punishes occupation, not presence.",
+      "myths": [
+        {"belief": "The rule applies to defenders as well as attackers everywhere.", "reality": "Defensive three seconds exists only in the NBA. FIBA and most other competitions have no equivalent."},
+        {"belief": "You cannot be in the lane at all on offence.", "reality": "You can be there — you just cannot remain there for more than three consecutive seconds while your team has the ball."},
+        {"belief": "The count runs the whole time.", "reality": "It only runs while your team has possession, and it pauses during a shot."}
+      ],
+      "concepts": [
+        {"href": "/sports/explainers/what-is-goaltending/", "label": "Goaltending", "note": "the other rule that protects the rim"},
+        {"href": "/sports/explainers/how-do-fouls-and-free-throws-work-in-basketball/", "label": "Fouls and free throws", "note": "why defensive three seconds costs a free throw"},
+        {"href": "/sports/explainers/how-does-the-shot-clock-work/", "label": "The shot clock", "note": "the clock that punishes standing around"}
+      ],
+      "faq": [
+        {"q": "Is defensive three seconds called outside the NBA?", "a": "No. It is an NBA rule. FIBA competitions have no defensive three-second violation, which changes how teams protect the rim."},
+        {"q": "What is the penalty for offensive three seconds?", "a": "Loss of possession — it is a violation rather than a foul, so the defence inbounds the ball from the sideline."}
+      ]
+    },
+    {
+      "slug": "what-is-goaltending",
+      "sport": "basketball",
+      "question": "What is goaltending in basketball?",
+      "short": "Goaltending, explained",
+      "kicker": "Basketball rules",
+      "answer": "Goaltending is touching the ball on its way down towards the basket, or while it is on or above the rim and could still go in. The shot is awarded as if it had gone in. The related offence of basket interference is touching the rim, net or ball while the shot is still live on the rim.",
+      "explain": [
+        "The principle is that a shot in flight is sacred. Once the ball is on its downward flight towards the basket and has a chance of going in, nobody may touch it — not a defender pinning it against the backboard, not a team-mate tapping it in to be helpful. The whistle goes and the basket is awarded: two points, or three if it was a three-point attempt, regardless of where the ball was touched.",
+        "Timing is everything. A block is legal while the ball is still rising or at the apex — this is why spectacular chase-down blocks are allowed and why players aim to meet the ball at its highest point. The moment it starts descending towards the rim, touching it becomes goaltending. Hitting the ball after it has already touched the backboard on the way down is goaltending too, which is why defenders learn to go for the ball before it reaches the glass.",
+        "Basket interference is the close cousin. It covers touching the ball while it is on or within the rim's cylinder, touching the rim or net while the ball is on or in it, or reaching up through the hoop to play the ball. On offence it is a violation that wipes out the basket; on defence it is a violation that awards the basket. Slapping the backboard so hard that the rim shakes and the ball rattles out is interference as well — the rim is part of the protected space.",
+        "The punishment reflects which side offended. Defensive goaltending or interference awards the points the shot would have been worth. Offensive goaltending or interference is a violation: no basket, possession to the other team. Officials make the call from angles that fans rarely see on television, and because the difference between a clean block and goaltending can be a few centimetres, it is one of the most replayed decisions in the sport."
+      ],
+      "example": "A defender leaps and pins the ball against the glass just as it is about to drop through — goaltending, and the basket counts even though he 'saved' it. Now take the same play a fraction earlier, with the ball still rising: the block is clean and legal. The entire difference is whether the ball had begun its descent, which is why the ruling is almost always reviewed.",
+      "myths": [
+        {"belief": "Any block above the rim is goaltending.", "reality": "Only touching the ball on its downward flight, or when it is on or above the rim and could go in. A block at the apex is clean."},
+        {"belief": "Goaltending only applies to defenders.", "reality": "Offensive goaltending exists too — tapping a team-mate's shot in while it is on the rim is a violation and the basket is wiped out."},
+        {"belief": "You can slap the backboard to make the ball miss.", "reality": "Doing so while the ball is live on the rim is basket interference, and the basket is awarded to the shooting team."}
+      ],
+      "concepts": [
+        {"href": "/sports/explainers/what-is-the-three-second-rule/", "label": "The three-second rule", "note": "the other rule protecting the area at the rim"},
+        {"href": "/sports/explainers/how-do-fouls-and-free-throws-work-in-basketball/", "label": "Fouls and free throws", "note": "why contact fouls are punished differently"},
+        {"href": "/sports/explainers/how-does-the-shot-clock-work/", "label": "The shot clock", "note": "why an awarded basket resets it"}
+      ],
+      "faq": [
+        {"q": "What is the difference between goaltending and basket interference?", "a": "Goaltending is touching a shot on its downward flight. Basket interference is touching the ball, rim or net while the ball is on or in the rim's cylinder, or reaching up through the hoop."},
+        {"q": "Can an offensive player tip in a missed shot?", "a": "Yes, once the ball has left the rim's cylinder or is no longer on the rim. Tipping it in while it is still on or directly above the ring is offensive goaltending."}
+      ]
+    },
+    {
+      "slug": "how-does-overtime-work-in-basketball",
+      "sport": "basketball",
+      "question": "How does overtime work in basketball?",
+      "short": "Overtime, explained",
+      "kicker": "Basketball format",
+      "answer": "If the scores are level at the end of regulation, the game goes into overtime — an extra period of five minutes, repeated as many times as needed until someone leads. Fouls carry over, timeouts are limited, and the pace becomes slower and more deliberate as fatigue sets in.",
+      "explain": [
+        "Basketball cannot end level, so a tied game simply continues. Regulation is four quarters of ten minutes under FIBA rules and four of twelve in the NBA; if it is level when the horn sounds, both teams play an additional five-minute period. If that period also ends level, another is played — there is no limit, and the longest professional games have run to six overtimes.",
+        "What carries over matters as much as the extra clock. Personal fouls accumulated during regulation stay on the players, so anyone in foul trouble remains in trouble, and in the NBA the team foul count resets for the overtime period rather than continuing. Timeouts are reduced: teams get a small allocation for the extra period plus any they have left unused, which is why a team that hoarded timeouts late in regulation has a real advantage.",
+        "The character of the game changes. Five minutes is long enough to be deliberate but short enough that every possession is magnified — teams run fewer transition plays, use more of the clock, and lean on their best player. Coaches who managed their stars' minutes well in regulation are rewarded, because fatigue makes the difference between a made and a missed shot more than any tactical adjustment at that stage.",
+        "Different competitions handle the details differently. Playoff and knockout games use the same five-minute periods until someone wins. Some summer leagues and tournaments have used a target-score ending — first team to a set number of points above the opponent wins — as an alternative to a fixed-length overtime, because it produces a decisive finish rather than another period of basketball. That variation has not been adopted for the standard professional game."
+      ],
+      "example": "A game is tied at 104 with four seconds left; the shot rims out and the horn sounds. Five more minutes follow, and a player who picked up his fifth foul in the third quarter is still one foul from disqualification — he has to defend without fouling against a team that has all its timeouts. The team that won the game is usually the one that managed the clock and its fouls best in the twenty minutes before overtime began.",
+      "myths": [
+        {"belief": "Overtime is sudden death.", "reality": "It is a full five-minute period. The game is only decided when a period ends with one team ahead, so multiple overtimes are possible."},
+        {"belief": "Fouls reset at the start of overtime.", "reality": "Personal fouls carry over, so players stay in foul trouble. Only the team foul count resets in the NBA."},
+        {"belief": "Teams get a full new set of timeouts.", "reality": "Overtime brings a reduced allocation, plus whatever a team has left unused — which is why saving timeouts is a real strategy."}
+      ],
+      "concepts": [
+        {"href": "/sports/explainers/how-do-fouls-and-free-throws-work-in-basketball/", "label": "Fouls and free throws", "note": "why foul trouble decides overtime"},
+        {"href": "/sports/explainers/how-does-the-shot-clock-work/", "label": "The shot clock", "note": "how teams use the clock late"},
+        {"href": "/sports/explainers/what-is-a-technical-foul/", "label": "Technical fouls", "note": "the mistake that is most costly in overtime"}
+      ],
+      "faq": [
+        {"q": "How long is an overtime period?", "a": "Five minutes in the NBA, under FIBA rules and in college basketball. Additional periods are played until one team leads at the end of one."},
+        {"q": "Has a game ever needed more than one overtime?", "a": "Yes — many. The longest NBA game ran to six overtimes, and triple-overtime games are a recurring feature of both regular seasons and playoffs."}
+      ]
+    },
+    {
+      "slug": "what-is-a-technical-foul",
+      "sport": "basketball",
+      "question": "What is a technical foul?",
+      "short": "Technical fouls",
+      "kicker": "Basketball rules",
+      "answer": "A technical foul is a non-contact offence — arguing with officials, delay of game, calling an illegal timeout, taunting, or hanging on the rim. It costs a free throw for the opposition plus possession, and repeated technicals lead to ejection.",
+      "explain": [
+        "The word 'technical' does the work: this is a foul against the administration of the game rather than against a player. No contact is required. Dissent towards an official, delaying the restart, requesting a timeout a team does not have, entering the court illegally, taunting an opponent, or hanging on the rim after a dunk can all be technicals. The official signals it with two hands forming a T.",
+        "The penalty is deliberately harsher than an ordinary foul, because the offence is about conduct rather than a basketball play. In the NBA a technical brings one free throw for the opposing team, plus possession of the ball — so a moment of dissent can be a two-possession swing in a close game. Under FIBA rules a technical brings two free throws plus possession. Either way, the offending player is charged with it personally, and accumulating them brings escalating penalties.",
+        "Accumulation is where careers are affected. In the NBA, two technical fouls in a game mean an automatic ejection; technicals accumulate across the regular season, with suspensions after a set number and fines that escalate as the total rises. In playoff basketball the thresholds are lower, which is why stars who are known for arguing with referees are carefully managed by their coaches in the post-season.",
+        "There is a separate category for dangerous contact: the flagrant foul in the NBA, or unsportsmanlike foul under FIBA. Those are contact fouls that are unnecessary or excessive, punished with free throws plus possession and, for the most serious grade, ejection. The line between them is intent — a technical is about behaviour and procedure, a flagrant is about how a player used his body — and officials are instructed to judge the intent behind the act rather than merely the outcome."
+      ],
+      "example": "A player disagrees with a call, turns and says something to the official he should not: whistle, technical foul, one free throw for the other team and the ball as well. In a game decided by two points, that is the game. Multiply it across a season and the same player is fined repeatedly, suspended for a match, and eventually known more for the argument than for the basketball.",
+      "myths": [
+        {"belief": "A technical foul involves contact.", "reality": "It is specifically a non-contact offence — conduct, procedure or delay. Contact offences are personal or flagrant fouls."},
+        {"belief": "It costs the same as any other foul.", "reality": "It costs a free throw plus possession, and accumulating them brings ejections, fines and suspensions."},
+        {"belief": "Two technicals in a season get you ejected.", "reality": "Two in a single game mean ejection in the NBA; the season-long totals bring fines and suspensions at higher thresholds."}
+      ],
+      "concepts": [
+        {"href": "/sports/explainers/how-do-fouls-and-free-throws-work-in-basketball/", "label": "Fouls and free throws", "note": "how a technical differs from a personal foul"},
+        {"href": "/sports/explainers/how-does-overtime-work-in-basketball/", "label": "Overtime", "note": "where a technical is most expensive"},
+        {"href": "/sports/explainers/how-does-the-shot-clock-work/", "label": "The shot clock", "note": "delay of game is a technical"}
+      ],
+      "faq": [
+        {"q": "What is the penalty for a technical foul?", "a": "One free throw plus possession in the NBA, or two free throws plus possession under FIBA rules. Any opposing player may take the shots."},
+        {"q": "How many technicals before an ejection?", "a": "Two technical fouls in the same game mean an automatic ejection in the NBA, and a flagrant two is an immediate ejection on its own."}
+      ]
+    }
+  ]
+}

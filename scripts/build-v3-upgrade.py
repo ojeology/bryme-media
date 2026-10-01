@@ -54,6 +54,8 @@ SPORTS_BATCHES = [
     "content/upgrade-sports-batch2b.json",
     "content/upgrade-sports-batch3a.json",
     "content/upgrade-sports-batch4a.json",
+    "content/upgrade-sports-batch5a.json",
+    "content/upgrade-sports-batch5b.json",
 ]
 _EXPLAINERS: list = []
 _seen_slugs: set[str] = set()
@@ -363,28 +365,38 @@ def watch_next_hub() -> str:
     ])
 
 def explainers_hub() -> str:
-    # Group the library by theme so a visitor browsing for a rule lands in the
-    # right neighbourhood instead of scrolling one long alphabetical list.
-    groups: dict[str, list] = {}
+    # Group the library by sport first, then by theme inside each sport, so the
+    # desk can grow into new sports without the hub becoming one long list.
+    by_sport: dict[str, list] = {}
     for p in SPORTS["explainers"]:
-        groups.setdefault(p["kicker"], []).append(p)
+        by_sport.setdefault(p.get("sport", "general"), []).append(p)
 
     sections = []
-    for group, packs in groups.items():
-        posts = "".join(
-            f'''<a class="v3-postcard" href="/sports/explainers/{esc(p["slug"])}/"><span class="v3-postcard-art plain"></span><span class="v3-postcard-copy"><span class="v3-tag lime">{esc(group)}</span><h3>{esc(p["question"])}</h3><p>{esc(clip(p["answer"], 200))}</p><span class="v3-postcard-meta">{esc(p["short"])}</span></span></a>'''
-            for p in packs
-        )
+    for sport, packs in by_sport.items():
+        groups: dict[str, list] = {}
+        for p in packs:
+            groups.setdefault(p["kicker"], []).append(p)
+        inner = []
+        for group, gp in groups.items():
+            posts = "".join(
+                f'''<a class="v3-postcard" href="/sports/explainers/{esc(p["slug"])}/"><span class="v3-postcard-art plain"></span><span class="v3-postcard-copy"><span class="v3-tag lime">{esc(group)}</span><h3>{esc(p["question"])}</h3><p>{esc(clip(p["answer"], 200))}</p><span class="v3-postcard-meta">{esc(p["short"])}</span></span></a>'''
+                for p in gp
+            )
+            inner.append(
+                f'<div class="v3-sec-head" style="margin-top:26px"><h3 style="font-size:19px">{esc(group)}</h3><span class="v3-count">{len(gp)} question{"s" if len(gp) != 1 else ""}</span></div><div class="v3-collection">{posts}</div>'
+            )
         sections.append(
-            f'<div class="v3-sec-head" style="margin-top:30px"><h2>{esc(group)}</h2><span class="v3-count">{len(packs)} question{"s" if len(packs) != 1 else ""}</span></div><div class="v3-collection">{posts}</div>'
+            f'<div class="v3-sec-head" style="margin-top:38px"><h2>{esc(sport.title())}</h2><span class="v3-count">{len(packs)} question{"s" if len(packs) != 1 else ""}</span></div>'
+            + "".join(inner)
         )
 
     total = len(SPORTS["explainers"])
+    sports = " and ".join(sorted(v.title() for v in by_sport))
     return "".join([
-        head(title="Football rules explained — the complete question library", description="BRYME's football rules library: every question answered straight, then explained properly with worked examples and the myths that cause most arguments.", route="/sports/explainers/", nav="sports"),
-        '''<section class="v3-hero"><div class="wrap">''' + crumbs([("Home", "/"), ("Sports", "/sports/"), ("Explainers", None)]) + f'''<p class="v3-kicker"><i></i>Sports desk · Rules library</p><h1 class="v3-display">We are not a livescore. <em>We break down the rules.</em></h1><p class="v3-lede">{total} evergreen football questions answered — offside, handball, cards, tiebreakers, how competitions actually work. Straight answer first, then the full explanation.</p></div></section>''',
+        head(title="Sports rules explained — the complete question library", description="BRYME's sports rules library: every question answered straight, then explained properly with worked examples and the myths that cause most arguments.", route="/sports/explainers/", nav="sports"),
+        '''<section class="v3-hero"><div class="wrap">''' + crumbs([("Home", "/"), ("Sports", "/sports/"), ("Explainers", None)]) + f'''<p class="v3-kicker"><i></i>Sports desk · Rules library</p><h1 class="v3-display">We are not a livescore. <em>We break down the rules.</em></h1><p class="v3-lede">{total} evergreen questions across {sports} — answered straight, then explained properly. Evergreen means it answers the same question today as it will in ten years.</p></div></section>''',
         '<section class="v3-sec"><div class="wrap">' + "".join(sections),
-        '<div class="v3-callout" style="margin-top:28px"><h3>A network, not a list</h3><p>Each explainer links to the concepts it depends on, so one question naturally leads to the next — offside leads to VAR, VAR leads to when a goal is a goal, and so on. Every page here is evergreen: it answers the same question in 2026 as it will in 2036.</p></div>',
+        '<div class="v3-callout" style="margin-top:28px"><h3>A network, not a list</h3><p>Each explainer links to the concepts it depends on, so one question naturally leads to the next — offside leads to VAR, a shooting foul leads to free throws and overtime, and so on. Every page here is evergreen: written to answer the question, not to report the news.</p></div>',
         "</div></section>",
         FOOT,
     ])
@@ -453,7 +465,11 @@ def main() -> None:
         pages[f"/watch-next/{pack['slug']}/"] = recommendation_page(pack)
     explainer_list = SPORTS["explainers"]
     for index, pack in enumerate(explainer_list):
-        siblings = [explainer_list[(index + step) % len(explainer_list)] for step in (1, 2, 3)]
+        # suggest the next questions from the same sport so the network stays coherent
+        pool = [p for p in explainer_list if p.get("sport") == pack.get("sport")]
+        pool = pool or explainer_list
+        i = pool.index(pack)
+        siblings = [pool[(i + step) % len(pool)] for step in (1, 2, 3)]
         pages[f"/sports/explainers/{pack['slug']}/"] = explainer_page(pack, siblings)
     for pack in ENT["titles"]:
         pages[f"/{pack['dir']}/{pack['slug']}/"] = title_page_v3(pack)

@@ -76,7 +76,8 @@
           "q": "Why is the flag sometimes delayed?",
           "a": "In competitions with VAR, assistant referees keep the flag down on marginal decisions so a legitimate goal is not wrongly disallowed; the review then confirms whether the player was offside."
         }
-      ]
+      ],
+      "sport": "football"
     },
     {
       "slug": "how-does-var-work",
@@ -121,7 +122,8 @@
           "q": "Why do we sometimes see no replay on the big screen?",
           "a": "In-stadium rules differ by competition and some leagues restrict which replays can be shown. The referee's final signal is the binding one either way."
         }
-      ]
+      ],
+      "sport": "football"
     },
     {
       "slug": "what-is-xg",
@@ -166,7 +168,8 @@
           "q": "Why do two sites disagree about the same shot?",
           "a": "Each provider tunes its own model — different data, different weightings. Treat small differences as noise and look at the season-long picture."
         }
-      ]
+      ],
+      "sport": "football"
     },
     {
       "slug": "what-is-an-aggregate-score",
@@ -211,7 +214,8 @@
           "q": "Which competitions still use two-legged ties?",
           "a": "UEFA club competitions through the semi-finals, many World Cup and Euro qualifying play-offs, and domestic playoff rounds. Tournament knockout finals are single matches."
         }
-      ]
+      ],
+      "sport": "football"
     },
     {
       "slug": "why-was-the-away-goals-rule-scrapped",
@@ -256,7 +260,8 @@
           "q": "What replaced it?",
           "a": "Extra time and a penalty shootout at the end of the second leg if the aggregate score is level after 180 minutes."
         }
-      ]
+      ],
+      "sport": "football"
     },
     {
       "slug": "how-does-the-transfer-window-work",
@@ -301,7 +306,8 @@
           "q": "What is deadline day?",
           "a": "The final day of a window, when most leagues process registrations until a published cut-off time. Deals are often agreed on the day and confirmed in the final hours."
         }
-      ]
+      ],
+      "sport": "football"
     },
     {
       "slug": "how-is-a-knockout-tie-decided",
@@ -346,7 +352,8 @@
           "q": "Do all competitions use replays?",
           "a": "No. Replays are still possible in some domestic cup competitions, but the major European and international tournaments use extra time and penalties instead."
         }
-      ]
+      ],
+      "sport": "football"
     },
     {
       "slug": "what-is-promotion-and-relegation",
@@ -391,7 +398,8 @@
           "q": "Can a promoted team refuse promotion?",
           "a": "Occasionally, if licensing or stadium criteria are not met, a club can be denied entry to a higher division — the place passes to another club under the league's rules."
         }
-      ]
+      ],
+      "sport": "football"
     }
   ]
 }

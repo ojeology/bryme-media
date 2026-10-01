@@ -14,19 +14,47 @@
       ],
       "example": "A player goes down injured with his team in possession near the halfway line. The referee stops play, and on the restart he drops the ball for a player of the team that last touched it; the opposition retreats four metres, the ball bounces once, and play resumes. In the old law the two captains would have contested the drop — and the receiving team would then have hoofed it upfield as a courtesy.",
       "myths": [
-        {"belief": "A drop ball is contested by two players.", "reality": "Not any more. The law was changed so the referee drops it for a single player of the team that last touched the ball; the contest was removed."},
-        {"belief": "You can score directly from a drop ball.", "reality": "No — the ball must touch a second player before a goal can be scored, otherwise it is disallowed."},
-        {"belief": "It is used to restart play after a foul.", "reality": "Fouls are restarted with free kicks or penalties. A drop ball is for stoppages that are nobody's fault — injuries, outside interference, a defective ball."}
+        {
+          "belief": "A drop ball is contested by two players.",
+          "reality": "Not any more. The law was changed so the referee drops it for a single player of the team that last touched the ball; the contest was removed."
+        },
+        {
+          "belief": "You can score directly from a drop ball.",
+          "reality": "No — the ball must touch a second player before a goal can be scored, otherwise it is disallowed."
+        },
+        {
+          "belief": "It is used to restart play after a foul.",
+          "reality": "Fouls are restarted with free kicks or penalties. A drop ball is for stoppages that are nobody's fault — injuries, outside interference, a defective ball."
+        }
       ],
       "concepts": [
-        {"href": "/sports/explainers/when-is-a-goal-a-goal/", "label": "When a goal is a goal", "note": "why a drop-ball strike cannot count"},
-        {"href": "/sports/explainers/what-is-the-advantage-rule/", "label": "The advantage rule", "note": "why play sometimes is not stopped at all"},
-        {"href": "/sports/explainers/what-is-stoppage-time/", "label": "Stoppage time", "note": "what happens to the clock after a stoppage"}
+        {
+          "href": "/sports/explainers/when-is-a-goal-a-goal/",
+          "label": "When a goal is a goal",
+          "note": "why a drop-ball strike cannot count"
+        },
+        {
+          "href": "/sports/explainers/what-is-the-advantage-rule/",
+          "label": "The advantage rule",
+          "note": "why play sometimes is not stopped at all"
+        },
+        {
+          "href": "/sports/explainers/what-is-stoppage-time/",
+          "label": "Stoppage time",
+          "note": "what happens to the clock after a stoppage"
+        }
       ],
       "faq": [
-        {"q": "Where is the drop ball taken?", "a": "At the place where the ball was last touched before play stopped. If that was inside the penalty area, it is dropped for the goalkeeper of the team that last touched it."},
-        {"q": "When is the ball actually in play?", "a": "The moment it touches the ground after being dropped — not when it leaves the referee's hand, and not when a player kicks it."}
-      ]
+        {
+          "q": "Where is the drop ball taken?",
+          "a": "At the place where the ball was last touched before play stopped. If that was inside the penalty area, it is dropped for the goalkeeper of the team that last touched it."
+        },
+        {
+          "q": "When is the ball actually in play?",
+          "a": "The moment it touches the ground after being dropped — not when it leaves the referee's hand, and not when a player kicks it."
+        }
+      ],
+      "sport": "football"
     },
     {
       "slug": "what-is-a-professional-foul",
@@ -42,19 +70,47 @@
       ],
       "example": "A striker breaks clear with only the keeper to beat. The last defender grabs his shirt and pulls him down thirty yards out: obvious goal-scoring opportunity denied, straight red card. Now imagine the same incident inside the penalty area, with the defender genuinely lunging for the ball and catching the attacker instead — penalty kick and a yellow card. Same cynicism, same denial, two completely different outcomes determined by eighteen yards of grass.",
       "myths": [
-        {"belief": "Any last-man foul is a red card.", "reality": "Inside the penalty area a genuine attempt to play the ball that results in a penalty is only a caution. Outside the box, or for holding, pulling or handball, denying an obvious chance is a red."},
-        {"belief": "The double jeopardy rule removed red cards for professional fouls entirely.", "reality": "It only softened them for genuine attempts to play the ball inside the penalty area. Deliberate holding, pulling or a handball that stops the ball is still a sending-off."},
-        {"belief": "A professional foul only means tripping someone.", "reality": "Handball counts too — a deliberate hand that stops a certain goal is a professional foul and is punished the same way."}
+        {
+          "belief": "Any last-man foul is a red card.",
+          "reality": "Inside the penalty area a genuine attempt to play the ball that results in a penalty is only a caution. Outside the box, or for holding, pulling or handball, denying an obvious chance is a red."
+        },
+        {
+          "belief": "The double jeopardy rule removed red cards for professional fouls entirely.",
+          "reality": "It only softened them for genuine attempts to play the ball inside the penalty area. Deliberate holding, pulling or a handball that stops the ball is still a sending-off."
+        },
+        {
+          "belief": "A professional foul only means tripping someone.",
+          "reality": "Handball counts too — a deliberate hand that stops a certain goal is a professional foul and is punished the same way."
+        }
       ],
       "concepts": [
-        {"href": "/sports/explainers/what-counts-as-a-foul/", "label": "What counts as a foul", "note": "careless, reckless, excessive force"},
-        {"href": "/sports/explainers/what-happens-when-a-player-is-sent-off/", "label": "Red cards", "note": "what follows the dismissal"},
-        {"href": "/sports/explainers/direct-and-indirect-free-kicks/", "label": "Direct vs indirect free kicks", "note": "the restart when the foul happens outside the box"}
+        {
+          "href": "/sports/explainers/what-counts-as-a-foul/",
+          "label": "What counts as a foul",
+          "note": "careless, reckless, excessive force"
+        },
+        {
+          "href": "/sports/explainers/what-happens-when-a-player-is-sent-off/",
+          "label": "Red cards",
+          "note": "what follows the dismissal"
+        },
+        {
+          "href": "/sports/explainers/direct-and-indirect-free-kicks/",
+          "label": "Direct vs indirect free kicks",
+          "note": "the restart when the foul happens outside the box"
+        }
       ],
       "faq": [
-        {"q": "What counts as an obvious goal-scoring opportunity?", "a": "The referee weighs distance to goal, general direction of play, the likelihood of keeping or gaining control of the ball, and the position and number of defenders."},
-        {"q": "Is a professional foul punished differently in a shootout?", "a": "Yes — during a shootout a player who commits an offence can be cautioned, but the shootout continues with the kicking team's kick recorded as missed if the foul prevented a goal."}
-      ]
+        {
+          "q": "What counts as an obvious goal-scoring opportunity?",
+          "a": "The referee weighs distance to goal, general direction of play, the likelihood of keeping or gaining control of the ball, and the position and number of defenders."
+        },
+        {
+          "q": "Is a professional foul punished differently in a shootout?",
+          "a": "Yes — during a shootout a player who commits an offence can be cautioned, but the shootout continues with the kicking team's kick recorded as missed if the foul prevented a goal."
+        }
+      ],
+      "sport": "football"
     },
     {
       "slug": "what-is-an-own-goal",
@@ -70,19 +126,47 @@
       ],
       "example": "A low cross flashes across the six-yard box. A defender slides in and turns it past his own keeper from two yards: own goal, no debate — the ball was never going in on its own. Now take the same cross deflected by the defender off a striker's shot that was already beating the keeper: most competitions give the goal to the striker, because the shot was on target before the touch.",
       "myths": [
-        {"belief": "Any goal that goes in off a defender is an own goal.", "reality": "A touch that merely deflects an already on-target shot is usually credited to the attacker. Own goals are for genuinely misplaced clearances and touches where the ball was not going in."},
-        {"belief": "The defender is punished or booked.", "reality": "There is no sanction. An own goal is simply a goal for the opposition, and the game restarts with a kick-off."},
-        {"belief": "You can score an own goal directly from a corner or throw-in.", "reality": "No — from those restarts the result is a corner to the opposition rather than a goal."}
+        {
+          "belief": "Any goal that goes in off a defender is an own goal.",
+          "reality": "A touch that merely deflects an already on-target shot is usually credited to the attacker. Own goals are for genuinely misplaced clearances and touches where the ball was not going in."
+        },
+        {
+          "belief": "The defender is punished or booked.",
+          "reality": "There is no sanction. An own goal is simply a goal for the opposition, and the game restarts with a kick-off."
+        },
+        {
+          "belief": "You can score an own goal directly from a corner or throw-in.",
+          "reality": "No — from those restarts the result is a corner to the opposition rather than a goal."
+        }
       ],
       "concepts": [
-        {"href": "/sports/explainers/when-is-a-goal-a-goal/", "label": "When a goal is a goal", "note": "the whole-ball-over-the-line test"},
-        {"href": "/sports/explainers/what-does-offside-mean/", "label": "What offside means", "note": "why an own goal can still be disallowed"},
-        {"href": "/sports/explainers/how-do-throw-ins-goal-kicks-and-corners-work/", "label": "Restarts explained", "note": "why some own goals become corners"}
+        {
+          "href": "/sports/explainers/when-is-a-goal-a-goal/",
+          "label": "When a goal is a goal",
+          "note": "the whole-ball-over-the-line test"
+        },
+        {
+          "href": "/sports/explainers/what-does-offside-mean/",
+          "label": "What offside means",
+          "note": "why an own goal can still be disallowed"
+        },
+        {
+          "href": "/sports/explainers/how-do-throw-ins-goal-kicks-and-corners-work/",
+          "label": "Restarts explained",
+          "note": "why some own goals become corners"
+        }
       ],
       "faq": [
-        {"q": "Can an own goal be disallowed?", "a": "Yes — for exactly the same reasons as any other goal: offside, a foul or a handball by an attacking player in the build-up."},
-        {"q": "Does an own goal affect a player's goal statistics?", "a": "It is recorded separately and does not count as a goal for the player who scored it, which is why goal tallies sometimes differ between sources after a deflected finish."}
-      ]
+        {
+          "q": "Can an own goal be disallowed?",
+          "a": "Yes — for exactly the same reasons as any other goal: offside, a foul or a handball by an attacking player in the build-up."
+        },
+        {
+          "q": "Does an own goal affect a player's goal statistics?",
+          "a": "It is recorded separately and does not count as a goal for the player who scored it, which is why goal tallies sometimes differ between sources after a deflected finish."
+        }
+      ],
+      "sport": "football"
     },
     {
       "slug": "how-big-is-a-football-pitch",
@@ -98,19 +182,47 @@
       ],
       "example": "A club with two flying wingers sets its pitch at the maximum legal width, giving them more room to isolate a full-back one-on-one. A rival that defends narrow and counters quickly sets its pitch at the minimum, compressing the same eleven players into less space. Both are entirely within the laws — the dimensions are a home-club choice inside the permitted range.",
       "myths": [
-        {"belief": "Every professional pitch is the same size.", "reality": "The laws permit a range of lengths and widths, and clubs choose where inside it to sit. Only international matches have a tight recommended band."},
-        {"belief": "If the ball is on the line, it is out.", "reality": "Lines are part of the area they enclose, so a ball resting on the touchline is still in play and a ball on the goal line is not a goal."},
-        {"belief": "The penalty arc is just decoration.", "reality": "It marks the ten-yard zone around the penalty spot — players must be outside it when a penalty is taken."}
+        {
+          "belief": "Every professional pitch is the same size.",
+          "reality": "The laws permit a range of lengths and widths, and clubs choose where inside it to sit. Only international matches have a tight recommended band."
+        },
+        {
+          "belief": "If the ball is on the line, it is out.",
+          "reality": "Lines are part of the area they enclose, so a ball resting on the touchline is still in play and a ball on the goal line is not a goal."
+        },
+        {
+          "belief": "The penalty arc is just decoration.",
+          "reality": "It marks the ten-yard zone around the penalty spot — players must be outside it when a penalty is taken."
+        }
       ],
       "concepts": [
-        {"href": "/sports/explainers/how-many-players-are-on-a-football-team/", "label": "How many players on a team", "note": "eleven players in whatever space the pitch allows"},
-        {"href": "/sports/explainers/what-do-football-formations-mean/", "label": "Formations", "note": "how shapes change with the space available"},
-        {"href": "/sports/explainers/how-long-is-a-football-match/", "label": "Match length", "note": "the other dimension clubs cannot vary"}
+        {
+          "href": "/sports/explainers/how-many-players-are-on-a-football-team/",
+          "label": "How many players on a team",
+          "note": "eleven players in whatever space the pitch allows"
+        },
+        {
+          "href": "/sports/explainers/what-do-football-formations-mean/",
+          "label": "Formations",
+          "note": "how shapes change with the space available"
+        },
+        {
+          "href": "/sports/explainers/how-long-is-a-football-match/",
+          "label": "Match length",
+          "note": "the other dimension clubs cannot vary"
+        }
       ],
       "faq": [
-        {"q": "How big is the goal?", "a": "7.32 metres wide by 2.44 metres high (8 yards by 8 feet) — dimensions that have been standard since the laws were codified."},
-        {"q": "Why is the centre circle 9.15 metres?", "a": "Because that is ten yards — the same distance opponents must retreat at a free kick. At kick-off it keeps the opposition out of the centre."}
-      ]
+        {
+          "q": "How big is the goal?",
+          "a": "7.32 metres wide by 2.44 metres high (8 yards by 8 feet) — dimensions that have been standard since the laws were codified."
+        },
+        {
+          "q": "Why is the centre circle 9.15 metres?",
+          "a": "Because that is ten yards — the same distance opponents must retreat at a free kick. At kick-off it keeps the opposition out of the centre."
+        }
+      ],
+      "sport": "football"
     },
     {
       "slug": "football-terms-explained",
@@ -126,19 +238,47 @@
       ],
       "example": "One sentence, five terms: 'They parked the bus for an hour, the keeper took a clean sheet into squeaky-bum time, and the substitute won it with a volley from a false nine's flick — their first double in twenty years.' Every phrase in that report describes something specific about how the match was played and what it meant, which is exactly why football's vocabulary survives.",
       "myths": [
-        {"belief": "A hat-trick means three goals in a row.", "reality": "It is three goals by one player in a single match, in any order. A 'perfect' hat-trick is the variation — one with each foot plus a header."},
-        {"belief": "A clean sheet is a goalkeeper statistic only.", "reality": "It belongs to the team as much as the keeper — no goals conceded in the match — though it is most often quoted for goalkeepers."},
-        {"belief": "Parking the bus and defending deeply are the same thing.", "reality": "Defending deep can be a tactical choice within a game plan; parking the bus specifically means abandoning attacking intent to protect a result."}
+        {
+          "belief": "A hat-trick means three goals in a row.",
+          "reality": "It is three goals by one player in a single match, in any order. A 'perfect' hat-trick is the variation — one with each foot plus a header."
+        },
+        {
+          "belief": "A clean sheet is a goalkeeper statistic only.",
+          "reality": "It belongs to the team as much as the keeper — no goals conceded in the match — though it is most often quoted for goalkeepers."
+        },
+        {
+          "belief": "Parking the bus and defending deeply are the same thing.",
+          "reality": "Defending deep can be a tactical choice within a game plan; parking the bus specifically means abandoning attacking intent to protect a result."
+        }
       ],
       "concepts": [
-        {"href": "/sports/explainers/what-is-xg/", "label": "What xG is", "note": "the modern way to measure whether chances were taken"},
-        {"href": "/sports/explainers/what-do-football-formations-mean/", "label": "Formations", "note": "the shapes behind the tactical terms"},
-        {"href": "/sports/explainers/what-is-an-own-goal/", "label": "Own goals", "note": "the goal that ends a clean sheet"}
+        {
+          "href": "/sports/explainers/what-is-xg/",
+          "label": "What xG is",
+          "note": "the modern way to measure whether chances were taken"
+        },
+        {
+          "href": "/sports/explainers/what-do-football-formations-mean/",
+          "label": "Formations",
+          "note": "the shapes behind the tactical terms"
+        },
+        {
+          "href": "/sports/explainers/what-is-an-own-goal/",
+          "label": "Own goals",
+          "note": "the goal that ends a clean sheet"
+        }
       ],
       "faq": [
-        {"q": "What is a brace?", "a": "Two goals by one player in a single match. Three is a hat-trick, and four in one game is sometimes called a haul."},
-        {"q": "What is a double or a treble?", "a": "A double is winning two major trophies in one season — in England, typically the league and the FA Cup. A treble is three, most famously league plus domestic cup plus the Champions League."}
-      ]
+        {
+          "q": "What is a brace?",
+          "a": "Two goals by one player in a single match. Three is a hat-trick, and four in one game is sometimes called a haul."
+        },
+        {
+          "q": "What is a double or a treble?",
+          "a": "A double is winning two major trophies in one season — in England, typically the league and the FA Cup. A treble is three, most famously league plus domestic cup plus the Champions League."
+        }
+      ],
+      "sport": "football"
     },
     {
       "slug": "what-is-the-club-world-cup",
@@ -154,19 +294,47 @@
       ],
       "example": "A club wins the Champions League in May, then travels to the Club World Cup expecting a relaxed week. Instead it faces the Copa Libertadores winners in front of a full stadium of supporters who have waited decades for the fixture — a match that is a friendly in name for one side and the biggest game in the club's history for the other. That imbalance of meaning is what the expanded format was designed to fix.",
       "myths": [
-        {"belief": "The Club World Cup and the Intercontinental Cup are unrelated.", "reality": "The Club World Cup grew directly out of the Intercontinental Cup, which matched Europe against South America from 1960 and is recognised as its predecessor."},
-        {"belief": "Any club can qualify.", "reality": "Entry comes from winning a continental competition or through a ranking pathway; it is not open to all clubs."},
-        {"belief": "It is a friendly tournament.", "reality": "It is a FIFA-organised official competition with a trophy, prize money and, under the expanded format, far greater scale."}
+        {
+          "belief": "The Club World Cup and the Intercontinental Cup are unrelated.",
+          "reality": "The Club World Cup grew directly out of the Intercontinental Cup, which matched Europe against South America from 1960 and is recognised as its predecessor."
+        },
+        {
+          "belief": "Any club can qualify.",
+          "reality": "Entry comes from winning a continental competition or through a ranking pathway; it is not open to all clubs."
+        },
+        {
+          "belief": "It is a friendly tournament.",
+          "reality": "It is a FIFA-organised official competition with a trophy, prize money and, under the expanded format, far greater scale."
+        }
       ],
       "concepts": [
-        {"href": "/sports/explainers/what-is-uefa/", "label": "What UEFA is", "note": "the confederation whose champion takes Europe's place"},
-        {"href": "/sports/explainers/what-is-the-difference-between-the-champions-league-europa-and-conference-league/", "label": "Europe's three competitions", "note": "how the European berth is earned"},
-        {"href": "/sports/explainers/why-is-the-world-cup-every-four-years/", "label": "Why the World Cup is every four years", "note": "the national-team equivalent"}
+        {
+          "href": "/sports/explainers/what-is-uefa/",
+          "label": "What UEFA is",
+          "note": "the confederation whose champion takes Europe's place"
+        },
+        {
+          "href": "/sports/explainers/what-is-the-difference-between-the-champions-league-europa-and-conference-league/",
+          "label": "Europe's three competitions",
+          "note": "how the European berth is earned"
+        },
+        {
+          "href": "/sports/explainers/why-is-the-world-cup-every-four-years/",
+          "label": "Why the World Cup is every four years",
+          "note": "the national-team equivalent"
+        }
       ],
       "faq": [
-        {"q": "How often is the Club World Cup played?", "a": "The older format was annual. The expanded 32-team version is designed as a quadrennial summer tournament, with the first of the new era staged in 2025."},
-        {"q": "Who has won it most often?", "a": "European clubs have dominated the modern era, with South American clubs — particularly from Brazil and Argentina — historically the most serious challengers."}
-      ]
+        {
+          "q": "How often is the Club World Cup played?",
+          "a": "The older format was annual. The expanded 32-team version is designed as a quadrennial summer tournament, with the first of the new era staged in 2025."
+        },
+        {
+          "q": "Who has won it most often?",
+          "a": "European clubs have dominated the modern era, with South American clubs — particularly from Brazil and Argentina — historically the most serious challengers."
+        }
+      ],
+      "sport": "football"
     },
     {
       "slug": "how-does-a-team-qualify-for-the-champions-league",
@@ -182,19 +350,47 @@
       ],
       "example": "Two clubs finish third. One plays in a league ranked in UEFA's top four and goes straight into the Champions League league phase. The other plays in a league ranked twelfth and must win two qualifying ties in July and August just to reach the same starting point — with the same prize money on the line and far less preparation time. Same finishing position, entirely different routes.",
       "myths": [
-        {"belief": "The league champion of every country qualifies automatically.", "reality": "Most do, but clubs from smaller associations often have to come through qualifying rounds, and the number of places per country varies with its coefficient."},
-        {"belief": "Only league position counts.", "reality": "Winning the previous Champions League or Europa League also grants entry, regardless of where the club finished domestically."},
-        {"belief": "The number of places per country is fixed.", "reality": "It changes with that country's five-year coefficient — strong collective performances earn more berths, poor ones lose them."}
+        {
+          "belief": "The league champion of every country qualifies automatically.",
+          "reality": "Most do, but clubs from smaller associations often have to come through qualifying rounds, and the number of places per country varies with its coefficient."
+        },
+        {
+          "belief": "Only league position counts.",
+          "reality": "Winning the previous Champions League or Europa League also grants entry, regardless of where the club finished domestically."
+        },
+        {
+          "belief": "The number of places per country is fixed.",
+          "reality": "It changes with that country's five-year coefficient — strong collective performances earn more berths, poor ones lose them."
+        }
       ],
       "concepts": [
-        {"href": "/sports/champions-league-format-explained/", "label": "How the Champions League format works", "note": "what qualification leads into"},
-        {"href": "/sports/explainers/what-is-promotion-and-relegation/", "label": "Promotion and relegation", "note": "how clubs reach a league high enough to qualify"},
-        {"href": "/sports/explainers/how-are-champions-league-draws-seeded/", "label": "How draws are seeded", "note": "what happens once a club is in"}
+        {
+          "href": "/sports/champions-league-format-explained/",
+          "label": "How the Champions League format works",
+          "note": "what qualification leads into"
+        },
+        {
+          "href": "/sports/explainers/what-is-promotion-and-relegation/",
+          "label": "Promotion and relegation",
+          "note": "how clubs reach a league high enough to qualify"
+        },
+        {
+          "href": "/sports/explainers/how-are-champions-league-draws-seeded/",
+          "label": "How draws are seeded",
+          "note": "what happens once a club is in"
+        }
       ],
       "faq": [
-        {"q": "Can a cup win get a club into the Champions League?", "a": "Usually the domestic cup leads to the Europa League or Conference League. The exceptions are winning the Champions League or Europa League itself, both of which grant entry to the following season's Champions League."},
-        {"q": "What are qualifying rounds?", "a": "Summer knockout ties that clubs from lower-ranked associations must win to reach the league phase. Each round carries prize money and can make a significant difference to a club's finances."}
-      ]
+        {
+          "q": "Can a cup win get a club into the Champions League?",
+          "a": "Usually the domestic cup leads to the Europa League or Conference League. The exceptions are winning the Champions League or Europa League itself, both of which grant entry to the following season's Champions League."
+        },
+        {
+          "q": "What are qualifying rounds?",
+          "a": "Summer knockout ties that clubs from lower-ranked associations must win to reach the league phase. Each round carries prize money and can make a significant difference to a club's finances."
+        }
+      ],
+      "sport": "football"
     },
     {
       "slug": "what-is-a-free-agent-and-release-clause",
@@ -210,19 +406,47 @@
       ],
       "example": "A striker has eighteen months left on his deal. His club offers a renewal he declines; six months later he is free to negotiate with clubs abroad, and the following summer he joins one of them for a fee of zero, with the money that would have been a transfer fee paid to him in wages instead. Compare that with a midfielder whose contract contains a release clause: his club never wanted to sell, but when a rival pays the clause, refusal is no longer an option.",
       "myths": [
-        {"belief": "A free agent is a player who was released for being unwanted.", "reality": "Many free agents are high-value players who simply ran their contracts down. Expiry, not quality, creates the status — and it usually increases the player's wage demands."},
-        {"belief": "A release clause means the player is leaving.", "reality": "It sets a price at which the club cannot refuse. Many clauses are set far above market value precisely to deter bids."},
-        {"belief": "The buying club triggers the clause directly.", "reality": "Not always — in some jurisdictions the clause is exercised by the player depositing the fee, with the buying club funding it in practice."}
+        {
+          "belief": "A free agent is a player who was released for being unwanted.",
+          "reality": "Many free agents are high-value players who simply ran their contracts down. Expiry, not quality, creates the status — and it usually increases the player's wage demands."
+        },
+        {
+          "belief": "A release clause means the player is leaving.",
+          "reality": "It sets a price at which the club cannot refuse. Many clauses are set far above market value precisely to deter bids."
+        },
+        {
+          "belief": "The buying club triggers the clause directly.",
+          "reality": "Not always — in some jurisdictions the clause is exercised by the player depositing the fee, with the buying club funding it in practice."
+        }
       ],
       "concepts": [
-        {"href": "/sports/explainers/how-does-the-transfer-window-work/", "label": "How transfer windows work", "note": "when a free agent can be registered"},
-        {"href": "/sports/explainers/what-is-a-loan-deal/", "label": "Loan deals", "note": "the other way a player moves without a permanent fee"},
-        {"href": "/sports/explainers/what-is-financial-fair-play/", "label": "Financial fair play", "note": "the rules shaping whether a club can afford the wages"}
+        {
+          "href": "/sports/explainers/how-does-the-transfer-window-work/",
+          "label": "How transfer windows work",
+          "note": "when a free agent can be registered"
+        },
+        {
+          "href": "/sports/explainers/what-is-a-loan-deal/",
+          "label": "Loan deals",
+          "note": "the other way a player moves without a permanent fee"
+        },
+        {
+          "href": "/sports/explainers/what-is-financial-fair-play/",
+          "label": "Financial fair play",
+          "note": "the rules shaping whether a club can afford the wages"
+        }
       ],
       "faq": [
-        {"q": "Can a free agent sign outside a transfer window?", "a": "Generally yes, provided he was not under contract when the window closed and the relevant league's registration rules allow it — free agents are the main exception to window timing."},
-        {"q": "Why do some contracts have no release clause?", "a": "They are a negotiated term. Clubs often refuse them to keep control of the fee, and players with leverage demand them to guarantee an exit route."}
-      ]
+        {
+          "q": "Can a free agent sign outside a transfer window?",
+          "a": "Generally yes, provided he was not under contract when the window closed and the relevant league's registration rules allow it — free agents are the main exception to window timing."
+        },
+        {
+          "q": "Why do some contracts have no release clause?",
+          "a": "They are a negotiated term. Clubs often refuse them to keep control of the fee, and players with leverage demand them to guarantee an exit route."
+        }
+      ],
+      "sport": "football"
     },
     {
       "slug": "what-is-a-play-off",
@@ -238,19 +462,47 @@
       ],
       "example": "A club finishes sixth, thirteen points behind third, and wins three matches in ten days to go up. The third-placed club, beaten in a semi-final, watches from the stands. In the table, they were the better team by a distance; in the only competition that mattered at that moment, they lost over two legs. That tension — season-long merit versus one-off drama — is the argument about play-offs in miniature.",
       "myths": [
-        {"belief": "The team that finished highest always wins.", "reality": "No — that is the point. Form, momentum and a single bad afternoon decide it, which is why lower finishers regularly win promotion."},
-        {"belief": "All play-offs are one match.", "reality": "Many are two-legged semi-finals followed by a single final. The format is set by each competition."},
-        {"belief": "Play-offs only decide promotion.", "reality": "They also settle relegation places, qualification spots, and occasionally a title when every other tiebreaker has failed."}
+        {
+          "belief": "The team that finished highest always wins.",
+          "reality": "No — that is the point. Form, momentum and a single bad afternoon decide it, which is why lower finishers regularly win promotion."
+        },
+        {
+          "belief": "All play-offs are one match.",
+          "reality": "Many are two-legged semi-finals followed by a single final. The format is set by each competition."
+        },
+        {
+          "belief": "Play-offs only decide promotion.",
+          "reality": "They also settle relegation places, qualification spots, and occasionally a title when every other tiebreaker has failed."
+        }
       ],
       "concepts": [
-        {"href": "/sports/explainers/what-is-promotion-and-relegation/", "label": "Promotion and relegation", "note": "what the play-off winners earn"},
-        {"href": "/sports/explainers/what-happens-if-teams-finish-on-equal-points/", "label": "Teams level on points", "note": "the play-off as the last tiebreaker"},
-        {"href": "/sports/explainers/how-is-a-knockout-tie-decided/", "label": "How knockout ties are decided", "note": "the mechanics of a two-legged tie"}
+        {
+          "href": "/sports/explainers/what-is-promotion-and-relegation/",
+          "label": "Promotion and relegation",
+          "note": "what the play-off winners earn"
+        },
+        {
+          "href": "/sports/explainers/what-happens-if-teams-finish-on-equal-points/",
+          "label": "Teams level on points",
+          "note": "the play-off as the last tiebreaker"
+        },
+        {
+          "href": "/sports/explainers/how-is-a-knockout-tie-decided/",
+          "label": "How knockout ties are decided",
+          "note": "the mechanics of a two-legged tie"
+        }
       ],
       "faq": [
-        {"q": "Is the play-off final at a neutral ground?", "a": "Usually yes — most leagues stage it at a national stadium, though the semi-finals are typically two-legged and played at the clubs' own grounds."},
-        {"q": "Can a play-off decide a relegation place?", "a": "Yes. Some leagues use play-offs for the final relegation spot, and some use them between a top-flight club and a second-tier club at the end of a season."}
-      ]
+        {
+          "q": "Is the play-off final at a neutral ground?",
+          "a": "Usually yes — most leagues stage it at a national stadium, though the semi-finals are typically two-legged and played at the clubs' own grounds."
+        },
+        {
+          "q": "Can a play-off decide a relegation place?",
+          "a": "Yes. Some leagues use play-offs for the final relegation spot, and some use them between a top-flight club and a second-tier club at the end of a season."
+        }
+      ],
+      "sport": "football"
     },
     {
       "slug": "what-does-the-coin-toss-decide",
@@ -266,19 +518,47 @@
       ],
       "example": "A captain wins the toss in a stadium with a strong wind behind one goal and chooses to attack that end in the second half, when his team's fitter bench and tiring opponents should tell. At 1-1 in the 88th minute, the wind is at his forwards' backs for a final assault. Ninety minutes later the same captain wins the shootout toss and elects to kick first — a decision that will be called inspired or foolish depending on how the first five kicks go.",
       "myths": [
-        {"belief": "The toss decides who gets the ball in both halves.", "reality": "It decides ends or the kick-off. The team that does not kick off takes the ball for the second half, so both teams get one restart."},
-        {"belief": "The shootout toss only decides who kicks first.", "reality": "It can also decide which goal the shootout is taken at, and the referee may select the end to put the shootout in front of the louder support."},
-        {"belief": "You cannot score directly from a kick-off.", "reality": "The laws allow it — the ball is in play once kicked and clearly moving. It is simply never attempted from the centre circle."}
+        {
+          "belief": "The toss decides who gets the ball in both halves.",
+          "reality": "It decides ends or the kick-off. The team that does not kick off takes the ball for the second half, so both teams get one restart."
+        },
+        {
+          "belief": "The shootout toss only decides who kicks first.",
+          "reality": "It can also decide which goal the shootout is taken at, and the referee may select the end to put the shootout in front of the louder support."
+        },
+        {
+          "belief": "You cannot score directly from a kick-off.",
+          "reality": "The laws allow it — the ball is in play once kicked and clearly moving. It is simply never attempted from the centre circle."
+        }
       ],
       "concepts": [
-        {"href": "/sports/explainers/how-long-is-a-football-match/", "label": "How long a match is", "note": "why teams swap ends at the interval"},
-        {"href": "/sports/explainers/how-do-penalty-shootouts-work/", "label": "Penalty shootouts", "note": "the toss that matters most"},
-        {"href": "/sports/explainers/how-do-substitutions-work/", "label": "Substitutions", "note": "how the second-half advantage is built"}
+        {
+          "href": "/sports/explainers/how-long-is-a-football-match/",
+          "label": "How long a match is",
+          "note": "why teams swap ends at the interval"
+        },
+        {
+          "href": "/sports/explainers/how-do-penalty-shootouts-work/",
+          "label": "Penalty shootouts",
+          "note": "the toss that matters most"
+        },
+        {
+          "href": "/sports/explainers/how-do-substitutions-work/",
+          "label": "Substitutions",
+          "note": "how the second-half advantage is built"
+        }
       ],
       "faq": [
-        {"q": "Who makes the choice at the toss?", "a": "The captain of the team that wins it. He may pick which end to attack in the first half, or take the kick-off — not both."},
-        {"q": "Is kicking first in a shootout an advantage?", "a": "Most analysis suggests a modest edge to going first, because it forces the opponent into repeated must-score situations — though many managers and players prefer second."}
-      ]
+        {
+          "q": "Who makes the choice at the toss?",
+          "a": "The captain of the team that wins it. He may pick which end to attack in the first half, or take the kick-off — not both."
+        },
+        {
+          "q": "Is kicking first in a shootout an advantage?",
+          "a": "Most analysis suggests a modest edge to going first, because it forces the opponent into repeated must-score situations — though many managers and players prefer second."
+        }
+      ],
+      "sport": "football"
     }
   ]
 }

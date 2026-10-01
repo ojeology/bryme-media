@@ -27,6 +27,16 @@ const nicheArg = args.find((a) => ["entertainment", "sports", "all"].includes(a)
 
 const manifest = JSON.parse(fs.readFileSync(path.join(ROOT, "content", "niche-manifests.json"), "utf8"));
 const FLOORS = manifest.floors_words;
+const BY_SPORT = (manifest.niches.sports.targets.by_sport) || {};
+
+/* slug -> sport, read from the authored batches so the audit reports coverage
+ * per sport rather than only in total */
+const SPORT_OF = {};
+for (const f of fs.readdirSync(path.join(ROOT, "content"))) {
+  if (!f.startsWith("upgrade-sports") || !f.endsWith(".json")) continue;
+  const packs = JSON.parse(fs.readFileSync(path.join(ROOT, "content", f), "utf8")).explainers || [];
+  for (const p of packs) SPORT_OF[p.slug] = p.sport || "general";
+}
 
 function read(rel) {
   const p = path.join(ROOT, rel);
@@ -159,8 +169,18 @@ function auditSports() {
   const hub = read("sports/explainers/index.html") || "";
   const missingFromHub = list.filter((s) => !hub.includes(`/sports/explainers/${s}/`));
 
+  const bySport = {};
+  for (const slug of list) {
+    const sp = SPORT_OF[slug] || "general";
+    bySport[sp] = (bySport[sp] || 0) + 1;
+  }
+  const sportGaps = Object.keys(BY_SPORT)
+    .filter((sp) => (bySport[sp] || 0) < BY_SPORT[sp])
+    .map((sp) => `${sp} ${bySport[sp] || 0}/${BY_SPORT[sp]}`);
+  const sportRows = Object.keys(BY_SPORT).map((sp) => ({ sport: sp, have: bySport[sp] || 0, target: BY_SPORT[sp] }));
+
   const target = manifest.niches.sports.targets.explainers;
-  const full = list.length >= target.value && missingFromHub.length === 0 && weakConcept.length === 0;
+  const full = list.length >= target.value && missingFromHub.length === 0 && weakConcept.length === 0 && sportGaps.length === 0;
   const noThin = thin.length === 0;
 
   return {
@@ -168,6 +188,9 @@ function auditSports() {
     label: manifest.niches.sports.label,
     explainers: list.length,
     target: target.value,
+    bySport,
+    sportRows,
+    sportGaps,
     targetStatus: target.status,
     wordsMin: wordsMin === Infinity ? 0 : wordsMin,
     wordsMax,
@@ -209,6 +232,9 @@ if (jsonOut) {
       console.log(`  hub links:       ${r.missingFromHub.length === 0 ? "complete ✓" : "missing " + r.missingFromHub.join(", ") + " ✗"}`);
     } else {
       console.log(`  explainers:      ${r.explainers} / ${r.target} (${r.targetStatus})`);
+      if (r.sportRows && r.sportRows.length) {
+        for (const row of r.sportRows) console.log(`    ${row.sport.padEnd(12)} ${row.have} / ${row.target}${row.have < row.target ? " ✗" : " ✓"}`);
+      }
       console.log(`  copy:            ${r.wordsMin}–${r.wordsMax} words/page (floor ${FLOORS.explainer})`);
       console.log(`  thin pages:      ${r.thin.length === 0 ? "0 ✓" : r.thin.length + " ✗"}`);
       console.log(`  concept network: ${r.weakConcept.length === 0 ? "all pages ≥2 links ✓" : r.weakConcept.join("; ") + " ✗"}`);
@@ -220,6 +246,7 @@ if (jsonOut) {
     if (r.explainers !== undefined && r.explainers < r.target) remaining.push(`build ${r.target - r.explainers} more explainer(s)`);
     if (r.notUpgraded && r.notUpgraded.length) remaining.push(`upgrade ${r.notUpgraded.length} referenced title page(s)`);
     if (r.weakConcept && r.weakConcept.length) remaining.push(`fix concept links on ${r.weakConcept.length} page(s)`);
+    if (r.sportGaps && r.sportGaps.length) remaining.push(`top up ${r.sportGaps.join(", ")}`);
     if (r.linkIssues.length) remaining.push("fix link issues");
     if (remaining.length) console.log(`  → remaining:     ${remaining.join("; ")}`);
     console.log("");

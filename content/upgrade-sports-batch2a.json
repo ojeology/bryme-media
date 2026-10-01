@@ -53,7 +53,8 @@
           "q": "Can two teams be declared joint champions?",
           "a": "In practice no. Even competitions with the deepest queues finish with a defined order; a play-off is the catch-all when every listed criterion is equal."
         }
-      ]
+      ],
+      "sport": "football"
     },
     {
       "slug": "what-is-uefa",
@@ -104,7 +105,8 @@
           "q": "Does UEFA run domestic leagues like the Premier League?",
           "a": "No. Domestic leagues are run by each country's own association. UEFA governs European club competitions, national-team tournaments and the regulations that apply across its region."
         }
-      ]
+      ],
+      "sport": "football"
     },
     {
       "slug": "who-makes-the-rules-of-football",
@@ -154,7 +156,8 @@
           "q": "How often do the laws actually change?",
           "a": "There is an AGM every year, but most years bring small clarifications rather than big changes. Structural changes like VAR go through multi-year trials first."
         }
-      ]
+      ],
+      "sport": "football"
     },
     {
       "slug": "why-is-the-world-cup-every-four-years",
@@ -205,7 +208,8 @@
           "q": "Has the World Cup ever been held more or less often than every four years?",
           "a": "No — 1930 to 1938 ran every four years (skipping 1942 due to the war), and from 1950 onward the pattern has been unbroken."
         }
-      ]
+      ],
+      "sport": "football"
     },
     {
       "slug": "what-is-handball-in-football",
@@ -260,7 +264,8 @@
           "q": "Why does the handball rule seem to change so often?",
           "a": "Because IFAB keeps refining the boundary between deliberate and accidental. It is the law most frequently edited in the entire rulebook, and each rewrite is an attempt to make the threshold clearer for referees."
         }
-      ]
+      ],
+      "sport": "football"
     },
     {
       "slug": "what-happens-when-a-player-is-sent-off",
@@ -311,7 +316,8 @@
           "q": "Can a red card be overturned?",
           "a": "Yes — clubs can appeal wrongful dismissals to a disciplinary panel, which can rescind the card and the suspension. Success rate is low, because the panel must find a clear error rather than merely disagree."
         }
-      ]
+      ],
+      "sport": "football"
     },
     {
       "slug": "how-do-penalty-shootouts-work",
@@ -366,7 +372,8 @@
           "q": "Who picks the order of takers?",
           "a": "The manager, usually with the captain, submits a numbered list before the shootout begins. The list can be reordered only before the shootout starts, not mid-shootout."
         }
-      ]
+      ],
+      "sport": "football"
     },
     {
       "slug": "what-is-stoppage-time",
@@ -421,7 +428,8 @@
           "q": "Can a goal be scored directly from a corner after added time expires?",
           "a": "Yes — if a corner is awarded before the added period ends, it is taken and the half continues until the attack is complete, which is why keepers sometimes rush forward for one last corner."
         }
-      ]
+      ],
+      "sport": "football"
     },
     {
       "slug": "when-is-a-goal-a-goal",
@@ -472,7 +480,8 @@
           "q": "Can VAR award a goal the referee missed?",
           "a": "Yes for the specific reviewable situations. The unusual case is goal-line calls: those are resolved by goal-line technology, not VAR, because the technology gives a definitive answer instantly."
         }
-      ]
+      ],
+      "sport": "football"
     }
   ]
 }

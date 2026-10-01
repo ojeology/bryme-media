@@ -14,19 +14,47 @@
       ],
       "example": "A defender clips a winger just inside the box and the referee points to the spot. The keeper bounces on his line, the striker stutters in his run-up and waits, then rolls the ball the wrong side of him. Had he struck it against the post and followed up himself, the goal would have been disallowed — but a midfielder arriving late to knock in the rebound would have been perfectly legal.",
       "myths": [
-        {"belief": "The goalkeeper must keep both feet on the line until the ball is kicked.", "reality": "At least part of one foot must be on, on or behind the line. He can move along it, jump and wave his arms — he just cannot step forward early."},
-        {"belief": "The penalty taker can score from his own rebound.", "reality": "No — he cannot touch the ball twice. A team-mate following up can, which is why players sprint into the box as the kick is taken."},
-        {"belief": "The penalty arc is just decoration.", "reality": "It marks the ten-yard exclusion zone around the penalty spot. Players must be outside both the area and the arc when the kick is taken."}
+        {
+          "belief": "The goalkeeper must keep both feet on the line until the ball is kicked.",
+          "reality": "At least part of one foot must be on, on or behind the line. He can move along it, jump and wave his arms — he just cannot step forward early."
+        },
+        {
+          "belief": "The penalty taker can score from his own rebound.",
+          "reality": "No — he cannot touch the ball twice. A team-mate following up can, which is why players sprint into the box as the kick is taken."
+        },
+        {
+          "belief": "The penalty arc is just decoration.",
+          "reality": "It marks the ten-yard exclusion zone around the penalty spot. Players must be outside both the area and the arc when the kick is taken."
+        }
       ],
       "concepts": [
-        {"href": "/sports/explainers/what-counts-as-a-foul/", "label": "What counts as a foul", "note": "the offences that produce a penalty inside the box"},
-        {"href": "/sports/explainers/how-do-penalty-shootouts-work/", "label": "Penalty shootouts", "note": "the same kick under very different rules"},
-        {"href": "/sports/explainers/when-is-a-goal-a-goal/", "label": "When a goal is a goal", "note": "why encroachment can wipe a penalty out"}
+        {
+          "href": "/sports/explainers/what-counts-as-a-foul/",
+          "label": "What counts as a foul",
+          "note": "the offences that produce a penalty inside the box"
+        },
+        {
+          "href": "/sports/explainers/how-do-penalty-shootouts-work/",
+          "label": "Penalty shootouts",
+          "note": "the same kick under very different rules"
+        },
+        {
+          "href": "/sports/explainers/when-is-a-goal-a-goal/",
+          "label": "When a goal is a goal",
+          "note": "why encroachment can wipe a penalty out"
+        }
       ],
       "faq": [
-        {"q": "Can a penalty be taken by anyone?", "a": "Any player on the field of play, including the goalkeeper. He must be identified to the referee, and once the ball is kicked the taking is complete."},
-        {"q": "What happens if the keeper saves it?", "a": "In open play the ball stays live and anyone can follow up the rebound — except the original kicker, who cannot touch it twice. In a shootout, the kick is over the moment it is saved."}
-      ]
+        {
+          "q": "Can a penalty be taken by anyone?",
+          "a": "Any player on the field of play, including the goalkeeper. He must be identified to the referee, and once the ball is kicked the taking is complete."
+        },
+        {
+          "q": "What happens if the keeper saves it?",
+          "a": "In open play the ball stays live and anyone can follow up the rebound — except the original kicker, who cannot touch it twice. In a shootout, the kick is over the moment it is saved."
+        }
+      ],
+      "sport": "football"
     },
     {
       "slug": "what-is-a-yellow-card",
@@ -42,19 +70,47 @@
       ],
       "example": "A midfielder is booked in the 20th minute for a late challenge. Every tackle for the next seventy minutes is now judged against the fact that one more card ends his afternoon — so he stands off a runner he would normally have caught, and the manager replaces him at half-time. In a World Cup group stage, the same caution is a different problem entirely: book him again in the second match and he misses the round of sixteen.",
       "myths": [
-        {"belief": "A yellow card is just a warning with no real cost.", "reality": "Two in a match is a dismissal, and across a season it triggers suspensions and fines on a published tariff."},
-        {"belief": "Cards reset at the end of every match.", "reality": "They accumulate across the season (or the tournament) towards suspension thresholds set by each competition."},
-        {"belief": "Only fouls get you booked.", "reality": "Dissent, time-wasting, encroachment at free kicks, leaving the pitch without permission and even excessive celebration can all be cautions."}
+        {
+          "belief": "A yellow card is just a warning with no real cost.",
+          "reality": "Two in a match is a dismissal, and across a season it triggers suspensions and fines on a published tariff."
+        },
+        {
+          "belief": "Cards reset at the end of every match.",
+          "reality": "They accumulate across the season (or the tournament) towards suspension thresholds set by each competition."
+        },
+        {
+          "belief": "Only fouls get you booked.",
+          "reality": "Dissent, time-wasting, encroachment at free kicks, leaving the pitch without permission and even excessive celebration can all be cautions."
+        }
       ],
       "concepts": [
-        {"href": "/sports/explainers/what-happens-when-a-player-is-sent-off/", "label": "Red cards", "note": "what two yellows become"},
-        {"href": "/sports/explainers/what-counts-as-a-foul/", "label": "What counts as a foul", "note": "careless, reckless and excessive force"},
-        {"href": "/sports/explainers/who-makes-the-rules-of-football/", "label": "Who writes the laws", "note": "the body that defines cautionable offences"}
+        {
+          "href": "/sports/explainers/what-happens-when-a-player-is-sent-off/",
+          "label": "Red cards",
+          "note": "what two yellows become"
+        },
+        {
+          "href": "/sports/explainers/what-counts-as-a-foul/",
+          "label": "What counts as a foul",
+          "note": "careless, reckless and excessive force"
+        },
+        {
+          "href": "/sports/explainers/who-makes-the-rules-of-football/",
+          "label": "Who writes the laws",
+          "note": "the body that defines cautionable offences"
+        }
       ],
       "faq": [
-        {"q": "How many yellow cards before a suspension?", "a": "It depends on the competition. England uses five bookings before a defined cut-off date in the season, with a higher threshold afterwards; other leagues and tournaments set their own numbers."},
-        {"q": "Can a yellow card be appealed?", "a": "The caution itself generally cannot, but a suspension it triggers can sometimes be appealed if the club argues it was wrongly shown — the same process used to challenge a wrongful dismissal."}
-      ]
+        {
+          "q": "How many yellow cards before a suspension?",
+          "a": "It depends on the competition. England uses five bookings before a defined cut-off date in the season, with a higher threshold afterwards; other leagues and tournaments set their own numbers."
+        },
+        {
+          "q": "Can a yellow card be appealed?",
+          "a": "The caution itself generally cannot, but a suspension it triggers can sometimes be appealed if the club argues it was wrongly shown — the same process used to challenge a wrongful dismissal."
+        }
+      ],
+      "sport": "football"
     },
     {
       "slug": "how-long-is-a-football-match",
@@ -70,19 +126,47 @@
       ],
       "example": "A Saturday afternoon kick-off that starts at 3pm usually ends around 4:50pm. Ninety minutes of clock, plus one minute of added time in the first half, eight in the second, fifteen minutes of half-time, and the four or five minutes the teams take to walk off and return. The ball, for all that, is in play for barely an hour.",
       "myths": [
-        {"belief": "A football match is exactly 90 minutes long.", "reality": "That is the regulation playing time. Stoppage time at the end of each half is added on top, and modern matches frequently exceed 100 minutes in total."},
-        {"belief": "Half-time is as long as the referee wants.", "reality": "The interval is fifteen minutes by law. Anything longer has to be authorised and is normally reported."},
-        {"belief": "Youth and amateur matches use the same 90 minutes.", "reality": "Shorter halves are standard for younger age groups and many amateur competitions; the 90-minute format is the professional adult norm."}
+        {
+          "belief": "A football match is exactly 90 minutes long.",
+          "reality": "That is the regulation playing time. Stoppage time at the end of each half is added on top, and modern matches frequently exceed 100 minutes in total."
+        },
+        {
+          "belief": "Half-time is as long as the referee wants.",
+          "reality": "The interval is fifteen minutes by law. Anything longer has to be authorised and is normally reported."
+        },
+        {
+          "belief": "Youth and amateur matches use the same 90 minutes.",
+          "reality": "Shorter halves are standard for younger age groups and many amateur competitions; the 90-minute format is the professional adult norm."
+        }
       ],
       "concepts": [
-        {"href": "/sports/explainers/what-is-stoppage-time/", "label": "Stoppage time", "note": "the minutes added to the 90"},
-        {"href": "/sports/explainers/what-is-extra-time/", "label": "Extra time", "note": "the further 30 minutes in knockout ties"},
-        {"href": "/sports/explainers/how-do-substitutions-work/", "label": "Substitutions", "note": "one of the biggest drains on the clock"}
+        {
+          "href": "/sports/explainers/what-is-stoppage-time/",
+          "label": "Stoppage time",
+          "note": "the minutes added to the 90"
+        },
+        {
+          "href": "/sports/explainers/what-is-extra-time/",
+          "label": "Extra time",
+          "note": "the further 30 minutes in knockout ties"
+        },
+        {
+          "href": "/sports/explainers/how-do-substitutions-work/",
+          "label": "Substitutions",
+          "note": "one of the biggest drains on the clock"
+        }
       ],
       "faq": [
-        {"q": "Why not stop the clock like other sports?", "a": "Continuous time is part of football's tradition and its tactical texture — managing the clock is a skill. Trials of a stopped clock have been discussed but not adopted at the top of the game."},
-        {"q": "How long is the ball actually in play?", "a": "Typically around 55 to 60 minutes of a 90-minute match, which is the statistic driving the clampdown on time-wasting and the longer added times."}
-      ]
+        {
+          "q": "Why not stop the clock like other sports?",
+          "a": "Continuous time is part of football's tradition and its tactical texture — managing the clock is a skill. Trials of a stopped clock have been discussed but not adopted at the top of the game."
+        },
+        {
+          "q": "How long is the ball actually in play?",
+          "a": "Typically around 55 to 60 minutes of a 90-minute match, which is the statistic driving the clampdown on time-wasting and the longer added times."
+        }
+      ],
+      "sport": "football"
     },
     {
       "slug": "how-many-players-are-on-a-football-team",
@@ -98,19 +182,47 @@
       ],
       "example": "A club registers twenty-five players for the season, names twenty for a Saturday match, and uses five of them from the bench. Eleven start, eleven finish — but sixteen players from that club have touched the ball in a competitive match by the final whistle, and the other nine trained all week for nothing.",
       "myths": [
-        {"belief": "A team must always have eleven players on the pitch.", "reality": "Eleven start, but a team can legally finish with seven. Below seven, the match is abandoned."},
-        {"belief": "The goalkeeper is optional.", "reality": "A team must have one player in goal at all times. If no specialist is available, an outfield player takes the role."},
-        {"belief": "The squad and the team are the same eleven.", "reality": "Clubs register twenty-five or more players and name around twenty on a matchday; eleven of those are on the pitch at kick-off."}
+        {
+          "belief": "A team must always have eleven players on the pitch.",
+          "reality": "Eleven start, but a team can legally finish with seven. Below seven, the match is abandoned."
+        },
+        {
+          "belief": "The goalkeeper is optional.",
+          "reality": "A team must have one player in goal at all times. If no specialist is available, an outfield player takes the role."
+        },
+        {
+          "belief": "The squad and the team are the same eleven.",
+          "reality": "Clubs register twenty-five or more players and name around twenty on a matchday; eleven of those are on the pitch at kick-off."
+        }
       ],
       "concepts": [
-        {"href": "/sports/explainers/how-do-substitutions-work/", "label": "Substitutions", "note": "how the eleven changes during a match"},
-        {"href": "/sports/explainers/what-happens-when-a-player-is-sent-off/", "label": "Red cards", "note": "how a team drops to ten, nine, eight"},
-        {"href": "/sports/explainers/what-do-football-formations-mean/", "label": "What formations mean", "note": "how the eleven are arranged"}
+        {
+          "href": "/sports/explainers/how-do-substitutions-work/",
+          "label": "Substitutions",
+          "note": "how the eleven changes during a match"
+        },
+        {
+          "href": "/sports/explainers/what-happens-when-a-player-is-sent-off/",
+          "label": "Red cards",
+          "note": "how a team drops to ten, nine, eight"
+        },
+        {
+          "href": "/sports/explainers/what-do-football-formations-mean/",
+          "label": "What formations mean",
+          "note": "how the eleven are arranged"
+        }
       ],
       "faq": [
-        {"q": "Can a team start a match with fewer than eleven?", "a": "Yes, if it has no eligible players available — the match can start with ten or even the minimum seven, though the short-handed side is at a severe disadvantage and may face disciplinary consequences."},
-        {"q": "Why eleven?", "a": "It was settled when the Laws were codified in the 19th century and became the global standard; there is no tactical or mathematical reason it could not have been another number."}
-      ]
+        {
+          "q": "Can a team start a match with fewer than eleven?",
+          "a": "Yes, if it has no eligible players available — the match can start with ten or even the minimum seven, though the short-handed side is at a severe disadvantage and may face disciplinary consequences."
+        },
+        {
+          "q": "Why eleven?",
+          "a": "It was settled when the Laws were codified in the 19th century and became the global standard; there is no tactical or mathematical reason it could not have been another number."
+        }
+      ],
+      "sport": "football"
     },
     {
       "slug": "what-is-the-backpass-rule",
@@ -126,19 +238,47 @@
       ],
       "example": "A defender under pressure rolls the ball back to his keeper, who picks it up with both hands. The whistle goes immediately: indirect free kick to the opposition, eight yards from goal, every defender on the line, one attacker feinting before rolling it sideways for a team-mate to shoot. If the defender had instead headed the ball back, the keeper could legally have caught it — the foot is what makes the difference.",
       "myths": [
-        {"belief": "The keeper can never handle a pass from a team-mate.", "reality": "Only a deliberate kick. A header, a chest pass, a thigh or any deflection can be handled legally."},
-        {"belief": "The backpass offence is a penalty.", "reality": "It is an indirect free kick, and if the handling happened inside the six-yard box the kick is taken on the six-yard line."},
-        {"belief": "The six-second rule is never enforced.", "reality": "It is enforced, though referees often warn first. Deliberately holding the ball to waste time is an indirect free kick offence."}
+        {
+          "belief": "The keeper can never handle a pass from a team-mate.",
+          "reality": "Only a deliberate kick. A header, a chest pass, a thigh or any deflection can be handled legally."
+        },
+        {
+          "belief": "The backpass offence is a penalty.",
+          "reality": "It is an indirect free kick, and if the handling happened inside the six-yard box the kick is taken on the six-yard line."
+        },
+        {
+          "belief": "The six-second rule is never enforced.",
+          "reality": "It is enforced, though referees often warn first. Deliberately holding the ball to waste time is an indirect free kick offence."
+        }
       ],
       "concepts": [
-        {"href": "/sports/explainers/direct-and-indirect-free-kicks/", "label": "Direct vs indirect free kicks", "note": "why the punishment needs a second touch"},
-        {"href": "/sports/explainers/when-is-a-goal-a-goal/", "label": "When a goal is a goal", "note": "why a backpass goal cannot be scored straight from the kick"},
-        {"href": "/sports/explainers/what-counts-as-a-foul/", "label": "What counts as a foul", "note": "where this sits among the offences"}
+        {
+          "href": "/sports/explainers/direct-and-indirect-free-kicks/",
+          "label": "Direct vs indirect free kicks",
+          "note": "why the punishment needs a second touch"
+        },
+        {
+          "href": "/sports/explainers/when-is-a-goal-a-goal/",
+          "label": "When a goal is a goal",
+          "note": "why a backpass goal cannot be scored straight from the kick"
+        },
+        {
+          "href": "/sports/explainers/what-counts-as-a-foul/",
+          "label": "What counts as a foul",
+          "note": "where this sits among the offences"
+        }
       ],
       "faq": [
-        {"q": "Can the keeper handle it if the pass was a header?", "a": "Yes. The rule applies only to a deliberate kick with the foot. A deliberate header, chest or thigh pass can be picked up."},
-        {"q": "What if the ball hits a defender and bounces to the keeper?", "a": "That is not a deliberate play, so the keeper may handle it. Referees look for intent from the team-mate, not merely contact."}
-      ]
+        {
+          "q": "Can the keeper handle it if the pass was a header?",
+          "a": "Yes. The rule applies only to a deliberate kick with the foot. A deliberate header, chest or thigh pass can be picked up."
+        },
+        {
+          "q": "What if the ball hits a defender and bounces to the keeper?",
+          "a": "That is not a deliberate play, so the keeper may handle it. Referees look for intent from the team-mate, not merely contact."
+        }
+      ],
+      "sport": "football"
     },
     {
       "slug": "how-do-throw-ins-goal-kicks-and-corners-work",
@@ -154,19 +294,47 @@
       ],
       "example": "A long throw sails into the six-yard box and is flicked on at the near post for a goal. Entirely legal: there is no offside from a throw-in, so the attacker who flicked it on could stand wherever he liked. Now imagine the same delivery from a corner — the attacker would have had to be onside at the moment the ball was played, because corners, unlike throw-ins, do not exempt the attacking team from the offside law in the same way.",
       "myths": [
-        {"belief": "You can be offside from a throw-in.", "reality": "No — throw-ins, corners and goal kicks are the three restarts from which there is no offside offence."},
-        {"belief": "A goal kick is live as soon as it is kicked.", "reality": "The ball is not in play until it has clearly left the penalty area. If anyone touches it before that, the kick is retaken."},
-        {"belief": "You cannot score directly from a corner.", "reality": "You can. The Olympic goal — straight in from a corner without a second touch — is rare but entirely legal."}
+        {
+          "belief": "You can be offside from a throw-in.",
+          "reality": "No — throw-ins, corners and goal kicks are the three restarts from which there is no offside offence."
+        },
+        {
+          "belief": "A goal kick is live as soon as it is kicked.",
+          "reality": "The ball is not in play until it has clearly left the penalty area. If anyone touches it before that, the kick is retaken."
+        },
+        {
+          "belief": "You cannot score directly from a corner.",
+          "reality": "You can. The Olympic goal — straight in from a corner without a second touch — is rare but entirely legal."
+        }
       ],
       "concepts": [
-        {"href": "/sports/explainers/what-does-offside-mean/", "label": "What offside means", "note": "why these three restarts are exempt"},
-        {"href": "/sports/explainers/direct-and-indirect-free-kicks/", "label": "Direct vs indirect free kicks", "note": "the other way play restarts"},
-        {"href": "/sports/explainers/when-is-a-goal-a-goal/", "label": "When a goal is a goal", "note": "the Olympic goal and other edge cases"}
+        {
+          "href": "/sports/explainers/what-does-offside-mean/",
+          "label": "What offside means",
+          "note": "why these three restarts are exempt"
+        },
+        {
+          "href": "/sports/explainers/direct-and-indirect-free-kicks/",
+          "label": "Direct vs indirect free kicks",
+          "note": "the other way play restarts"
+        },
+        {
+          "href": "/sports/explainers/when-is-a-goal-a-goal/",
+          "label": "When a goal is a goal",
+          "note": "the Olympic goal and other edge cases"
+        }
       ],
       "faq": [
-        {"q": "Can a goalkeeper score directly from a goal kick?", "a": "Yes — if it goes into the opposition goal without touching anyone, it counts. It cannot count as an own goal against his own team directly from a goal kick; that would be a corner."},
-        {"q": "Why do referees rarely punish foul throws?", "a": "They do at the top level, but the margin is small and the throw is quick. Lawfully, a foul throw simply gives possession to the other team."}
-      ]
+        {
+          "q": "Can a goalkeeper score directly from a goal kick?",
+          "a": "Yes — if it goes into the opposition goal without touching anyone, it counts. It cannot count as an own goal against his own team directly from a goal kick; that would be a corner."
+        },
+        {
+          "q": "Why do referees rarely punish foul throws?",
+          "a": "They do at the top level, but the margin is small and the throw is quick. Lawfully, a foul throw simply gives possession to the other team."
+        }
+      ],
+      "sport": "football"
     },
     {
       "slug": "what-is-the-difference-between-a-league-and-a-cup",
@@ -182,19 +350,47 @@
       ],
       "example": "A fourth-tier side draws a top-flight club at home in the third round. In a league, that match could never happen — the two are in different divisions with no route between them except promotion over several seasons. In a cup it is one afternoon, one pitch, and the possibility that the team worth a hundred times more goes out to a set piece in the 88th minute.",
       "myths": [
-        {"belief": "Cups and leagues are just two ways of picking the same winner.", "reality": "They measure different things — consistency over a season versus surviving single elimination — which is why upsets are common in cups and rare in leagues."},
-        {"belief": "A cup match can end in a draw.", "reality": "Not in the knockout rounds. The tie is settled by extra time and penalties; a draw is only a half-time state of affairs."},
-        {"belief": "Leagues are always the more prestigious competition.", "reality": "It depends where you are. In many countries the domestic cup carries enormous prestige, and in Europe the Champions League — a knockout competition — outranks most leagues."}
+        {
+          "belief": "Cups and leagues are just two ways of picking the same winner.",
+          "reality": "They measure different things — consistency over a season versus surviving single elimination — which is why upsets are common in cups and rare in leagues."
+        },
+        {
+          "belief": "A cup match can end in a draw.",
+          "reality": "Not in the knockout rounds. The tie is settled by extra time and penalties; a draw is only a half-time state of affairs."
+        },
+        {
+          "belief": "Leagues are always the more prestigious competition.",
+          "reality": "It depends where you are. In many countries the domestic cup carries enormous prestige, and in Europe the Champions League — a knockout competition — outranks most leagues."
+        }
       ],
       "concepts": [
-        {"href": "/sports/explainers/what-is-promotion-and-relegation/", "label": "Promotion and relegation", "note": "how teams enter and leave the league"},
-        {"href": "/sports/explainers/how-is-a-knockout-tie-decided/", "label": "How knockout ties are decided", "note": "the mechanics of a cup tie"},
-        {"href": "/sports/explainers/what-is-the-difference-between-the-champions-league-europa-and-conference-league/", "label": "Europe's three competitions", "note": "the hybrid formats at the top of the game"}
+        {
+          "href": "/sports/explainers/what-is-promotion-and-relegation/",
+          "label": "Promotion and relegation",
+          "note": "how teams enter and leave the league"
+        },
+        {
+          "href": "/sports/explainers/how-is-a-knockout-tie-decided/",
+          "label": "How knockout ties are decided",
+          "note": "the mechanics of a cup tie"
+        },
+        {
+          "href": "/sports/explainers/what-is-the-difference-between-the-champions-league-europa-and-conference-league/",
+          "label": "Europe's three competitions",
+          "note": "the hybrid formats at the top of the game"
+        }
       ],
       "faq": [
-        {"q": "Why do some competitions use groups and then knockouts?", "a": "Groups guarantee every team a number of matches and generate more meaningful fixtures; knockouts provide the drama. Almost every major tournament now uses both."},
-        {"q": "Do cup results affect league position?", "a": "No. They are separate competitions with separate records, though winning one can bring European qualification that affects next season's fixtures."}
-      ]
+        {
+          "q": "Why do some competitions use groups and then knockouts?",
+          "a": "Groups guarantee every team a number of matches and generate more meaningful fixtures; knockouts provide the drama. Almost every major tournament now uses both."
+        },
+        {
+          "q": "Do cup results affect league position?",
+          "a": "No. They are separate competitions with separate records, though winning one can bring European qualification that affects next season's fixtures."
+        }
+      ],
+      "sport": "football"
     },
     {
       "slug": "what-do-football-formations-mean",
@@ -210,19 +406,47 @@
       ],
       "example": "A team lines up 4-3-3 on the team sheet. Watch the first ten minutes and you will often see the right-back tuck in beside the holding midfielder while the left-back bombs on: in possession the shape is 3-2-5, with five players attacking the back line. The moment possession is lost, the same eleven fall into a 4-5-1. Same players, three shapes, one match.",
       "myths": [
-        {"belief": "The numbers describe exactly where players stand for ninety minutes.", "reality": "They describe a starting shape. Most teams have three or four different shapes in a match depending on whether they have the ball."},
-        {"belief": "The goalkeeper is counted in the formation.", "reality": "No — the numbers always add up to ten outfield players. Eleven would include the keeper, and you will never see that."},
-        {"belief": "One formation is objectively the best.", "reality": "Shapes suit players and opponents. Any formation can be beaten by the right counter-shape, which is why the meta keeps rotating."}
+        {
+          "belief": "The numbers describe exactly where players stand for ninety minutes.",
+          "reality": "They describe a starting shape. Most teams have three or four different shapes in a match depending on whether they have the ball."
+        },
+        {
+          "belief": "The goalkeeper is counted in the formation.",
+          "reality": "No — the numbers always add up to ten outfield players. Eleven would include the keeper, and you will never see that."
+        },
+        {
+          "belief": "One formation is objectively the best.",
+          "reality": "Shapes suit players and opponents. Any formation can be beaten by the right counter-shape, which is why the meta keeps rotating."
+        }
       ],
       "concepts": [
-        {"href": "/sports/explainers/how-many-players-are-on-a-football-team/", "label": "How many players on a team", "note": "why the numbers add up to ten"},
-        {"href": "/sports/explainers/how-do-teams-use-the-offside-trap/", "label": "The offside trap", "note": "the defensive tactic a high line enables"},
-        {"href": "/sports/explainers/what-is-xg/", "label": "What xG is", "note": "how to measure whether a shape creates chances"}
+        {
+          "href": "/sports/explainers/how-many-players-are-on-a-football-team/",
+          "label": "How many players on a team",
+          "note": "why the numbers add up to ten"
+        },
+        {
+          "href": "/sports/explainers/how-do-teams-use-the-offside-trap/",
+          "label": "The offside trap",
+          "note": "the defensive tactic a high line enables"
+        },
+        {
+          "href": "/sports/explainers/what-is-xg/",
+          "label": "What xG is",
+          "note": "how to measure whether a shape creates chances"
+        }
       ],
       "faq": [
-        {"q": "What does 4-2-3-1 mean?", "a": "Four defenders, two holding midfielders, three attacking midfielders behind one striker. It is the modern default in much of Europe because it balances protection and creativity."},
-        {"q": "Can a team change formation during a match?", "a": "Constantly. Managers switch shape with a substitution, a tactical instruction or simply by asking a full-back to push higher — no formal change is needed."}
-      ]
+        {
+          "q": "What does 4-2-3-1 mean?",
+          "a": "Four defenders, two holding midfielders, three attacking midfielders behind one striker. It is the modern default in much of Europe because it balances protection and creativity."
+        },
+        {
+          "q": "Can a team change formation during a match?",
+          "a": "Constantly. Managers switch shape with a substitution, a tactical instruction or simply by asking a full-back to push higher — no formal change is needed."
+        }
+      ],
+      "sport": "football"
     },
     {
       "slug": "what-is-the-difference-between-the-champions-league-europa-and-conference-league",
@@ -238,19 +462,47 @@
       ],
       "example": "A club finishes third in a mid-sized league and enters the Conference League. It wins its group, beats a couple of bigger names, and lifts the trophy — then starts the following season in the Europa League, with the larger prize pool that comes with it. Meanwhile, a giant that finished fourth in the Champions League group stage drops into the Europa League in February and immediately becomes the team to beat.",
       "myths": [
-        {"belief": "The three competitions are completely separate.", "reality": "Clubs move between them: Champions League teams drop into the Europa League, Europa League teams drop into the Conference League, and winning a lower one can promote you to the tier above."},
-        {"belief": "The Europa League is only for small clubs.", "reality": "It regularly contains major clubs that dropped out of the Champions League, especially in the knockout rounds."},
-        {"belief": "Any club can enter whichever it likes.", "reality": "Entry is decided by domestic performance and UEFA's access list, which allocates places by country and by finishing position."}
+        {
+          "belief": "The three competitions are completely separate.",
+          "reality": "Clubs move between them: Champions League teams drop into the Europa League, Europa League teams drop into the Conference League, and winning a lower one can promote you to the tier above."
+        },
+        {
+          "belief": "The Europa League is only for small clubs.",
+          "reality": "It regularly contains major clubs that dropped out of the Champions League, especially in the knockout rounds."
+        },
+        {
+          "belief": "Any club can enter whichever it likes.",
+          "reality": "Entry is decided by domestic performance and UEFA's access list, which allocates places by country and by finishing position."
+        }
       ],
       "concepts": [
-        {"href": "/sports/champions-league-format-explained/", "label": "How the Champions League format works", "note": "the flagship competition in detail"},
-        {"href": "/sports/explainers/what-is-uefa/", "label": "What UEFA is", "note": "the body that runs all three"},
-        {"href": "/sports/explainers/how-are-champions-league-draws-seeded/", "label": "How draws are seeded", "note": "how clubs are placed in each competition"}
+        {
+          "href": "/sports/champions-league-format-explained/",
+          "label": "How the Champions League format works",
+          "note": "the flagship competition in detail"
+        },
+        {
+          "href": "/sports/explainers/what-is-uefa/",
+          "label": "What UEFA is",
+          "note": "the body that runs all three"
+        },
+        {
+          "href": "/sports/explainers/how-are-champions-league-draws-seeded/",
+          "label": "How draws are seeded",
+          "note": "how clubs are placed in each competition"
+        }
       ],
       "faq": [
-        {"q": "Can a club play in more than one in the same season?", "a": "Not simultaneously. Clubs move between them: a team eliminated from the Champions League can continue in the Europa League within the same season."},
-        {"q": "Which is the most valuable to win?", "a": "The Champions League, by a wide margin — its prize money and global audience dwarf the other two, though winning the Europa League also brings Champions League qualification."}
-      ]
+        {
+          "q": "Can a club play in more than one in the same season?",
+          "a": "Not simultaneously. Clubs move between them: a team eliminated from the Champions League can continue in the Europa League within the same season."
+        },
+        {
+          "q": "Which is the most valuable to win?",
+          "a": "The Champions League, by a wide margin — its prize money and global audience dwarf the other two, though winning the Europa League also brings Champions League qualification."
+        }
+      ],
+      "sport": "football"
     },
     {
       "slug": "what-is-a-loan-deal",
@@ -266,19 +518,47 @@
       ],
       "example": "A twenty-year-old striker is third choice at a Champions League club. He joins a mid-table side on a season-long loan with an obligation to buy if he starts fifteen matches. He plays thirty, scores twelve, and the move becomes permanent at a fee agreed the previous summer — the parent club books the income a year later than the transfer, the borrowing club got a striker it could not have afforded up front, and the player got the season that made his career.",
       "myths": [
-        {"belief": "A loaned player has left his club permanently.", "reality": "He is temporarily registered elsewhere and still contracted to his parent club; he returns when the loan ends unless a purchase clause is triggered."},
-        {"belief": "Loans are only for young players.", "reality": "They are common for established players too — for game time, to move a high wage off the books, or as a pre-arranged step in a permanent transfer."},
-        {"belief": "A loaned player can always play against his parent club.", "reality": "Often he cannot. Loan agreements and competition rules frequently bar players from facing their parent club, especially in cup competitions."}
+        {
+          "belief": "A loaned player has left his club permanently.",
+          "reality": "He is temporarily registered elsewhere and still contracted to his parent club; he returns when the loan ends unless a purchase clause is triggered."
+        },
+        {
+          "belief": "Loans are only for young players.",
+          "reality": "They are common for established players too — for game time, to move a high wage off the books, or as a pre-arranged step in a permanent transfer."
+        },
+        {
+          "belief": "A loaned player can always play against his parent club.",
+          "reality": "Often he cannot. Loan agreements and competition rules frequently bar players from facing their parent club, especially in cup competitions."
+        }
       ],
       "concepts": [
-        {"href": "/sports/explainers/how-does-the-transfer-window-work/", "label": "How transfer windows work", "note": "when loan deals can be registered"},
-        {"href": "/sports/explainers/what-is-financial-fair-play/", "label": "Financial fair play", "note": "the rules loans are often structured around"},
-        {"href": "/sports/explainers/what-is-uefa/", "label": "What UEFA is", "note": "the body that restricts loan numbers and eligibility"}
+        {
+          "href": "/sports/explainers/how-does-the-transfer-window-work/",
+          "label": "How transfer windows work",
+          "note": "when loan deals can be registered"
+        },
+        {
+          "href": "/sports/explainers/what-is-financial-fair-play/",
+          "label": "Financial fair play",
+          "note": "the rules loans are often structured around"
+        },
+        {
+          "href": "/sports/explainers/what-is-uefa/",
+          "label": "What UEFA is",
+          "note": "the body that restricts loan numbers and eligibility"
+        }
       ],
       "faq": [
-        {"q": "What is the difference between an option and an obligation to buy?", "a": "An option lets the borrowing club decide whether to sign the player permanently; an obligation commits them to do so once a condition — usually a number of appearances — is met."},
-        {"q": "Can a loan be cut short?", "a": "Yes, if both clubs and the player agree, and if the paperwork is completed inside a transfer window. Recall clauses are usually negotiated up front."}
-      ]
+        {
+          "q": "What is the difference between an option and an obligation to buy?",
+          "a": "An option lets the borrowing club decide whether to sign the player permanently; an obligation commits them to do so once a condition — usually a number of appearances — is met."
+        },
+        {
+          "q": "Can a loan be cut short?",
+          "a": "Yes, if both clubs and the player agree, and if the paperwork is completed inside a transfer window. Recall clauses are usually negotiated up front."
+        }
+      ],
+      "sport": "football"
     }
   ]
 }
