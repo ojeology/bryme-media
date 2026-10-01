@@ -72,6 +72,28 @@ silently reverted the manifest target and the generator's batch list, and CI cau
 dropped files are recovered with a targeted `git checkout HEAD -- <deleted paths>`; a blanket
 restore is never safe once edits are in the tree.
 
+## Drop 5 — football completes at 51, basketball opens (2026-10-01)
+
+**47 → 59 explainers.** Football reaches its approved target, and the desk proves the page anatomy
+transfers to a second sport.
+
+**Football (+4, now 51):** referee signals and what each one means · what a captain actually does —
+and does not have the power to do · how injuries and suspected concussions are handled, including
+additional concussion substitutes · why teams have home, away and third kits.
+
+**Basketball (+8, desk opened):** the shot clock (24s NBA/FIBA, 30s college, 14s reset after an
+offensive rebound) · travelling and the gather step · the double dribble and carrying · fouls, the
+bonus and free throws · the three-second rule, including the NBA-only defensive version · goaltending
+and basket interference · overtime · technical and flagrant fouls.
+
+**Structural, so the desk can keep growing:** every explainer now carries a `sport` field; the hub
+groups **sport → theme**; the "keep reading" rail suggests the next questions from the same sport;
+and the migration gate checks **per-sport targets** from the manifest rather than only the total, so
+a new sport must reach its own approved number before the desk counts as FULL.
+
+**Phase 2 candidates:** athletics (track & field), combat sports, tennis, cricket, American football,
+rugby — same anatomy, one question per page, evergreen.
+
 ## Drop 2 — the football rules library (2026-10-01)
 
 Owner directive: **add lots of evergreen sports content, and show how the ideas connect** — the
