@@ -52,6 +52,7 @@ SPORTS_BATCHES = [
     "content/upgrade-sports.json",
     "content/upgrade-sports-batch2a.json",
     "content/upgrade-sports-batch2b.json",
+    "content/upgrade-sports-batch3a.json",
 ]
 _EXPLAINERS: list = []
 _seen_slugs: set[str] = set()

@@ -27,8 +27,8 @@
       "rebuild_set": "the evergreen football rules library under /sports/explainers/ + the explainer index",
       "targets": {
         "explainers": {
-          "value": 27,
-          "status": "proposed — football phase 1; owner to confirm"
+          "value": 37,
+          "status": "proposed — football phase 1 extended; owner to confirm"
         }
       },
       "full_rule": "explainer count at target AND every explainer carries the answer block, ≥2 concept links that resolve, and the index links all of them",

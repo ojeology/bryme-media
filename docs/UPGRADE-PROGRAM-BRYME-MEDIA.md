@@ -21,6 +21,26 @@ This program implements Parts 13–15 of the approved sitewide roadmap inside th
 environment. Nothing here touches the live publication until the sample is reviewed and
 approved for migration (Part 18, step 11).
 
+## Drop 3 — ten more evergreen questions (2026-10-01)
+
+Continuing the directive to cover **all** the evergreen football questions in detail, with each
+page wired into the ones it depends on. Library now **37 explainers** (8 → 27 → 37).
+
+| Theme | New questions | Count now |
+| --- | --- | --- |
+| Football laws | how a penalty kick works, what a yellow card costs, the backpass rule, throw-ins / goal kicks / corners | 12 |
+| Knockout football | — | 5 |
+| Governance & competitions | league vs cup, Champions League vs Europa vs Conference League | 6 |
+| League rules | — | 4 |
+| Match mechanics | how long a match is and why 90 minutes, how many players are on a team | 4 |
+| Transfers & money | loan deals (option vs obligation) | 3 |
+| Tactics & data | what formations mean — how to read 4-3-3, 4-2-3-1, 3-5-2 | 3 |
+
+All ten pages run 798–972 words (floor 320), so the desk remains **zero thin**. The hub now reads
+as a browsable library: seven themes, per-section counts, and every page linking onward —
+penalties → shootouts → what counts as a foul; yellow cards → red cards → who writes the laws;
+throw-ins → offside (no offside from a restart) → when a goal is a goal.
+
 ## Drop 2 — the football rules library (2026-10-01)
 
 Owner directive: **add lots of evergreen sports content, and show how the ideas connect** — the
