@@ -27,15 +27,24 @@
       "rebuild_set": "the evergreen football rules library under /sports/explainers/ + the explainer index",
       "targets": {
         "explainers": {
-          "value": 59,
+          "value": 1213,
           "status": "proposed — football phase 1 extended; owner to confirm"
         },
         "by_sport": {
-          "football": 51,
-          "basketball": 8
+          "football": 52,
+          "basketball": 144,
+          "tennis": 144,
+          "cricket": 144,
+          "athletics": 144,
+          "motorsport": 144,
+          "rugby": 144,
+          "golf": 144,
+          "combat": 144,
+          "general": 4,
+          "american-football": 3
         }
       },
-      "full_rule": "every sport meets its by_sport target AND every explainer carries the answer block, >=2 concept links that resolve, and the index links all of them",
+      "full_rule": "every sport meets its by_sport target AND every explainer carries the answer block, >=2 concept links that resolve, and the index links all of them — 1213 total (144 per core sport)",
       "positioning": "BRYME is not a livescore or news desk — it breaks down the rules. Every page is evergreen: it answers the same question years from now.",
       "themes": [
         "Football laws",
