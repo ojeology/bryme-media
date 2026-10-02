@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01",
+  "updated": "2026-10-02",
   "rule": "Work lands in bryme-media (staging). A niche moves to nextclip (live) only when it is FULL (its approved rebuild set complete) and has NO THIN pages.",
   "floors_words": {
     "rec": 350,
@@ -59,8 +59,8 @@
         "Transfers & money",
         "Football language"
       ],
-      "phase_2": "Football is complete at 51. Basketball opened with 8 rules questions. Next: athletics (track & field), combat sports, tennis, cricket, American football — same page anatomy, one question per page.",
-      "remaining_work_seen_at_ship": "47 football + 4 more football (referee signals, captains, injuries/concussion, kits) + 8 basketball (shot clock, travelling, double dribble, fouls & free throws, three seconds, goaltending, overtime, technical fouls) = 59"
+      "phase_2": "Football is complete at 51; basketball has 8 rules questions. Drop 6 opened athletics with 5 fully sourced explainers (64 pages total). Continue athletics toward 144 before moving through combat, tennis, cricket, American football and rugby — same page anatomy, one question per page.",
+      "remaining_work_seen_at_ship": "Drop 5 closed at 59 (51 football, 8 basketball). Drop 6 batch 6a adds 5 athletics pages, bringing the library to 64/1213 and leaving 1149 by total count. The by-sport target table still sums to 1211; two records in the imported evergreen dataset (cycling and swimming) remain unallocated and need an owner decision."
     }
   },
   "migration_checklist": [

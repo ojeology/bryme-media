@@ -1,7 +1,6 @@
 # BRYME Media — Mass Upgrade Program (v3 "Watch Next")
 
-Status: **drop 1 SHIPPED (2026-10-01, `28a686c`)** — CI green, preview live. Awaiting owner review
-of the sample before any scale-up. · Owner: BRYME · Scope: staging repo only (`ojeology/bryme-media`)
+Status: **Drop 6 staged (2026-10-02)** — Sports has 64/1,213 explainers, zero thin pages and clean concept/hub/link checks, but remains **NOT READY** for migration. Build/tests pass; all rebuilt pages stay noindex. · Owner: BRYME · Scope: staging repo only (`ojeology/bryme-media`)
 
 ## Review the drop (owner)
 
@@ -20,6 +19,20 @@ internal links resolve; live URLs 200 (10/10 checked).
 This program implements Parts 13–15 of the approved sitewide roadmap inside the staging
 environment. Nothing here touches the live publication until the sample is reviewed and
 approved for migration (Part 18, step 11).
+
+## Drop 6 — athletics opens with five sourced explainers (2026-10-02)
+
+The next phase-2 sport is athletics. Batch 6a adds five question-led pages: the 100m race, false
+starts, the 4×100m exchange, long-jump scoring and the high jump. Each page is 1,082–1,150 visible words, includes official World Athletics rule references, has three concept links and keeps the
+same answer → explanation → example → misunderstandings → FAQ anatomy. The generator now renders
+an optional “Rules and sources” block for authored citations.
+
+**QA:** `npm run build` and `npm test` pass; a second build is byte-stable for the Sports explainer
+tree. The full Sports readiness audit now sees **64 / 1,213** explainers, zero thin pages, zero
+weak concept networks, zero missing hub entries and zero link issues. This is still **NOT READY**:
+1,149 remain by total count, and the per-sport target table still sums to 1,211, with cycling and
+swimming unallocated. All five pages remain `noindex,follow`; this batch stays in `bryme-media`
+staging and has not been migrated to Nextclip.
 
 ## Drop 3 — ten more evergreen questions (2026-10-01)
 

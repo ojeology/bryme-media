@@ -9,7 +9,7 @@ archive's own datasets (movies, trailers, posters, recommendations):
   /watch-next/                        recommendation index
   /watch-next/<slug>/                 4 recommendation pages
   /sports/explainers/                 explainer index
-  /sports/explainers/<slug>/          8 question-led explainers
+  /sports/explainers/<slug>/          authored question-led explainers
   /<movie|series|anime>/<slug>/       5 title pages upgraded in place
 
 Deterministic and idempotent: no timestamps, fixed ordering, byte-stable
@@ -56,6 +56,7 @@ SPORTS_BATCHES = [
     "content/upgrade-sports-batch4a.json",
     "content/upgrade-sports-batch5a.json",
     "content/upgrade-sports-batch5b.json",
+    "content/upgrade-sports-batch6a.json",
 ]
 _EXPLAINERS: list = []
 _seen_slugs: set[str] = set()
@@ -325,6 +326,10 @@ def explainer_page(pack: dict, siblings: list[dict]) -> str:
         f'<li><a href="{esc(c["href"])}">{esc(c["label"])}</a><span>{esc(c["note"])}</span></li>'
         for c in pack.get("concepts", [])
     )
+    sources = "".join(
+        f'<li><a href="{esc(s["url"])}" target="_blank" rel="noopener noreferrer">{esc(s["label"])}</a><span>{esc(s["note"])}</span></li>'
+        for s in pack.get("sources", [])
+    )
     faq = "".join(
         f'<details><summary>{esc(q["q"])}</summary><p>{esc(q["a"])}</p></details>'
         for q in pack.get("faq", [])
@@ -344,6 +349,7 @@ def explainer_page(pack: dict, siblings: list[dict]) -> str:
         (f'<div class="v3-callout"><h3>In practice</h3><p>{esc(pack["example"])}</p></div>') if pack.get("example") else "",
         (f'<div class="v3-callout"><h3>Common misunderstandings</h3><ul class="v3-myths">{myths}</ul></div>') if myths else "",
         (f'<div class="v3-concept"><h3>Where this connects</h3><ul>{concepts}</ul></div>') if concepts else "",
+        (f'<div class="v3-concept v3-sources"><h3>Rules and sources</h3><ul>{sources}</ul></div>') if sources else "",
         (f'<div class="v3-faq" style="margin-top:26px"><h2 style="font-size:20px;margin:0 0 14px">Quick questions</h2>{faq}</div>') if faq else "",
         "</div></section>",
         (f'<section class="v3-sec v3-sec-tight" style="border-top:1px solid var(--bm-line)"><div class="wrap"><div class="v3-sec-head"><h2>Keep reading</h2><a class="v3-more" href="/sports/explainers/">All explainers →</a></div><div class="v3-rail">{more}</div></div></section>') if more else "",

@@ -1,0 +1,377 @@
+{
+  "explainers": [
+    {
+      "slug": "how-does-a-100m-race-work",
+      "sport": "athletics",
+      "question": "How does a 100m race work?",
+      "short": "The 100 metres, explained",
+      "kicker": "Athletics · Track sprints",
+      "answer": "A 100m race is a straight sprint in which each athlete stays in a separate lane from start to finish. Sprinters use starting blocks, react to the gun and are placed when their torso reaches the finish-line plane. Wind is measured too: for World Athletics record ratification, a tailwind above 2.0 metres per second is too strong, although it does not erase the race result.",
+      "explain": [
+        "The 100 metres is run on the straight of a standard outdoor track. The staggered lane positions used in a 200m or 400m race are not needed because every 100m lane follows the same straight distance. Athletes draw or receive lanes before the race and must run in their allocated lane. The line at the finish is not a target to reach with a hand or a foot; the official placing is decided when the athlete’s torso reaches the vertical plane of the nearer edge of that line.",
+        "Because 100m is a sprint, the World Athletics rules require a crouch start and starting blocks for races up to and including 400m. The starter gives the commands ‘On your marks’ and ‘Set’, then fires the gun when the field is steady. Athletes must not begin the start before the report. A false start in an ordinary individual sprint normally disqualifies the athlete responsible; the combined-events procedure is a specific exception. The signal from a start-information system is evidence for the officials, not an automatic ruling by itself.",
+        "The first steps are about accelerating out of the blocks, then building toward maximum speed while remaining in the lane. A runner who steps outside the lane can be disqualified under the lane rules, though those rules contain limited exceptions for an accidental contact that gains no material advantage and does not impede another athlete. An athlete cannot gain a legal shortcut by cutting across the track or entering another lane.",
+        "At the finish, a photo-finish system compares the torso positions at the line. The head, neck, arms, hands, legs and feet do not decide the order. This is why a runner can lean their chest through the line while their legs are still behind, and why a raised hand does not beat another athlete’s torso. Official timing and placing are recorded separately from the wind reading.",
+        "For a 100m race, the wind gauge measures the wind for ten seconds from the starter’s gun. A strong tailwind can help the runners, so World Athletics does not ratify a 100m World Record if the average wind in the direction of running is more than +2.0m/s. That is a record-eligibility rule, not a reason to pretend the race did not happen: the athlete still ran the race and has a finishing place and time, while the mark is classified according to the applicable regulations.",
+        "The format around the race depends on the competition. A championship may use heats, a semi-final and a final; a smaller meet may schedule one final or use a different approved format. Qualification places, lane assignments and the number of rounds come from that event’s regulations. The basic race remains the same: a fair start, a full 100m in lane, and the torso across the line first."
+      ],
+      "example": "Imagine two sprinters reach the line at almost the same instant. The photo-finish judge does not ask whose foot landed first or whose head was furthest forward. They inspect the image at the finish plane and compare the first point at which each runner’s torso reaches it. The wind reading is then considered separately if a record is being ratified.",
+      "myths": [
+        {
+          "belief": "The first body part across the line wins.",
+          "reality": "The torso decides the finish. A head, arm, hand, leg or foot reaching the plane first does not determine the official placing."
+        },
+        {
+          "belief": "A wind-aided race has no valid result.",
+          "reality": "A tailwind above +2.0m/s prevents World Athletics record ratification for the 100m, but it does not erase the race placing or make the event disappear."
+        },
+        {
+          "belief": "Any movement in the blocks is automatically a false start.",
+          "reality": "The starter applies the rule to the athlete’s starting action. A start-information system can signal a possible false start, but officials confirm responsibility under the rules."
+        },
+        {
+          "belief": "A runner can leave a lane if nobody is beside them.",
+          "reality": "The lane rule still applies; only the rule’s specific no-advantage/no-impediment exceptions can prevent disqualification."
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/sports/explainers/what-is-a-false-start-in-athletics/",
+          "label": "What counts as a false start?",
+          "note": "the start rule behind a sprint disqualification"
+        },
+        {
+          "href": "/sports/explainers/how-does-a-4x100m-relay-work/",
+          "label": "How the 4×100m relay works",
+          "note": "the same sprint speed, with a baton and exchange-zone rules"
+        },
+        {
+          "href": "/sports/explainers/how-does-long-jump-scoring-work/",
+          "label": "How a long-jump mark is measured",
+          "note": "wind readings also matter to record ratification in a horizontal jump"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do 100m runners have to use starting blocks?",
+          "a": "Under World Athletics rules, races up to and including 400m use a crouch start and starting blocks. A particular competition’s regulations set the event format."
+        },
+        {
+          "q": "What part of the body decides a photo finish?",
+          "a": "The torso. The head, neck, arms, hands, legs and feet are excluded from the finish judgement."
+        },
+        {
+          "q": "Does a tailwind over 2.0m/s cancel a 100m win?",
+          "a": "No. It affects whether the mark can be ratified as a World Athletics record; it does not cancel the race result."
+        }
+      ],
+      "sources": [
+        {
+          "label": "World Athletics — Competition and Technical Rules, 2026 edition",
+          "url": "https://worldathletics.org/download/download?filename=1db01fe4-2229-4591-81ec-745bcc6042c7.pdf&urlslug=C2.1%2BTechnical%2BRules%2B",
+          "note": "Technical Rules 15–19 cover blocks, starts, lanes, finishes, timing and wind measurement; the Competition Rules govern record ratification."
+        },
+        {
+          "label": "World Athletics — 100 Metres",
+          "url": "https://worldathletics.org/disciplines/sprints/100-metres",
+          "note": "Event overview and the distinction between a race result and a wind-legal record mark."
+        }
+      ]
+    },
+    {
+      "slug": "what-is-a-false-start-in-athletics",
+      "sport": "athletics",
+      "question": "What is a false start in athletics?",
+      "short": "False starts, explained",
+      "kicker": "Athletics · Starting rules",
+      "answer": "A false start is an athlete beginning the race before the starter’s gun after taking a final starting position. In a crouch start, the rule looks at a movement that begins the start, such as losing contact with a hand or foot; a start system can flag a reaction under 0.100 seconds for officials to review. In an ordinary race, the athlete responsible is disqualified, with a special procedure for combined events.",
+      "explain": [
+        "A false start is not simply ‘moving before everyone else’. Under World Athletics Technical Rule 16.7, after an athlete has assumed a full and final starting position, they must wait for the report of the gun. In a crouch start, the start is commenced by a movement that includes or results in a hand or a foot losing contact with the ground or a footplate. A movement begun before the gun and continued into the start can also be judged a false start. The starter and start referee apply the rule to the circumstances they observe.",
+        "A certified start-information system can help. When it detects a reaction time below 0.100 seconds, it signals a possible false start to the officials. That threshold is a prompt to examine the available information, not a machine-only verdict that automatically disqualifies someone. The officials determine which athlete, if any, caused the false start. They can also conclude that no athlete was responsible—for example, if an external problem made the start unfair.",
+        "For ordinary track races, an athlete responsible for a false start is disqualified. If more than one athlete independently makes a false start, more than one can be disqualified; the rule does not mean the whole field must be punished for the first person’s action. When the start is not fair for a reason that is not an athlete’s false start, the starter can recall the field and restart without charging an athlete with a false start.",
+        "Combined events have a special first-false-start procedure. In the first false start of a combined-event race, the athlete responsible is warned and the other athletes are warned that a further false start will lead to disqualification. If another false start occurs, the athlete responsible is disqualified. This exception is why a rule explained as ‘one false start and you are out’ needs the context of the event.",
+        "Not every movement in the blocks is a false start. For example, if an athlete moves their hips but keeps their hands and feet in contact with the ground and blocks, that movement alone does not meet the rule’s definition of commencing the start. It may still be treated as improper conduct if the athlete repeatedly disrupts the start. Officials distinguish that conduct from a false start because the penalties and the fairness issue are different.",
+        "The practical lesson for a runner is to settle into the final position, keep still and react to the gun rather than anticipate it. For spectators, a displayed reaction time is useful context but should not be treated as the entire decision. The starter’s ruling follows the rule and all available evidence, including the start system when one is in use."
+      ],
+      "example": "In a 100m final, an athlete reacts so quickly that the start system signals a possible reaction below 0.100 seconds. The race is recalled. The starter reviews the system and other evidence and decides whether the athlete began before the gun. If the athlete is responsible, they are disqualified under the ordinary sprint procedure; if the system signal was not a false start, the race can restart without that penalty.",
+      "myths": [
+        {
+          "belief": "A reaction below 0.100 seconds is an automatic disqualification.",
+          "reality": "The system signals a possible false start. Officials use that signal and other evidence to decide responsibility under the rule."
+        },
+        {
+          "belief": "Any twitch before the gun is a false start.",
+          "reality": "The rule defines when an athlete has commenced the start. Some movement that does not begin the start may instead be a conduct issue."
+        },
+        {
+          "belief": "The whole field gets one false start before anyone is out.",
+          "reality": "In ordinary races, the responsible athlete is disqualified. Combined events use a distinct warning procedure for the first false start."
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/sports/explainers/how-does-a-100m-race-work/",
+          "label": "How the 100m is run",
+          "note": "the sprint format where the start rule is most visible"
+        },
+        {
+          "href": "/sports/explainers/how-does-a-4x100m-relay-work/",
+          "label": "How the 4×100m relay works",
+          "note": "a relay start and the separate rules for baton exchanges"
+        },
+        {
+          "href": "/sports/explainers/how-does-high-jump-work/",
+          "label": "How high jump works",
+          "note": "a field event uses trials and failures, not a running-race start"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is 0.100 seconds the rule for every false start?",
+          "a": "No. It is the signal threshold used by a certified start-information system to flag a possible false start. The officials make the decision under the rule."
+        },
+        {
+          "q": "What happens after a false start in a normal sprint?",
+          "a": "The athlete judged responsible is disqualified. Combined events have a special warning procedure for the first false start."
+        },
+        {
+          "q": "Can a race be recalled without a false-start disqualification?",
+          "a": "Yes. A start can be aborted or recalled because it was not fair or an external issue intervened; that is distinct from charging an athlete with a false start."
+        }
+      ],
+      "sources": [
+        {
+          "label": "World Athletics — Competition and Technical Rules, 2026 edition",
+          "url": "https://worldathletics.org/download/download?filename=1db01fe4-2229-4591-81ec-745bcc6042c7.pdf&urlslug=C2.1%2BTechnical%2BRules%2B",
+          "note": "Technical Rules 16.5 and 16.7–16.9 cover aborted starts, false-start detection, the ordinary disqualification and the combined-events exception."
+        },
+        {
+          "label": "World Athletics — Technical Information",
+          "url": "https://worldathletics.org/about-iaaf/documents/technical-information",
+          "note": "World Athletics lists the Competition and Technical Rules 2026 edition as the current rules publication."
+        }
+      ]
+    },
+    {
+      "slug": "how-does-a-4x100m-relay-work",
+      "sport": "athletics",
+      "question": "How does a 4×100m relay work?",
+      "short": "The 4×100m relay, explained",
+      "kicker": "Athletics · Relay races",
+      "answer": "A 4×100m relay is one lap run by four sprinters, each carrying a baton for one leg and handing it to the next teammate. The baton must be transferred inside a marked 30m takeover zone. The zone rule is about the baton’s position during the exchange, and an athlete must begin their outgoing run within the zone; a transfer outside it can disqualify the team.",
+      "explain": [
+        "In a standard 4×100m relay, four athletes run one 100m leg each, so the team covers 400m in total. The first runner starts with the baton; every later runner must receive it and carry it before making the next handover. Because the track is one lap, the starts are staggered across lanes so that the assigned lanes still represent the same distance. In the 4×100m, each team keeps its lane through the exchanges and around the lap.",
+        "The takeover zone is the most important detail. Under World Athletics Technical Rule 24.3, each 4×100m takeover zone is 30m long. The zone has a marked scratch line, positioned 20m from the beginning of the zone under the rule. Runners and officials should use the markings for that track; old diagrams showing a separate acceleration zone can be out of date for the current World Athletics format.",
+        "The exchange is judged by the baton, not by where the athletes’ bodies are. The pass begins when the incoming runner’s teammate—the receiving, outgoing runner—first touches the baton. It is complete when the baton is held only by the receiving runner. The whole baton must be inside the takeover zone for the transfer. If the handover starts before the baton is in the zone or is not complete before the baton leaves it, the team can be disqualified.",
+        "The outgoing runner has to start their movement within the zone, not from beyond it. The two runners try to match speed so the incoming athlete can deliver the baton without stopping and the outgoing athlete can accelerate safely. Teams practise a visual or verbal cue for the outgoing runner, but the cue is a team technique, not a rule that changes the zone or the legal moment of transfer.",
+        "A baton exchange can fail even when the runners appear to cross paths inside the painted box. The official must follow the baton’s position and the actual moment of contact, not just the receiver’s feet or the athletes’ hips. That is why the baton can be passed legally while runners’ bodies are outside a part of the box, or illegally even if both runners seem to be in the right place.",
+        "The final runner must carry the baton to the finish. A dropped baton is not automatically a disqualification in every situation, but the athlete must recover it under the relay rules without reducing the distance to be run or obstructing another team. The simplest way to understand the race is: each athlete runs their assigned leg, the baton changes hands wholly inside each zone, and the team finishes with the baton."
+      ],
+      "example": "Suppose the outgoing runner begins accelerating as the incoming runner approaches. The legal handover is not decided by the outgoing runner’s foot crossing the start of the box. Officials look at the baton: the exchange starts when the receiver first touches it and ends when the baton is solely in that runner’s hand. Both parts must happen within the 30m zone.",
+      "myths": [
+        {
+          "belief": "The runners’ feet must both be inside the box at the handover.",
+          "reality": "The baton’s position is decisive for the transfer. The rules separately require the outgoing runner to begin movement within the takeover zone."
+        },
+        {
+          "belief": "A 4×100m takeover zone is only 20m long under current World Athletics rules.",
+          "reality": "The current World Athletics Technical Rules specify a 30m zone for the 4×100m. Older materials may show a different zone and acceleration-area layout."
+        },
+        {
+          "belief": "The outgoing runner can start outside the zone as long as the baton arrives inside it.",
+          "reality": "The outgoing athlete must start within the takeover zone, and the transfer itself must also be completed there."
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/sports/explainers/how-does-a-100m-race-work/",
+          "label": "How the 100m race works",
+          "note": "the individual sprint behind each relay leg"
+        },
+        {
+          "href": "/sports/explainers/what-is-a-false-start-in-athletics/",
+          "label": "What counts as a false start?",
+          "note": "the start rule that applies before the first leg"
+        },
+        {
+          "href": "/sports/explainers/how-does-long-jump-scoring-work/",
+          "label": "How long-jump scoring works",
+          "note": "another event where the take-off or exchange line matters"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How long is a 4×100m takeover zone?",
+          "a": "World Athletics Technical Rule 24.3 specifies a 30m takeover zone for the 4×100m relay."
+        },
+        {
+          "q": "Does the receiver’s foot need to be inside the zone?",
+          "a": "The position of the baton is decisive for the transfer. Separately, the outgoing runner must begin their movement within the zone."
+        },
+        {
+          "q": "What happens if the baton is passed outside the zone?",
+          "a": "The team can be disqualified for an exchange outside the takeover zone. Officials judge the exchange by the whole baton and when the transfer starts and finishes."
+        }
+      ],
+      "sources": [
+        {
+          "label": "World Athletics — Competition and Technical Rules, 2026 edition",
+          "url": "https://worldathletics.org/download/download?filename=1db01fe4-2229-4591-81ec-745bcc6042c7.pdf&urlslug=C2.1%2BTechnical%2BRules%2B",
+          "note": "Technical Rule 24 covers relay distances, the 30m 4×100m zone, when a transfer starts and finishes, and the outgoing runner’s position."
+        }
+      ]
+    },
+    {
+      "slug": "how-does-long-jump-scoring-work",
+      "sport": "athletics",
+      "question": "How does long-jump scoring work?",
+      "short": "Long jump, explained",
+      "kicker": "Athletics · Horizontal jumps",
+      "answer": "In the long jump, an athlete sprints down a runway, takes off before the foul line and lands in a sand pit. Judges measure the distance from the take-off line to the nearest break in the sand, at right angles to the line. The athlete’s best valid jump normally decides the result; a take-off foul is recorded as a failed trial, not a measured jump.",
+      "explain": [
+        "Long jump combines a fast approach with a controlled take-off and a landing. The athlete accelerates along the runway, then pushes off from one foot before the take-off line and lands in the sand. The approach does not have to end on the board itself: an athlete may take off from behind the line, but that leaves less distance available to add to the mark. The aim is to approach close enough to use the board without crossing its legal limit.",
+        "A take-off is a failure if the take-off foot or shoe breaks the vertical plane of the take-off line before the athlete has ceased contact with the board or ground. This is more precise than the old shortcut ‘your toe touched the plasticine’: the current rule concerns the shoe or foot crossing the vertical plane, and video or other technology is encouraged to help judges decide close calls. A foul is shown as a failed trial and does not produce a distance for the standings.",
+        "For a valid jump, the mark is measured from the take-off line to the nearest break in the landing area made by any part of the athlete’s body. The measurement is taken at right angles to the take-off line. That means a hand or heel that touches the sand behind the main landing mark can determine the result; judges do not measure to the athlete’s feet if another body mark is closer to the line.",
+        "The competition format depends on the event regulations. In the standard World Athletics field-event format when more than eight athletes compete, everyone gets three trials and the eight with the best valid performances receive three additional trials. Championship qualification rounds can use their own rules and are separate from the final. The mark that matters for an athlete’s placing is normally their longest valid jump, not the average of their attempts.",
+        "If two athletes have the same best distance, the next-best valid mark is used to separate them; if that is also equal, officials compare the next mark in the series, following the event’s tie-breaking rules. Wind is recorded in the long jump. A tailwind above +2.0m/s can stop a performance from being ratified as a World Record, but it does not turn a valid competition jump into a foul or remove it from the event result.",
+        "Reading a result sheet is therefore straightforward once the symbols are understood. A measured distance is a valid trial, an X is a failure, and a dash means the athlete passed. An athlete can win with a single good legal jump even if several later attempts are fouls, because the best valid mark is what counts. The runway and sandpit look simple; the board, the landing mark and the rules make the measurement exact."
+      ],
+      "example": "An athlete leaves the board legally and lands feet-first, but their hand touches the sand behind the heel marks as they sit back. The judge measures from the take-off line to the nearest mark—the hand mark—at a right angle to the line. The jump is shorter than it would have been if the athlete had kept their balance and landed beyond that mark.",
+      "myths": [
+        {
+          "belief": "The jump is measured to the athlete’s toes.",
+          "reality": "It is measured to the nearest break in the landing area made by any part of the athlete’s body."
+        },
+        {
+          "belief": "A toe on the board is always a foul.",
+          "reality": "The rule asks whether the take-off foot or shoe breaks the vertical plane of the line before the athlete has stopped contacting the board or ground."
+        },
+        {
+          "belief": "A strong tailwind makes the jump a foul.",
+          "reality": "Wind affects record ratification and classification, but it does not by itself make an otherwise legal jump a failed trial."
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/sports/explainers/how-does-high-jump-work/",
+          "label": "How high jump works",
+          "note": "a vertical jump with a different scoring test"
+        },
+        {
+          "href": "/sports/explainers/how-does-a-100m-race-work/",
+          "label": "How the 100m is run",
+          "note": "wind is measured in both sprint and horizontal-jump record attempts"
+        },
+        {
+          "href": "/sports/explainers/how-does-a-4x100m-relay-work/",
+          "label": "How the 4×100m relay works",
+          "note": "the relay’s marked takeover zone is another line athletes must respect"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How is a long jump measured?",
+          "a": "From the take-off line to the nearest break in the sand made by any part of the athlete’s body, measured at right angles to the line."
+        },
+        {
+          "q": "How many attempts does a long jumper get?",
+          "a": "The standard format for a field of more than eight gives everyone three trials, then the eight best valid marks get three more. Meet regulations can set a different format."
+        },
+        {
+          "q": "Does a wind-aided long jump count?",
+          "a": "The jump can remain a valid competition result, but a tailwind above +2.0m/s prevents World Athletics record ratification under the applicable rules."
+        }
+      ],
+      "sources": [
+        {
+          "label": "World Athletics — Competition and Technical Rules, 2026 edition",
+          "url": "https://worldathletics.org/download/download?filename=1db01fe4-2229-4591-81ec-745bcc6042c7.pdf&urlslug=C2.1%2BTechnical%2BRules%2B",
+          "note": "Technical Rules 25 and 29–30 cover field-event attempts and long-jump fouls and measurement; Technical Rules 17.8–17.13 cover wind measurement, and Competition Rule 31 covers record ratification."
+        },
+        {
+          "label": "World Athletics — Long Jump",
+          "url": "https://worldathletics.org/disciplines/jumps/long-jump",
+          "note": "Official event guide to the take-off, measurement, attempts, tie-break marks and wind assistance."
+        }
+      ]
+    },
+    {
+      "slug": "how-does-high-jump-work",
+      "sport": "athletics",
+      "question": "How does high jump work?",
+      "short": "High jump, explained",
+      "kicker": "Athletics · Vertical jumps",
+      "answer": "In the high jump, an athlete takes off from one foot and tries to clear a horizontal bar without knocking it down. The bar is raised through a series of heights; competitors may pass a height, but three consecutive failed trials across the competition eliminate a jumper. The athlete who clears the greatest height wins, with the rulebook’s count-back and jump-off procedures used to resolve a tie.",
+      "explain": [
+        "The high jump is a vertical-jump event: athletes run along a curved approach, take off from one foot and cross a bar supported between two uprights. They must clear the bar without dislodging it and land on the mat. The rules do not require the Fosbury Flop or any one style. A jumper may use a technique that suits them, provided it meets the technical rules, including taking off from one foot.",
+        "The chief judge announces the starting height and the progression of the bar. At each height, a competitor can attempt a jump or pass. Passing means declining that trial; it is not a failed jump. A pass can be a strategy—for example, a jumper who has used attempts at one height may choose to go straight to a higher one—but they cannot return to a lower height after moving on.",
+        "A jumper is eliminated after three consecutive failures, whether those misses occur at one height or across a combination of heights. A successful clearance resets the sequence. This is why a result sheet may show O for a clearance, X for a failure and a dash for a pass. The symbols show the path through the event, while the final mark records the highest height cleared.",
+        "The winner is the athlete with the highest successful clearance. If jumpers finish level, the officials first apply count-back: they compare failures at the height last cleared and then total failures through that height. If a tie for first remains, a jump-off normally decides it under World Athletics rules; the event’s regulations set the procedure, and the tied athletes may be allowed to stop and share the place where those rules permit it.",
+        "The event is not about jumping from the same spot or reaching the bar with a particular body part. The athlete can choose their approach and clearance style, but the bar, take-off and trial rules are controlled by the officials. The crossbar’s position is checked after each attempt; if it falls because of the athlete’s action, that trial is a failure. If the bar stays up, the clearance is valid even if the landing looks awkward.",
+        "A high-jump result is written as a height, not a distance from a take-off board. That makes it different from the long jump, where the nearest mark in the sand determines the measure. The high jump asks how high the athlete can clear; the long jump asks how far they can legally project their landing from the take-off line. Both reward a clean attempt, but their score sheets and failure rules are different."
+      ],
+      "example": "A jumper clears 1.90m, passes at 1.93m and begins at 1.96m. The pass is not a miss and the athlete cannot return to 1.93m. If they then fail three attempts at 1.96m, they are out; their recorded result remains the highest height they successfully cleared, 1.90m.",
+      "myths": [
+        {
+          "belief": "A high jumper must go over the bar back-first.",
+          "reality": "The rules permit different clearance styles; the athlete must take off from one foot and clear the bar without knocking it down."
+        },
+        {
+          "belief": "Three misses at one height are required for elimination.",
+          "reality": "Three consecutive failures can span different heights. A successful clearance breaks the sequence; a pass is not itself a failed trial."
+        },
+        {
+          "belief": "A pass is recorded as a failure.",
+          "reality": "A pass is recorded separately from a failed attempt. It lets the athlete skip that trial, but does not let them return to a lower height later."
+        },
+        {
+          "belief": "Every tied high-jump result must end in a jump-off.",
+          "reality": "Officials apply count-back first, and competition regulations can affect how a remaining tie is resolved."
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/sports/explainers/how-does-long-jump-scoring-work/",
+          "label": "How long-jump scoring works",
+          "note": "the horizontal-jump event that measures a landing rather than a bar clearance"
+        },
+        {
+          "href": "/sports/explainers/what-is-a-false-start-in-athletics/",
+          "label": "What counts as a false start?",
+          "note": "a running-race start is judged under a different rule from a field-event trial"
+        },
+        {
+          "href": "/sports/explainers/how-does-a-100m-race-work/",
+          "label": "How the 100m is run",
+          "note": "a track event with lanes, a gun start and a photo finish"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many attempts are allowed at each high-jump height?",
+          "a": "An athlete can have up to three trials at a height, but three consecutive failures across the event eliminate them. Passing a trial is not a failure."
+        },
+        {
+          "q": "Can a high jumper pass a height?",
+          "a": "Yes. A competitor may pass, but after moving on they cannot return to a lower height."
+        },
+        {
+          "q": "How is a tie in high jump resolved?",
+          "a": "Officials use count-back first. A jump-off normally decides a remaining tie for first under World Athletics rules, subject to the event’s regulations and any permitted decision by the tied athletes to stop."
+        }
+      ],
+      "sources": [
+        {
+          "label": "World Athletics — Competition and Technical Rules, 2026 edition",
+          "url": "https://worldathletics.org/download/download?filename=1db01fe4-2229-4591-81ec-745bcc6042c7.pdf&urlslug=C2.1%2BTechnical%2BRules%2B",
+          "note": "Technical Rules 25–27 cover field-event trials, vertical jumps and the high jump; the applicable competition regulations govern event format."
+        },
+        {
+          "label": "World Athletics — High Jump",
+          "url": "https://worldathletics.org/disciplines/jumps/high-jump",
+          "note": "Official discipline guide to one-foot take-off, bar clearance, consecutive failures, count-back and jump-off."
+        }
+      ]
+    }
+  ]
+}
